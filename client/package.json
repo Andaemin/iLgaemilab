@@ -1,0 +1,41 @@
+{
+    "name": "client",
+    "version": "0.0.0",
+    "private": true,
+    "type": "module",
+    "scripts": {
+        "dev": "vite --host",
+        "build": "vite build",
+        "preview": "vite preview",
+        "lint": "eslint . --fix",
+        "format": "prettier --write src/"
+    },
+    "dependencies": {
+        "@mdi/font": "5.9.55",
+        "axios": "^1.9.0",
+        "gsap": "^3.13.0",
+        "jszip": "^3.10.1",
+        "pinia": "^3.0.3",
+        "pinia-plugin-persistedstate": "^4.2.0",
+        "vite-plugin-vuetify": "^2.1.0",
+        "vue": "^3.5.13",
+        "vue-i18n": "^9.9.1",
+        "vue-router": "^4.5.1",
+        "vuetify": "^3.7.16"
+    },
+    "devDependencies": {
+        "@eslint/js": "^9.21.0",
+        "@vitejs/plugin-vue": "^5.2.1",
+        "@vue/eslint-config-prettier": "^10.2.0",
+        "autoprefixer": "^10.4.21",
+        "eslint": "^9.21.0",
+        "eslint-plugin-vue": "~10.0.0",
+        "globals": "^16.0.0",
+        "postcss": "^8.5.6",
+        "prettier": "3.5.3",
+        "rollup": "^3.29.4",
+        "tailwindcss": "^3.4.1",
+        "vite": "^5.0.0",
+        "vite-plugin-vue-devtools": "^7.7.2"
+    }
+}

@@ -1,0 +1,408 @@
+{
+  "title": "문제 상황 대처",
+  "subtitle": "한국어로 문제 상황에 대처하는 방법을 배워요",
+  "totalSteps": 11,
+  "lessons": [
+    {
+      "stepNumber": 1,
+      "type": "single_expression",
+      "expression": {
+        "korean": "도와주세요",
+        "romanization": "dowajuseyo",
+        "meaning": "Please help me",
+        "explanation": "도움이 필요할 때 사용하는 표현이에요.",
+        "whenToUse": "긴급하게 도움이 필요할 때",
+        "examples": [
+          {
+            "korean": "도와주세요! 길을 잃었어요.",
+            "romanization": "dowajuseyo! gireul ireosseoyo.",
+            "meaning": "Please help me! I'm lost."
+          },
+          {
+            "korean": "좀 도와주시겠어요?",
+            "romanization": "jom dowajusigesseoyo?",
+            "meaning": "Could you help me a bit?"
+          }
+        ],
+        "culturalTip": "한국 사람들은 도움을 요청하면 기꺼이 도와줘요!",
+        "explanationEn": "This is an expression used when you need help.",
+        "whenToUseEn": "\"When you urgently need help\"",
+        "culturalTipEn": "Koreans are always willing to help when you ask for assistance!"
+      }
+    },
+    {
+      "stepNumber": 2,
+      "type": "single_expression",
+      "expression": {
+        "korean": "문제가 있어요",
+        "romanization": "munjega isseoyo",
+        "meaning": "There's a problem",
+        "explanation": "문제나 어려움이 생겼을 때 사용해요.",
+        "whenToUse": "문제 상황을 알릴 때",
+        "examples": [
+          {
+            "korean": "큰 문제가 있어요.",
+            "romanization": "keun munjega isseoyo.",
+            "meaning": "There's a big problem."
+          },
+          {
+            "korean": "무슨 문제가 있어요?",
+            "romanization": "museun munjega isseoyo?",
+            "meaning": "What's the problem?"
+          }
+        ],
+        "culturalTip": "문제를 명확하게 설명하면 더 빨리 도움을 받을 수 있어요.",
+        "explanationEn": "\"We use it when a problem or difficulty arises.\"",
+        "whenToUseEn": "When Informing About a Problem Situation",
+        "culturalTipEn": "If you explain the problem clearly, you can get help more quickly."
+      }
+    },
+    {
+      "stepNumber": 3,
+      "type": "single_expression",
+      "expression": {
+        "korean": "___을/를 잃어버렸어요",
+        "romanization": "___eul/reul ireobeoryeosseoyo",
+        "meaning": "I lost ___",
+        "explanation": "물건을 잃어버렸을 때 사용하는 표현이에요.",
+        "whenToUse": "분실물을 신고할 때",
+        "examples": [
+          {
+            "korean": "지갑을 잃어버렸어요.",
+            "romanization": "jigabeul ireobeoryeosseoyo.",
+            "meaning": "I lost my wallet."
+          },
+          {
+            "korean": "휴대폰을 잃어버렸어요. 어떻게 해요?",
+            "romanization": "hyudaeponeul ireobeoryeosseoyo. eotteoke haeyo?",
+            "meaning": "I lost my phone. What should I do?"
+          }
+        ],
+        "culturalTip": "분실물 센터는 '분실물 보관소'라고 해요!",
+        "explanationEn": "This is an expression used when you have lost an item.",
+        "whenToUseEn": "When Reporting Lost Items",
+        "culturalTipEn": "The lost and found center is called a \"lost property storage.\""
+      }
+    },
+    {
+      "stepNumber": 4,
+      "type": "single_expression",
+      "expression": {
+        "korean": "고장 났어요",
+        "romanization": "gojang nasseoyo",
+        "meaning": "It's broken / It doesn't work",
+        "explanation": "기계나 물건이 작동하지 않을 때 사용해요.",
+        "whenToUse": "고장을 신고할 때",
+        "examples": [
+          {
+            "korean": "에어컨이 고장 났어요.",
+            "romanization": "eeokeoni gojang nasseoyo.",
+            "meaning": "The air conditioner is broken."
+          },
+          {
+            "korean": "엘리베이터가 고장 났어요.",
+            "romanization": "ellibeitteoga gojang nasseoyo.",
+            "meaning": "The elevator doesn't work."
+          }
+        ],
+        "culturalTip": "고장이 나면 관리사무소나 AS센터에 연락해요.",
+        "explanationEn": "It is used when a machine or object is not functioning.",
+        "whenToUseEn": "When Reporting a Malfunction",
+        "culturalTipEn": "If something breaks down, contact the management office or the service center."
+      }
+    },
+    {
+      "stepNumber": 5,
+      "type": "single_expression",
+      "expression": {
+        "korean": "어떻게 해요?",
+        "romanization": "eotteoke haeyo?",
+        "meaning": "What should I do?",
+        "explanation": "해결 방법을 물어볼 때 사용하는 표현이에요.",
+        "whenToUse": "조언이 필요할 때",
+        "examples": [
+          {
+            "korean": "길을 잃었어요. 어떻게 해요?",
+            "romanization": "gireul ireosseoyo. eotteoke haeyo?",
+            "meaning": "I'm lost. What should I do?"
+          },
+          {
+            "korean": "카드를 잃어버렸어요. 어떻게 해요?",
+            "romanization": "kadeureul ireobeoryeosseoyo. eotteoke haeyo?",
+            "meaning": "I lost my card. What should I do?"
+          }
+        ],
+        "culturalTip": "당황스러울 때 이 표현으로 도움을 요청할 수 있어요.",
+        "explanationEn": "This is an expression used when asking for a solution.",
+        "whenToUseEn": "\"When You Need Advice\"",
+        "culturalTipEn": "\"When you're feeling flustered, you can ask for help with this expression.\""
+      }
+    },
+    {
+      "stepNumber": 6,
+      "type": "single_expression",
+      "expression": {
+        "korean": "신고하다",
+        "romanization": "singohada",
+        "meaning": "To report",
+        "explanation": "문제나 사고를 공식적으로 알리는 것을 의미해요.",
+        "whenToUse": "경찰이나 관련 기관에 알릴 때",
+        "examples": [
+          {
+            "korean": "경찰에 신고했어요.",
+            "romanization": "gyeongchare singohaesseoyo.",
+            "meaning": "I reported it to the police."
+          },
+          {
+            "korean": "도난을 신고하고 싶어요.",
+            "romanization": "donaneul singohago sipeoyo.",
+            "meaning": "I want to report a theft."
+          }
+        ],
+        "culturalTip": "긴급 상황에서는 112(경찰), 119(소방/응급)로 전화해요!",
+        "explanationEn": "It means to officially report a problem or incident.",
+        "whenToUseEn": "\"When notifying the police or relevant authorities\"",
+        "culturalTipEn": "In an emergency, call 112 (police) or 119 (fire/ambulance)!"
+      }
+    },
+    {
+      "stepNumber": 7,
+      "type": "single_expression",
+      "expression": {
+        "korean": "환불받다 / 교환하다",
+        "romanization": "hwanbulbatda / gyohwanhada",
+        "meaning": "To get a refund / To exchange",
+        "explanation": "상품에 문제가 있을 때 돈을 돌려받거나 바꾸는 것이에요.",
+        "whenToUse": "물건에 문제가 있을 때",
+        "examples": [
+          {
+            "korean": "이 제품 환불받고 싶어요.",
+            "romanization": "i jepum hwanbulbatgo sipeoyo.",
+            "meaning": "I want to get a refund for this product."
+          },
+          {
+            "korean": "다른 사이즈로 교환할 수 있어요?",
+            "romanization": "dareun saizeuro gyohwanhal su isseoyo?",
+            "meaning": "Can I exchange it for a different size?"
+          }
+        ],
+        "culturalTip": "한국에서는 영수증이 있으면 환불이나 교환이 가능해요!",
+        "explanationEn": "It means getting a refund or exchanging an item when there is a problem with the product.",
+        "whenToUseEn": "\"When there is a problem with an item.\"",
+        "culturalTipEn": "In Korea, you can get a refund or exchange if you have a receipt!"
+      }
+    },
+    {
+      "stepNumber": 8,
+      "type": "single_expression",
+      "expression": {
+        "korean": "불편하다",
+        "romanization": "bulpyeonhada",
+        "meaning": "To be uncomfortable / Inconvenient",
+        "explanation": "편하지 않거나 문제가 있을 때 사용해요.",
+        "whenToUse": "불만을 표현할 때",
+        "examples": [
+          {
+            "korean": "여기가 좀 불편해요.",
+            "romanization": "yeogiga jom bulpyeonhaeyo.",
+            "meaning": "It's a bit uncomfortable here."
+          },
+          {
+            "korean": "소음이 너무 불편해요.",
+            "romanization": "soeumi neomu bulpyeonhaeyo.",
+            "meaning": "The noise is too inconvenient."
+          }
+        ],
+        "culturalTip": "불편함을 공손하게 말하면 해결이 빨라요.",
+        "explanationEn": "\"We use it when it's uncomfortable or when there is a problem.\"",
+        "whenToUseEn": "\"When Expressing Discontent\"",
+        "culturalTipEn": "When you express discomfort politely, the resolution comes more quickly."
+      }
+    },
+    {
+      "stepNumber": 9,
+      "type": "single_expression",
+      "expression": {
+        "korean": "___할 수 없어요",
+        "romanization": "___hal su eopseoyo",
+        "meaning": "I can't ___",
+        "explanation": "무언가를 할 수 없는 상황을 표현해요.",
+        "whenToUse": "불가능한 상황을 설명할 때",
+        "examples": [
+          {
+            "korean": "문을 열 수 없어요.",
+            "romanization": "muneul yeol su eopseoyo.",
+            "meaning": "I can't open the door."
+          },
+          {
+            "korean": "한국어로 설명할 수 없어요.",
+            "romanization": "hangugeoro seolmyeonghal su eopseoyo.",
+            "meaning": "I can't explain it in Korean."
+          }
+        ],
+        "culturalTip": "'할 수 없다'는 능력이나 가능성의 부정을 나타내요.",
+        "explanationEn": "It expresses a situation where one cannot do something.",
+        "whenToUseEn": "\"When explaining an impossible situation\"",
+        "culturalTipEn": "The phrase '할 수 없다' indicates a negation of ability or possibility."
+      }
+    },
+    {
+      "stepNumber": 10,
+      "type": "single_expression",
+      "expression": {
+        "korean": "해결하다",
+        "romanization": "haegyeolhada",
+        "meaning": "To solve / To resolve",
+        "explanation": "문제를 풀거나 처리하는 것을 의미해요.",
+        "whenToUse": "문제 해결에 대해 말할 때",
+        "examples": [
+          {
+            "korean": "문제를 해결했어요.",
+            "romanization": "munjereul haegyeol-haesseoyo.",
+            "meaning": "I solved the problem."
+          },
+          {
+            "korean": "빨리 해결해 주세요.",
+            "romanization": "ppalli haegyeolhae juseyo.",
+            "meaning": "Please resolve it quickly."
+          }
+        ],
+        "culturalTip": "문제를 빠르게 해결하는 것을 '빨리빨리 문화'라고 해요!",
+        "explanationEn": "It means to solve or handle a problem.",
+        "whenToUseEn": "\"When talking about problem-solving\"",
+        "culturalTipEn": "The phrase '빨리빨리 문화' refers to a culture of quickly solving problems!"
+      }
+    },
+    {
+      "stepNumber": 11,
+      "type": "quiz",
+      "quiz": {
+        "title": "복습 퀴즈",
+        "description": "문제 상황 대처 표현을 복습해볼까요?",
+        "questions": [
+          {
+            "question": "How do you say 'Please help me'?",
+            "questionKo": "'도와주세요'를 영어로 어떻게 말하나요?",
+            "options": [
+              "감사합니다",
+              "도와주세요",
+              "죄송합니다",
+              "안녕하세요"
+            ],
+            "optionsKo": [
+              "감사합니다",
+              "도와주세요",
+              "죄송합니다",
+              "안녕하세요"
+            ],
+            "optionsVi": [
+              "감사합니다 (cảm ơn)",
+              "도와주세요 (xin hãy giúp)",
+              "죄송합니다 (xin lỗi)",
+              "안녕하세요 (xin chào)"
+            ],
+            "correctAnswer": 1,
+            "explanation": "'도와주세요'는 'Please help me'를 의미해요."
+          },
+          {
+            "question": "What does '고장 났어요'mean?",
+            "questionKo": "'고장 났어요'는 무슨 뜻인가요?",
+            "options": [
+              "It's expensive",
+              "It's new",
+              "It's broken",
+              "It's beautiful"
+            ],
+            "optionsKo": [
+              "비싸요",
+              "새거예요",
+              "고장 났어요",
+              "예쁘어요"
+            ],
+            "optionsVi": [
+              "Đắt",
+              "Mới",
+              "Bị hỏng",
+              "Đẹp"
+            ],
+            "correctAnswer": 2,
+            "explanation": "'고장 났어요'는 'It's broken'을 의미해요."
+          },
+          {
+            "question": "How do you say 'I lost my wallet'?",
+            "questionKo": "'지갑을 잃어버렸어요'를 영어로 어떻게 말하나요?",
+            "options": [
+              "지갑이 있어요",
+              "지갑을 샀어요",
+              "지갑을 잃어버렸어요",
+              "지갑이 좋아요"
+            ],
+            "optionsKo": [
+              "지갑이 있어요",
+              "지갑을 샀어요",
+              "지갑을 잃어버렸어요",
+              "지갑이 좋아요"
+            ],
+            "optionsVi": [
+              "지갑이 있어요 (có ví)",
+              "지갑을 샀어요 (đã mua ví)",
+              "지갑을 잃어버렸어요 (đã làm mất ví)",
+              "지갑이 좋아요 (ví đẹp)"
+            ],
+            "correctAnswer": 2,
+            "explanation": "'잃어버렸어요'는 'I lost'를 의미해요."
+          },
+          {
+            "question": "What does '신고하다'mean?",
+            "questionKo": "'신고하다'는 무슨 뜻인가요?",
+            "options": [
+              "To buy",
+              "To sell",
+              "To report",
+              "To break"
+            ],
+            "optionsKo": [
+              "사다",
+              "팔다",
+              "신고하다",
+              "부수다"
+            ],
+            "optionsVi": [
+              "Mua",
+              "Bán",
+              "Báo cáo",
+              "Phá vỡ"
+            ],
+            "correctAnswer": 2,
+            "explanation": "'신고하다'는 'to report'를 의미해요."
+          },
+          {
+            "question": "How do you ask 'What should I do?'",
+            "questionKo": "'어떻게 해요?'를 영어로 어떻게 말하나요?",
+            "options": [
+              "뭐예요?",
+              "어디예요?",
+              "어떻게 해요?",
+              "누구예요?"
+            ],
+            "optionsKo": [
+              "뭐예요?",
+              "어디예요?",
+              "어떻게 해요?",
+              "누구예요?"
+            ],
+            "optionsVi": [
+              "뭐예요? (gì?)",
+              "어디예요? (ở đâu?)",
+              "어떻게 해요? (làm thế nào?)",
+              "누구예요? (ai?)"
+            ],
+            "correctAnswer": 2,
+            "explanation": "'어떻게 해요?'는 'What should I do?'를 의미해요."
+          }
+        ]
+      }
+    }
+  ],
+  "subtitleEn": "We learn how to deal with problem situations in Korean."
+}

@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title><%= title %></title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+      background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+      min-height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    
+    .container {
+      background: white;
+      padding: 2rem;
+      border-radius: 10px;
+      box-shadow: 0 20px 60px rgba(0,0,0,0.3);
+      max-width: 800px;
+      width: 90%;
+    }
+    
+    h1 {
+      color: #333;
+      margin-bottom: 1rem;
+    }
+    
+    .welcome {
+      color: #666;
+      margin-bottom: 2rem;
+    }
+    
+    .info-box {
+      background: #f7f9fc;
+      padding: 1.5rem;
+      border-radius: 8px;
+      margin-bottom: 2rem;
+    }
+    
+    .info-box h2 {
+      color: #333;
+      font-size: 1.2rem;
+      margin-bottom: 1rem;
+    }
+    
+    .endpoints {
+      display: grid;
+      gap: 0.5rem;
+    }
+    
+    .endpoint {
+      background: white;
+      padding: 0.75rem;
+      border-radius: 5px;
+      font-family: 'Courier New', monospace;
+      display: flex;
+      align-items: center;
+      gap: 1rem;
+    }
+    
+    .method {
+      display: inline-block;
+      padding: 0.25rem 0.75rem;
+      border-radius: 3px;
+      font-weight: bold;
+      font-size: 0.875rem;
+      min-width: 70px;
+      text-align: center;
+    }
+    
+    .get { background: #10b981; color: white; }
+    .post { background: #3b82f6; color: white; }
+    .put { background: #f59e0b; color: white; }
+    .delete { background: #ef4444; color: white; }
+    
+    .tech-stack {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.5rem;
+      margin-top: 1rem;
+    }
+    
+    .tech-badge {
+      background: #e5e7eb;
+      color: #374151;
+      padding: 0.25rem 0.75rem;
+      border-radius: 20px;
+      font-size: 0.875rem;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>🚀 <%= title %></h1>
+    <p class="welcome"><%= message %></p>
+    
+    <div class="info-box">
+      <h2>서버 정보</h2>
+      <p>포트: <%= process.env.PORT || 3008 %></p>
+      <p>환경: <%= process.env.NODE_ENV || 'development' %></p>
+      <p>현재 시간: <%= new Date().toLocaleString('ko-KR') %></p>
+    </div>
+    
+    <div class="info-box">
+      <h2>API 엔드포인트</h2>
+      <div class="endpoints">
+        <div class="endpoint">
+          <span class="method get">GET</span>
+          <span>/api</span>
+        </div>
+        <div class="endpoint">
+          <span class="method get">GET</span>
+          <span>/api/users</span>
+        </div>
+        <div class="endpoint">
+          <span class="method get">GET</span>
+          <span>/api/users/:id</span>
+        </div>
+        <div class="endpoint">
+          <span class="method post">POST</span>
+          <span>/api/users</span>
+        </div>
+        <div class="endpoint">
+          <span class="method put">PUT</span>
+          <span>/api/users/:id</span>
+        </div>
+        <div class="endpoint">
+          <span class="method delete">DELETE</span>
+          <span>/api/users/:id</span>
+        </div>
+      </div>
+    </div>
+    
+    <div class="info-box">
+      <h2>기술 스택</h2>
+      <div class="tech-stack">
+        <span class="tech-badge">Node.js</span>
+        <span class="tech-badge">Express</span>
+        <span class="tech-badge">EJS</span>
+        <span class="tech-badge">ES7+</span>
+        <span class="tech-badge">ES Modules</span>
+      </div>
+    </div>
+  </div>
+</body>
+</html>

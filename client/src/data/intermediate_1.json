@@ -1,0 +1,408 @@
+{
+  "title": "가족·친구 소개",
+  "subtitle": "한국어로 가족과 친구에 대해 소개하는 방법을 배워요",
+  "totalSteps": 11,
+  "lessons": [
+    {
+      "stepNumber": 1,
+      "type": "single_expression",
+      "expression": {
+        "korean": "가족",
+        "romanization": "gajok",
+        "meaning": "Family",
+        "explanation": "'가족'은 함께 사는 친족들을 의미해요. 한국에서는 가족을 매우 중요하게 생각해요.",
+        "whenToUse": "가족에 대해 이야기할 때",
+        "examples": [
+          {
+            "korean": "우리 가족은 네 명이에요.",
+            "romanization": "uri gajogeun ne myeongieyo.",
+            "meaning": "My family has four people."
+          },
+          {
+            "korean": "가족이 몇 명이에요?",
+            "romanization": "gajogi myeot myeongieyo?",
+            "meaning": "How many people are in your family?"
+          }
+        ],
+        "culturalTip": "한국에서는 가족 구성원을 셀 때 '명'이라는 단위를 사용해요.",
+        "explanationEn": "The word 'family' refers to relatives who live together. In Korea, family is considered very important.",
+        "whenToUseEn": "\"When talking about family\"",
+        "culturalTipEn": "In Korea, when counting family members, the unit '명' (myeong) is used."
+      }
+    },
+    {
+      "stepNumber": 2,
+      "type": "single_expression",
+      "expression": {
+        "korean": "아버지 / 어머니",
+        "romanization": "abeoji / eomeoni",
+        "meaning": "Father / Mother",
+        "explanation": "부모님을 정중하게 부르는 표현이에요. '아빠/엄마'는 더 친근한 표현이에요.",
+        "whenToUse": "부모님에 대해 말할 때",
+        "examples": [
+          {
+            "korean": "우리 아버지는 회사원이에요.",
+            "romanization": "uri abeojineun hoesawon-ieyo.",
+            "meaning": "My father is an office worker."
+          },
+          {
+            "korean": "어머니는 요리를 잘하세요.",
+            "romanization": "eomeonineun yorireul jalhaseyo.",
+            "meaning": "My mother cooks well."
+          }
+        ],
+        "culturalTip": "다른 사람에게 말할 때: 아버지/어머니, 직접 부를 때: 아빠/엄마",
+        "explanationEn": "This is a polite way to address your parents. 'Dad/Mom' is a more familiar expression.",
+        "whenToUseEn": "\"When talking about parents\"",
+        "culturalTipEn": "When speaking to others: Father/Mother; when addressing directly: Dad/Mom."
+      }
+    },
+    {
+      "stepNumber": 3,
+      "type": "single_expression",
+      "expression": {
+        "korean": "형제자매",
+        "romanization": "hyeongje-jamae",
+        "meaning": "Siblings",
+        "explanation": "형제(남자 형제)와 자매(여자 형제)를 합친 말이에요.",
+        "whenToUse": "형제자매에 대해 이야기할 때",
+        "examples": [
+          {
+            "korean": "형제자매가 있어요?",
+            "romanization": "hyeongje-jamaega isseoyo?",
+            "meaning": "Do you have siblings?"
+          },
+          {
+            "korean": "저는 형제자매가 없어요.",
+            "romanization": "jeoneun hyeongje-jamaega eopseoyo.",
+            "meaning": "I don't have siblings."
+          }
+        ],
+        "culturalTip": "한국어는 형제자매를 나이와 성별로 구분해요: 오빠, 형, 언니, 누나",
+        "explanationEn": "It is a term that combines \"brothers\" (male siblings) and \"sisters\" (female siblings).",
+        "whenToUseEn": "\"When talking about siblings\"",
+        "culturalTipEn": "Korean distinguishes siblings by age and gender: \"oppa\" (older brother for females), \"hyung\" (older brother for males), \"eonni\" (older sister for females), and \"nuna\" (older sister for males)."
+      }
+    },
+    {
+      "stepNumber": 4,
+      "type": "single_expression",
+      "expression": {
+        "korean": "오빠 / 언니",
+        "romanization": "oppa / eonni",
+        "meaning": "Older brother / Older sister (for females)",
+        "explanation": "여자가 나이 많은 형제를 부를 때 사용해요.",
+        "whenToUse": "여자가 손위 형제를 소개할 때",
+        "examples": [
+          {
+            "korean": "제 오빠는 대학생이에요.",
+            "romanization": "je oppaneun daehaksaeng-ieyo.",
+            "meaning": "My older brother is a university student."
+          },
+          {
+            "korean": "언니가 두 명 있어요.",
+            "romanization": "eonni-ga du myeong isseoyo.",
+            "meaning": "I have two older sisters."
+          }
+        ],
+        "culturalTip": "오빠/언니는 친한 선배나 친구에게도 사용할 수 있어요!",
+        "explanationEn": "This is used when a woman calls her older brother.",
+        "whenToUseEn": "\"When a woman introduces her older brother\"",
+        "culturalTipEn": "\"Oppa/Unnie can also be used for close seniors or friends!\" \n\nIn this context, \"oppa\" (오빠) is a term used by females to refer to an older brother or an older male friend, while \"unnie\" (언니) is used by females to refer to an older sister or an older female friend. These terms reflect the importance of age and relationship dynamics in Korean culture."
+      }
+    },
+    {
+      "stepNumber": 5,
+      "type": "single_expression",
+      "expression": {
+        "korean": "형 / 누나",
+        "romanization": "hyeong / nuna",
+        "meaning": "Older brother / Older sister (for males)",
+        "explanation": "남자가 나이 많은 형제를 부를 때 사용해요.",
+        "whenToUse": "남자가 손위 형제를 소개할 때",
+        "examples": [
+          {
+            "korean": "제 형은 의사예요.",
+            "romanization": "je hyeong-eun uisayeyo.",
+            "meaning": "My older brother is a doctor."
+          },
+          {
+            "korean": "누나는 선생님이에요.",
+            "romanization": "nunaneun seonsaengnim-ieyo.",
+            "meaning": "My older sister is a teacher."
+          }
+        ],
+        "culturalTip": "한국 문화에서는 나이 순서가 매우 중요해요!",
+        "explanationEn": "It is used when a man calls an older brother.",
+        "whenToUseEn": "\"When a man introduces his older brother\"",
+        "culturalTipEn": "In Korean culture, age order is very important!"
+      }
+    },
+    {
+      "stepNumber": 6,
+      "type": "single_expression",
+      "expression": {
+        "korean": "동생",
+        "romanization": "dongsaeng",
+        "meaning": "Younger sibling",
+        "explanation": "나이가 어린 형제자매를 부르는 말이에요. 성별 구분이 없어요.",
+        "whenToUse": "손아래 형제를 소개할 때",
+        "examples": [
+          {
+            "korean": "제 남동생은 고등학생이에요.",
+            "romanization": "je namdongsaeng-eun godeunghaksaeng-ieyo.",
+            "meaning": "My younger brother is a high school student."
+          },
+          {
+            "korean": "여동생이 있어요.",
+            "romanization": "yeodongsaeng-i isseoyo.",
+            "meaning": "I have a younger sister."
+          }
+        ],
+        "culturalTip": "구체적으로 말할 때: 남동생(younger brother), 여동생(younger sister)",
+        "explanationEn": "This is a term used to refer to younger siblings. It does not distinguish between genders.",
+        "whenToUseEn": "When introducing a younger brother.",
+        "culturalTipEn": "When speaking specifically: 남동생 (namdongsaeng) means \"younger brother,\" and 여동생 (yeodongsaeng) means \"younger sister.\""
+      }
+    },
+    {
+      "stepNumber": 7,
+      "type": "single_expression",
+      "expression": {
+        "korean": "친구",
+        "romanization": "chingu",
+        "meaning": "Friend",
+        "explanation": "친한 사람을 의미해요. 한국에서는 같은 나이 또는 비슷한 나이의 친한 사람을 '친구'라고 해요.",
+        "whenToUse": "친구에 대해 이야기할 때",
+        "examples": [
+          {
+            "korean": "제 친구는 한국 사람이에요.",
+            "romanization": "je chinguneun hanguk saram-ieyo.",
+            "meaning": "My friend is Korean."
+          },
+          {
+            "korean": "친구와 영화를 봤어요.",
+            "romanization": "chinguwa yeonghwareul bwasseoyo.",
+            "meaning": "I watched a movie with my friend."
+          }
+        ],
+        "culturalTip": "'친구'는 보통 같은 나이의 사람에게만 사용해요. 나이 차이가 나면 선배/후배!",
+        "explanationEn": "It means a close person. In Korea, a close person who is the same age or around the same age is referred to as a 'friend.'",
+        "whenToUseEn": "\"When talking about friends\"",
+        "culturalTipEn": "The word '친구' (chingu) is usually used for people of the same age. If there is an age difference, we use 선배 (seonbae) for someone older and 후배 (hubae) for someone younger!"
+      }
+    },
+    {
+      "stepNumber": 8,
+      "type": "single_expression",
+      "expression": {
+        "korean": "___은/는 ___을/를 좋아해요",
+        "romanization": "___eun/neun ___eul/reul joahaeyo",
+        "meaning": "___ likes ___",
+        "explanation": "누가 무엇을 좋아하는지 말할 때 사용하는 문장 구조예요.",
+        "whenToUse": "사람의 취향이나 선호를 설명할 때",
+        "examples": [
+          {
+            "korean": "제 친구는 음악을 좋아해요.",
+            "romanization": "je chinguneun eumageul joahaeyo.",
+            "meaning": "My friend likes music."
+          },
+          {
+            "korean": "오빠는 축구를 좋아해요.",
+            "romanization": "oppaneun chukgureul joahaeyo.",
+            "meaning": "My older brother likes soccer."
+          }
+        ],
+        "culturalTip": "'은/는'은 주제를 나타내고, '을/를'은 대상을 나타내요.",
+        "explanationEn": "This is a sentence structure used when talking about who likes what.",
+        "whenToUseEn": "\"When explaining a person's tastes or preferences\"",
+        "culturalTipEn": "'은/는' indicates the topic, while '을/를' indicates the object."
+      }
+    },
+    {
+      "stepNumber": 9,
+      "type": "single_expression",
+      "expression": {
+        "korean": "___의",
+        "romanization": "___ui",
+        "meaning": "___'s (possessive)",
+        "explanation": "소유를 나타내는 조사예요. 발음은 주로 [에]로 해요.",
+        "whenToUse": "누구의 것인지 말할 때",
+        "examples": [
+          {
+            "korean": "이것은 친구의 가방이에요.",
+            "romanization": "igeoseun chinguui gabangi-eyo.",
+            "meaning": "This is my friend's bag."
+          },
+          {
+            "korean": "우리 가족의 사진이에요.",
+            "romanization": "uri gajogui sajin-ieyo.",
+            "meaning": "It's my family's photo."
+          }
+        ],
+        "culturalTip": "일상 대화에서는 '의'를 생략하기도 해요. 예: 친구 가방",
+        "explanationEn": "This is a particle that indicates possession. It is primarily pronounced as [e].",
+        "whenToUseEn": "\"When talking about whose it is\"",
+        "culturalTipEn": "In everyday conversation, the particle '의' (which indicates possession) is sometimes omitted. For example: \"친구 가방\" (friend's bag)."
+      }
+    },
+    {
+      "stepNumber": 10,
+      "type": "single_expression",
+      "expression": {
+        "korean": "___와/과 친하다",
+        "romanization": "___wa/gwa chinhada",
+        "meaning": "To be close with ___",
+        "explanation": "누군가와 친밀한 관계임을 나타낼 때 사용해요.",
+        "whenToUse": "사람과의 관계를 설명할 때",
+        "examples": [
+          {
+            "korean": "저는 언니와 친해요.",
+            "romanization": "jeoneun eonniwwa chinhaeyo.",
+            "meaning": "I'm close with my older sister."
+          },
+          {
+            "korean": "친구와 정말 친해요.",
+            "romanization": "chinguwa jeongmal chinhaeyo.",
+            "meaning": "I'm really close with my friend."
+          }
+        ],
+        "culturalTip": "한국에서는 가족 간의 유대가 매우 강해요!",
+        "explanationEn": "It is used to indicate that you have a close relationship with someone.",
+        "whenToUseEn": "\"When explaining relationships with people\"",
+        "culturalTipEn": "In Korea, the bonds between family members are very strong!"
+      }
+    },
+    {
+      "stepNumber": 11,
+      "type": "quiz",
+      "quiz": {
+        "title": "복습 퀴즈",
+        "description": "가족과 친구 소개 표현을 복습해볼까요?",
+        "questions": [
+          {
+            "question": "How does a female call her older brother?",
+            "questionKo": "여자는 나이 많은 남자 형제를 어떻게 부를까요?",
+            "options": [
+              "형",
+              "오빠",
+              "언니",
+              "동생"
+            ],
+            "optionsKo": [
+              "형",
+              "오빠",
+              "언니",
+              "동생"
+            ],
+            "optionsVi": [
+              "형 (nam gọi anh trai)",
+              "오빠 (nữ gọi anh trai)",
+              "언니 (nữ gọi chị gái)",
+              "동생 (em)"
+            ],
+            "correctAnswer": 1,
+            "explanation": "여자는 나이 많은 남자 형제를 '오빠'라고 불러요."
+          },
+          {
+            "question": "What does '동생'mean?",
+            "questionKo": "'동생'은 무슨 뜻인가요?",
+            "options": [
+              "Older brother",
+              "Older sister",
+              "Younger sibling",
+              "Friend"
+            ],
+            "optionsKo": [
+              "형/오빠",
+              "누나/언니",
+              "동생",
+              "친구"
+            ],
+            "optionsVi": [
+              "Anh trai",
+              "Chị gái",
+              "Em (nam hoặc nữ)",
+              "Bạn bè"
+            ],
+            "correctAnswer": 2,
+            "explanation": "'동생'은 나이 어린 형제자매를 의미해요."
+          },
+          {
+            "question": "How do you say 'My family has 4 people'?",
+            "questionKo": "'우리 가족은 4명이에요'를 어떻게 말하나요?",
+            "options": [
+              "우리 가족은 네 개예요",
+              "우리 가족은 네 명이에요",
+              "우리 가족은 네 분이에요",
+              "우리 가족은 사예요"
+            ],
+            "optionsKo": [
+              "우리 가족은 네 개예요",
+              "우리 가족은 네 명이에요",
+              "우리 가족은 네 분이에요",
+              "우리 가족은 사예요"
+            ],
+            "optionsVi": [
+              "우리 가족은 네 개예요 (sai - dùng cho đồ vật)",
+              "우리 가족은 네 명이에요 (đúng - 4 người)",
+              "우리 가족은 네 분이에요 (quá lịch sự)",
+              "우리 가족은 사예요 (thiếu từ)"
+            ],
+            "correctAnswer": 1,
+            "explanation": "사람을 셀 때는 '명'을 사용해요. 네(4) + 명(people)."
+          },
+          {
+            "question": "What does '친구와 친하다'mean?",
+            "questionKo": "'친구와 친하다'는 무슨 뜻인가요?",
+            "options": [
+              "To have a friend",
+              "To meet a friend",
+              "To be close with a friend",
+              "To like a friend"
+            ],
+            "optionsKo": [
+              "친구가 있다",
+              "친구를 만나다",
+              "친구와 친하다",
+              "친구를 좋아하다"
+            ],
+            "optionsVi": [
+              "Có bạn bè",
+              "Gặp bạn bè",
+              "Thân thiết với bạn bè",
+              "Thích bạn bè"
+            ],
+            "correctAnswer": 2,
+            "explanation": "'친하다'는 'to be close/friendly with'를 의미해요."
+          },
+          {
+            "question": "How does a male call his older sister?",
+            "questionKo": "남자는 나이 많은 여자 형제를 어떻게 부를까요?",
+            "options": [
+              "언니",
+              "누나",
+              "오빠",
+              "형"
+            ],
+            "optionsKo": [
+              "언니",
+              "누나",
+              "오빠",
+              "형"
+            ],
+            "optionsVi": [
+              "언니 (nữ gọi chị gái)",
+              "누나 (nam gọi chị gái)",
+              "오빠 (nữ gọi anh trai)",
+              "형 (nam gọi anh trai)"
+            ],
+            "correctAnswer": 1,
+            "explanation": "남자는 나이 많은 여자 형제를 '누나'라고 불러요."
+          }
+        ]
+      }
+    }
+  ],
+  "subtitleEn": "I'm learning how to introduce my family and friends in Korean."
+}

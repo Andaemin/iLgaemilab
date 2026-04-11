@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>RTZR STT Test</title>
+  <style>
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+      max-width: 800px;
+      margin: 50px auto;
+      padding: 20px;
+    }
+    .container {
+      background: #f5f5f5;
+      border-radius: 8px;
+      padding: 30px;
+    }
+    button {
+      background: #007bff;
+      color: white;
+      border: none;
+      padding: 12px 24px;
+      border-radius: 4px;
+      font-size: 16px;
+      cursor: pointer;
+      margin: 10px;
+    }
+    button:disabled {
+      background: #ccc;
+    }
+    button.recording {
+      background: #dc3545;
+    }
+    .status {
+      margin: 20px 0;
+      padding: 15px;
+      background: white;
+      border-radius: 4px;
+    }
+    .results {
+      margin-top: 20px;
+      padding: 20px;
+      background: white;
+      border-radius: 4px;
+      min-height: 100px;
+    }
+    .partial {
+      color: #666;
+      font-style: italic;
+    }
+    .final {
+      color: #000;
+      font-weight: bold;
+      margin-top: 10px;
+    }
+    .error {
+      color: #dc3545;
+      padding: 10px;
+      background: #f8d7da;
+      border-radius: 4px;
+      margin-top: 10px;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>RTZR STT 실시간 테스트</h1>
+    
+    <div class="status">
+      <p>상태: <span id="status">준비</span></p>
+      <p>WebSocket: <span id="wsStatus">연결 안됨</span></p>
+    </div>
+
+    <button id="startBtn" onclick="startRecording()">녹음 시작</button>
+    <button id="stopBtn" onclick="stopRecording()" disabled>녹음 중지</button>
+
+    <div class="results">
+      <h3>인식 결과</h3>
+      <div class="partial" id="partial">부분 인식: </div>
+      <div class="final" id="final">최종 인식: </div>
+    </div>
+
+    <div id="error"></div>
+  </div>
+
+  <script>
+    let mediaRecorder = null;
+    let audioStream = null;
+    let ws = null;
+    let isRecording = false;
+
+    async function startRecording() {
+      try {
+        document.getElementById('error').innerHTML = '';
+        document.getElementById('status').textContent = '마이크 권한 요청중...';
+        
+        // 마이크 권한 요청
+        audioStream = await navigator.mediaDevices.getUserMedia({ 
+          audio: {
+            channelCount: 1,
+            sampleRate: 16000,
+            echoCancellation: true,
+            noiseSuppression: true
+          } 
+        });
+        
+        document.getElementById('status').textContent = 'WebSocket 연결중...';
+        
+        // WebSocket 연결
+        const wsUrl = `ws://localhost:3031/ws/rtzr?` +
+          `encoding=OGG_OPUS&` +
+          `model_name=sommers_ko&` +
+          `use_punctuation=true&` +
+          `domain=CALL&` +
+          `sample_rate=16000`;
+        
+        ws = new WebSocket(wsUrl);
+        
+        ws.onopen = () => {
+          console.log('WebSocket connected');
+          document.getElementById('wsStatus').textContent = '연결됨';
+          setupMediaRecorder();
+        };
+        
+        ws.onmessage = async (event) => {
+          let messageData;
+          if (event.data instanceof Blob) {
+            messageData = await event.data.text();
+          } else {
+            messageData = event.data;
+          }
+          
+          if (messageData === 'EOS') {
+            console.log('Stream ended');
+            return;
+          }
+          
+          try {
+            const data = JSON.parse(messageData);
+            console.log('Received:', data);
+            
+            // RTZR 응답 형식에 맞게 수정
+            if (data.alternatives && data.alternatives.length > 0) {
+              const text = data.alternatives[0].text || '';
+              
+              if (data.final === false) {
+                // 부분 인식 결과
+                document.getElementById('partial').textContent = '부분 인식: ' + text;
+              } else if (data.final === true) {
+                // 최종 인식 결과 (누적)
+                const currentFinal = document.getElementById('final').textContent.replace('최종 인식: ', '');
+                const newFinal = currentFinal ? currentFinal + ' ' + text : text;
+                document.getElementById('final').textContent = '최종 인식: ' + newFinal;
+                document.getElementById('partial').textContent = '부분 인식: ';
+              }
+            }
+          } catch (e) {
+            console.error('Parse error:', e, 'Data:', messageData);
+          }
+        };
+        
+        ws.onerror = (error) => {
+          console.error('WebSocket error:', error);
+          showError('WebSocket 연결 오류');
+          stopRecording();
+        };
+        
+        ws.onclose = () => {
+          console.log('WebSocket closed');
+          document.getElementById('wsStatus').textContent = '연결 종료';
+          if (isRecording) {
+            stopRecording();
+          }
+        };
+        
+      } catch (error) {
+        console.error('Start error:', error);
+        showError('녹음 시작 실패: ' + error.message);
+      }
+    }
+
+    function setupMediaRecorder() {
+      try {
+        const options = { 
+          mimeType: 'audio/webm;codecs=opus',
+          audioBitsPerSecond: 16000
+        };
+        
+        // 브라우저 호환성 체크
+        const mimeTypes = [
+          'audio/webm;codecs=opus',
+          'audio/ogg;codecs=opus',
+          'audio/webm',
+          'audio/ogg'
+        ];
+        
+        for (const mimeType of mimeTypes) {
+          if (MediaRecorder.isTypeSupported(mimeType)) {
+            options.mimeType = mimeType;
+            console.log('Using mime type:', mimeType);
+            break;
+          }
+        }
+        
+        mediaRecorder = new MediaRecorder(audioStream, options);
+        
+        mediaRecorder.ondataavailable = (event) => {
+          if (event.data.size > 0 && ws && ws.readyState === WebSocket.OPEN) {
+            console.log('Sending audio chunk:', event.data.size, 'bytes');
+            ws.send(event.data);
+          }
+        };
+        
+        mediaRecorder.onerror = (event) => {
+          console.error('MediaRecorder error:', event);
+          showError('녹음 오류');
+          stopRecording();
+        };
+        
+        mediaRecorder.start(250); // 250ms마다 데이터 전송
+        isRecording = true;
+        
+        document.getElementById('status').textContent = '녹음중...';
+        document.getElementById('startBtn').disabled = true;
+        document.getElementById('startBtn').classList.add('recording');
+        document.getElementById('stopBtn').disabled = false;
+        
+      } catch (error) {
+        console.error('MediaRecorder setup error:', error);
+        showError('MediaRecorder 설정 실패: ' + error.message);
+      }
+    }
+
+    function stopRecording() {
+      isRecording = false;
+      
+      if (mediaRecorder && mediaRecorder.state === 'recording') {
+        mediaRecorder.stop();
+      }
+      mediaRecorder = null;
+      
+      if (audioStream) {
+        audioStream.getTracks().forEach(track => track.stop());
+        audioStream = null;
+      }
+      
+      if (ws && ws.readyState === WebSocket.OPEN) {
+        ws.close();
+      }
+      ws = null;
+      
+      document.getElementById('status').textContent = '준비';
+      document.getElementById('wsStatus').textContent = '연결 안됨';
+      document.getElementById('startBtn').disabled = false;
+      document.getElementById('startBtn').classList.remove('recording');
+      document.getElementById('stopBtn').disabled = true;
+    }
+
+    function showError(message) {
+      document.getElementById('error').innerHTML = `<div class="error">${message}</div>`;
+    }
+  </script>
+</body>
+</html>

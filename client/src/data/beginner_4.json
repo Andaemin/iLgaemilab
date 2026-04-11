@@ -1,0 +1,408 @@
+{
+  "title": "일상 생활 회화",
+  "subtitle": "한국어로 일상에서 자주 사용하는 표현들을 배워요",
+  "totalSteps": 11,
+  "lessons": [
+    {
+      "stepNumber": 1,
+      "type": "single_expression",
+      "expression": {
+        "korean": "뭐 해요?",
+        "romanization": "mwo haeyo?",
+        "meaning": "What are you doing?",
+        "explanation": "상대방이 무엇을 하고 있는지 물어보는 표현이에요.",
+        "whenToUse": "상대방의 현재 활동을 물어볼 때, 가벼운 대화를 시작할 때",
+        "examples": [
+          {
+            "korean": "지금 뭐 해요? - 공부해요.",
+            "romanization": "jigeum mwo haeyo? - gongbuhaeyo.",
+            "meaning": "What are you doing now? - I'm studying."
+          },
+          {
+            "korean": "주말에 뭐 해요?",
+            "romanization": "jumare mwo haeyo?",
+            "meaning": "What do you do on weekends?"
+          }
+        ],
+        "culturalTip": "'뭐'는 '무엇'의 줄임말로, 일상 대화에서 더 자주 사용해요.",
+        "explanationEn": "This is an expression used to ask what the other person is doing.",
+        "whenToUseEn": "\"When asking about the other person's current activities or starting a light conversation.\"",
+        "culturalTipEn": "\"'뭐' is a shortened form of '무엇,' and it is used more frequently in everyday conversation.\""
+      }
+    },
+    {
+      "stepNumber": 2,
+      "type": "single_expression",
+      "expression": {
+        "korean": "밥 먹었어요?",
+        "romanization": "bap meogeosseoyo?",
+        "meaning": "Did you eat? / Have you eaten?",
+        "explanation": "한국에서 매우 흔한 인사말이에요. 실제로 식사를 했는지 묻기도 하지만, 안부를 묻는 의미도 있어요.",
+        "whenToUse": "식사 시간 전후로 인사할 때, 안부를 물을 때",
+        "examples": [
+          {
+            "korean": "밥 먹었어요? - 네, 먹었어요.",
+            "romanization": "bap meogeosseoyo? - ne, meogeosseoyo.",
+            "meaning": "Have you eaten? - Yes, I have."
+          },
+          {
+            "korean": "점심 먹었어요?",
+            "romanization": "jeomsim meogeosseoyo?",
+            "meaning": "Did you have lunch?"
+          }
+        ],
+        "culturalTip": "한국에서 '밥'(rice)은 '식사'를 의미하기도 해요. 식사는 중요한 사회 활동이에요!",
+        "explanationEn": "This is a very common greeting in Korea. While it actually asks if you have eaten, it also carries the meaning of inquiring about your well-being.",
+        "whenToUseEn": "When greeting around mealtime or asking about someone's well-being.",
+        "culturalTipEn": "In Korea, '밥' (rice) can also mean 'meal.' Meals are an important social activity!"
+      }
+    },
+    {
+      "stepNumber": 3,
+      "type": "single_expression",
+      "expression": {
+        "korean": "맛있어요",
+        "romanization": "masisseoyo",
+        "meaning": "It's delicious",
+        "explanation": "음식이 맛있을 때 사용하는 표현이에요.",
+        "whenToUse": "음식을 먹고 맛을 표현할 때",
+        "examples": [
+          {
+            "korean": "이 음식 정말 맛있어요!",
+            "romanization": "i eumsik jeongmal masisseoyo!",
+            "meaning": "This food is really delicious!"
+          },
+          {
+            "korean": "맛있게 드세요.",
+            "romanization": "masitge deuseyo.",
+            "meaning": "Enjoy your meal. (polite)"
+          }
+        ],
+        "culturalTip": "식사할 때 '잘 먹겠습니다'(before eating), '잘 먹었습니다'(after eating)라고 말해요!",
+        "explanationEn": "This is an expression used when the food is delicious.",
+        "whenToUseEn": "\"When eating food and expressing its taste\"",
+        "culturalTipEn": "When eating, we say \"잘 먹겠습니다\" (I will eat well) before eating and \"잘 먹었습니다\" (I ate well) after eating!"
+      }
+    },
+    {
+      "stepNumber": 4,
+      "type": "single_expression",
+      "expression": {
+        "korean": "___를/을 주세요",
+        "romanization": "___reul/eul juseyo",
+        "meaning": "Please give me ___",
+        "explanation": "무엇인가를 요청할 때 사용하는 정중한 표현이에요.",
+        "whenToUse": "물건을 부탁할 때, 주문할 때",
+        "examples": [
+          {
+            "korean": "물 좀 주세요.",
+            "romanization": "mul jom juseyo.",
+            "meaning": "Please give me some water."
+          },
+          {
+            "korean": "커피 한 잔 주세요.",
+            "romanization": "keopi han jan juseyo.",
+            "meaning": "Please give me one cup of coffee."
+          }
+        ],
+        "culturalTip": "'좀'을 붙이면 더 부드러운 부탁이 돼요!",
+        "explanationEn": "This is a polite expression used when making a request.",
+        "whenToUseEn": "When asking for something or placing an order.",
+        "culturalTipEn": "Adding '좀' makes your request sound softer!"
+      }
+    },
+    {
+      "stepNumber": 5,
+      "type": "single_expression",
+      "expression": {
+        "korean": "얼마예요?",
+        "romanization": "eolmayeyo?",
+        "meaning": "How much is it?",
+        "explanation": "가격을 물어볼 때 사용하는 표현이에요.",
+        "whenToUse": "물건의 가격을 알고 싶을 때",
+        "examples": [
+          {
+            "korean": "이거 얼마예요? - 오천 원이에요.",
+            "romanization": "igeo eolmayeyo? - ocheon wonieyo.",
+            "meaning": "How much is this? - It's 5,000 won."
+          },
+          {
+            "korean": "전부 얼마예요?",
+            "romanization": "jeonbu eolmayeyo?",
+            "meaning": "How much is everything?"
+          }
+        ],
+        "culturalTip": "한국에서는 대부분 정찰제(fixed price)를 사용해요. 흥정은 전통시장에서만!",
+        "explanationEn": "This is an expression used when asking about prices.",
+        "whenToUseEn": "\"When you want to know the price of an item.\"",
+        "culturalTipEn": "In Korea, most places use fixed pricing. Bargaining is only done in traditional markets!"
+      }
+    },
+    {
+      "stepNumber": 6,
+      "type": "single_expression",
+      "expression": {
+        "korean": "네 / 아니요",
+        "romanization": "ne / aniyo",
+        "meaning": "Yes / No",
+        "explanation": "긍정과 부정을 나타내는 가장 기본적인 표현이에요.",
+        "whenToUse": "질문에 답할 때, 동의하거나 거절할 때",
+        "examples": [
+          {
+            "korean": "한국 사람이에요? - 네, 한국 사람이에요.",
+            "romanization": "hanguk saramieyo? - ne, hanguk saramieyo.",
+            "meaning": "Are you Korean? - Yes, I am Korean."
+          },
+          {
+            "korean": "시간 있어요? - 아니요, 없어요.",
+            "romanization": "sigan isseoyo? - aniyo, eopseoyo.",
+            "meaning": "Do you have time? - No, I don't."
+          }
+        ],
+        "culturalTip": "'네'는 '예'보다 일상적이고, 전화에서는 '여보세요'를 사용해요!",
+        "explanationEn": "This is the most basic expression for indicating affirmation and negation.",
+        "whenToUseEn": "\"When answering questions, when agreeing or disagreeing.\"",
+        "culturalTipEn": "\"'네' is more casual than '예,' and on the phone, we use '여보세요!'\" \n\nIn this context, \"네\" (ne) is a common way to say \"yes\" in everyday conversation, while \"예\" (ye) is a more formal version. Additionally, \"여보세요\" (yeoboseyo) is the standard greeting used when answering the phone in Korean."
+      }
+    },
+    {
+      "stepNumber": 7,
+      "type": "single_expression",
+      "expression": {
+        "korean": "좋아요",
+        "romanization": "joayo",
+        "meaning": "It's good / I like it",
+        "explanation": "좋다고 생각하거나 좋아할 때 사용하는 표현이에요.",
+        "whenToUse": "긍정적인 의견을 표현할 때, 동의할 때",
+        "examples": [
+          {
+            "korean": "이 영화 좋아요!",
+            "romanization": "i yeonghwa joayo!",
+            "meaning": "This movie is good!"
+          },
+          {
+            "korean": "내일 만날까요? - 네, 좋아요!",
+            "romanization": "naeil mannalkka? - ne, joayo!",
+            "meaning": "Shall we meet tomorrow? - Yes, sounds good!"
+          }
+        ],
+        "culturalTip": "'좋아하다'(to like)와 '좋다'(to be good)를 구분해서 사용해요!",
+        "explanationEn": "This is an expression used when you think something is good or when you like something.",
+        "whenToUseEn": "When expressing positive opinions or agreeing.",
+        "culturalTipEn": "We use '좋아하다' (to like) and '좋다' (to be good) differently!"
+      }
+    },
+    {
+      "stepNumber": 8,
+      "type": "single_expression",
+      "expression": {
+        "korean": "괜찮아요",
+        "romanization": "gwaenchanayo",
+        "meaning": "It's okay / I'm fine",
+        "explanation": "문제없다고 말하거나 괜찮다고 안심시킬 때 사용해요.",
+        "whenToUse": "걱정하는 사람을 안심시킬 때, 거절을 부드럽게 할 때",
+        "examples": [
+          {
+            "korean": "괜찮아요? - 네, 괜찮아요.",
+            "romanization": "gwaenchanayo? - ne, gwaenchanayo.",
+            "meaning": "Are you okay? - Yes, I'm okay."
+          },
+          {
+            "korean": "도와드릴까요? - 아니요, 괜찮아요.",
+            "romanization": "dowadeurilkkayo? - aniyo, gwaenchanayo.",
+            "meaning": "Shall I help you? - No, I'm fine."
+          }
+        ],
+        "culturalTip": "'괜찮아요'는 동의, 거절, 안심 등 다양한 의미로 사용돼요!",
+        "explanationEn": "It is used when you want to say that there is no problem or to reassure someone that everything is okay.",
+        "whenToUseEn": "\"When reassuring someone who is worried, or when gently declining.\"",
+        "culturalTipEn": "The phrase '괜찮아요' is used in various contexts, such as agreement, refusal, and reassurance!"
+      }
+    },
+    {
+      "stepNumber": 9,
+      "type": "single_expression",
+      "expression": {
+        "korean": "수고하세요",
+        "romanization": "sugohaseyo",
+        "meaning": "Good work / Keep it up",
+        "explanation": "일하는 사람에게 격려하거나 인사할 때 사용하는 한국 특유의 표현이에요.",
+        "whenToUse": "일하는 사람과 헤어질 때, 수고하는 사람을 격려할 때",
+        "examples": [
+          {
+            "korean": "안녕히 가세요. 수고하세요!",
+            "romanization": "annyeonghi gaseyo. sugohaseyo!",
+            "meaning": "Goodbye. Keep up the good work!"
+          },
+          {
+            "korean": "수고하셨습니다!",
+            "romanization": "sugohasyeotseumnida!",
+            "meaning": "Thank you for your hard work!"
+          }
+        ],
+        "culturalTip": "가게, 식당, 회사 등에서 매우 자주 들을 수 있는 표현이에요!",
+        "explanationEn": "This is a unique expression in Korean used to encourage or greet someone who is working.",
+        "whenToUseEn": "\"When parting from someone who is working, or when encouraging someone who is putting in effort.\"",
+        "culturalTipEn": "This is an expression you can hear very often in stores, restaurants, companies, and so on!"
+      }
+    },
+    {
+      "stepNumber": 10,
+      "type": "single_expression",
+      "expression": {
+        "korean": "잠깐만요",
+        "romanization": "jamkkanmanyo",
+        "meaning": "Wait a moment / Just a second",
+        "explanation": "잠시 기다려달라고 부탁할 때 사용해요.",
+        "whenToUse": "누군가를 잠시 기다리게 할 때",
+        "examples": [
+          {
+            "korean": "잠깐만요, 지금 갈게요!",
+            "romanization": "jamkkanmanyo, jigeum galgeyo!",
+            "meaning": "Just a second, I'm coming!"
+          },
+          {
+            "korean": "잠깐만 기다려 주세요.",
+            "romanization": "jamkkanman gidaryeo juseyo.",
+            "meaning": "Please wait a moment."
+          }
+        ],
+        "culturalTip": "'잠깐'은 '짧은 시간'을 의미하고, '만'은 '만'(only)을 뜻해요.",
+        "explanationEn": "This is used when you want to ask someone to wait a moment.",
+        "whenToUseEn": "\"When you make someone wait for a moment\"",
+        "culturalTipEn": "The word '잠깐' means 'a short time,' and '만' means 'only.'"
+      }
+    },
+    {
+      "stepNumber": 11,
+      "type": "quiz",
+      "quiz": {
+        "title": "복습 퀴즈",
+        "description": "일상 생활 회화를 복습해볼까요?",
+        "questions": [
+          {
+            "question": "How do you ask 'What are you doing?'",
+            "questionKo": "'뭐 하고 계세요?'를 어떻게 물어보나요?",
+            "options": [
+              "어디 가요?",
+              "뭐 해요?",
+              "누구예요?",
+              "언제예요?"
+            ],
+            "optionsKo": [
+              "어디 가요?",
+              "뭐 해요?",
+              "누구예요?",
+              "언제예요?"
+            ],
+            "optionsVi": [
+              "어디 가요? (đi đâu?)",
+              "뭐 해요? (làm gì?)",
+              "누구예요? (ai?)",
+              "언제예요? (khi nào?)"
+            ],
+            "correctAnswer": 1,
+            "explanation": "'뭐'는 'what'을, '해요'는 'do/doing'을 의미해요."
+          },
+          {
+            "question": "What does '밥 먹었어요?'mean in Korean culture?",
+            "questionKo": "한국 문화에서 '밥 먹었어요?'는 무슨 의미인가요?",
+            "options": [
+              "Only asking if you ate",
+              "A greeting and asking if you ate",
+              "Inviting to eat together",
+              "Asking what you ate"
+            ],
+            "optionsKo": [
+              "단순히 먹었는지만 묻는 것",
+              "인사말이면서 먹었는지 묻는 것",
+              "같이 먹자고 초대하는 것",
+              "뭐를 먹었는지 묻는 것"
+            ],
+            "optionsVi": [
+              "Chỉ hỏi xem bạn đã ăn chưa",
+              "Một lời chào và hỏi xem bạn đã ăn chưa",
+              "Mời ăn cùng",
+              "Hỏi bạn đã ăn gì"
+            ],
+            "correctAnswer": 1,
+            "explanation": "'밥 먹었어요?'는 안부를 묻는 인사말로도 사용돼요."
+          },
+          {
+            "question": "How do you say 'It's delicious'?",
+            "questionKo": "'맛있어요'를 어떻게 말하나요?",
+            "options": [
+              "맛없어요",
+              "맛있어요",
+              "괜찮아요",
+              "좋아요"
+            ],
+            "optionsKo": [
+              "맛없어요",
+              "맛있어요",
+              "괜찮아요",
+              "좋아요"
+            ],
+            "optionsVi": [
+              "맛없어요 (không ngon)",
+              "맛있어요 (ngon)",
+              "괜찮아요 (ổn)",
+              "좋아요 (tốt)"
+            ],
+            "correctAnswer": 1,
+            "explanation": "'맛있어요'는 'delicious/tasty'를 의미해요."
+          },
+          {
+            "question": "What should you say when asking for the price?",
+            "questionKo": "가격을 물어볼 때 뭐라고 말해야 하나요?",
+            "options": [
+              "뭐예요?",
+              "어디예요?",
+              "얼마예요?",
+              "누구예요?"
+            ],
+            "optionsKo": [
+              "뭐예요?",
+              "어디예요?",
+              "얼마예요?",
+              "누구예요?"
+            ],
+            "optionsVi": [
+              "뭐예요? (cái gì?)",
+              "어디예요? (ở đâu?)",
+              "얼마예요? (bao nhiêu?)",
+              "누구예요? (ai?)"
+            ],
+            "correctAnswer": 2,
+            "explanation": "'얼마예요?'는 'How much?'를 의미해요."
+          },
+          {
+            "question": "What does '수고하세요'mean?",
+            "questionKo": "'수고하세요'는 무슨 뜻인가요?",
+            "options": [
+              "Goodbye",
+              "Thank you",
+              "Good work / Keep it up",
+              "I'm sorry"
+            ],
+            "optionsKo": [
+              "안녕히 가세요",
+              "감사합니다",
+              "수고하세요 / 힘내세요",
+              "죄송합니다"
+            ],
+            "optionsVi": [
+              "Tạm biệt",
+              "Cảm ơn",
+              "Làm tốt / Cố gắng lên",
+              "Xin lỗi"
+            ],
+            "correctAnswer": 2,
+            "explanation": "'수고하세요'는 일하는 사람을 격려하는 한국 특유의 표현이에요."
+          }
+        ]
+      }
+    }
+  ],
+  "subtitleEn": "Let's learn expressions that are commonly used in everyday Korean."
+}

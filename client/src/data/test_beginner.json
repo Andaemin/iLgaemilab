@@ -1,0 +1,228 @@
+{
+  "title": "초급 마무리 테스트",
+  "subtitle": "초급 1~5단계에서 배운 내용을 종합적으로 확인해요",
+  "totalQuestions": 20,
+  "passingScore": 14,
+  "questions": [
+    {
+      "id": 1,
+      "question": "When meeting someone for the first time in a formal situation, what should you say?",
+      "questionKo": "공식적인 상황에서 처음 만나는 사람에게 뭐라고 말해야 하나요?",
+      "options": ["안녕", "안녕하세요", "어서오세요", "반가워"],
+      "optionsKo": ["안녕", "안녕하세요", "어서오세요", "반가워"],
+      "correctAnswer": 1,
+      "explanation": "'안녕하세요'는 공식적인 상황에서 사용하는 정중한 인사말이에요.",
+      "explanationKo": "'안녕하세요'는 공식적인 상황에서 사용하는 정중한 인사말이에요.",
+      "category": "기본 인사"
+    },
+    {
+      "id": 2,
+      "question": "You are leaving a store. What should you say to the staff?",
+      "questionKo": "가게를 나갈 때 직원에게 뭐라고 말해야 하나요?",
+      "options": ["안녕히 가세요", "안녕히 계세요", "갑니다", "다음에 만나요"],
+      "optionsKo": ["안녕히 가세요", "안녕히 계세요", "갑니다", "다음에 만나요"],
+      "correctAnswer": 1,
+      "explanation": "내가 떠날 때는 '안녕히 계세요'를 사용해요. 상대방이 떠날 때는 '안녕히 가세요'예요.",
+      "explanationKo": "내가 떠날 때는 '안녕히 계세요'를 사용해요. 상대방이 떠날 때는 '안녕히 가세요'예요.",
+      "category": "기본 인사"
+    },
+    {
+      "id": 3,
+      "question": "How do you say 'Thank you' politely?",
+      "questionKo": "'고맙습니다'를 정중하게 어떻게 말하나요?",
+      "options": ["고마워", "감사합니다", "괜찮아요", "좋아요"],
+      "optionsKo": ["고마워", "감사합니다", "괜찮아요", "좋아요"],
+      "correctAnswer": 1,
+      "explanation": "'감사합니다'는 정중하게 감사를 표현하는 말이에요.",
+      "explanationKo": "'감사합니다'는 정중하게 감사를 표현하는 말이에요.",
+      "category": "기본 인사"
+    },
+    {
+      "id": 4,
+      "question": "What time is '두 시 삼십 분'?",
+      "questionKo": "'두 시 삼십 분'은 몇 시인가요?",
+      "options": ["12:30", "2:30", "2:13", "20:30"],
+      "optionsKo": ["12:30", "2:30", "2:13", "20:30"],
+      "correctAnswer": 1,
+      "explanation": "'두 시'는 2 o'clock, '삼십 분'은 30 minutes를 의미해요.",
+      "explanationKo": "'두 시'는 2 o'clock, '삼십 분'은 30 minutes를 의미해요.",
+      "category": "숫자와 시간"
+    },
+    {
+      "id": 5,
+      "question": "Which number system is used for counting objects?",
+      "questionKo": "물건의 개수를 셀 때 어떤 숫자 체계를 사용하나요?",
+      "options": ["한자 숫자 (일, 이, 삼)", "순우리말 숫자 (하나, 둘, 셋)", "Both", "Neither"],
+      "optionsKo": ["한자 숫자 (일, 이, 삼)", "순우리말 숫자 (하나, 둘, 셋)", "둘 다", "둘 다 아님"],
+      "correctAnswer": 1,
+      "explanation": "물건의 개수를 셀 때는 순우리말 숫자(하나, 둘, 셋)를 사용해요.",
+      "explanationKo": "물건의 개수를 셀 때는 순우리말 숫자(하나, 둘, 셋)를 사용해요.",
+      "category": "숫자와 시간"
+    },
+    {
+      "id": 6,
+      "question": "How do you say '3,000 won'?",
+      "questionKo": "'3,000원'을 어떻게 말하나요?",
+      "options": ["세 원", "삼천 원", "삼백 원", "삼만 원"],
+      "optionsKo": ["세 원", "삼천 원", "삼백 원", "삼만 원"],
+      "correctAnswer": 1,
+      "explanation": "돈을 셀 때는 한자 숫자를 사용해요. 삼천 원 = 3,000 won.",
+      "explanationKo": "돈을 셀 때는 한자 숫자를 사용해요. 삼천 원 = 3,000 won.",
+      "category": "숫자와 시간"
+    },
+    {
+      "id": 7,
+      "question": "How do you ask 'Where is the restroom?'",
+      "questionKo": "'화장실이 어디에 있나요?'를 어떻게 묻나요?",
+      "options": ["화장실이 뭐예요?", "화장실이 어디예요?", "화장실이 언제예요?", "화장실이 누구예요?"],
+      "optionsKo": ["화장실이 뭐예요?", "화장실이 어디예요?", "화장실이 언제예요?", "화장실이 누구예요?"],
+      "correctAnswer": 1,
+      "explanation": "'어디'는 'where'를 의미하고, '이/가'는 주어를 나타내요.",
+      "explanationKo": "'어디'는 'where'를 의미하고, '이/가'는 주어를 나타내요.",
+      "category": "장소와 위치"
+    },
+    {
+      "id": 8,
+      "question": "What does '위'mean?",
+      "questionKo": "'위'는 무슨 뜻인가요?",
+      "options": ["Below", "Above", "Beside", "Behind"],
+      "optionsKo": ["아래", "위", "옆", "뒤"],
+      "correctAnswer": 1,
+      "explanation": "'위'는 위쪽, 'above/on top'을 의미해요.",
+      "explanationKo": "'위'는 위쪽, 'above/on top'을 의미해요.",
+      "category": "장소와 위치"
+    },
+    {
+      "id": 9,
+      "question": "How do you ask 'What are you doing?'",
+      "questionKo": "'지금 뭐 하고 있어요?'를 어떻게 묻나요?",
+      "options": ["어디 가요?", "뭐 해요?", "누구예요?", "언제예요?"],
+      "optionsKo": ["어디 가요?", "뭐 해요?", "누구예요?", "언제예요?"],
+      "correctAnswer": 1,
+      "explanation": "'뭐'는 'what'을, '해요'는 'do/doing'을 의미해요.",
+      "explanationKo": "'뭐'는 'what'을, '해요'는 'do/doing'을 의미해요.",
+      "category": "일상 생활"
+    },
+    {
+      "id": 10,
+      "question": "What does '얼마예요?'mean?",
+      "questionKo": "'얼마예요?'는 무슨 뜻인가요?",
+      "options": ["What is it?", "Where is it?", "How much is it?", "When is it?"],
+      "optionsKo": ["뭐예요?", "어디에 있어요?", "얼마예요?", "언제예요?"],
+      "correctAnswer": 2,
+      "explanation": "'얼마예요?'는 'How much?'를 의미해요.",
+      "explanationKo": "'얼마예요?'는 'How much?'를 의미해요.",
+      "category": "일상 생활"
+    },
+    {
+      "id": 11,
+      "question": "How do you say 'It's delicious'?",
+      "questionKo": "'맛있어요'를 어떻게 말하나요?",
+      "options": ["맛없어요", "맛있어요", "괜찮아요", "좋아요"],
+      "optionsKo": ["맛없어요", "맛있어요", "괜찮아요", "좋아요"],
+      "correctAnswer": 1,
+      "explanation": "'맛있어요'는 'delicious/tasty'를 의미해요.",
+      "explanationKo": "'맛있어요'는 'delicious/tasty'를 의미해요.",
+      "category": "일상 생활"
+    },
+    {
+      "id": 12,
+      "question": "How do you say 'I'm happy'?",
+      "questionKo": "'행복해요'를 어떻게 말하나요?",
+      "options": ["슬퍼요", "행복해요", "화나요", "무서워요"],
+      "optionsKo": ["슬퍼요", "행복해요", "화나요", "무서워요"],
+      "correctAnswer": 1,
+      "explanation": "'행복해요'는 'I'm happy'를 의미해요.",
+      "explanationKo": "'행복해요'는 'I'm happy'를 의미해요.",
+      "category": "감정 표현"
+    },
+    {
+      "id": 13,
+      "question": "What does '피곤해요'mean?",
+      "questionKo": "'피곤해요'는 무슨 뜻인가요?",
+      "options": ["I'm excited", "I'm bored", "I'm tired", "I'm sad"],
+      "optionsKo": ["신나요", "지루해요", "피곤해요", "슬퍼요"],
+      "correctAnswer": 2,
+      "explanation": "'피곤해요'는 'I'm tired'를 의미해요.",
+      "explanationKo": "'피곤해요'는 'I'm tired'를 의미해요.",
+      "category": "감정 표현"
+    },
+    {
+      "id": 14,
+      "question": "How do you say 'I'm angry'?",
+      "questionKo": "'화가 나요'를 어떻게 말하나요?",
+      "options": ["기분이 좋아요", "화나요", "신나요", "외로워요"],
+      "optionsKo": ["기분이 좋아요", "화나요", "신나요", "외로워요"],
+      "correctAnswer": 1,
+      "explanation": "'화나요'는 'I'm angry'를 의미해요.",
+      "explanationKo": "'화나요'는 'I'm angry'를 의미해요.",
+      "category": "감정 표현"
+    },
+    {
+      "id": 15,
+      "question": "What does 'AM' translate to in Korean?",
+      "questionKo": "'AM'을 한국어로 어떻게 말하나요?",
+      "options": ["오전", "오후", "아침", "저녁"],
+      "optionsKo": ["오전", "오후", "아침", "저녁"],
+      "correctAnswer": 0,
+      "explanation": "'오전'은 AM(아침)을 의미하고, '오후'는 PM(저녁)을 의미해요.",
+      "explanationKo": "'오전'은 AM(아침)을 의미하고, '오후'는 PM(저녁)을 의미해요.",
+      "category": "숫자와 시간"
+    },
+    {
+      "id": 16,
+      "question": "Which particle is used to indicate a location?",
+      "questionKo": "장소를 나타내는 조사는 무엇인가요?",
+      "options": ["을/를", "이/가", "에", "도"],
+      "optionsKo": ["을/를", "이/가", "에", "도"],
+      "correctAnswer": 2,
+      "explanation": "'에'는 장소나 위치를 나타내는 조사예요.",
+      "explanationKo": "'에'는 장소나 위치를 나타내는 조사예요.",
+      "category": "장소와 위치"
+    },
+    {
+      "id": 17,
+      "question": "How do you introduce your name formally?",
+      "questionKo": "이름을 정중하게 소개하는 방법은 무엇인가요?",
+      "options": ["나는 ___이야", "내 이름은 ___야", "제 이름은 ___입니다", "저 ___예요"],
+      "optionsKo": ["나는 ___이야", "내 이름은 ___야", "제 이름은 ___입니다", "저 ___예요"],
+      "correctAnswer": 2,
+      "explanation": "'제 이름은 ___입니다'는 가장 정중한 이름 소개 방법이에요.",
+      "explanationKo": "'제 이름은 ___입니다'는 가장 정중한 이름 소개 방법이에요.",
+      "category": "기본 인사"
+    },
+    {
+      "id": 18,
+      "question": "What does '수고하세요'mean?",
+      "questionKo": "'수고하세요'는 무슨 뜻인가요?",
+      "options": ["Goodbye", "Thank you", "Good work / Keep it up", "I'm sorry"],
+      "optionsKo": ["안녕히 가세요", "감사합니다", "수고하세요 / 수고 많으세요", "죄송합니다"],
+      "correctAnswer": 2,
+      "explanation": "'수고하세요'는 일하는 사람을 격려하는 한국 특유의 표현이에요.",
+      "explanationKo": "'수고하세요'는 일하는 사람을 격려하는 한국 특유의 표현이에요.",
+      "category": "일상 생활"
+    },
+    {
+      "id": 19,
+      "question": "How do you say 'I'm excited'?",
+      "questionKo": "'신나요'를 어떻게 말하나요?",
+      "options": ["슬퍼요", "걱정돼요", "신나요", "피곤해요"],
+      "optionsKo": ["슬퍼요", "걱정돼요", "신나요", "피곤해요"],
+      "correctAnswer": 2,
+      "explanation": "'신나요'는 'I'm excited'를 의미해요.",
+      "explanationKo": "'신나요'는 'I'm excited'를 의미해요.",
+      "category": "감정 표현"
+    },
+    {
+      "id": 20,
+      "question": "What does '여기'mean?",
+      "questionKo": "'여기'는 무슨 뜻인가요?",
+      "options": ["There", "Over there", "Here", "Somewhere"],
+      "optionsKo": ["거기", "저기", "여기", "어딘가"],
+      "correctAnswer": 2,
+      "explanation": "'여기'는 here(가까운 곳)을 의미해요.",
+      "explanationKo": "'여기'는 here(가까운 곳)을 의미해요.",
+      "category": "장소와 위치"
+    }
+  ]
+}

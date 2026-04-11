@@ -1,0 +1,408 @@
+{
+  "title": "직장·업무 관련 표현",
+  "subtitle": "한국어로 직장과 업무에 대해 이야기하는 방법을 배워요",
+  "totalSteps": 11,
+  "lessons": [
+    {
+      "stepNumber": 1,
+      "type": "single_expression",
+      "expression": {
+        "korean": "회사",
+        "romanization": "hoesa",
+        "meaning": "Company",
+        "explanation": "일하는 조직이나 기업을 의미해요.",
+        "whenToUse": "직장에 대해 이야기할 때",
+        "examples": [
+          {
+            "korean": "어느 회사에 다녀요?",
+            "romanization": "eoneu hoesae danyeoyo?",
+            "meaning": "Which company do you work for?"
+          },
+          {
+            "korean": "저는 IT 회사에서 일해요.",
+            "romanization": "jeoneun IT hoesaeseo ilhaeyo.",
+            "meaning": "I work at an IT company."
+          }
+        ],
+        "culturalTip": "한국의 회사 문화는 위계질서와 팀워크를 중시해요.",
+        "explanationEn": "It refers to an organization or company where people work.",
+        "whenToUseEn": "\"When talking about the workplace\"",
+        "culturalTipEn": "Korean company culture places a strong emphasis on hierarchy and teamwork."
+      }
+    },
+    {
+      "stepNumber": 2,
+      "type": "single_expression",
+      "expression": {
+        "korean": "일하다 / 근무하다",
+        "romanization": "ilhada / geunmuhada",
+        "meaning": "To work",
+        "explanation": "직업 활동을 하는 것을 의미해요. '근무하다'가 더 공식적이에요.",
+        "whenToUse": "업무에 대해 말할 때",
+        "examples": [
+          {
+            "korean": "저는 회사에서 일해요.",
+            "romanization": "jeoneun hoesaeseo ilhaeyo.",
+            "meaning": "I work at a company."
+          },
+          {
+            "korean": "월요일부터 금요일까지 근무해요.",
+            "romanization": "woryorilbuteo geumyorilkkaji geunmuhaeyo.",
+            "meaning": "I work from Monday to Friday."
+          }
+        ],
+        "culturalTip": "한국은 주 5일 근무가 일반적이지만, 업무 시간이 긴 편이에요.",
+        "explanationEn": "It means engaging in professional activities. \"근무하다\" (geunmu-hada) is more formal.",
+        "whenToUseEn": "\"When talking about work\"",
+        "culturalTipEn": "In Korea, a five-day workweek is common, but the working hours tend to be long."
+      }
+    },
+    {
+      "stepNumber": 3,
+      "type": "single_expression",
+      "expression": {
+        "korean": "상사 / 동료 / 부하",
+        "romanization": "sangsa / dongnyo / buha",
+        "meaning": "Boss / Colleague / Subordinate",
+        "explanation": "직장에서의 관계를 나타내는 단어예요.",
+        "whenToUse": "직장 내 관계를 설명할 때",
+        "examples": [
+          {
+            "korean": "우리 상사는 친절해요.",
+            "romanization": "uri sangsaneun chinjeolhaeyo.",
+            "meaning": "Our boss is kind."
+          },
+          {
+            "korean": "동료들과 잘 지내요.",
+            "romanization": "dongnyodeulgwa jal jinaeyo.",
+            "meaning": "I get along well with my colleagues."
+          }
+        ],
+        "culturalTip": "한국 회사에서는 직급과 나이에 따른 호칭이 중요해요!",
+        "explanationEn": "This is a word that indicates relationships in the workplace.",
+        "whenToUseEn": "\"When describing relationships in the workplace\"",
+        "culturalTipEn": "In Korean companies, titles based on rank and age are very important!"
+      }
+    },
+    {
+      "stepNumber": 4,
+      "type": "single_expression",
+      "expression": {
+        "korean": "회의",
+        "romanization": "hoeui",
+        "meaning": "Meeting",
+        "explanation": "여러 사람이 모여 의논하는 것을 의미해요.",
+        "whenToUse": "회의에 대해 이야기할 때",
+        "examples": [
+          {
+            "korean": "오후에 회의가 있어요.",
+            "romanization": "ohue hoeuiga isseoyo.",
+            "meaning": "I have a meeting in the afternoon."
+          },
+          {
+            "korean": "회의가 몇 시에 시작해요?",
+            "romanization": "hoeuiga myeot sie sijakaeyo?",
+            "meaning": "What time does the meeting start?"
+          }
+        ],
+        "culturalTip": "한국 회사에서는 회의가 자주 있고, 긴 편이에요.",
+        "explanationEn": "It means a gathering of several people to discuss something.",
+        "whenToUseEn": "\"When talking about a meeting\"",
+        "culturalTipEn": "In Korean companies, meetings are frequent and tend to be lengthy."
+      }
+    },
+    {
+      "stepNumber": 5,
+      "type": "single_expression",
+      "expression": {
+        "korean": "프로젝트 / 업무",
+        "romanization": "peurojekteu / eopmu",
+        "meaning": "Project / Work/Task",
+        "explanation": "해야 할 일이나 과제를 의미해요.",
+        "whenToUse": "업무 내용을 설명할 때",
+        "examples": [
+          {
+            "korean": "지금 새 프로젝트를 하고 있어요.",
+            "romanization": "jigeum sae peurojekteureul hago isseoyo.",
+            "meaning": "I'm working on a new project now."
+          },
+          {
+            "korean": "업무가 많아서 바빠요.",
+            "romanization": "eopmuga manaseo bappayo.",
+            "meaning": "I'm busy because I have a lot of work."
+          }
+        ],
+        "culturalTip": "한국 회사원들은 업무량이 많은 편이에요.",
+        "explanationEn": "It means tasks or assignments that need to be done.",
+        "whenToUseEn": "\"When explaining the details of a task\"",
+        "culturalTipEn": "Korean office workers tend to have a heavy workload."
+      }
+    },
+    {
+      "stepNumber": 6,
+      "type": "single_expression",
+      "expression": {
+        "korean": "출근하다 / 퇴근하다",
+        "romanization": "chulgeunhada / toegerunhada",
+        "meaning": "To go to work / To leave work",
+        "explanation": "회사에 가거나 회사에서 나올 때 사용하는 표현이에요.",
+        "whenToUse": "출퇴근에 대해 말할 때",
+        "examples": [
+          {
+            "korean": "아침 9시에 출근해요.",
+            "romanization": "achim ahop sie chulgeunhaeyo.",
+            "meaning": "I go to work at 9 AM."
+          },
+          {
+            "korean": "보통 몇 시에 퇴근해요?",
+            "romanization": "botong myeot sie toegerunhaeyo?",
+            "meaning": "What time do you usually leave work?"
+          }
+        ],
+        "culturalTip": "한국에서는 상사보다 먼저 퇴근하기 어려운 문화가 있었지만, 요즘은 바뀌고 있어요.",
+        "explanationEn": "This is an expression used when going to or leaving the company.",
+        "whenToUseEn": "\"When talking about commuting\"",
+        "culturalTipEn": "In Korea, there used to be a culture where it was difficult to leave work before your boss, but these days, that is changing."
+      }
+    },
+    {
+      "stepNumber": 7,
+      "type": "single_expression",
+      "expression": {
+        "korean": "야근하다 / 초과근무하다",
+        "romanization": "yageunhada / chogwageunmuhada",
+        "meaning": "To work overtime",
+        "explanation": "정규 근무 시간 이후에도 일하는 것을 의미해요.",
+        "whenToUse": "초과 근무에 대해 말할 때",
+        "examples": [
+          {
+            "korean": "오늘 야근해야 해요.",
+            "romanization": "oneul yageunhaeya haeyo.",
+            "meaning": "I have to work overtime today."
+          },
+          {
+            "korean": "이번 주에 야근을 많이 했어요.",
+            "romanization": "ibeon jue yageuneul mani haesseoyo.",
+            "meaning": "I worked overtime a lot this week."
+          }
+        ],
+        "culturalTip": "한국에서는 야근이 흔했지만, 최근 워라밸(work-life balance)을 중시하는 문화로 바뀌고 있어요.",
+        "explanationEn": "It means working after regular working hours.",
+        "whenToUseEn": "\"When talking about overtime work\"",
+        "culturalTipEn": "In Korea, working late was common, but recently there has been a shift towards a culture that values work-life balance."
+      }
+    },
+    {
+      "stepNumber": 8,
+      "type": "single_expression",
+      "expression": {
+        "korean": "보고서",
+        "romanization": "bogoseo",
+        "meaning": "Report",
+        "explanation": "업무 내용이나 결과를 정리한 문서예요.",
+        "whenToUse": "보고서 작업에 대해 말할 때",
+        "examples": [
+          {
+            "korean": "보고서를 작성해야 해요.",
+            "romanization": "bogoseoreul jakseong-haeya haeyo.",
+            "meaning": "I have to write a report."
+          },
+          {
+            "korean": "보고서 제출 마감이 내일이에요.",
+            "romanization": "bogoseo jechul magami naeir-ieyo.",
+            "meaning": "The report submission deadline is tomorrow."
+          }
+        ],
+        "culturalTip": "한국 회사에서는 문서 작업이 많은 편이에요.",
+        "explanationEn": "This is a document summarizing the details or results of the work.",
+        "whenToUseEn": "\"When talking about report work\"",
+        "culturalTipEn": "In Korean companies, there tends to be a lot of document work."
+      }
+    },
+    {
+      "stepNumber": 9,
+      "type": "single_expression",
+      "expression": {
+        "korean": "수고하셨습니다",
+        "romanization": "sugohasyeotseumnida",
+        "meaning": "Thank you for your hard work",
+        "explanation": "일을 마친 사람에게 감사와 격려를 표현하는 말이에요.",
+        "whenToUse": "퇴근할 때, 일을 마쳤을 때",
+        "examples": [
+          {
+            "korean": "오늘 하루도 수고하셨습니다!",
+            "romanization": "oneul harudo sugohasyeotseumnida!",
+            "meaning": "Thank you for your hard work today!"
+          },
+          {
+            "korean": "수고하셨습니다. 먼저 퇴근하겠습니다.",
+            "romanization": "sugohasyeotseumnida. meonjeo toegeunhagesseumnida.",
+            "meaning": "Thank you for your work. I'll leave first."
+          }
+        ],
+        "culturalTip": "'수고하셨습니다'는 한국 직장 문화에서 매우 중요한 인사예요!",
+        "explanationEn": "It's a phrase used to express gratitude and encouragement to someone who has finished their work.",
+        "whenToUseEn": "\"When leaving work, when finishing tasks.\"",
+        "culturalTipEn": "\"'수고하셨습니다' is a very important greeting in Korean workplace culture!\""
+      }
+    },
+    {
+      "stepNumber": 10,
+      "type": "single_expression",
+      "expression": {
+        "korean": "휴가 / 연차",
+        "romanization": "hyuga / yeoncha",
+        "meaning": "Vacation / Annual leave",
+        "explanation": "일하지 않고 쉬는 기간을 의미해요.",
+        "whenToUse": "휴가에 대해 이야기할 때",
+        "examples": [
+          {
+            "korean": "다음 주에 휴가예요.",
+            "romanization": "daeum jue hyugayeyo.",
+            "meaning": "I'm on vacation next week."
+          },
+          {
+            "korean": "연차를 사용하고 싶어요.",
+            "romanization": "yeonchareul sayonghago sipeoyo.",
+            "meaning": "I want to use my annual leave."
+          }
+        ],
+        "culturalTip": "한국에서는 연차 사용률이 낮았지만, 최근 개선되고 있어요.",
+        "explanationEn": "It means a period of rest without working.",
+        "whenToUseEn": "\"When talking about vacation\"",
+        "culturalTipEn": "In Korea, the usage rate of annual leave was low, but it has been improving recently."
+      }
+    },
+    {
+      "stepNumber": 11,
+      "type": "quiz",
+      "quiz": {
+        "title": "복습 퀴즈",
+        "description": "직장과 업무 관련 표현을 복습해볼까요?",
+        "questions": [
+          {
+            "question": "How do you say 'I work at a company'?",
+            "questionKo": "'회사에서 일해요'를 영어로 어떻게 말하나요?",
+            "options": [
+              "회사에 가요",
+              "회사에서 일해요",
+              "회사를 봐요",
+              "회사가 있어요"
+            ],
+            "optionsKo": [
+              "회사에 가요",
+              "회사에서 일해요",
+              "회사를 봐요",
+              "회사가 있어요"
+            ],
+            "optionsVi": [
+              "회사에 가요 (đi đến công ty)",
+              "회사에서 일해요 (làm việc ở công ty)",
+              "회사를 봐요 (xem công ty)",
+              "회사가 있어요 (có công ty)"
+            ],
+            "correctAnswer": 1,
+            "explanation": "'회사에서 일해요'는 'I work at a company'를 의미해요."
+          },
+          {
+            "question": "What does '회의'mean?",
+            "questionKo": "'회의'는 무슨 뜻인가요?",
+            "options": [
+              "Report",
+              "Project",
+              "Meeting",
+              "Office"
+            ],
+            "optionsKo": [
+              "보고서",
+              "프로젝트",
+              "회의",
+              "사무실"
+            ],
+            "optionsVi": [
+              "Báo cáo",
+              "Dự án",
+              "Cuộc họp",
+              "Văn phòng"
+            ],
+            "correctAnswer": 2,
+            "explanation": "'회의'는 'meeting'을 의미해요."
+          },
+          {
+            "question": "How do you say 'to work overtime'?",
+            "questionKo": "'야근하다'를 영어로 어떻게 말하나요?",
+            "options": [
+              "출근하다",
+              "퇴근하다",
+              "야근하다",
+              "휴가하다"
+            ],
+            "optionsKo": [
+              "출근하다",
+              "퇴근하다",
+              "야근하다",
+              "휴가하다"
+            ],
+            "optionsVi": [
+              "출근하다 (đi làm)",
+              "퇴근하다 (tan làm)",
+              "야근하다 (làm thêm giờ)",
+              "휴가하다 (nghỉ phép)"
+            ],
+            "correctAnswer": 2,
+            "explanation": "'야근하다'는 'to work overtime'을 의미해요."
+          },
+          {
+            "question": "What does '수고하셨습니다'mean?",
+            "questionKo": "'수고하셨습니다'는 무슨 뜻인가요?",
+            "options": [
+              "Good morning",
+              "Thank you for your hard work",
+              "See you tomorrow",
+              "Have a good day"
+            ],
+            "optionsKo": [
+              "좋은 아침이에요",
+              "수고하셨습니다",
+              "내일 봐요",
+              "좋은 하루 보내세요"
+            ],
+            "optionsVi": [
+              "Chào buổi sáng",
+              "Cảm ơn bạn đã làm việc vất vả",
+              "Hẹn gặp lại ngày mai",
+              "Chúc bạn có ngày tốt lành"
+            ],
+            "correctAnswer": 1,
+            "explanation": "'수고하셨습니다'는 'Thank you for your hard work'를 의미해요."
+          },
+          {
+            "question": "How do you say 'annual leave'?",
+            "questionKo": "'연차'를 영어로 어떻게 말하나요?",
+            "options": [
+              "휴가",
+              "연차",
+              "회의",
+              "업무"
+            ],
+            "optionsKo": [
+              "휴가",
+              "연차",
+              "회의",
+              "업무"
+            ],
+            "optionsVi": [
+              "휴가 (nghỉ phép)",
+              "연차 (nghỉ phép năm)",
+              "회의 (cuộc họp)",
+              "업무 (công việc)"
+            ],
+            "correctAnswer": 1,
+            "explanation": "'연차'는 'annual leave'를 의미해요."
+          }
+        ]
+      }
+    }
+  ],
+  "subtitleEn": "I'm learning how to talk about work and jobs in Korean."
+}

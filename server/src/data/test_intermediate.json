@@ -1,0 +1,228 @@
+{
+  "title": "중급 마무리 테스트",
+  "subtitle": "중급 1~5단계에서 배운 내용을 종합적으로 확인해요",
+  "totalQuestions": 20,
+  "passingScore": 14,
+  "questions": [
+    {
+      "id": 1,
+      "question": "How does a female call her older brother?",
+      "questionKo": "여자가 나이 많은 남자 형제를 뭐라고 부르나요?",
+      "options": ["형", "오빠", "언니", "동생"],
+      "optionsKo": ["형", "오빠", "언니", "동생"],
+      "correctAnswer": 1,
+      "explanation": "여자는 나이 많은 남자 형제를 '오빠'라고 불러요.",
+      "explanationKo": "여자는 나이 많은 남자 형제를 '오빠'라고 불러요.",
+      "category": "가족과 친구"
+    },
+    {
+      "id": 2,
+      "question": "What does '동생'mean?",
+      "questionKo": "'동생'은 무슨 뜻인가요?",
+      "options": ["Older brother", "Older sister", "Younger sibling", "Friend"],
+      "optionsKo": ["나이 많은 남자 형제", "나이 많은 여자 형제", "나이 어린 형제자매", "친구"],
+      "correctAnswer": 2,
+      "explanation": "'동생'은 나이 어린 형제자매를 의미해요.",
+      "explanationKo": "'동생'은 나이 어린 형제자매를 의미해요.",
+      "category": "가족과 친구"
+    },
+    {
+      "id": 3,
+      "question": "How do you say 'My family has 4 people'?",
+      "questionKo": "'우리 가족은 4명이에요'를 어떻게 말하나요?",
+      "options": ["우리 가족은 네 개예요", "우리 가족은 네 명이에요", "우리 가족은 네 분이에요", "우리 가족은 사예요"],
+      "optionsKo": ["우리 가족은 네 개예요", "우리 가족은 네 명이에요", "우리 가족은 네 분이에요", "우리 가족은 사예요"],
+      "correctAnswer": 1,
+      "explanation": "사람을 셀 때는 '명'을 사용해요. 네(4) + 명(people).",
+      "explanationKo": "사람을 셀 때는 '명'을 사용해요. 네(4) + 명(people).",
+      "category": "가족과 친구"
+    },
+    {
+      "id": 4,
+      "question": "What does '맑아요'mean?",
+      "questionKo": "'맑아요'는 무슨 뜻인가요?",
+      "options": ["It's cloudy", "It's clear", "It's raining", "It's windy"],
+      "optionsKo": ["흐려요", "맑아요", "비가 와요", "바람이 불어요"],
+      "correctAnswer": 1,
+      "explanation": "'맑아요'는 하늘이 맑다는 의미예요.",
+      "explanationKo": "'맑아요'는 하늘이 맑다는 의미예요.",
+      "category": "날씨와 계절"
+    },
+    {
+      "id": 5,
+      "question": "How do you say 'It's snowing'?",
+      "questionKo": "'눈이 와요'를 어떻게 말하나요?",
+      "options": ["비가 와요", "바람이 불어요", "눈이 와요", "흐려요"],
+      "optionsKo": ["비가 와요", "바람이 불어요", "눈이 와요", "흐려요"],
+      "correctAnswer": 2,
+      "explanation": "'눈이 와요'는 'It's snowing'을 의미해요.",
+      "explanationKo": "'눈이 와요'는 'It's snowing'을 의미해요.",
+      "category": "날씨와 계절"
+    },
+    {
+      "id": 6,
+      "question": "What are the four seasons in order?",
+      "questionKo": "네 계절을 순서대로 말하면 무엇인가요?",
+      "options": ["여름, 봄, 가을, 겨울", "봄, 여름, 가을, 겨울", "겨울, 봄, 여름, 가을", "가을, 겨울, 봄, 여름"],
+      "optionsKo": ["여름, 봄, 가을, 겨울", "봄, 여름, 가을, 겨울", "겨울, 봄, 여름, 가을", "가을, 겨울, 봄, 여름"],
+      "correctAnswer": 1,
+      "explanation": "봄(spring), 여름(summer), 가을(fall), 겨울(winter) 순서예요.",
+      "explanationKo": "봄(spring), 여름(summer), 가을(fall), 겨울(winter) 순서예요.",
+      "category": "날씨와 계절"
+    },
+    {
+      "id": 7,
+      "question": "How do you ask 'What's your hobby?'",
+      "questionKo": "'취미가 뭐예요?'를 어떻게 묻나요?",
+      "options": ["취미가 어디예요?", "취미가 뭐예요?", "취미가 언제예요?", "취미가 누구예요?"],
+      "optionsKo": ["취미가 어디예요?", "취미가 뭐예요?", "취미가 언제예요?", "취미가 누구예요?"],
+      "correctAnswer": 1,
+      "explanation": "'취미가 뭐예요?'는 'What's your hobby?'를 의미해요.",
+      "explanationKo": "'취미가 뭐예요?'는 'What's your hobby?'를 의미해요.",
+      "category": "취미와 여가"
+    },
+    {
+      "id": 8,
+      "question": "What does '운동하다'mean?",
+      "questionKo": "'운동하다'는 무슨 뜻인가요?",
+      "options": ["To sleep", "To exercise", "To eat", "To study"],
+      "optionsKo": ["자다", "운동하다", "먹다", "공부하다"],
+      "correctAnswer": 1,
+      "explanation": "'운동하다'는 'to exercise'를 의미해요.",
+      "explanationKo": "'운동하다'는 'to exercise'를 의미해요.",
+      "category": "취미와 여가"
+    },
+    {
+      "id": 9,
+      "question": "How do you say 'to watch a movie'?",
+      "questionKo": "'영화를 보다'를 어떻게 말하나요?",
+      "options": ["영화를 듣다", "영화를 보다", "영화를 읽다", "영화를 하다"],
+      "optionsKo": ["영화를 듣다", "영화를 보다", "영화를 읽다", "영화를 하다"],
+      "correctAnswer": 1,
+      "explanation": "'영화를 보다'는 'to watch a movie'를 의미해요.",
+      "explanationKo": "'영화를 보다'는 'to watch a movie'를 의미해요.",
+      "category": "취미와 여가"
+    },
+    {
+      "id": 10,
+      "question": "How do you say 'I have a headache'?",
+      "questionKo": "'머리가 아파요'를 어떻게 말하나요?",
+      "options": ["배가 아파요", "머리가 아파요", "목이 아파요", "다리가 아파요"],
+      "optionsKo": ["배가 아파요", "머리가 아파요", "목이 아파요", "다리가 아파요"],
+      "correctAnswer": 1,
+      "explanation": "'머리가 아파요'는 'I have a headache'를 의미해요.",
+      "explanationKo": "'머리가 아파요'는 'I have a headache'를 의미해요.",
+      "category": "건강 표현"
+    },
+    {
+      "id": 11,
+      "question": "What does '감기'mean?",
+      "questionKo": "'감기'는 무슨 뜻인가요?",
+      "options": ["Fever", "Headache", "Cold", "Medicine"],
+      "optionsKo": ["열", "두통", "감기", "약"],
+      "correctAnswer": 2,
+      "explanation": "'감기'는 'cold (illness)'를 의미해요.",
+      "explanationKo": "'감기'는 'cold (illness)'를 의미해요.",
+      "category": "건강 표현"
+    },
+    {
+      "id": 12,
+      "question": "How do you say 'Get well soon'?",
+      "questionKo": "'빨리 나으세요'를 어떻게 말하나요?",
+      "options": ["안녕하세요", "감사합니다", "빨리 나으세요", "수고하세요"],
+      "optionsKo": ["안녕하세요", "감사합니다", "빨리 나으세요", "수고하세요"],
+      "correctAnswer": 2,
+      "explanation": "'빨리 나으세요'는 'Get well soon'을 의미해요.",
+      "explanationKo": "'빨리 나으세요'는 'Get well soon'을 의미해요.",
+      "category": "건강 표현"
+    },
+    {
+      "id": 13,
+      "question": "How do you say 'I want to go'?",
+      "questionKo": "'가고 싶어요'를 어떻게 말하나요?",
+      "options": ["가요", "가고 싶어요", "갔어요", "갈 거예요"],
+      "optionsKo": ["가요", "가고 싶어요", "갔어요", "갈 거예요"],
+      "correctAnswer": 1,
+      "explanation": "'-고 싶어요'는 'I want to'를 의미해요.",
+      "explanationKo": "'-고 싶어요'는 'I want to'를 의미해요.",
+      "category": "의견 표현"
+    },
+    {
+      "id": 14,
+      "question": "What does '제 생각에는'mean?",
+      "questionKo": "'제 생각에는'은 무슨 뜻인가요?",
+      "options": ["In your opinion", "In my opinion", "I think so", "Maybe"],
+      "optionsKo": ["당신 생각에는", "제 생각에는", "그렇게 생각해요", "아마도"],
+      "correctAnswer": 1,
+      "explanation": "'제 생각에는'은 'In my opinion'을 의미해요.",
+      "explanationKo": "'제 생각에는'은 'In my opinion'을 의미해요.",
+      "category": "의견 표현"
+    },
+    {
+      "id": 15,
+      "question": "How do you say 'I was surprised'?",
+      "questionKo": "'놀랐어요'를 어떻게 말하나요?",
+      "options": ["기대했어요", "실망했어요", "놀랐어요", "생각했어요"],
+      "optionsKo": ["기대했어요", "실망했어요", "놀랐어요", "생각했어요"],
+      "correctAnswer": 2,
+      "explanation": "'놀랐어요'는 'I was surprised'를 의미해요.",
+      "explanationKo": "'놀랐어요'는 'I was surprised'를 의미해요.",
+      "category": "의견 표현"
+    },
+    {
+      "id": 16,
+      "question": "How does a male call his older sister?",
+      "questionKo": "남자가 나이 많은 여자 형제를 뭐라고 부르나요?",
+      "options": ["언니", "누나", "오빠", "형"],
+      "optionsKo": ["언니", "누나", "오빠", "형"],
+      "correctAnswer": 1,
+      "explanation": "남자는 나이 많은 여자 형제를 '누나'라고 불러요.",
+      "explanationKo": "남자는 나이 많은 여자 형제를 '누나'라고 불러요.",
+      "category": "가족과 친구"
+    },
+    {
+      "id": 17,
+      "question": "What does '습하다'mean?",
+      "questionKo": "'습하다'는 무슨 뜻인가요?",
+      "options": ["Dry", "Humid", "Hot", "Cold"],
+      "optionsKo": ["건조하다", "습하다", "낥다", "차갑다"],
+      "correctAnswer": 1,
+      "explanation": "'습하다'는 'humid'를 의미해요.",
+      "explanationKo": "'습하다'는 'humid'를 의미해요.",
+      "category": "날씨와 계절"
+    },
+    {
+      "id": 18,
+      "question": "How do you say 'when I have time'?",
+      "questionKo": "'시간이 있을 때'를 어떻게 말하나요?",
+      "options": ["시간이 없을 때", "시간이 있을 때", "시간이 많을 때", "시간이 적을 때"],
+      "optionsKo": ["시간이 없을 때", "시간이 있을 때", "시간이 많을 때", "시간이 적을 때"],
+      "correctAnswer": 1,
+      "explanation": "'시간이 있을 때'는 'when I have time'을 의미해요.",
+      "explanationKo": "'시간이 있을 때'는 'when I have time'을 의미해요.",
+      "category": "취미와 여가"
+    },
+    {
+      "id": 19,
+      "question": "What does '약'mean?",
+      "questionKo": "'약'은 무슨 뜻인가요?",
+      "options": ["Hospital", "Medicine", "Doctor", "Rest"],
+      "optionsKo": ["병원", "약", "의사", "휴식"],
+      "correctAnswer": 1,
+      "explanation": "'약'은 'medicine'을 의미해요.",
+      "explanationKo": "'약'은 'medicine'을 의미해요.",
+      "category": "건강 표현"
+    },
+    {
+      "id": 20,
+      "question": "How do you express 'I think it will rain'?",
+      "questionKo": "'비가 올 것 같아요'를 어떻게 표현하나요?",
+      "options": ["비가 와요", "비가 왔어요", "비가 올 것 같아요", "비가 오고 싶어요"],
+      "optionsKo": ["비가 와요", "비가 왔어요", "비가 올 것 같아요", "비가 오고 싶어요"],
+      "correctAnswer": 2,
+      "explanation": "'것 같아요'는 추측을 나타내요.",
+      "explanationKo": "'것 같아요'는 추측을 나타내요.",
+      "category": "의견 표현"
+    }
+  ]
+}

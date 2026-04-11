@@ -1,0 +1,408 @@
+{
+  "title": "취미와 여가 활동",
+  "subtitle": "한국어로 취미와 여가 활동에 대해 이야기하는 방법을 배워요",
+  "totalSteps": 11,
+  "lessons": [
+    {
+      "stepNumber": 1,
+      "type": "single_expression",
+      "expression": {
+        "korean": "취미",
+        "romanization": "chwimi",
+        "meaning": "Hobby",
+        "explanation": "여가 시간에 즐기는 활동을 의미해요.",
+        "whenToUse": "취미에 대해 이야기할 때",
+        "examples": [
+          {
+            "korean": "취미가 뭐예요?",
+            "romanization": "chwimiga mwoyeyo?",
+            "meaning": "What's your hobby?"
+          },
+          {
+            "korean": "제 취미는 독서예요.",
+            "romanization": "je chwimineun dokseoyeyo.",
+            "meaning": "My hobby is reading."
+          }
+        ],
+        "culturalTip": "한국 사람들은 자기소개할 때 취미를 자주 말해요!",
+        "explanationEn": "It refers to activities enjoyed during leisure time.",
+        "whenToUseEn": "\"When talking about hobbies\"",
+        "culturalTipEn": "Koreans often mention their hobbies when introducing themselves!"
+      }
+    },
+    {
+      "stepNumber": 2,
+      "type": "single_expression",
+      "expression": {
+        "korean": "운동하다",
+        "romanization": "undonghada",
+        "meaning": "To exercise",
+        "explanation": "몸을 움직이는 활동을 하다는 의미예요.",
+        "whenToUse": "운동에 대해 말할 때",
+        "examples": [
+          {
+            "korean": "저는 매일 운동해요.",
+            "romanization": "jeoneun maeil undonghaeyo.",
+            "meaning": "I exercise every day."
+          },
+          {
+            "korean": "운동하는 것을 좋아해요.",
+            "romanization": "undongha-neun geoseul joahaeyo.",
+            "meaning": "I like exercising."
+          }
+        ],
+        "culturalTip": "한국에서는 등산, 헬스, 요가가 인기 있는 운동이에요.",
+        "explanationEn": "It means to engage in activities that involve moving the body.",
+        "whenToUseEn": "\"When talking about exercise\"",
+        "culturalTipEn": "In Korea, hiking, gym workouts, and yoga are popular forms of exercise."
+      }
+    },
+    {
+      "stepNumber": 3,
+      "type": "single_expression",
+      "expression": {
+        "korean": "음악을 듣다",
+        "romanization": "eumageul deutda",
+        "meaning": "To listen to music",
+        "explanation": "음악을 감상하는 활동을 말해요.",
+        "whenToUse": "음악 감상 취미를 말할 때",
+        "examples": [
+          {
+            "korean": "저는 K-POP 음악을 자주 들어요.",
+            "romanization": "jeoneun K-POP eumageul jaju deureoyo.",
+            "meaning": "I often listen to K-POP music."
+          },
+          {
+            "korean": "음악 듣는 것을 좋아해요.",
+            "romanization": "eumak deutneun geoseul joahaeyo.",
+            "meaning": "I like listening to music."
+          }
+        ],
+        "culturalTip": "한국은 K-POP으로 유명하고, 음악 문화가 발달했어요!",
+        "explanationEn": "It refers to the activity of appreciating music.",
+        "whenToUseEn": "When talking about the hobby of listening to music",
+        "culturalTipEn": "Korea is famous for K-POP, and its music culture has developed significantly!"
+      }
+    },
+    {
+      "stepNumber": 4,
+      "type": "single_expression",
+      "expression": {
+        "korean": "영화를 보다",
+        "romanization": "yeonghwareul boda",
+        "meaning": "To watch a movie",
+        "explanation": "영화를 감상하는 활동을 말해요.",
+        "whenToUse": "영화 관람에 대해 말할 때",
+        "examples": [
+          {
+            "korean": "주말에 영화를 봤어요.",
+            "romanization": "jumare yeonghwareul bwasseoyo.",
+            "meaning": "I watched a movie on the weekend."
+          },
+          {
+            "korean": "영화 보러 갈래요?",
+            "romanization": "yeonghwa boreo gallaeyo?",
+            "meaning": "Do you want to go watch a movie?"
+          }
+        ],
+        "culturalTip": "한국의 영화관은 시설이 좋고, 한국 영화도 세계적으로 유명해요!",
+        "explanationEn": "It refers to the activity of enjoying a movie.",
+        "whenToUseEn": "\"When talking about watching movies\"",
+        "culturalTipEn": "Korean movie theaters have great facilities, and Korean films are also famous worldwide!"
+      }
+    },
+    {
+      "stepNumber": 5,
+      "type": "single_expression",
+      "expression": {
+        "korean": "책을 읽다",
+        "romanization": "chaegeul ilkda",
+        "meaning": "To read a book",
+        "explanation": "독서 활동을 의미해요.",
+        "whenToUse": "독서에 대해 말할 때",
+        "examples": [
+          {
+            "korean": "저녁에 책을 읽어요.",
+            "romanization": "jeonyeoge chaegeul ilgeoyo.",
+            "meaning": "I read a book in the evening."
+          },
+          {
+            "korean": "무슨 책을 읽어요?",
+            "romanization": "museun chaegeul ilgeoyo?",
+            "meaning": "What book are you reading?"
+          }
+        ],
+        "culturalTip": "한국에는 24시간 서점과 카페형 서점이 많아요!",
+        "explanationEn": "It means reading activities.",
+        "whenToUseEn": "\"When talking about reading\"",
+        "culturalTipEn": "In Korea, there are many 24-hour bookstores and café-style bookstores!"
+      }
+    },
+    {
+      "stepNumber": 6,
+      "type": "single_expression",
+      "expression": {
+        "korean": "게임하다",
+        "romanization": "geimhada",
+        "meaning": "To play games",
+        "explanation": "컴퓨터 게임이나 비디오 게임을 하는 것을 말해요.",
+        "whenToUse": "게임 취미에 대해 말할 때",
+        "examples": [
+          {
+            "korean": "친구와 게임해요.",
+            "romanization": "chinguwa geimhaeyo.",
+            "meaning": "I play games with my friend."
+          },
+          {
+            "korean": "게임하는 것을 좋아해요.",
+            "romanization": "geimhaneun geoseul joahaeyo.",
+            "meaning": "I like playing games."
+          }
+        ],
+        "culturalTip": "한국은 e스포츠가 매우 발달한 나라예요!",
+        "explanationEn": "It refers to playing computer games or video games.",
+        "whenToUseEn": "\"When talking about gaming as a hobby\"",
+        "culturalTipEn": "Korea is a country where e-sports are very well developed!"
+      }
+    },
+    {
+      "stepNumber": 7,
+      "type": "single_expression",
+      "expression": {
+        "korean": "요리하다",
+        "romanization": "yorihada",
+        "meaning": "To cook",
+        "explanation": "음식을 만드는 활동을 의미해요.",
+        "whenToUse": "요리에 대해 말할 때",
+        "examples": [
+          {
+            "korean": "주말에 요리를 자주 해요.",
+            "romanization": "jumare yorireul jaju haeyo.",
+            "meaning": "I often cook on weekends."
+          },
+          {
+            "korean": "한국 음식을 요리할 수 있어요.",
+            "romanization": "hanguk eumsigeul yorihal su isseoyo.",
+            "meaning": "I can cook Korean food."
+          }
+        ],
+        "culturalTip": "한국 요리는 다양하고, 요리 프로그램도 인기가 많아요!",
+        "explanationEn": "It means the activity of preparing food.",
+        "whenToUseEn": "\"When talking about cooking\"",
+        "culturalTipEn": "Korean cuisine is diverse, and cooking programs are very popular!"
+      }
+    },
+    {
+      "stepNumber": 8,
+      "type": "single_expression",
+      "expression": {
+        "korean": "여행하다",
+        "romanization": "yeohaenghada",
+        "meaning": "To travel",
+        "explanation": "다른 곳으로 가서 구경하고 즐기는 것을 말해요.",
+        "whenToUse": "여행에 대해 이야기할 때",
+        "examples": [
+          {
+            "korean": "저는 여행하는 것을 좋아해요.",
+            "romanization": "jeoneun yeohaenghaneun geoseul joahaeyo.",
+            "meaning": "I like traveling."
+          },
+          {
+            "korean": "어디로 여행 가고 싶어요?",
+            "romanization": "eodiro yeohaeng gago sipeoyo?",
+            "meaning": "Where do you want to travel to?"
+          }
+        ],
+        "culturalTip": "한국은 작지만 볼 곳이 많아요. 제주도가 특히 유명해요!",
+        "explanationEn": "It means going to another place to explore and enjoy.",
+        "whenToUseEn": "\"When talking about travel\"",
+        "culturalTipEn": "Korea is small, but there are many places to see. Jeju Island is especially famous!"
+      }
+    },
+    {
+      "stepNumber": 9,
+      "type": "single_expression",
+      "expression": {
+        "korean": "___을/를 배우다",
+        "romanization": "___eul/reul baeuda",
+        "meaning": "To learn ___",
+        "explanation": "새로운 것을 공부하거나 익히는 것을 의미해요.",
+        "whenToUse": "학습 활동에 대해 말할 때",
+        "examples": [
+          {
+            "korean": "저는 한국어를 배워요.",
+            "romanization": "jeoneun hangugeoreul baewoyo.",
+            "meaning": "I'm learning Korean."
+          },
+          {
+            "korean": "기타를 배우고 싶어요.",
+            "romanization": "gitareul baeugo sipeoyo.",
+            "meaning": "I want to learn guitar."
+          }
+        ],
+        "culturalTip": "한국 사람들은 자기계발을 중요하게 생각해서 다양한 것을 배워요!",
+        "explanationEn": "It means to study or learn something new.",
+        "whenToUseEn": "When talking about learning activities",
+        "culturalTipEn": "Koreans place a high value on self-improvement, so they learn a variety of things!"
+      }
+    },
+    {
+      "stepNumber": 10,
+      "type": "single_expression",
+      "expression": {
+        "korean": "시간이 있을 때",
+        "romanization": "sigani isseul ttae",
+        "meaning": "When I have time",
+        "explanation": "여유 시간이 있는 경우를 말할 때 사용해요.",
+        "whenToUse": "여가 시간 활동을 설명할 때",
+        "examples": [
+          {
+            "korean": "시간이 있을 때 운동해요.",
+            "romanization": "sigani isseul ttae undonghaeyo.",
+            "meaning": "I exercise when I have time."
+          },
+          {
+            "korean": "시간이 있을 때 뭐 해요?",
+            "romanization": "sigani isseul ttae mwo haeyo?",
+            "meaning": "What do you do when you have time?"
+          }
+        ],
+        "culturalTip": "한국의 직장인들은 바빠서 '워라밸(work-life balance)'을 중요하게 생각해요!",
+        "explanationEn": "It is used when talking about situations where there is free time.",
+        "whenToUseEn": "\"When describing leisure activities\"",
+        "culturalTipEn": "Korean workers are busy, so they consider 'work-life balance' to be very important!"
+      }
+    },
+    {
+      "stepNumber": 11,
+      "type": "quiz",
+      "quiz": {
+        "title": "복습 퀴즈",
+        "description": "취미와 여가 활동 표현을 복습해볼까요?",
+        "questions": [
+          {
+            "question": "How do you ask 'What's your hobby?'",
+            "questionKo": "'취미가 뭐예요?'를 영어로 어떻게 말하나요?",
+            "options": [
+              "취미가 어디예요?",
+              "취미가 뭐예요?",
+              "취미가 언제예요?",
+              "취미가 누구예요?"
+            ],
+            "optionsKo": [
+              "취미가 어디예요?",
+              "취미가 뭐예요?",
+              "취미가 언제예요?",
+              "취미가 누구예요?"
+            ],
+            "optionsVi": [
+              "취미가 어디예요? (sở thích ở đâu?)",
+              "취미가 뭐예요? (sở thích là gì?)",
+              "취미가 언제예요? (sở thích khi nào?)",
+              "취미가 누구예요? (sở thích là ai?)"
+            ],
+            "correctAnswer": 1,
+            "explanation": "'취미가 뭐예요?'는 'What's your hobby?'를 의미해요."
+          },
+          {
+            "question": "What does '운동하다'mean?",
+            "questionKo": "'운동하다'는 무슨 뜻인가요?",
+            "options": [
+              "To sleep",
+              "To exercise",
+              "To eat",
+              "To study"
+            ],
+            "optionsKo": [
+              "자다",
+              "운동하다",
+              "먹다",
+              "공부하다"
+            ],
+            "optionsVi": [
+              "Ngủ",
+              "Tập thể dục",
+              "Ăn",
+              "Học"
+            ],
+            "correctAnswer": 1,
+            "explanation": "'운동하다'는 'to exercise'를 의미해요."
+          },
+          {
+            "question": "How do you say 'to watch a movie'?",
+            "questionKo": "'영화를 보다'를 영어로 어떻게 말하나요?",
+            "options": [
+              "영화를 듣다",
+              "영화를 보다",
+              "영화를 읽다",
+              "영화를 하다"
+            ],
+            "optionsKo": [
+              "영화를 듣다",
+              "영화를 보다",
+              "영화를 읽다",
+              "영화를 하다"
+            ],
+            "optionsVi": [
+              "영화를 듣다 (nghe phim)",
+              "영화를 보다 (xem phim)",
+              "영화를 읽다 (đọc phim)",
+              "영화를 하다 (làm phim)"
+            ],
+            "correctAnswer": 1,
+            "explanation": "'영화를 보다'는 'to watch a movie'를 의미해요."
+          },
+          {
+            "question": "What does '요리하다'mean?",
+            "questionKo": "'요리하다'는 무슨 뜻인가요?",
+            "options": [
+              "To cook",
+              "To clean",
+              "To travel",
+              "To play"
+            ],
+            "optionsKo": [
+              "요리하다",
+              "청소하다",
+              "여행하다",
+              "놀다"
+            ],
+            "optionsVi": [
+              "Nấu ăn",
+              "Dọn dẹp",
+              "Du lịch",
+              "Chơi"
+            ],
+            "correctAnswer": 0,
+            "explanation": "'요리하다'는 'to cook'을 의미해요."
+          },
+          {
+            "question": "How do you say 'when I have time'?",
+            "questionKo": "'시간이 있을 때'를 영어로 어떻게 말하나요?",
+            "options": [
+              "시간이 없을 때",
+              "시간이 있을 때",
+              "시간이 많을 때",
+              "시간이 적을 때"
+            ],
+            "optionsKo": [
+              "시간이 없을 때",
+              "시간이 있을 때",
+              "시간이 많을 때",
+              "시간이 적을 때"
+            ],
+            "optionsVi": [
+              "시간이 없을 때 (khi không có thời gian)",
+              "시간이 있을 때 (khi có thời gian)",
+              "시간이 많을 때 (khi có nhiều thời gian)",
+              "시간이 적을 때 (khi có ít thời gian)"
+            ],
+            "correctAnswer": 1,
+            "explanation": "'시간이 있을 때'는 'when I have time'을 의미해요."
+          }
+        ]
+      }
+    }
+  ],
+  "subtitleEn": "I'm learning how to talk about hobbies and leisure activities in Korean."
+}

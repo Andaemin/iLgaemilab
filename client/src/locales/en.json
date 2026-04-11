@@ -1,0 +1,1294 @@
+{
+  "common": {
+    "appName": "Ilgaemi Lab",
+    "logout": "Logout",
+    "login": "Login",
+    "register": "Sign Up",
+    "cancel": "Cancel",
+    "confirm": "Confirm",
+    "save": "Save",
+    "edit": "Edit",
+    "delete": "Delete",
+    "back": "Back",
+    "next": "Next",
+    "previous": "Previous",
+    "submit": "Submit",
+    "loading": "Loading...",
+    "error": "An error occurred",
+    "success": "Success",
+    "userName": "{name}"
+  },
+  "header": {
+    "home": "Home",
+    "learn": "Learn",
+    "vocabulary": "Vocabulary",
+    "games": "Games",
+    "profile": "Profile"
+  },
+  "nav": {
+    "home": "Home",
+    "learn": "Learn",
+    "game": "Games",
+    "practice": "Practice",
+    "wrongAnswers": "Wrong Answers",
+    "profile": "Profile",
+    "login": "Login",
+    "register": "Sign Up"
+  },
+  "home": {
+    "greeting": "Hello",
+    "greetings": {
+      "dawn": "It's early dawn",
+      "morning": "Good morning",
+      "afternoon": "Good afternoon",
+      "evening": "Good evening",
+      "night": "Good night"
+    },
+    "encouragements": [
+      "Ready to improve your Korean today?",
+      "Consistent learning builds excellence!",
+      "You've got this!",
+      "You're growing step by step!"
+    ],
+    "levelTest": {
+      "title": "Please complete the level test",
+      "subtitle": "Level test is required for personalized learning",
+      "start": "Start Test"
+    },
+    "stats": {
+      "streak": "Study Streak",
+      "days": "{count} days",
+      "lessonsCompleted": "Lessons Completed",
+      "lessons": "{count} lessons",
+      "studyTime": "Study Time",
+      "minutes": "{count} min",
+      "accuracy": "Accuracy",
+      "percent": "{value}%"
+    },
+    "quickActions": {
+      "title": "Quick Start",
+      "todayLesson": "Today's Lesson",
+      "todayLessonDesc": "Learn new words and grammar",
+      "speakingPractice": "Speaking Practice",
+      "speakingPracticeDesc": "Practice accurate pronunciation",
+      "wrongAnswers": "Wrong Answers",
+      "wrongAnswersDesc": "Review your mistakes and study again",
+      "games": "Game Challenge",
+      "gamesDesc": "Learn with fun games"
+    },
+    "learningProgress": {
+      "title": "Learning Progress",
+      "beginner": "Beginner",
+      "intermediate": "Intermediate",
+      "advanced": "Advanced",
+      "completed": "Completed",
+      "inProgress": "In Progress"
+    },
+    "dailyGoal": {
+      "title": "Daily Goal",
+      "studyTime": "Today's Study Time",
+      "streak": "{count} day streak",
+      "tasks": "Today's Tasks",
+      "tasksCount": "{completed}/{total}",
+      "totalCompletions": "(total {count} completions)",
+      "completed": "Achieved!",
+      "fighting": "Keep going!",
+      "completeLesson": "Complete Today's Lesson",
+      "learnWords": "Learn 10 Words",
+      "speakingPractice": "5 Min Speaking Practice",
+      "reviewQuiz": "Complete Review Quiz",
+      "completionCount": "({count} completions)"
+    },
+    "stats": {
+      "streakDays": "Study Streak",
+      "todayStudy": "Today's Study",
+      "minutes": "{count} min",
+      "completedTasks": "Completed Tasks",
+      "tasksCount": "{completed}/{total}",
+      "learningProgress": "Learning Progress",
+      "percent": "{value}%"
+    },
+    "learningProgress": {
+      "title": "Learning Progress",
+      "stage": "{current} / {total} stages",
+      "nextLesson": "Next Lesson",
+      "lessonsCompleted": "{completed} / {total} lessons completed",
+      "allLessonsCompleted": "All Lessons Completed",
+      "viewAllLessons": "View All Lessons",
+      "startLearning": "Start Learning",
+      "loading": "Loading progress..."
+    }
+  },
+  "learn": {
+    "title": "Learning",
+    "beginner": {
+      "title": "Beginner",
+      "subtitle": "Self-introduction, greetings, essential expressions",
+      "levels": [
+        "Basic Greetings & Self-introduction",
+        "Numbers & Time Expressions",
+        "Places & Locations",
+        "Daily Conversations",
+        "Emotions & Feelings"
+      ]
+    },
+    "intermediate": {
+      "title": "Intermediate",
+      "subtitle": "Extended daily conversations, simple opinions",
+      "levels": [
+        "Family & Friends Introduction",
+        "Weather & Seasons",
+        "Hobbies & Leisure",
+        "Hospital & Health",
+        "Simple Opinions & Emotions"
+      ]
+    },
+    "advanced": {
+      "title": "Advanced",
+      "subtitle": "Social conversations, opinion exchange",
+      "levels": [
+        "Asking & Giving Directions",
+        "Work-related Expressions",
+        "Culture, Holidays & Social Life",
+        "Problem Situations",
+        "Thoughts & Wishes"
+      ]
+    },
+    "finalTest": "Final Test",
+    "startLearning": "Start Learning",
+    "continue": "Continue",
+    "locked": "Locked",
+    "completed": "Completed",
+    "lessonInfo": {
+      "totalSteps": "Total {count} lessons",
+      "estimatedTime": "About {minutes} minutes",
+      "includesQuiz": "Includes review quiz at the end"
+    },
+    "completion": {
+      "title": "Lesson Complete!",
+      "subtitle": "You have completed {category} Level {level} \"{title}\"!",
+      "retryTitle": "Review Needed!",
+      "retrySubtitle": "Your accuracy is below 80%. You need to study again and pass the quiz to proceed to the next level.",
+      "stats": {
+        "lessonsCompleted": "Lessons Completed",
+        "quizScore": "Quiz Score",
+        "accuracy": "Accuracy"
+      },
+      "returnToList": "Return to Lesson List",
+      "retry": "Retry Lesson"
+    },
+    "alert": {
+      "intermediateTest": "You must pass the beginner final test to access intermediate!",
+      "advancedTest": "You must pass the intermediate final test to access advanced!",
+      "previousLevel": "Please complete the previous level first!",
+      "completeLevels": "Please complete all learning levels before accessing the final test!",
+      "quizFailed": "Quiz failed (Accuracy: {accuracy}%) - Review needed."
+    }
+  },
+  "levelTest": {
+    "intro": {
+      "title": "Korean Level Test",
+      "subtitle": "Check your Korean proficiency and start personalized learning",
+      "description": "This test takes about 10-15 minutes",
+      "features": [
+        "20 questions total",
+        "Listening, reading, grammar assessment",
+        "Instant results"
+      ],
+      "start": "Start Test",
+      "skip": "Skip for now"
+    },
+    "question": "Question {current} / {total}",
+    "submit": "Submit",
+    "result": {
+      "title": "Test Results",
+      "yourLevel": "Your Level",
+      "score": "Score: {score}",
+      "accuracy": "Accuracy: {accuracy}%",
+      "recommendation": "Recommended Course",
+      "startLearning": "Start Learning"
+    }
+  },
+  "games": {
+    "title": "Game Center",
+    "subtitle": "Improve your Korean while having fun with games",
+    "available": "Play Now",
+    "common": {
+      "start": "Start Game",
+      "restart": "Restart",
+      "quit": "Quit",
+      "home": "Home",
+      "continue": "Continue",
+      "skip": "Skip",
+      "next": "Next",
+      "submit": "Submit",
+      "score": "Score",
+      "time": "Time",
+      "difficulty": "Difficulty",
+      "easy": "Easy",
+      "normal": "Normal",
+      "hard": "Hard",
+      "result": "Result",
+      "victory": "Victory",
+      "defeat": "Defeat",
+      "draw": "Draw",
+      "tutorial": "Tutorial",
+      "settings": "Settings",
+      "sound": "Sound",
+      "mute": "Mute",
+      "unmute": "Unmute"
+    },
+    "topGames": {
+      "prefix": "🔥 This Week's Top Games:",
+      "loading": "Loading...",
+      "noData": "No play records yet"
+    },
+    "initialConsonant": {
+      "title": "Initial Sound Game",
+      "description": "Guess from initials! 2-letter word speed quiz",
+      "tag1": "60 sec limit",
+      "tag2": "Combo system"
+    },
+    "wordChain": {
+      "title": "Word Chain",
+      "description": "Beware of knockout words! Battle with AI",
+      "tag1": "30 sec per turn",
+      "tag2": "First move choice"
+    },
+    "spellingQuiz": {
+      "title": "Spelling Quiz",
+      "description": "되요? 돼요? Master confusing spellings",
+      "tag1": "10/20 questions",
+      "tag2": "Multiple choice"
+    },
+    "typer": {
+      "title": "Korean Typing Game",
+      "description": "Fingers dance! Ultra-fast typing of falling words",
+      "tag1": "3 lives",
+      "tag2": "Random items"
+    },
+    "bingo": {
+      "title": "Bingo Game",
+      "description": "Strategy wins! Bingo battle with AI",
+      "tag1": "3/5 bingo mode",
+      "tag2": "Image learning"
+    },
+    "crossword": {
+      "title": "Crossword Puzzle",
+      "description": "Idioms? Proverbs? Complete crossword puzzles",
+      "tag1": "Horizontal & Vertical",
+      "tag2": "Hints provided"
+    },
+    "tutorials": {
+      "spellingQuiz": {
+        "gameExplanation": "Game Tutorial",
+        "stepCount": "{current} / {total}",
+        "startDirectly": "Start Now",
+        "previous": "Previous",
+        "next": "Next",
+        "startGame": "Start Game",
+        "steps": [
+          {
+            "title": "Choose Question Count",
+            "description": "Select between 10 or 20 questions mode!",
+            "icon": "🎯",
+            "details": [
+              "10 Questions Mode: Quick play (10 points per correct answer)",
+              "20 Questions Mode: Long challenge (5 points per correct answer)",
+              "Maximum score is 100 points in both modes.",
+              "Choose the mode that fits your skill level!"
+            ]
+          },
+          {
+            "title": "Multiple Choice",
+            "description": "Select the correct answer from 2 choices for each question.",
+            "icon": "📝",
+            "details": [
+              "Example: Which is correct spelling, \"되요\" or \"돼요\"?",
+              "Example: Which is correct, \"금새\" or \"금세\"?",
+              "Automatically moves to next question after selection.",
+              "You cannot change your answer, so choose carefully!"
+            ]
+          },
+          {
+            "title": "Various Question Types",
+            "description": "Common spelling mistakes are featured in questions.",
+            "icon": "📚",
+            "details": [
+              "Contractions: 되요/돼요, 되/돼",
+              "Spacing: 할 수 있다 / 할수있다",
+              "Spelling: 금새/금세, 왠지/웬지",
+              "Meaning distinction: 다르다/틀리다, 맞히다/맞추다"
+            ]
+          },
+          {
+            "title": "Results & Explanations",
+            "description": "View your score and detailed explanations after completing all questions.",
+            "icon": "✅",
+            "details": [
+              "100 points: \"Are you King Sejong?\"",
+              "80+ points: \"Spelling Master!\"",
+              "60+ points: \"Almost perfect!\"",
+              "Check detailed explanations and example sentences for wrong answers.",
+              "Review wrong answers in the review note."
+            ]
+          }
+        ]
+      },
+      "typer": {
+        "gameExplanation": "Game Tutorial",
+        "stepCount": "{current} / {total}",
+        "startDirectly": "Start Now",
+        "previous": "Previous",
+        "next": "Next",
+        "startGame": "Choose Difficulty",
+        "steps": [
+          {
+            "title": "Choose Difficulty",
+            "description": "Select beginner, intermediate, or advanced difficulty!",
+            "icon": "🎯",
+            "details": [
+              "Beginner: Slow speed, 2-4 letter words, spawns every 2 seconds",
+              "Intermediate: Normal speed, 3-6 letter words, spawns every 1.5 seconds",
+              "Advanced: Fast speed, 4-8 letter words, spawns every 1 second",
+              "Start with beginner to practice!"
+            ]
+          },
+          {
+            "title": "Type Falling Words",
+            "description": "Type the falling words before they hit the bottom!",
+            "icon": "⌨️",
+            "details": [
+              "Words slowly fall from top to bottom.",
+              "Type the words correctly in the input box.",
+              "Correct answers disappear and you earn points.",
+              "Lose 1 life if a word reaches the bottom."
+            ]
+          },
+          {
+            "title": "3 Lives",
+            "description": "Survive with 3 lives!",
+            "icon": "❤️",
+            "details": [
+              "Start with 3 lives at the beginning.",
+              "Lose 1 life each time you miss a word.",
+              "Game ends when all lives are lost.",
+              "You can gain extra lives with items!"
+            ]
+          },
+          {
+            "title": "Random Items!",
+            "description": "Type red words to activate special effects!",
+            "icon": "🎁",
+            "details": [
+              "Red item words appear randomly during the game.",
+              "⏱️ Slow Time (5s) - 50% slower falling speed",
+              "💥 Clear All - Remove all words + earn points",
+              "🙈 Hide Words (3s) - Debuff",
+              "⚡ Speed Up (5s) - 150% faster falling speed (Debuff)",
+              "❤️ Add Life - +1 life"
+            ]
+          },
+          {
+            "title": "Scoring System",
+            "description": "Build combos to achieve high scores!",
+            "icon": "🔥",
+            "details": [
+              "Earn \"word length × 10 points\" per word.",
+              "Combo increases with consecutive successes!",
+              "Get \"combo × 2 points\" bonus when combo is 5 or higher.",
+              "Combo resets to 0 when you miss a word.",
+              "Maintain combos to create the highest score!"
+            ]
+          }
+        ]
+      },
+      "initialConsonant": {
+        "gameExplanation": "Game Tutorial",
+        "stepCount": "{current} / {total}",
+        "startDirectly": "Start Now",
+        "previous": "Previous",
+        "next": "Next",
+        "startGame": "Start Game",
+        "steps": [
+          {
+            "title": "Game Start!",
+            "description": "Look at the initial consonants on screen and guess the 2-letter word.",
+            "icon": "🎯",
+            "details": [
+              "Initial consonants (consonants only) are displayed in the center.",
+              "Example: \"ㅅㄱ\" → Answer is \"사과\" (apple)",
+              "Example: \"ㅎㄱ\" → Answer is \"한국\" (Korea)",
+              "Only enter 2-letter Korean words."
+            ]
+          },
+          {
+            "title": "60 Second Time Limit",
+            "description": "Guess as many words as you can within 60 seconds!",
+            "icon": "⏰",
+            "details": [
+              "60-second timer starts when the game begins.",
+              "Timer pauses for 2 seconds when you answer correctly to show the meaning.",
+              "Timer continues when you answer wrong or skip.",
+              "Timer turns red when 10 seconds remain."
+            ]
+          },
+          {
+            "title": "High Score with Combos!",
+            "description": "Build combos by answering consecutively.",
+            "icon": "🔥",
+            "details": [
+              "Earn 10 points for each correct answer.",
+              "Combo increases with consecutive correct answers! (🔥2, 🔥3, 🔥4...)",
+              "Get \"combo × 2 points\" bonus when combo is 5 or higher.",
+              "Combo resets to 0 if you answer wrong or skip.",
+              "Maintain combo to challenge the highest score!"
+            ]
+          },
+          {
+            "title": "Important Rules",
+            "description": "Rules you must know while playing.",
+            "icon": "📌",
+            "details": [
+              "Same answer cannot be used again for the same initials.",
+              "Only words in the National Institute of Korean Language Standard Dictionary are accepted.",
+              "Word meanings are displayed when you answer correctly.",
+              "Recent 5 answer records can be checked.",
+              "Use the \"Skip\" button to skip questions you don't know."
+            ]
+          }
+        ]
+      },
+      "wordChain": {
+        "gameExplanation": "Game Tutorial",
+        "stepCount": "{current} / {total}",
+        "startDirectly": "Start Now",
+        "previous": "Previous",
+        "next": "Next",
+        "startGame": "Start Game",
+        "steps": [
+          {
+            "title": "First or Second?",
+            "description": "Choose who will start first!",
+            "icon": "🎯",
+            "details": [
+              "Select first (I go first) or second (AI goes first) before the game starts.",
+              "If you choose first, you enter the first word.",
+              "If you choose second, AI presents the word first.",
+              "Choose strategically!"
+            ]
+          },
+          {
+            "title": "Continue the Word Chain",
+            "description": "Say a word that starts with the last letter of the previous word!",
+            "icon": "💬",
+            "details": [
+              "Take turns with AI entering words.",
+              "Example: 사과 → 과일 → 일곱 → 곱하기",
+              "\"Next letter\" is displayed at the bottom.",
+              "Only Korean words with 2 or more letters can be entered."
+            ]
+          },
+          {
+            "title": "30 Second Limit Per Turn",
+            "description": "You lose if you don't enter a word within 30 seconds!",
+            "icon": "⏰",
+            "details": [
+              "30-second timer starts when it's your turn.",
+              "Green (20+ sec) → Yellow (10~20 sec) → Red (under 10 sec)",
+              "Instantly lose if time runs out.",
+              "Timer continues even if you enter wrong answer!"
+            ]
+          },
+          {
+            "title": "Two-Syllable Initial Rule Support",
+            "description": "Recognizes the rule where the first letter of a word changes.",
+            "icon": "📖",
+            "details": [
+              "Two-syllable rule: Korean rule where sound changes at the beginning of a word",
+              "Example: 승리 (ends with ㄹ) → 이발소 (ㄹ becomes ㅇ)",
+              "Example: 도리 (ends with ㄹ) → 이본 (ㄹ becomes ㅇ)",
+              "Notification appears when two-syllable rule can be applied!"
+            ]
+          },
+          {
+            "title": "Victory Conditions & Tips",
+            "description": "Here's how to beat the AI!",
+            "icon": "🏆",
+            "details": [
+              "Win when AI cannot find a word or times out!",
+              "Same word cannot be used again.",
+              "Click used words to check their meanings.",
+              "Only words in the National Institute of Korean Language Standard Dictionary are accepted.",
+              "You can end the game anytime with the give-up button."
+            ]
+          }
+        ]
+      },
+      "bingo": {
+        "gameExplanation": "Game Tutorial",
+        "stepCount": "{current} / {total}",
+        "startDirectly": "Start Now",
+        "previous": "Previous",
+        "next": "Next",
+        "startGame": "Start Game",
+        "steps": [
+          {
+            "title": "Choose Topic",
+            "description": "Select a topic to learn: fruits, animals, food, or jobs!",
+            "icon": "🎯",
+            "details": [
+              "Fruits 🍎: apples, bananas, grapes, etc.",
+              "Animals 🐶: dogs, cats, lions, etc.",
+              "Food 🍜: kimchi, bulgogi, pizza, etc.",
+              "Jobs 💼: doctors, teachers, chefs, etc.",
+              "AI also creates a bingo board with the same topic!"
+            ]
+          },
+          {
+            "title": "Select 25 Words",
+            "description": "Choose 25 words you like from the topic!",
+            "icon": "📝",
+            "details": [
+              "36+ words related to the topic will appear on screen.",
+              "Click to select 25 words you like.",
+              "Selected words are highlighted in blue.",
+              "Use \"Auto Select\" button to quickly select 25 words.",
+              "Selected words are automatically arranged on a 5×5 bingo board!"
+            ]
+          },
+          {
+            "title": "Choose Game Mode",
+            "description": "Select 3-bingo or 5-bingo mode!",
+            "icon": "⛳",
+            "details": [
+              "3-bingo mode: Win by completing 3 lines first! (Quick game)",
+              "5-bingo mode: Win by completing 5 lines first! (Long game)",
+              "You can select the mode you want after board arrangement.",
+              "Use \"Rearrange\" button to change word positions."
+            ]
+          },
+          {
+            "title": "Turn-Based Battle with AI",
+            "description": "Take turns selecting words to complete bingo!",
+            "icon": "🎲",
+            "details": [
+              "Select one word from the bingo board on your turn.",
+              "Each turn has a 20-second time limit.",
+              "If opponent calls a word on your board, it's automatically checked.",
+              "Complete a line horizontally, vertically, or diagonally for \"Bingo!\"",
+              "Images are displayed when selecting words for learning."
+            ]
+          },
+          {
+            "title": "Victory Conditions",
+            "description": "Complete target bingo first or complete more within the time limit!",
+            "icon": "🏆",
+            "details": [
+              "Win by completing target bingo (3 or 5) first!",
+              "Time limit: Total 2 minutes 30 seconds (150 seconds)",
+              "When time ends, person with more bingos wins.",
+              "Score = (bingo×20 points) + mode bonus + victory bonus + remaining time",
+              "Example: 5-bingo mode victory can earn over 400 points!"
+            ]
+          }
+        ]
+      },
+      "crossword": {
+        "gameExplanation": "Game Tutorial",
+        "stepCount": "{current} / {total}",
+        "startDirectly": "Start Now",
+        "previous": "Previous",
+        "next": "Next",
+        "startGame": "Start Game",
+        "steps": [
+          {
+            "title": "Choose Topic",
+            "description": "Select the topic you want to solve: idioms or proverbs!",
+            "icon": "🎯",
+            "details": [
+              "Idioms: 4-letter Chinese idioms (e.g., 일석이조, 사면초가)",
+              "Proverbs: Various length proverbs (e.g., 티끌모아태산, 소문난잔치에먹을것없다)",
+              "Different grid sizes and word counts are prepared for each topic.",
+              "Choose the topic you want to learn!"
+            ]
+          },
+          {
+            "title": "Choose Difficulty",
+            "description": "Select beginner, intermediate, or advanced difficulty!",
+            "icon": "⚖️",
+            "details": [
+              "Idioms: 9×9 (Beginner), 10×10 (Intermediate), 13×13 (Advanced)",
+              "Proverbs: 16×16 (Beginner), 18×18 (Intermediate), 20×20 (Advanced)",
+              "Beginner 6 words / Intermediate 8 words / Advanced 10 words",
+              "Higher difficulty means larger grid and more words.",
+              "Hint count: Beginner 3 times / Intermediate 5 times / Advanced 7 times"
+            ]
+          },
+          {
+            "title": "Solve Problems",
+            "description": "Look at the hints on the right and enter the answer!",
+            "icon": "💭",
+            "details": [
+              "Click a number in the problem list on the right or click the grid.",
+              "Click intersection cells again to switch between horizontal↔vertical directions.",
+              "Selected word is highlighted on the grid.",
+              "Enter the answer in Korean in the input box (without spaces).",
+              "Press Enter to submit! If correct, it will be displayed on the grid."
+            ]
+          },
+          {
+            "title": "Using Intersections & Hints",
+            "description": "Use intersecting letters to complete the puzzle!",
+            "icon": "💡",
+            "details": [
+              "All words intersect with at least one other word.",
+              "Intersection cells are shared by two words.",
+              "Solving one word greatly helps in solving other words!",
+              "When stuck, press the hint button to reveal one empty cell.",
+              "Take your time to think as there's no time limit!"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "vocabulary": {
+    "title": "Vocabulary",
+    "myWords": "My Words",
+    "favorites": "Favorites",
+    "recent": "Recently Learned",
+    "search": "Search words",
+    "addWord": "Add Word",
+    "meaning": "Meaning",
+    "example": "Example",
+    "pronunciation": "Pronunciation"
+  },
+  "levelTest": {
+    "intro": {
+      "title": "Korean Level Test",
+      "subtitle": "Accurately measure your Korean proficiency",
+      "duration": "Duration",
+      "durationValue": "About 10 minutes",
+      "questionCount": "Questions",
+      "questionCountValue": "10 questions",
+      "evaluationItems": "Evaluation",
+      "evaluationItemsValue": "Listening, Speaking, Reading",
+      "checklistTitle": "Before You Start",
+      "instructions": [
+        "Please take the test in a quiet environment",
+        "Make sure your microphone is working properly",
+        "You cannot pause during the test, so allocate enough time",
+        "Honest answers ensure accurate level assessment"
+      ],
+      "later": "Maybe Later",
+      "start": "Start Test"
+    },
+    "test": {
+      "progress": "Question {current} / {total}",
+      "listening": "Listening",
+      "speaking": "Speaking",
+      "reading": "Reading",
+      "submit": "Submit",
+      "next": "Next",
+      "recording": "Recording...",
+      "playAudio": "Play Audio",
+      "recordAnswer": "Record Answer"
+    },
+    "result": {
+      "title": "Level Test Result",
+      "yourLevel": "Your Level",
+      "score": "Score",
+      "goToHome": "Go to Home",
+      "startLearning": "Start Learning",
+      "levels": {
+        "beginner": "Beginner",
+        "intermediate": "Intermediate",
+        "advanced": "Advanced"
+      }
+    }
+  },
+  "wrongAnswers": {
+    "title": "📝 Wrong Answers",
+    "subtitle": "Review incorrect answers and master them",
+    "empty": {
+      "title": "You've mastered everything!",
+      "message": "No wrong answers to review.",
+      "goToLearn": "Go to Learn"
+    },
+    "categories": {
+      "beginner": "Beginner",
+      "intermediate": "Intermediate",
+      "advanced": "Advanced"
+    },
+    "stats": {
+      "problems": "{count} problems",
+      "none": "No wrong answers",
+      "available": "Review available",
+      "perfect": "Perfect!"
+    },
+    "reader": {
+      "back": "← Back",
+      "reviewTest": "Review Test",
+      "pageNumber": "{current}-{end} / {total}",
+      "question": "📝 Question",
+      "myAnswer": "❌ My Answer",
+      "correctAnswer": "✅ Correct Answer",
+      "explanation": "💡 Explanation",
+      "previous": "← Previous",
+      "next": "Next →"
+    },
+    "test": {
+      "title": "{icon} {category} Review Test",
+      "hint": "Correct answers will be removed",
+      "score": "{count} correct",
+      "page": "{current} / {total}",
+      "correct": "✅ Correct!",
+      "incorrect": "❌ Incorrect. The correct answer is \"{answer}\"."
+    }
+  },
+  "profile": {
+    "title": "Profile",
+    "edit": "Edit Profile",
+    "backToProfile": "Back to Profile",
+    "personalInfo": "Personal Information",
+    "name": "Name",
+    "email": "Email",
+    "phone": "Phone",
+    "phonePlaceholder": "010-0000-0000",
+    "birthDate": "Birth Date",
+    "birthDatePlaceholder": "YYYY-MM-DD",
+    "gender": "Gender",
+    "occupation": "Occupation",
+    "learningGoal": "Learning Goals",
+    "learningGoalHint": "Multiple selections allowed",
+    "currentLevel": "Current Level",
+    "editButton": "Edit",
+    "cancelButton": "Cancel",
+    "saveButton": "Save",
+    "saveSuccess": "Profile updated successfully! ✨",
+    "saveFailed": "Failed to save profile",
+    "nameRequired": "Please enter your name",
+    "genders": {
+      "male": "Male",
+      "female": "Female"
+    },
+    "occupations": {
+      "manufacturing": "Manufacturing",
+      "construction": "Construction",
+      "agriculture": "Agriculture",
+      "logistics": "Logistics",
+      "service": "Service"
+    },
+    "learningGoals": {
+      "daily_conversation": "Daily Conversation",
+      "business_communication": "Business Communication",
+      "cultural_understanding": "Cultural Understanding",
+      "job_preparation": "Job Preparation",
+      "exam_preparation": "Exam Preparation",
+      "life_adaptation": "Life Adaptation"
+    },
+    "menu": {
+      "progress": "Learning Progress",
+      "progressDesc": "Check your learning progress and achievements",
+      "stats": "Statistics",
+      "statsDesc": "View your learning data and analytics",
+      "settings": "Settings",
+      "settingsDesc": "Manage app settings and notifications",
+      "contact": "Contact Us",
+      "contactDesc": "Report issues or ask questions",
+      "games": "Games",
+      "gamesDesc": "Learn while having fun with games",
+      "levelTest": "Level Test",
+      "levelTestDesc": "Test your Korean proficiency",
+      "learningNote": "Learning Notes",
+      "learningNoteDesc": "Organize what you learned in Vietnamese",
+      "logout": "Logout",
+      "logoutDesc": "Logout safely",
+      "logoutConfirm": "Are you sure you want to logout?",
+      "logoutMessage": "You will need to login again.",
+      "logoutSuccess": "Logged out successfully 👋"
+    },
+    "stats": {
+      "title": "Learning Statistics",
+      "totalLessons": "Completed Lessons",
+      "totalTime": "Total Study Time",
+      "streak": "Study Streak",
+      "accuracy": "Average Accuracy"
+    },
+    "history": {
+      "title": "Learning History",
+      "viewAll": "View All"
+    },
+    "settings": {
+      "title": "Settings",
+      "notifications": "Notifications",
+      "language": "Language",
+      "theme": "Theme"
+    },
+    "errors": {
+      "imageType": "Only JPEG, PNG, WebP files are allowed",
+      "imageSize": "File size must be under 2MB",
+      "imageResolution": "Image resolution must be at least {width}×{height}px",
+      "imageRead": "Unable to read image file",
+      "imageProcess": "Error processing image",
+      "imageUpload": "Image upload failed",
+      "profileUpdate": "Profile update failed",
+      "avatarUpdate": "Avatar update failed"
+    },
+    "success": {
+      "imageUpdated": "Profile image updated! 🎉",
+      "avatarChanged": "Avatar changed to {emoji}!"
+    }
+  },
+  "auth": {
+    "login": {
+      "title": "Login",
+      "welcomeBack": "Welcome Back!",
+      "subtitle": "Please login with your email",
+      "email": "Email",
+      "password": "Password",
+      "passwordPlaceholder": "Enter your password",
+      "rememberMe": "Remember me",
+      "forgotPassword": "Forgot password?",
+      "noAccount": "Don't have an account?",
+      "signUp": "Sign Up",
+      "submit": "Login",
+      "success": "Login successful! 👋",
+      "failed": "Login failed"
+    },
+    "validation": {
+      "emailRequired": "Please enter your email",
+      "emailInvalid": "Invalid email format",
+      "passwordRequired": "Please enter your password",
+      "passwordMinLength": "Password must be at least {count} characters",
+      "passwordConfirmRequired": "Please confirm your password",
+      "passwordMismatch": "Passwords do not match",
+      "nameRequired": "Please enter your name",
+      "nameMinLength": "Name must be at least 2 characters"
+    },
+    "register": {
+      "title": "Sign Up",
+      "welcome": "Welcome to Ilgaemi Lab!",
+      "subtitle": "Enter your information and start learning",
+      "step1Title": "Please enter your basic information",
+      "step2Title": "Tell us about yourself for personalized learning",
+      "completionTitle": "Registration Complete!",
+      "completionMessage": "Welcome, {name}!",
+      "completionSubtitle": "Now starting the level test.",
+      "name": "Name",
+      "namePlaceholder": "Enter your full name",
+      "email": "Email",
+      "emailPlaceholder": "example{'@'}email.com",
+      "password": "Password",
+      "passwordPlaceholder": "8+ characters",
+      "confirmPassword": "Confirm Password",
+      "confirmPasswordPlaceholder": "Re-enter password",
+      "phone": "Phone",
+      "phoneOptional": "Phone (Optional)",
+      "phonePlaceholder": "010-0000-0000",
+      "nativeLanguage": "Native Language",
+      "nativeLanguagePlaceholder": "Select your native language",
+      "occupationCategory": "Occupation",
+      "occupationPlaceholder": "Select your occupation",
+      "koreanLevel": "Current Korean Level",
+      "koreanLevelPlaceholder": "Select your Korean level",
+      "agreeTerms": "I agree",
+      "termsAndPrivacy": "to the Terms of Service and Privacy Policy",
+      "termsLink": "Terms of Service",
+      "privacyLink": "Privacy Policy",
+      "hasAccount": "Already have an account?",
+      "signIn": "Sign In",
+      "submit": "Sign Up",
+      "previous": "Previous",
+      "next": "Next",
+      "errorGeneric": "Registration failed",
+      "errorDuplicate": "Email already registered",
+      "languages": {
+        "vi": "Vietnamese",
+        "th": "Thai",
+        "ph": "Filipino",
+        "id": "Indonesian",
+        "my": "Burmese",
+        "kh": "Khmer",
+        "np": "Nepali",
+        "other": "Other"
+      },
+      "occupations": {
+        "manufacturing": "Manufacturing",
+        "construction": "Construction",
+        "agriculture": "Agriculture",
+        "logistics": "Logistics",
+        "service": "Service",
+        "other": "Other"
+      },
+      "levels": {
+        "beginner": "Beginner (Just starting)",
+        "intermediate": "Intermediate (Basic conversation)",
+        "advanced": "Advanced (Fluent)"
+      }
+    }
+  },
+  "speakingTest": {
+    "title": "Speaking Practice",
+    "categories": {
+      "construction": {
+        "name": "Construction Site",
+        "description": "Korean for construction sites"
+      },
+      "manufacturing": {
+        "name": "Manufacturing",
+        "description": "Korean for factories and manufacturing"
+      },
+      "service": {
+        "name": "Service Industry",
+        "description": "Korean for customer service"
+      },
+      "daily": {
+        "name": "Daily Conversation",
+        "description": "Basic Korean for everyday life"
+      },
+      "emergency": {
+        "name": "Emergency",
+        "description": "Korean for emergency situations"
+      }
+    },
+    "loading": {
+      "processing": "Processing...",
+      "preparingConversation": "Preparing conversation...",
+      "processingResponse": "Processing response...",
+      "analyzingConversation": "Analyzing conversation..."
+    },
+    "progress": {
+      "turn": "{current} / 10 turns"
+    },
+    "input": {
+      "placeholder": "Type a message or press the mic button to speak"
+    },
+    "recording": {
+      "inProgress": "Recording..."
+    },
+    "suggestions": {
+      "label": "💡 Try answering like this"
+    },
+    "result": {
+      "title": "Evaluation Results",
+      "totalScore": "Overall Score",
+      "pronunciation": {
+        "title": "Pronunciation Assessment",
+        "score": "Pronunciation: {score} points",
+        "averageScore": "Average Pronunciation Score",
+        "difficultWords": "Difficult Words"
+      },
+      "language": {
+        "title": "Language Proficiency Assessment",
+        "grammar": "Grammar Accuracy",
+        "vocabulary": "Vocabulary Appropriateness",
+        "context": "Contextual Fit",
+        "communication": "Communication Skills"
+      },
+      "recommendations": {
+        "title": "Improvement Recommendations",
+        "high": "Important",
+        "medium": "Recommended"
+      },
+      "overallFeedback": "Overall Feedback",
+      "corrections": {
+        "title": "Corrections"
+      }
+    },
+    "actions": {
+      "backToStart": "Back to Start",
+      "retry": "Practice Again"
+    },
+    "errors": {
+      "sendResponseFailed": "Failed to send response:",
+      "sendResponseFailedMessage": "Failed to send your response.",
+      "analysisFailed": "Analysis failed:",
+      "analysisFailedMessage": "Failed to analyze the conversation.",
+      "speechRecognition": "Speech recognition error:",
+      "noSpeech": "No speech detected.",
+      "speechNotSupported": "Speech recognition is not supported by your browser.",
+      "microphonePermission": "Microphone access is required.",
+      "speechRecognitionFailed": "Speech recognition failed. Please type your answer."
+    }
+  },
+  "categoryConversation": {
+    "progress": {
+      "turn": "{current} / 10 turns"
+    },
+    "loading": {
+      "preparing": "Preparing conversation..."
+    },
+    "suggestions": {
+      "label": "💡 Try answering like this"
+    },
+    "completion": {
+      "button": "Complete Learning"
+    },
+    "evaluation": {
+      "title": "Evaluating Learning",
+      "wait": "Please wait..."
+    },
+    "errors": {
+      "startFailed": "Failed to start conversation. Please try again.",
+      "sendFailed": "Failed to send message.",
+      "evaluationFailed": "An error occurred during evaluation. Please try again."
+    },
+    "system": {
+      "startError": "Failed to start conversation.",
+      "sendError": "Failed to send message.",
+      "evaluationError": "Error during evaluation."
+    }
+  },
+  "categorySelector": {
+    "title": "Speaking Practice",
+    "subtitle": "Practice Korean in real-life situations"
+  },
+  "testView": {
+    "resumeDialog": {
+      "title": "💾 Saved Test Progress",
+      "message": "You have a saved test in progress.",
+      "questionNumber": "Question {number}",
+      "continueQuestion": "Would you like to continue from here?",
+      "progress": "Progress:",
+      "progressValue": "{current} / {total} ({percent}%)",
+      "startFromBeginning": "Start from Beginning",
+      "resume": "Continue Test"
+    },
+    "intro": {
+      "badge": "{category} Final Test",
+      "totalQuestions": "Total {count} questions",
+      "passingScore": "Passing Score: {score}+ questions",
+      "estimatedTime": "About {minutes} minutes",
+      "startButton": "Start Test"
+    },
+    "progress": {
+      "back": "← Back",
+      "questionCount": "{current} / {total}"
+    },
+    "question": {
+      "category": "{category}",
+      "correctAnswer": "✅ Correct!",
+      "wrongAnswer": "❌ Incorrect. The correct answer is \"{answer}\".",
+      "explanation": "{text}"
+    },
+    "navigation": {
+      "previous": "← Previous",
+      "next": "Next",
+      "showResult": "View Results"
+    },
+    "result": {
+      "passed": "Test Passed!",
+      "failed": "Keep Studying!",
+      "completionMessage": "You've completed the {category} Final Test!",
+      "scoreDisplay": "{score} / {total}",
+      "accuracy": "{percent}% Accuracy",
+      "correctCount": "Correct",
+      "correctQuestions": "{count} questions",
+      "wrongCount": "Wrong",
+      "wrongQuestions": "{count} questions",
+      "passMessage": "Congratulations! You've successfully mastered the {category} course! 🎊",
+      "failMessage": "You fell a bit short of the passing score ({score} questions). Study again and try once more! 💪",
+      "retry": "Retry Test",
+      "returnToList": "Return to Lessons"
+    }
+  },
+  "finalTest": {
+    "miniGame": {
+      "title": "Catch Hangul Characters!",
+      "instruction": "Tap the falling letters!",
+      "bonusHint": "★ Bonus",
+      "bombHint": "💣 Avoid",
+      "lives": "Lives",
+      "score": "Score",
+      "scoreValue": "{score}",
+      "combo": "COMBO",
+      "comboMultiplier": "x{multiplier}",
+      "gameOver": "GAME OVER",
+      "finalScore": "Final Score: {score}",
+      "maxCombo": "Max Combo: {combo}",
+      "retry": "Play Again",
+      "loading": "AI is creating questions...",
+      "ready": "Questions are ready!",
+      "goToQuestions": "Go to Questions"
+    },
+    "intro": {
+      "categoryBadge": "{icon} {title}",
+      "title": "Final Test",
+      "subtitle": "A comprehensive test to complete the {title} course",
+      "questionCount": "Questions",
+      "questionCountLabel": "Questions",
+      "questionCountValue": "{count} questions",
+      "questionsValue": "{count} questions",
+      "estimatedTime": "Estimated Time",
+      "estimatedTimeLabel": "Estimated Time",
+      "estimatedTimeValue": "About 15 minutes",
+      "passingCriteria": "Passing Criteria",
+      "passingCriteriaValue": "80% or higher",
+      "passingScore": "Passing Criteria",
+      "passingScoreLabel": "Passing Criteria",
+      "passingScoreValue": "80% or higher",
+      "noticeTitle": "💡 Instructions",
+      "instructions": [
+        "All {count} questions will be presented at once",
+        "Submit after answering all questions to see results",
+        "You must score 80% or higher to pass",
+        "You can retry if you don't pass"
+      ],
+      "back": "Back",
+      "start": "Start Test"
+    },
+    "test": {
+      "progressLabel": "{icon} {title} Final Test",
+      "progressCount": "{answered} / {total}",
+      "questionNumber": "Question {number}",
+      "answered": "✓ Answered",
+      "questionText": "{text}",
+      "submitInfo": "{answered} / {total} questions answered",
+      "submitButton": "Submit",
+      "remainingQuestions": "{count} questions remaining"
+    },
+    "result": {
+      "passedIcon": "🎉",
+      "failedIcon": "😢",
+      "passedTitle": "Congratulations!",
+      "failedTitle": "Not quite there!",
+      "passedSubtitle": "You passed the final test!",
+      "failedSubtitle": "You need more practice",
+      "correctCount": "Correct Answers",
+      "correctValue": "{score} / {total}",
+      "accuracyLabel": "Accuracy",
+      "accuracyValue": "{percent}%",
+      "passingCriteria": "Passing Criteria",
+      "passingValue": "80%",
+      "passMessage": "You've completed the {title} course!",
+      "passSubMessage": "You can proceed to the next level.",
+      "failMessage": "You need 80% or higher to pass",
+      "failSubMessage": "Review and try again!",
+      "reviewButton": "📖 View Explanations",
+      "backToLearn": "Back to Lessons",
+      "retry": "Try Again",
+      "confirm": "Confirm"
+    }
+  },
+  "learnLevel": {
+    "resumeDialog": {
+      "title": "💾 Saved Learning Progress",
+      "message": "You have saved learning progress.",
+      "pageNumber": "Page {page}",
+      "continueQuestion": "Would you like to continue from here?",
+      "progress": "Progress:",
+      "progressValue": "{current} / {total} ({percent}%)",
+      "startFromBeginning": "Start from Beginning",
+      "resume": "Continue Learning"
+    },
+    "intro": {
+      "back": "← Back",
+      "categoryBadge": "{title}",
+      "levelBadge": "Level {level}",
+      "progressTitle": "{title} Overall Progress",
+      "lessonCount": "Total {count} lessons",
+      "estimatedTime": "About {minutes} minutes",
+      "includesQuiz": "Includes review quiz at the end",
+      "start": "Start Learning"
+    },
+    "progress": {
+      "back": "← Back",
+      "count": "{current} / {total}"
+    },
+    "expression": {
+      "korean": "{text}",
+      "romanization": "{text}",
+      "meaning": "{text}",
+      "meaningVi": "{text}",
+      "explanationTitle": "📖 Explanation",
+      "explanation": "{text}",
+      "explanationVi": "{text}",
+      "whenToUseTitle": "💡 When to Use?",
+      "whenToUse": "{text}",
+      "whenToUseVi": "{text}",
+      "examplesTitle": "✏️ Examples",
+      "exampleKorean": "{text}",
+      "exampleRomanization": "{text}",
+      "exampleMeaning": "{text}",
+      "exampleMeaningVi": "{text}",
+      "culturalTip": "{text}",
+      "culturalTipVi": "{text}"
+    },
+    "quiz": {
+      "title": "{text}",
+      "titleVi": "{text}",
+      "description": "{text}",
+      "descriptionVi": "{text}",
+      "progress": "Question {current} / {total}",
+      "correctBadge": "✅ Correct {count}",
+      "wrongBadge": "❌ Wrong {count}",
+      "question": "{text}",
+      "questionVi": "{text}",
+      "correctAnswer": "✅ Correct!",
+      "wrongAnswer": "❌ Incorrect. The correct answer is \"{answer}\".",
+      "explanation": "{text}",
+      "explanationVi": "{text}"
+    },
+    "navigation": {
+      "previous": "← Previous",
+      "next": "Next",
+      "nextQuestion": "Next Question",
+      "complete": "Complete Learning"
+    },
+    "completion": {
+      "passedIcon": "🎉",
+      "failedIcon": "📚",
+      "passedTitle": "Lesson Complete!",
+      "failedTitle": "Review Needed!",
+      "passedSubtitle": "You've completed {category} Level {level} \"{title}\"!",
+      "failedSubtitle": "Your accuracy is below 80%. You need to study again and pass the quiz to proceed to the next level.",
+      "lessonsCompleted": "Lessons Completed",
+      "lessonsValue": "{count}",
+      "quizScore": "Quiz Score",
+      "quizValue": "{score} / {total}",
+      "accuracy": "Accuracy",
+      "accuracyValue": "{percent}%",
+      "returnButton": "Return to Lesson List",
+      "retryButton": "Retry Lesson",
+      "backToList": "Back to Lessons"
+    }
+  },
+  "finalTestReview": {
+    "header": {
+      "back": "← Back",
+      "title": "{icon} {title} Final Test Review",
+      "passedBadge": "Passed",
+      "failedBadge": "Failed",
+      "accuracy": "{percent}%",
+      "score": "{score} / {total} correct"
+    },
+    "filter": {
+      "all": "All ({count})",
+      "wrong": "Wrong ({count})",
+      "correct": "Correct ({count})"
+    },
+    "question": {
+      "number": "Question {number}",
+      "correctBadge": "✅ Correct",
+      "wrongBadge": "❌ Wrong",
+      "questionText": "{text}",
+      "questionVi": "{text}",
+      "optionLetter": "{letter}",
+      "correctTag": "Correct",
+      "wrongTag": "My Answer",
+      "explanationTitle": "💡 Explanation",
+      "explanation": "{text}",
+      "explanationVi": "{text}"
+    },
+    "empty": {
+      "icon": "📭",
+      "wrongMessage": "No incorrect answers!",
+      "correctMessage": "No correct answers."
+    },
+    "actions": {
+      "backToLearn": "Back to Lessons"
+    }
+  }
+}

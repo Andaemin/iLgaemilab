@@ -1,0 +1,3188 @@
+<template>
+  <div class="ant-character" :class="{ 'is-happy': showHappiness }">
+    <!-- 배경 (꾸미기에서 선택한 경우만 표시) -->
+    <div v-if="background !== 'garden'" class="ant-background" :class="`bg-${background}`" :style="backgroundStyle">
+      <!-- 배경 장식 요소들 -->
+      <div class="bg-ground"></div>
+      <div class="bg-fence-left"></div>
+      <div class="bg-fence-right"></div>
+      <div class="bg-sunlight"></div>
+      <div class="bg-decoration"></div>
+    </div>
+
+    <div class="ant-container" @click="onAntClick">
+      <!-- 모자 (모든 단계에서 표시) -->
+      <div v-if="hat" class="ant-hat" :class="`hat-${stage}`">
+        {{ hatIcons[hat] || hat }}
+      </div>
+
+      <!-- 옷 (모든 단계에서 표시) -->
+      <div v-if="clothes" class="ant-clothes" :class="[`clothes-${stage}`, `clothes-${clothes}`]">
+        <!-- 티셔츠 -->
+        <template v-if="clothes === 'tshirt'">
+          <div class="tshirt-body"></div>
+          <div class="tshirt-sleeve left"></div>
+          <div class="tshirt-sleeve right"></div>
+        </template>
+
+        <!-- 정장 -->
+        <template v-else-if="clothes === 'suit'">
+          <div class="suit-jacket"></div>
+          <div class="suit-shirt"></div>
+          <div class="suit-tie"></div>
+          <div class="suit-collar left"></div>
+          <div class="suit-collar right"></div>
+        </template>
+
+        <!-- 드레스 -->
+        <template v-else-if="clothes === 'dress'">
+          <div class="dress-top"></div>
+          <div class="dress-skirt"></div>
+          <div class="dress-ribbon"></div>
+        </template>
+
+        <!-- 후드티 -->
+        <template v-else-if="clothes === 'hoodie'">
+          <div class="hoodie-body"></div>
+          <div class="hoodie-hood"></div>
+          <div class="hoodie-pocket"></div>
+          <div class="hoodie-string left"></div>
+          <div class="hoodie-string right"></div>
+        </template>
+
+        <!-- 갑옷 -->
+        <template v-else-if="clothes === 'armor'">
+          <div class="armor-chest"></div>
+          <div class="armor-plate" v-for="i in 3" :key="i"></div>
+          <div class="armor-shine"></div>
+        </template>
+      </div>
+
+      <!-- 알 (Egg) - 토스 스타일 -->
+      <div v-if="stage === 'egg'" class="ant-stage ant-egg">
+        <div class="egg-shell" :style="{ background: eggGradient }">
+          <div class="egg-shine"></div>
+          <div class="egg-pattern"></div>
+        </div>
+      </div>
+
+      <!-- 애벌레 (Larva) - 토스 스타일 -->
+      <div v-else-if="stage === 'larva'" class="ant-stage ant-larva">
+        <div class="larva-body" :style="{ background: larvaGradient }">
+          <div class="larva-segment" v-for="i in 5" :key="i"></div>
+          <div class="larva-shine"></div>
+        </div>
+        <div class="larva-face">
+          <div class="larva-eyes">
+            <div class="eye left">
+              <div class="pupil"></div>
+            </div>
+            <div class="eye right">
+              <div class="pupil"></div>
+            </div>
+          </div>
+          <div class="larva-mouth"></div>
+        </div>
+      </div>
+
+      <!-- 번데기 (Pupa) - 토스 스타일 -->
+      <div v-else-if="stage === 'pupa'" class="ant-stage ant-pupa">
+        <div class="pupa-shell" :style="{ background: pupaGradient }">
+          <div class="pupa-shine"></div>
+          <div class="pupa-lines" v-for="i in 6" :key="i"></div>
+          <div class="pupa-glow"></div>
+        </div>
+      </div>
+
+      <!-- 일개미 (Worker) - 토스 스타일 -->
+      <div v-else-if="stage === 'worker'" class="ant-stage ant-worker">
+        <div class="ant-head" :style="{ background: workerHeadGradient }">
+          <div class="antenna left"></div>
+          <div class="antenna right"></div>
+          <div class="ant-eyes">
+            <div class="eye left">
+              <div class="pupil"></div>
+              <div class="sparkle"></div>
+            </div>
+            <div class="eye right">
+              <div class="pupil"></div>
+              <div class="sparkle"></div>
+            </div>
+          </div>
+          <div class="ant-smile"></div>
+        </div>
+        <div class="ant-body" :style="{ background: workerBodyGradient }">
+          <div class="body-segment thorax"></div>
+          <div class="body-segment abdomen"></div>
+          <div class="body-shine"></div>
+        </div>
+        <div class="ant-legs">
+          <div class="leg" v-for="i in 6" :key="i"></div>
+        </div>
+      </div>
+
+      <!-- 병정개미 (Soldier) - 토스 스타일 -->
+      <div v-else-if="stage === 'soldier'" class="ant-stage ant-soldier">
+        <div class="ant-head soldier-head" :style="{ background: soldierHeadGradient }">
+          <div class="antenna left"></div>
+          <div class="antenna right"></div>
+          <div class="mandibles">
+            <div class="mandible left"></div>
+            <div class="mandible right"></div>
+          </div>
+          <div class="ant-eyes">
+            <div class="eye left">
+              <div class="pupil"></div>
+              <div class="sparkle"></div>
+            </div>
+            <div class="eye right">
+              <div class="pupil"></div>
+              <div class="sparkle"></div>
+            </div>
+          </div>
+          <div class="soldier-expression"></div>
+        </div>
+        <div class="ant-body soldier-body" :style="{ background: soldierBodyGradient }">
+          <div class="body-segment thorax"></div>
+          <div class="body-segment abdomen"></div>
+          <div class="armor-plates">
+            <div class="armor-plate" v-for="i in 3" :key="i"></div>
+          </div>
+          <div class="body-shine"></div>
+        </div>
+        <div class="ant-legs soldier-legs">
+          <div class="leg" v-for="i in 6" :key="i"></div>
+        </div>
+      </div>
+
+      <!-- 여왕개미 (Queen) - 토스 스타일 -->
+      <div v-else-if="stage === 'queen'" class="ant-stage ant-queen">
+        <div class="queen-aura"></div>
+        <div class="ant-head queen-head" :style="{ background: queenHeadGradient }">
+          <div class="antenna left royal"></div>
+          <div class="antenna right royal"></div>
+          <div class="ant-eyes">
+            <div class="eye left">
+              <div class="pupil"></div>
+              <div class="sparkle"></div>
+              <div class="sparkle small"></div>
+            </div>
+            <div class="eye right">
+              <div class="pupil"></div>
+              <div class="sparkle"></div>
+              <div class="sparkle small"></div>
+            </div>
+          </div>
+          <div class="queen-smile"></div>
+        </div>
+        <div class="ant-body queen-body" :style="{ background: queenBodyGradient }">
+          <div class="body-segment thorax royal"></div>
+          <div class="body-segment abdomen royal"></div>
+          <div class="wing left">
+            <div class="wing-pattern"></div>
+          </div>
+          <div class="wing right">
+            <div class="wing-pattern"></div>
+          </div>
+          <div class="body-shine royal"></div>
+          <div class="royal-gems">
+            <div class="gem" v-for="i in 3" :key="i"></div>
+          </div>
+        </div>
+        <div class="ant-legs queen-legs">
+          <div class="leg" v-for="i in 6" :key="i"></div>
+        </div>
+      </div>
+
+      <!-- 행복도 표시 -->
+      <transition name="happiness">
+        <div v-if="showHappiness" class="happiness-indicator">
+          <span class="heart">❤️</span>
+        </div>
+      </transition>
+    </div>
+  </div>
+</template>
+
+<script setup>
+import { ref, computed, watch } from 'vue';
+
+const props = defineProps({
+  stage: {
+    type: String,
+    default: 'egg',
+    validator: (value) => ['egg', 'larva', 'pupa', 'worker', 'soldier', 'queen'].includes(value),
+  },
+  level: {
+    type: Number,
+    default: 1,
+  },
+  name: {
+    type: String,
+    default: '',
+  },
+  color: {
+    type: String,
+    default: 'brown',
+  },
+  happiness: {
+    type: Number,
+    default: 50,
+  },
+  hat: {
+    type: String,
+    default: null,
+  },
+  clothes: {
+    type: String,
+    default: null,
+  },
+  background: {
+    type: String,
+    default: 'garden',
+  },
+});
+
+const emit = defineEmits(['ant-clicked']);
+
+const showHappiness = ref(false);
+
+// 색상 매핑
+const colorMap = {
+  brown: '#8B4513',
+  red: '#D32F2F',
+  black: '#212121',
+  yellow: '#FDD835',
+  green: '#388E3C',
+  blue: '#1976D2',
+  purple: '#7B1FA2',
+};
+
+const antColorValue = computed(() => colorMap[props.color] || colorMap.brown);
+
+// 토스 스타일 그라디언트 - 알
+const eggGradient = computed(() => {
+  const baseColor = antColorValue.value;
+  return `linear-gradient(135deg, ${baseColor} 0%, ${baseColor}dd 50%, ${baseColor}aa 100%)`;
+});
+
+// 토스 스타일 그라디언트 - 애벌레
+const larvaGradient = computed(() => {
+  const baseColor = antColorValue.value;
+  return `linear-gradient(180deg, ${baseColor}ee 0%, ${baseColor} 50%, ${baseColor}dd 100%)`;
+});
+
+// 토스 스타일 그라디언트 - 번데기
+const pupaGradient = computed(() => {
+  const baseColor = antColorValue.value;
+  return `linear-gradient(135deg, ${baseColor}dd 0%, ${baseColor}99 40%, ${baseColor}bb 60%, ${baseColor}cc 100%)`;
+});
+
+// 토스 스타일 그라디언트 - 일개미 머리
+const workerHeadGradient = computed(() => {
+  const baseColor = antColorValue.value;
+  return `radial-gradient(circle at 30% 30%, ${baseColor}ff 0%, ${baseColor}dd 50%, ${baseColor}bb 100%)`;
+});
+
+// 토스 스타일 그라디언트 - 일개미 몸통
+const workerBodyGradient = computed(() => {
+  const baseColor = antColorValue.value;
+  return `linear-gradient(90deg, ${baseColor}dd 0%, ${baseColor} 50%, ${baseColor}dd 100%)`;
+});
+
+// 토스 스타일 그라디언트 - 병정개미 머리
+const soldierHeadGradient = computed(() => {
+  const baseColor = antColorValue.value;
+  return `radial-gradient(circle at 35% 30%, ${baseColor}ff 0%, ${baseColor}ee 40%, ${baseColor}cc 100%)`;
+});
+
+// 토스 스타일 그라디언트 - 병정개미 몸통
+const soldierBodyGradient = computed(() => {
+  const baseColor = antColorValue.value;
+  return `linear-gradient(90deg, ${baseColor}ee 0%, ${baseColor}ff 30%, ${baseColor}dd 70%, ${baseColor}ee 100%)`;
+});
+
+// 토스 스타일 그라디언트 - 여왕개미 머리
+const queenHeadGradient = computed(() => {
+  const baseColor = antColorValue.value;
+  return `radial-gradient(circle at 30% 25%, ${baseColor}ff 0%, #FFD700 20%, ${baseColor}ff 40%, ${baseColor}dd 100%)`;
+});
+
+// 토스 스타일 그라디언트 - 여왕개미 몸통
+const queenBodyGradient = computed(() => {
+  const baseColor = antColorValue.value;
+  return `linear-gradient(135deg, ${baseColor}ff 0%, #FFD700 15%, ${baseColor}ff 30%, ${baseColor}ee 60%, ${baseColor}dd 100%)`;
+});
+
+// 모자 아이콘 매핑
+const hatIcons = {
+  cap: '🧢',
+  tophat: '🎩',
+  crown: '👑',
+  party: '🎉',
+  graduation: '🎓',
+  cowboy: '🤠',
+  santa: '🎅',
+};
+
+// 옷 스타일 매핑
+const clothesStyles = {
+  tshirt: '👕',
+  suit: '🤵',
+  dress: '👗',
+  hoodie: '🧥',
+  armor: '🛡️',
+};
+
+// 배경 스타일 매핑
+const backgroundStyles = {
+  garden: 'linear-gradient(135deg, #a8e063 0%, #56ab2f 100%)',
+  beach: 'linear-gradient(135deg, #ffeaa7 0%, #fdcb6e 100%)',
+  night: 'linear-gradient(135deg, #2c3e50 0%, #34495e 100%)',
+  rainbow: 'linear-gradient(135deg, #667eea 0%, #764ba2 50%, #f093fb 100%)',
+  space: 'linear-gradient(135deg, #0f0c29 0%, #302b63 50%, #24243e 100%)',
+  sakura: 'linear-gradient(135deg, #ffeef8 0%, #ffb6d9 100%)',
+};
+
+const backgroundStyle = computed(() => ({
+  background: backgroundStyles[props.background] || backgroundStyles.garden,
+}));
+
+// 행복도가 높으면 자동으로 하트 표시
+watch(() => props.happiness, (newVal) => {
+  if (newVal >= 80 && !showHappiness.value) {
+    showHappiness.value = true;
+    setTimeout(() => {
+      showHappiness.value = false;
+    }, 2000);
+  }
+});
+
+// 개미 클릭 이벤트
+function onAntClick() {
+  showHappiness.value = true;
+  setTimeout(() => {
+    showHappiness.value = false;
+  }, 1500);
+  emit('ant-clicked');
+}
+</script>
+
+<style scoped>
+.ant-character {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 12px;
+  overflow: hidden;
+  border-radius: 16px;
+  min-height: 250px;
+}
+
+/* 배경 */
+.ant-background {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border-radius: 16px;
+  z-index: 0;
+  opacity: 1;
+  filter: none;
+  pointer-events: none;
+}
+
+/* 모자 - 픽셀 개미 크기에 맞게 조정 */
+.ant-hat {
+  position: absolute;
+  font-size: 28px;
+  z-index: 10;
+  animation: hatFloat 2s ease-in-out infinite;
+  filter: drop-shadow(0 2px 4px rgba(0,0,0,0.2));
+  image-rendering: pixelated !important;
+}
+
+.ant-hat.hat-egg {
+  top: calc(var(--pixel) * -7);
+  left: 50%;
+  transform: translateX(-50%);
+  font-size: 18px;
+}
+
+.ant-hat.hat-larva {
+  top: calc(var(--pixel) * -6);
+  left: 50%;
+  transform: translateX(-50%);
+  font-size: 20px;
+}
+
+.ant-hat.hat-pupa {
+  top: calc(var(--pixel) * -7);
+  left: 50%;
+  transform: translateX(-50%);
+  font-size: 20px;
+}
+
+.ant-hat.hat-worker {
+  top: calc(var(--pixel) * -6);
+  left: 50%;
+  transform: translateX(-50%);
+  font-size: 22px;
+}
+
+.ant-hat.hat-soldier {
+  top: calc(var(--pixel) * -6);
+  left: 50%;
+  transform: translateX(-50%);
+  font-size: 24px;
+}
+
+.ant-hat.hat-queen {
+  top: calc(var(--pixel) * -7);
+  left: 50%;
+  transform: translateX(-50%);
+  font-size: 26px;
+}
+
+@keyframes hatFloat {
+  0%, 100% { transform: translateX(-50%) translateY(0); }
+  50% { transform: translateX(-50%) translateY(-3px); }
+}
+
+/* 옷 - 픽셀 개미 크기에 맞게 조정 */
+.ant-clothes {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 5;
+  pointer-events: none;
+  image-rendering: pixelated !important;
+}
+
+/* ===== 티셔츠 (T-shirt) ===== */
+.tshirt-body {
+  width: 40px;
+  height: 35px;
+  background: linear-gradient(135deg, #4A90E2 0%, #357ABD 100%);
+  border-radius: 8px 8px 12px 12px;
+  position: relative;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
+}
+
+.tshirt-sleeve {
+  position: absolute;
+  width: 12px;
+  height: 20px;
+  background: linear-gradient(135deg, #4A90E2 0%, #357ABD 100%);
+  border-radius: 6px;
+  top: 2px;
+}
+
+.tshirt-sleeve.left {
+  left: -10px;
+  transform: rotate(-15deg);
+}
+
+.tshirt-sleeve.right {
+  right: -10px;
+  transform: rotate(15deg);
+}
+
+/* 알 단계 티셔츠 (10x12 픽셀 = 50x60px) */
+.clothes-egg.clothes-tshirt {
+  top: 55%;
+}
+
+.clothes-egg.clothes-tshirt .tshirt-body {
+  width: calc(var(--pixel) * 8);
+  height: calc(var(--pixel) * 6);
+  border-radius: 4px 4px 6px 6px;
+}
+
+.clothes-egg.clothes-tshirt .tshirt-sleeve {
+  width: calc(var(--pixel) * 2);
+  height: calc(var(--pixel) * 3);
+}
+
+/* 애벌레 단계 티셔츠 (14x9 픽셀 = 70x45px) */
+.clothes-larva.clothes-tshirt {
+  top: 60%;
+}
+
+.clothes-larva.clothes-tshirt .tshirt-body {
+  width: calc(var(--pixel) * 10);
+  height: calc(var(--pixel) * 5);
+  border-radius: 12px;
+}
+
+.clothes-larva.clothes-tshirt .tshirt-sleeve {
+  width: calc(var(--pixel) * 2);
+  height: calc(var(--pixel) * 2.5);
+  top: calc(var(--pixel) * 1);
+}
+
+/* 번데기 단계 티셔츠 (10x13 픽셀 = 50x65px) */
+.clothes-pupa.clothes-tshirt {
+  top: 60%;
+}
+
+.clothes-pupa.clothes-tshirt .tshirt-body {
+  width: calc(var(--pixel) * 7);
+  height: calc(var(--pixel) * 8);
+  border-radius: 14px 14px 16px 16px;
+}
+
+.clothes-pupa.clothes-tshirt .tshirt-sleeve {
+  display: none;
+}
+
+/* 일개미 단계 티셔츠 (8x8 + 10x11 = 40+55px) */
+.clothes-worker.clothes-tshirt {
+  top: 70%;
+}
+
+.clothes-worker.clothes-tshirt .tshirt-body {
+  width: calc(var(--pixel) * 9);
+  height: calc(var(--pixel) * 8);
+}
+
+/* 병정개미 단계 티셔츠 (9x9 + 11x12 = 45+60px) */
+.clothes-soldier.clothes-tshirt {
+  top: 70%;
+}
+
+.clothes-soldier.clothes-tshirt .tshirt-body {
+  width: calc(var(--pixel) * 10);
+  height: calc(var(--pixel) * 9);
+}
+
+/* 여왕개미 단계 티셔츠 (10x10 + 13x15 = 50+75px) */
+.clothes-queen.clothes-tshirt {
+  top: 75%;
+}
+
+.clothes-queen.clothes-tshirt .tshirt-body {
+  width: calc(var(--pixel) * 12);
+  height: calc(var(--pixel) * 11);
+}
+
+/* ===== 정장 (Suit) ===== */
+.suit-jacket {
+  width: 45px;
+  height: 40px;
+  background: linear-gradient(135deg, #2C3E50 0%, #1A252F 100%);
+  border-radius: 8px 8px 14px 14px;
+  position: relative;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
+}
+
+.suit-shirt {
+  position: absolute;
+  width: 20px;
+  height: 30px;
+  background: white;
+  top: 5px;
+  left: 50%;
+  transform: translateX(-50%);
+  border-radius: 4px 4px 0 0;
+  box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+.suit-tie {
+  position: absolute;
+  width: 8px;
+  height: 18px;
+  background: linear-gradient(135deg, #C0392B 0%, #96281B 100%);
+  top: 8px;
+  left: 50%;
+  transform: translateX(-50%);
+  clip-path: polygon(50% 0%, 0% 15%, 20% 100%, 80% 100%, 100% 15%);
+}
+
+.suit-collar {
+  position: absolute;
+  width: 12px;
+  height: 12px;
+  background: white;
+  top: 5px;
+  clip-path: polygon(0 0, 100% 0, 50% 100%);
+}
+
+.suit-collar.left {
+  left: 8px;
+  transform: rotate(-20deg);
+}
+
+.suit-collar.right {
+  right: 8px;
+  transform: rotate(20deg);
+}
+
+/* 알 단계 정장 */
+.clothes-egg.clothes-suit {
+  top: 55%;
+}
+
+.clothes-egg.clothes-suit .suit-jacket {
+  width: calc(var(--pixel) * 8);
+  height: calc(var(--pixel) * 6);
+  border-radius: 4px 4px 6px 6px;
+}
+
+.clothes-egg.clothes-suit .suit-shirt {
+  width: calc(var(--pixel) * 3.5);
+  height: calc(var(--pixel) * 5);
+}
+
+.clothes-egg.clothes-suit .suit-tie {
+  width: calc(var(--pixel) * 1.5);
+  height: calc(var(--pixel) * 3);
+}
+
+/* 애벌레 단계 정장 */
+.clothes-larva.clothes-suit {
+  top: 60%;
+}
+
+.clothes-larva.clothes-suit .suit-jacket {
+  width: calc(var(--pixel) * 10);
+  height: calc(var(--pixel) * 5);
+  border-radius: 12px;
+}
+
+.clothes-larva.clothes-suit .suit-collar {
+  display: none;
+}
+
+/* 번데기 단계 정장 */
+.clothes-pupa.clothes-suit {
+  top: 60%;
+}
+
+.clothes-pupa.clothes-suit .suit-jacket {
+  width: calc(var(--pixel) * 7);
+  height: calc(var(--pixel) * 8);
+  border-radius: 14px 14px 16px 16px;
+}
+
+.clothes-pupa.clothes-suit .suit-collar {
+  display: none;
+}
+
+/* 일개미 단계 정장 */
+.clothes-worker.clothes-suit {
+  top: 70%;
+}
+
+.clothes-worker.clothes-suit .suit-jacket {
+  width: calc(var(--pixel) * 9);
+  height: calc(var(--pixel) * 8);
+}
+
+/* 병정개미 단계 정장 */
+.clothes-soldier.clothes-suit {
+  top: 70%;
+}
+
+.clothes-soldier.clothes-suit .suit-jacket {
+  width: calc(var(--pixel) * 10);
+  height: calc(var(--pixel) * 9);
+}
+
+/* 여왕개미 단계 정장 */
+.clothes-queen.clothes-suit {
+  top: 75%;
+}
+
+.clothes-queen.clothes-suit .suit-jacket {
+  width: calc(var(--pixel) * 12);
+  height: calc(var(--pixel) * 11);
+}
+
+/* ===== 드레스 (Dress) ===== */
+.dress-top {
+  width: 40px;
+  height: 25px;
+  background: linear-gradient(135deg, #FF69B4 0%, #FF1493 100%);
+  border-radius: 8px 8px 0 0;
+  position: relative;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
+}
+
+.dress-skirt {
+  position: absolute;
+  width: 50px;
+  height: 25px;
+  background: linear-gradient(135deg, #FFB6D9 0%, #FF69B4 100%);
+  top: 25px;
+  left: 50%;
+  transform: translateX(-50%);
+  border-radius: 0 0 25px 25px;
+  clip-path: polygon(10% 0%, 90% 0%, 100% 100%, 0% 100%);
+}
+
+.dress-ribbon {
+  position: absolute;
+  width: 15px;
+  height: 8px;
+  background: #FF1493;
+  top: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  border-radius: 4px;
+}
+
+.dress-ribbon::before,
+.dress-ribbon::after {
+  content: '';
+  position: absolute;
+  width: 8px;
+  height: 8px;
+  background: #FF1493;
+  border-radius: 50%;
+  top: 0;
+}
+
+.dress-ribbon::before {
+  left: -6px;
+}
+
+.dress-ribbon::after {
+  right: -6px;
+}
+
+/* 알 단계 드레스 */
+.clothes-egg.clothes-dress {
+  top: 55%;
+}
+
+.clothes-egg.clothes-dress .dress-top {
+  width: calc(var(--pixel) * 7);
+  height: calc(var(--pixel) * 4);
+}
+
+.clothes-egg.clothes-dress .dress-skirt {
+  width: calc(var(--pixel) * 8.5);
+  height: calc(var(--pixel) * 3.5);
+  top: calc(var(--pixel) * 4);
+}
+
+.clothes-egg.clothes-dress .dress-ribbon {
+  width: calc(var(--pixel) * 2.5);
+  height: calc(var(--pixel) * 1.5);
+  top: calc(var(--pixel) * 3.5);
+}
+
+/* 애벌레 단계 드레스 */
+.clothes-larva.clothes-dress {
+  top: 60%;
+}
+
+.clothes-larva.clothes-dress .dress-top {
+  width: calc(var(--pixel) * 10);
+  height: calc(var(--pixel) * 4);
+  border-radius: 10px 10px 0 0;
+}
+
+.clothes-larva.clothes-dress .dress-skirt {
+  width: calc(var(--pixel) * 12);
+  height: calc(var(--pixel) * 4);
+  top: calc(var(--pixel) * 4);
+  border-radius: 0 0 30px 30px;
+}
+
+/* 번데기 단계 드레스 */
+.clothes-pupa.clothes-dress {
+  top: 60%;
+}
+
+.clothes-pupa.clothes-dress .dress-top {
+  width: calc(var(--pixel) * 7.5);
+  height: calc(var(--pixel) * 6);
+  border-radius: 15px 15px 0 0;
+}
+
+.clothes-pupa.clothes-dress .dress-skirt {
+  width: calc(var(--pixel) * 9.5);
+  height: calc(var(--pixel) * 5);
+  top: calc(var(--pixel) * 6);
+}
+
+/* 일개미 단계 드레스 */
+.clothes-worker.clothes-dress {
+  top: 70%;
+}
+
+.clothes-worker.clothes-dress .dress-top {
+  width: calc(var(--pixel) * 9);
+  height: calc(var(--pixel) * 5);
+}
+
+.clothes-worker.clothes-dress .dress-skirt {
+  width: calc(var(--pixel) * 11);
+  height: calc(var(--pixel) * 6);
+  top: calc(var(--pixel) * 5);
+}
+
+/* 병정개미 단계 드레스 */
+.clothes-soldier.clothes-dress {
+  top: 70%;
+}
+
+.clothes-soldier.clothes-dress .dress-top {
+  width: calc(var(--pixel) * 10);
+  height: calc(var(--pixel) * 6);
+}
+
+.clothes-soldier.clothes-dress .dress-skirt {
+  width: calc(var(--pixel) * 12);
+  height: calc(var(--pixel) * 7);
+  top: calc(var(--pixel) * 6);
+}
+
+/* 여왕개미 단계 드레스 */
+.clothes-queen.clothes-dress {
+  top: 75%;
+}
+
+.clothes-queen.clothes-dress .dress-top {
+  width: calc(var(--pixel) * 12);
+  height: calc(var(--pixel) * 7);
+}
+
+.clothes-queen.clothes-dress .dress-skirt {
+  width: calc(var(--pixel) * 14);
+  height: calc(var(--pixel) * 8);
+  top: calc(var(--pixel) * 7);
+}
+
+/* ===== 후드티 (Hoodie) ===== */
+.hoodie-body {
+  width: 45px;
+  height: 38px;
+  background: linear-gradient(135deg, #7B68EE 0%, #6A5ACD 100%);
+  border-radius: 10px 10px 14px 14px;
+  position: relative;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
+}
+
+.hoodie-hood {
+  position: absolute;
+  width: 35px;
+  height: 20px;
+  background: linear-gradient(135deg, #9370DB 0%, #7B68EE 100%);
+  top: -15px;
+  left: 50%;
+  transform: translateX(-50%);
+  border-radius: 50% 50% 0 0;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.2);
+}
+
+.hoodie-pocket {
+  position: absolute;
+  width: 25px;
+  height: 15px;
+  background: linear-gradient(135deg, #6A5ACD 0%, #5B4BBD 100%);
+  bottom: 5px;
+  left: 50%;
+  transform: translateX(-50%);
+  border-radius: 4px;
+  box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.3);
+}
+
+.hoodie-string {
+  position: absolute;
+  width: 2px;
+  height: 12px;
+  background: #F0F0F0;
+  top: -8px;
+  border-radius: 1px;
+}
+
+.hoodie-string.left {
+  left: 40%;
+}
+
+.hoodie-string.right {
+  right: 40%;
+}
+
+/* 알 단계 후드티 */
+.clothes-egg.clothes-hoodie {
+  top: 55%;
+}
+
+.clothes-egg.clothes-hoodie .hoodie-body {
+  width: calc(var(--pixel) * 8);
+  height: calc(var(--pixel) * 6);
+}
+
+.clothes-egg.clothes-hoodie .hoodie-hood {
+  width: calc(var(--pixel) * 6.5);
+  height: calc(var(--pixel) * 3.5);
+  top: calc(var(--pixel) * -2.5);
+}
+
+.clothes-egg.clothes-hoodie .hoodie-pocket {
+  width: calc(var(--pixel) * 4.5);
+  height: calc(var(--pixel) * 2.5);
+}
+
+/* 애벌레 단계 후드티 */
+.clothes-larva.clothes-hoodie {
+  top: 60%;
+}
+
+.clothes-larva.clothes-hoodie .hoodie-body {
+  width: calc(var(--pixel) * 10);
+  height: calc(var(--pixel) * 5);
+  border-radius: 12px;
+}
+
+.clothes-larva.clothes-hoodie .hoodie-hood {
+  width: calc(var(--pixel) * 8.5);
+  height: calc(var(--pixel) * 3.5);
+  top: calc(var(--pixel) * -3);
+}
+
+/* 번데기 단계 후드티 */
+.clothes-pupa.clothes-hoodie {
+  top: 60%;
+}
+
+.clothes-pupa.clothes-hoodie .hoodie-body {
+  width: calc(var(--pixel) * 7);
+  height: calc(var(--pixel) * 8);
+  border-radius: 14px 14px 16px 16px;
+}
+
+.clothes-pupa.clothes-hoodie .hoodie-hood {
+  width: calc(var(--pixel) * 6);
+  height: calc(var(--pixel) * 3.5);
+  top: calc(var(--pixel) * -2.5);
+}
+
+/* 일개미 단계 후드티 */
+.clothes-worker.clothes-hoodie {
+  top: 70%;
+}
+
+.clothes-worker.clothes-hoodie .hoodie-body {
+  width: calc(var(--pixel) * 9);
+  height: calc(var(--pixel) * 8);
+}
+
+/* 병정개미 단계 후드티 */
+.clothes-soldier.clothes-hoodie {
+  top: 70%;
+}
+
+.clothes-soldier.clothes-hoodie .hoodie-body {
+  width: calc(var(--pixel) * 10);
+  height: calc(var(--pixel) * 9);
+}
+
+/* 여왕개미 단계 후드티 */
+.clothes-queen.clothes-hoodie {
+  top: 75%;
+}
+
+.clothes-queen.clothes-hoodie .hoodie-body {
+  width: calc(var(--pixel) * 12);
+  height: calc(var(--pixel) * 11);
+}
+
+/* ===== 갑옷 (Armor) ===== */
+.armor-chest {
+  width: 45px;
+  height: 40px;
+  background: linear-gradient(135deg, #B8B8B8 0%, #707070 50%, #4A4A4A 100%);
+  border-radius: 8px 8px 12px 12px;
+  position: relative;
+  box-shadow: 0 3px 8px rgba(0, 0, 0, 0.4), inset 0 1px 2px rgba(255, 255, 255, 0.3);
+}
+
+.armor-plate {
+  position: absolute;
+  width: 100%;
+  height: 6px;
+  background: linear-gradient(90deg,
+    rgba(255, 255, 255, 0.2) 0%,
+    rgba(255, 255, 255, 0.4) 50%,
+    rgba(255, 255, 255, 0.2) 100%
+  );
+  border-top: 1px solid rgba(255, 255, 255, 0.5);
+  border-bottom: 1px solid rgba(0, 0, 0, 0.3);
+  left: 0;
+}
+
+.armor-plate:nth-child(2) {
+  top: 25%;
+}
+
+.armor-plate:nth-child(3) {
+  top: 50%;
+}
+
+.armor-plate:nth-child(4) {
+  top: 75%;
+}
+
+.armor-shine {
+  position: absolute;
+  width: 15px;
+  height: 25px;
+  background: linear-gradient(135deg, rgba(255, 255, 255, 0.5) 0%, rgba(255, 255, 255, 0) 100%);
+  top: 8px;
+  left: 12px;
+  border-radius: 50%;
+  filter: blur(2px);
+}
+
+/* 알 단계 갑옷 */
+.clothes-egg.clothes-armor {
+  top: 55%;
+}
+
+.clothes-egg.clothes-armor .armor-chest {
+  width: calc(var(--pixel) * 8);
+  height: calc(var(--pixel) * 6);
+  border-radius: 4px 4px 6px 6px;
+}
+
+.clothes-egg.clothes-armor .armor-plate {
+  height: calc(var(--pixel) * 1);
+}
+
+/* 애벌레 단계 갑옷 */
+.clothes-larva.clothes-armor {
+  top: 60%;
+}
+
+.clothes-larva.clothes-armor .armor-chest {
+  width: calc(var(--pixel) * 10);
+  height: calc(var(--pixel) * 5);
+  border-radius: 12px;
+}
+
+/* 번데기 단계 갑옷 */
+.clothes-pupa.clothes-armor {
+  top: 60%;
+}
+
+.clothes-pupa.clothes-armor .armor-chest {
+  width: calc(var(--pixel) * 7);
+  height: calc(var(--pixel) * 8);
+  border-radius: 14px 14px 16px 16px;
+}
+
+/* 일개미 단계 갑옷 */
+.clothes-worker.clothes-armor {
+  top: 70%;
+}
+
+.clothes-worker.clothes-armor .armor-chest {
+  width: calc(var(--pixel) * 9);
+  height: calc(var(--pixel) * 8);
+}
+
+/* 병정개미 단계 갑옷 강화 */
+.clothes-soldier.clothes-armor {
+  top: 70%;
+}
+
+.clothes-soldier.clothes-armor .armor-chest {
+  width: calc(var(--pixel) * 10);
+  height: calc(var(--pixel) * 9);
+  background: linear-gradient(135deg, #C0C0C0 0%, #808080 50%, #505050 100%);
+}
+
+/* 여왕개미 단계 갑옷 강화 (황금) */
+.clothes-queen.clothes-armor {
+  top: 75%;
+}
+
+.clothes-queen.clothes-armor .armor-chest {
+  width: calc(var(--pixel) * 12);
+  height: calc(var(--pixel) * 11);
+  background: linear-gradient(135deg, #FFD700 0%, #FFA500 50%, #FF8C00 100%);
+}
+
+.clothes-queen.clothes-armor .armor-shine {
+  background: linear-gradient(135deg, rgba(255, 255, 255, 0.8) 0%, rgba(255, 215, 0, 0.3) 100%);
+}
+
+.ant-container {
+  position: relative;
+  width: 150px;
+  height: 150px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: transform 0.3s ease;
+  z-index: 10;
+}
+
+.ant-container:hover {
+  transform: scale(1.05);
+}
+
+.ant-container:active {
+  transform: scale(0.95);
+}
+
+.ant-stage {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  animation: antBreathe 3s ease-in-out infinite;
+}
+
+@keyframes antBreathe {
+  0%, 100% { transform: scale(1); }
+  50% { transform: scale(1.02); }
+}
+
+/* ===== 🎮 픽셀 아트 스타일 설정 ===== */
+:root {
+  --pixel: 5px;
+}
+
+
+/* ===== 애벌레, 번데기 기본 스타일 ===== */
+.ant-larva {
+  width: calc(var(--pixel) * 14);
+  height: calc(var(--pixel) * 9);
+  flex-direction: column;
+  gap: 0;
+}
+
+.larva-body,
+.larva-face {
+  position: relative;
+}
+
+.ant-pupa {
+  width: calc(var(--pixel) * 10);
+  height: calc(var(--pixel) * 13);
+}
+
+.pupa-shell {
+  position: relative;
+}
+
+/* ===== 일개미, 병정개미, 여왕개미 기본 스타일 ===== */
+.ant-worker,
+.ant-soldier,
+.ant-queen {
+  width: 120px;
+  height: 120px;
+  position: relative;
+}
+
+.ant-head {
+  position: relative;
+}
+
+.ant-body {
+  position: relative;
+}
+
+.antenna,
+.mandibles,
+.wing,
+.royal-gems,
+.armor-plates,
+.queen-aura,
+.body-segment,
+.ant-eyes,
+.ant-legs,
+.larva-segment,
+.larva-shine,
+.pupa-shine,
+.pupa-lines,
+.pupa-glow,
+.soldier-expression {
+  display: none;
+}
+
+/* 행복도 표시 */
+.happiness-indicator {
+  position: absolute;
+  top: -30px;
+  left: 50%;
+  transform: translateX(-50%);
+  font-size: 24px;
+  animation: happinessFloat 1.5s ease-out;
+  z-index: 10;
+}
+
+@keyframes happinessFloat {
+  0% { transform: translateX(-50%) translateY(0) scale(0.5); opacity: 0; }
+  50% { transform: translateX(-50%) translateY(-10px) scale(1.2); opacity: 1; }
+  100% { transform: translateX(-50%) translateY(-20px) scale(1); opacity: 0; }
+}
+
+.happiness-enter-active,
+.happiness-leave-active {
+  transition: all 1.5s ease;
+}
+
+.happiness-enter-from {
+  transform: translateX(-50%) scale(0.5);
+  opacity: 0;
+}
+
+.happiness-leave-to {
+  transform: translateX(-50%) translateY(-30px) scale(0.5);
+  opacity: 0;
+}
+
+/* 개미 이름 */
+.ant-name {
+  font-size: 16px;
+  font-weight: 600;
+  color: #333;
+  text-align: center;
+  padding: 6px 12px;
+  background: rgba(255, 255, 255, 0.9);
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  position: relative;
+  z-index: 10;
+}
+
+/* 레벨 뱃지 */
+.ant-level-badge {
+  position: absolute;
+  top: -5px;
+  right: -5px;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  color: white;
+  font-size: 12px;
+  font-weight: 700;
+  padding: 4px 8px;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.2);
+  min-width: 35px;
+  text-align: center;
+  z-index: 10;
+}
+
+/* 행복 애니메이션 */
+.is-happy .ant-container {
+  animation: happyBounce 0.5s ease;
+}
+
+@keyframes happyBounce {
+  0%, 100% { transform: scale(1); }
+  25% { transform: scale(1.1) rotate(-5deg); }
+  50% { transform: scale(1.1) rotate(5deg); }
+  75% { transform: scale(1.1) rotate(-5deg); }
+}
+
+/* 걷기/기어다니기 애니메이션 */
+.ant-container {
+  animation: antWalk 8s ease-in-out infinite;
+}
+
+.is-happy .ant-container {
+  animation: happyBounce 0.5s ease, antWalk 8s ease-in-out infinite;
+}
+
+/* 알 - 굴러다니는 애니메이션 */
+@keyframes antWalk {
+  0%, 100% {
+    transform: translateX(-30px) scaleX(1);
+  }
+  25% {
+    transform: translateX(-15px) scaleX(1) rotate(2deg);
+  }
+  50% {
+    transform: translateX(30px) scaleX(-1);
+  }
+  75% {
+    transform: translateX(15px) scaleX(-1) rotate(-2deg);
+  }
+}
+
+/* 애벌레 - 꿈틀거리며 기어다니기 */
+.ant-larva .ant-container {
+  animation: larvaWalk 6s ease-in-out infinite;
+}
+
+@keyframes larvaWalk {
+  0%, 100% {
+    transform: translateX(-40px) scaleX(1) scaleY(1);
+  }
+  20% {
+    transform: translateX(-20px) scaleX(0.95) scaleY(1.05) rotate(1deg);
+  }
+  40% {
+    transform: translateX(0) scaleX(1) scaleY(1) rotate(0deg);
+  }
+  60% {
+    transform: translateX(20px) scaleX(0.95) scaleY(1.05) rotate(-1deg);
+  }
+  80% {
+    transform: translateX(40px) scaleX(-1) scaleY(1) rotate(0deg);
+  }
+}
+
+/* 번데기 - 약간 흔들리며 이동 */
+.ant-pupa .ant-container {
+  animation: pupaWalk 10s ease-in-out infinite;
+}
+
+@keyframes pupaWalk {
+  0%, 100% {
+    transform: translateX(-20px) rotate(0deg);
+  }
+  25% {
+    transform: translateX(-10px) rotate(3deg);
+  }
+  50% {
+    transform: translateX(20px) rotate(0deg);
+  }
+  75% {
+    transform: translateX(10px) rotate(-3deg);
+  }
+}
+
+/* 일개미 - 활발하게 걷기 */
+.ant-worker .ant-container {
+  animation: workerWalk 7s linear infinite;
+}
+
+@keyframes workerWalk {
+  0%, 100% {
+    transform: translateX(-50px) scaleX(1) rotate(0deg);
+  }
+  15% {
+    transform: translateX(-35px) scaleX(1) rotate(2deg);
+  }
+  30% {
+    transform: translateX(-10px) scaleX(1) rotate(-1deg);
+  }
+  50% {
+    transform: translateX(50px) scaleX(-1) rotate(0deg);
+  }
+  65% {
+    transform: translateX(35px) scaleX(-1) rotate(-2deg);
+  }
+  80% {
+    transform: translateX(10px) scaleX(-1) rotate(1deg);
+  }
+}
+
+/* 병정개미 - 순찰하듯 천천히 걷기 */
+.ant-soldier .ant-container {
+  animation: soldierWalk 9s ease-in-out infinite;
+}
+
+@keyframes soldierWalk {
+  0%, 100% {
+    transform: translateX(-45px) scaleX(1);
+  }
+  20% {
+    transform: translateX(-30px) scaleX(1) rotate(1deg);
+  }
+  40% {
+    transform: translateX(0px) scaleX(1) rotate(0deg);
+  }
+  60% {
+    transform: translateX(30px) scaleX(-1) rotate(-1deg);
+  }
+  80% {
+    transform: translateX(45px) scaleX(-1);
+  }
+}
+
+/* 여왕개미 - 우아하게 천천히 이동 */
+.ant-queen .ant-container {
+  animation: queenWalk 12s ease-in-out infinite;
+}
+
+@keyframes queenWalk {
+  0%, 100% {
+    transform: translateX(-35px) scaleX(1) translateY(0);
+  }
+  25% {
+    transform: translateX(-20px) scaleX(1) translateY(-3px);
+  }
+  50% {
+    transform: translateX(35px) scaleX(-1) translateY(0);
+  }
+  75% {
+    transform: translateX(20px) scaleX(-1) translateY(-3px);
+  }
+}
+
+/* 호버 시 애니메이션 일시 정지 */
+.ant-container:hover {
+  animation-play-state: paused;
+}
+
+/* ===== 배경 디자인 ===== */
+.ant-background {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  border-radius: 20px;
+  overflow: hidden;
+}
+
+/* 공통 배경 요소 */
+.bg-ground {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 60px;
+  z-index: 1;
+}
+
+.bg-fence-left,
+.bg-fence-right {
+  position: absolute;
+  bottom: 50px;
+  width: 40px;
+  height: 80px;
+  z-index: 2;
+}
+
+.bg-fence-left {
+  left: 10px;
+}
+
+.bg-fence-right {
+  right: 10px;
+}
+
+.bg-sunlight {
+  position: absolute;
+  top: 20px;
+  right: 30px;
+  width: 60px;
+  height: 60px;
+  z-index: 0;
+}
+
+.bg-decoration {
+  position: absolute;
+  z-index: 1;
+}
+
+/* ===== 정원 (Garden) 배경 ===== */
+.bg-garden .bg-ground {
+  background: linear-gradient(180deg, #7CB342 0%, #558B2F 100%);
+  box-shadow: inset 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.bg-garden .bg-ground::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 8px;
+  background: repeating-linear-gradient(
+    90deg,
+    #66BB6A 0px,
+    #66BB6A 3px,
+    transparent 3px,
+    transparent 6px
+  );
+}
+
+.bg-garden .bg-fence-left,
+.bg-garden .bg-fence-right {
+  background: linear-gradient(180deg, #8D6E63 0%, #6D4C41 100%);
+  border-radius: 4px 4px 0 0;
+  box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.2);
+}
+
+.bg-garden .bg-fence-left::before,
+.bg-garden .bg-fence-right::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  background: repeating-linear-gradient(
+    180deg,
+    transparent 0px,
+    transparent 18px,
+    rgba(0, 0, 0, 0.1) 18px,
+    rgba(0, 0, 0, 0.1) 20px
+  );
+}
+
+.bg-garden .bg-sunlight {
+  background: radial-gradient(circle, #FDD835 0%, #F9A825 40%, transparent 70%);
+  border-radius: 50%;
+  animation: sunGlow 4s ease-in-out infinite;
+  box-shadow: 0 0 30px rgba(253, 216, 53, 0.6);
+}
+
+@keyframes sunGlow {
+  0%, 100% { opacity: 0.8; transform: scale(1); }
+  50% { opacity: 1; transform: scale(1.1); }
+}
+
+.bg-garden .bg-decoration {
+  width: 20px;
+  height: 20px;
+  background: #4CAF50;
+  border-radius: 50%;
+  top: 30%;
+  left: 20%;
+  box-shadow:
+    40px 20px 0 #8BC34A,
+    80px 10px 0 #66BB6A,
+    120px 30px 0 #4CAF50;
+}
+
+/* ===== 해변 (Beach) 배경 ===== */
+.bg-beach .bg-ground {
+  background: linear-gradient(180deg, #FFE082 0%, #FFB300 100%);
+  box-shadow: inset 0 4px 8px rgba(0, 0, 0, 0.05);
+}
+
+.bg-beach .bg-ground::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  background: repeating-radial-gradient(
+    circle at 20% 20%,
+    transparent 0px,
+    transparent 8px,
+    rgba(255, 255, 255, 0.3) 8px,
+    rgba(255, 255, 255, 0.3) 10px
+  );
+}
+
+.bg-beach .bg-fence-left,
+.bg-beach .bg-fence-right {
+  width: 30px;
+  height: 100px;
+  background: linear-gradient(180deg, #66BB6A 0%, #43A047 60%, #8D6E63 60%, #6D4C41 100%);
+  border-radius: 50% 50% 0 0;
+  box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.2);
+}
+
+.bg-beach .bg-fence-left::after,
+.bg-beach .bg-fence-right::after {
+  content: '';
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 40px;
+  height: 40px;
+  background: #4CAF50;
+  border-radius: 50% 50% 40% 40%;
+  box-shadow:
+    -15px -10px 0 -5px #66BB6A,
+    15px -10px 0 -5px #66BB6A,
+    0 -15px 0 -8px #81C784;
+}
+
+.bg-beach .bg-sunlight {
+  background: radial-gradient(circle, #FFD54F 0%, #FFA726 40%, transparent 70%);
+  width: 70px;
+  height: 70px;
+  animation: sunGlow 3s ease-in-out infinite;
+  box-shadow: 0 0 40px rgba(255, 213, 79, 0.7);
+}
+
+.bg-beach .bg-decoration {
+  width: 15px;
+  height: 15px;
+  background: white;
+  border-radius: 50%;
+  top: 20%;
+  left: 15%;
+  animation: waveDrift 6s ease-in-out infinite;
+  box-shadow:
+    30px 50px 0 rgba(255, 255, 255, 0.8),
+    60px 40px 0 rgba(255, 255, 255, 0.6);
+}
+
+@keyframes waveDrift {
+  0%, 100% { transform: translateX(0); }
+  50% { transform: translateX(20px); }
+}
+
+/* ===== 밤 (Night) 배경 ===== */
+.bg-night .bg-ground {
+  background: linear-gradient(180deg, #37474F 0%, #263238 100%);
+  box-shadow: inset 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+.bg-night .bg-fence-left,
+.bg-night .bg-fence-right {
+  background: linear-gradient(180deg, #455A64 0%, #263238 100%);
+  opacity: 0.8;
+}
+
+.bg-night .bg-sunlight {
+  background: radial-gradient(circle, #FFF9C4 0%, #F9A825 30%, transparent 60%);
+  width: 50px;
+  height: 50px;
+  top: 30px;
+  animation: moonGlow 5s ease-in-out infinite;
+  box-shadow: 0 0 30px rgba(255, 249, 196, 0.5);
+}
+
+@keyframes moonGlow {
+  0%, 100% { opacity: 0.9; box-shadow: 0 0 30px rgba(255, 249, 196, 0.5); }
+  50% { opacity: 1; box-shadow: 0 0 50px rgba(255, 249, 196, 0.8); }
+}
+
+.bg-night .bg-decoration {
+  width: 3px;
+  height: 3px;
+  background: white;
+  border-radius: 50%;
+  top: 15%;
+  left: 25%;
+  animation: starTwinkle 3s ease-in-out infinite;
+  box-shadow:
+    40px 20px 0 white,
+    80px 40px 0 #FFD54F,
+    30px 60px 0 white,
+    100px 15px 0 #FFD54F,
+    60px 70px 0 white,
+    120px 50px 0 white;
+}
+
+@keyframes starTwinkle {
+  0%, 100% { opacity: 1; }
+  50% { opacity: 0.3; }
+}
+
+/* ===== 무지개 (Rainbow) 배경 ===== */
+.bg-rainbow .bg-ground {
+  background: linear-gradient(90deg,
+    #F093FB 0%,
+    #F5576C 25%,
+    #FFD54F 50%,
+    #4CAF50 75%,
+    #667eea 100%
+  );
+  animation: rainbowShift 10s linear infinite;
+}
+
+@keyframes rainbowShift {
+  0% { filter: hue-rotate(0deg); }
+  100% { filter: hue-rotate(360deg); }
+}
+
+.bg-rainbow .bg-fence-left,
+.bg-rainbow .bg-fence-right {
+  background: linear-gradient(180deg,
+    #667eea 0%,
+    #764ba2 50%,
+    #f093fb 100%
+  );
+  animation: rainbowPulse 3s ease-in-out infinite;
+}
+
+@keyframes rainbowPulse {
+  0%, 100% { opacity: 0.8; }
+  50% { opacity: 1; }
+}
+
+.bg-rainbow .bg-sunlight {
+  width: 80px;
+  height: 80px;
+  background: radial-gradient(circle,
+    rgba(255, 255, 255, 0.9) 0%,
+    rgba(255, 215, 0, 0.6) 40%,
+    transparent 70%
+  );
+  animation: rainbowSunPulse 2s ease-in-out infinite;
+}
+
+@keyframes rainbowSunPulse {
+  0%, 100% { transform: scale(1) rotate(0deg); }
+  50% { transform: scale(1.2) rotate(180deg); }
+}
+
+.bg-rainbow .bg-decoration {
+  width: 100px;
+  height: 30px;
+  top: 40%;
+  left: 50%;
+  transform: translateX(-50%);
+  background: linear-gradient(90deg,
+    rgba(255, 0, 0, 0.6) 0%,
+    rgba(255, 127, 0, 0.6) 16.67%,
+    rgba(255, 255, 0, 0.6) 33.33%,
+    rgba(0, 255, 0, 0.6) 50%,
+    rgba(0, 0, 255, 0.6) 66.67%,
+    rgba(75, 0, 130, 0.6) 83.33%,
+    rgba(148, 0, 211, 0.6) 100%
+  );
+  border-radius: 100px 100px 0 0;
+  opacity: 0.7;
+}
+
+/* ===== 우주 (Space) 배경 ===== */
+.bg-space .bg-ground {
+  background: linear-gradient(180deg, #1A237E 0%, #000051 100%);
+  box-shadow: inset 0 4px 12px rgba(0, 0, 0, 0.5);
+}
+
+.bg-space .bg-fence-left,
+.bg-space .bg-fence-right {
+  background: linear-gradient(180deg, #283593 0%, #1A237E 100%);
+  opacity: 0.7;
+  box-shadow: 0 0 20px rgba(103, 58, 183, 0.5);
+}
+
+.bg-space .bg-sunlight {
+  width: 40px;
+  height: 40px;
+  background: radial-gradient(circle, #BA68C8 0%, #9C27B0 50%, transparent 70%);
+  animation: planetRotate 8s linear infinite;
+  box-shadow: 0 0 30px rgba(186, 104, 200, 0.6);
+}
+
+@keyframes planetRotate {
+  0% { transform: rotate(0deg); filter: hue-rotate(0deg); }
+  100% { transform: rotate(360deg); filter: hue-rotate(360deg); }
+}
+
+.bg-space .bg-decoration {
+  width: 2px;
+  height: 2px;
+  background: white;
+  border-radius: 50%;
+  top: 10%;
+  left: 20%;
+  animation: starFloat 4s ease-in-out infinite;
+  box-shadow:
+    50px 30px 0 #E1BEE7,
+    100px 20px 0 white,
+    30px 70px 0 #CE93D8,
+    80px 60px 0 white,
+    120px 40px 0 #BA68C8,
+    40px 50px 0 white,
+    90px 80px 0 #E1BEE7,
+    110px 70px 0 white;
+}
+
+@keyframes starFloat {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(-10px); }
+}
+
+/* ===== 벚꽃 (Sakura) 배경 ===== */
+.bg-sakura .bg-ground {
+  background: linear-gradient(180deg, #FCE4EC 0%, #F8BBD0 100%);
+  box-shadow: inset 0 4px 8px rgba(0, 0, 0, 0.05);
+}
+
+.bg-sakura .bg-fence-left,
+.bg-sakura .bg-fence-right {
+  width: 35px;
+  background: linear-gradient(180deg, #8D6E63 0%, #5D4037 100%);
+}
+
+.bg-sakura .bg-fence-left::before,
+.bg-sakura .bg-fence-right::before {
+  content: '';
+  position: absolute;
+  top: 20%;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 50px;
+  height: 50px;
+  background: radial-gradient(circle, #F48FB1 0%, #F06292 70%, transparent 70%);
+  border-radius: 50%;
+  box-shadow:
+    -20px 15px 0 -5px #FCE4EC,
+    20px 15px 0 -5px #FCE4EC,
+    0 25px 0 -8px #F8BBD0,
+    -15px 30px 0 -10px #F48FB1,
+    15px 30px 0 -10px #F48FB1;
+}
+
+.bg-sakura .bg-sunlight {
+  background: radial-gradient(circle, #FFE0B2 0%, #FFCC80 40%, transparent 70%);
+  animation: sunGlow 5s ease-in-out infinite;
+  box-shadow: 0 0 40px rgba(255, 224, 178, 0.5);
+}
+
+.bg-sakura .bg-decoration {
+  width: 15px;
+  height: 15px;
+  top: 20%;
+  left: 30%;
+  animation: petalFall 8s ease-in-out infinite;
+}
+
+.bg-sakura .bg-decoration::before,
+.bg-sakura .bg-decoration::after {
+  content: '';
+  position: absolute;
+  width: 12px;
+  height: 12px;
+  background: #F8BBD0;
+  border-radius: 50% 50% 0 50%;
+}
+
+.bg-sakura .bg-decoration::before {
+  transform: rotate(45deg);
+}
+
+.bg-sakura .bg-decoration::after {
+  transform: rotate(-45deg);
+  left: 3px;
+}
+
+@keyframes petalFall {
+  0% { transform: translateY(0) rotate(0deg); opacity: 1; }
+  100% { transform: translateY(200px) rotate(360deg); opacity: 0; }
+}
+
+/* ===== 일몰 (Sunset) 배경 ===== */
+.bg-sunset .bg-ground {
+  background: linear-gradient(180deg, #ff6b6b 0%, #ffa06b 50%, #ffdd6b 100%);
+  box-shadow: inset 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.bg-sunset .bg-fence-left,
+.bg-sunset .bg-fence-right {
+  background: linear-gradient(180deg, #8D6E63 0%, #5D4037 100%);
+}
+
+.bg-sunset .bg-sunlight {
+  background: radial-gradient(circle, #ff6b6b 0%, #ff8e53 40%, #ffb369 70%, transparent 80%);
+  animation: sunGlow 4s ease-in-out infinite;
+  box-shadow: 0 0 50px rgba(255, 107, 107, 0.7);
+}
+
+.bg-sunset .bg-decoration {
+  width: 30px;
+  height: 3px;
+  background: linear-gradient(90deg, transparent 0%, #ffa06b 50%, transparent 100%);
+  top: 30%;
+  left: 10%;
+  animation: cloudDrift 15s linear infinite;
+}
+
+/* ===== 바다 (Ocean) 배경 ===== */
+.bg-ocean .bg-ground {
+  background: linear-gradient(180deg, #4facfe 0%, #00f2fe 100%);
+  box-shadow: inset 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.bg-ocean .bg-fence-left,
+.bg-ocean .bg-fence-right {
+  background: linear-gradient(180deg, #01579B 0%, #0277BD 100%);
+}
+
+.bg-ocean .bg-sunlight {
+  background: radial-gradient(circle, #FFE082 0%, #FFD54F 40%, transparent 70%);
+  animation: sunGlow 5s ease-in-out infinite;
+  box-shadow: 0 0 40px rgba(255, 224, 130, 0.6);
+}
+
+.bg-ocean .bg-decoration {
+  width: 40px;
+  height: 40px;
+  top: 70%;
+  left: 60%;
+  animation: waveBounce 3s ease-in-out infinite;
+}
+
+.bg-ocean .bg-decoration::before {
+  content: '🌊';
+  position: absolute;
+  font-size: 30px;
+}
+
+@keyframes waveBounce {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(-15px); }
+}
+
+/* ===== 숲 (Forest) 배경 ===== */
+.bg-forest .bg-ground {
+  background: linear-gradient(180deg, #134e5e 0%, #71b280 100%);
+  box-shadow: inset 0 4px 8px rgba(0, 0, 0, 0.15);
+}
+
+.bg-forest .bg-fence-left,
+.bg-forest .bg-fence-right {
+  width: 40px;
+  background: linear-gradient(180deg, #2E7D32 0%, #1B5E20 100%);
+}
+
+.bg-forest .bg-fence-left::before,
+.bg-forest .bg-fence-right::before {
+  content: '';
+  position: absolute;
+  top: 10%;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 50px;
+  height: 60px;
+  background: #43A047;
+  clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+  box-shadow: -20px 20px 0 -5px #66BB6A, 20px 20px 0 -5px #66BB6A;
+}
+
+.bg-forest .bg-sunlight {
+  background: radial-gradient(circle, #FFF9C4 0%, #FFF176 40%, transparent 70%);
+  animation: sunGlow 6s ease-in-out infinite;
+  opacity: 0.7;
+}
+
+.bg-forest .bg-decoration {
+  width: 15px;
+  height: 15px;
+  top: 60%;
+  left: 40%;
+  animation: leafFall 10s linear infinite;
+}
+
+.bg-forest .bg-decoration::before {
+  content: '🍃';
+  position: absolute;
+  font-size: 20px;
+}
+
+@keyframes leafFall {
+  0% { transform: translateY(-50px) rotate(0deg); opacity: 0; }
+  10% { opacity: 1; }
+  90% { opacity: 1; }
+  100% { transform: translateY(250px) rotate(360deg); opacity: 0; }
+}
+
+/* ===== 불꽃 (Fire) 배경 ===== */
+.bg-fire .bg-ground {
+  background: linear-gradient(180deg, #fa709a 0%, #fee140 100%);
+  box-shadow: inset 0 4px 8px rgba(0, 0, 0, 0.1);
+  animation: fireGlow 2s ease-in-out infinite;
+}
+
+.bg-fire .bg-fence-left,
+.bg-fire .bg-fence-right {
+  background: linear-gradient(180deg, #D32F2F 0%, #B71C1C 100%);
+}
+
+.bg-fire .bg-sunlight {
+  background: radial-gradient(circle, #FF5722 0%, #FF7043 40%, #FFAB91 70%, transparent 80%);
+  animation: firePulse 1.5s ease-in-out infinite;
+  box-shadow: 0 0 60px rgba(255, 87, 34, 0.8);
+}
+
+.bg-fire .bg-decoration {
+  width: 40px;
+  height: 50px;
+  top: 50%;
+  left: 70%;
+  animation: flameDance 2s ease-in-out infinite;
+}
+
+.bg-fire .bg-decoration::before {
+  content: '🔥';
+  position: absolute;
+  font-size: 40px;
+}
+
+@keyframes fireGlow {
+  0%, 100% { filter: brightness(1); }
+  50% { filter: brightness(1.2); }
+}
+
+@keyframes firePulse {
+  0%, 100% { transform: scale(1); }
+  50% { transform: scale(1.1); }
+}
+
+@keyframes flameDance {
+  0%, 100% { transform: translateY(0) scale(1); }
+  50% { transform: translateY(-20px) scale(1.1); }
+}
+
+/* ===== 오로라 (Aurora) 배경 ===== */
+.bg-aurora .bg-ground {
+  background: linear-gradient(180deg, #a8edea 0%, #fed6e3 100%);
+  box-shadow: inset 0 4px 8px rgba(0, 0, 0, 0.05);
+}
+
+.bg-aurora .bg-fence-left,
+.bg-aurora .bg-fence-right {
+  background: linear-gradient(180deg, #81C784 0%, #66BB6A 100%);
+  opacity: 0.8;
+}
+
+.bg-aurora .bg-sunlight {
+  background: radial-gradient(circle, #E1F5FE 0%, #B3E5FC 40%, transparent 70%);
+  animation: auroraGlow 8s ease-in-out infinite;
+  box-shadow: 0 0 50px rgba(225, 245, 254, 0.6);
+}
+
+.bg-aurora .bg-decoration {
+  width: 100%;
+  height: 80px;
+  top: 20%;
+  left: 0;
+  background: linear-gradient(90deg,
+    rgba(168, 237, 234, 0.3) 0%,
+    rgba(254, 214, 227, 0.3) 25%,
+    rgba(210, 153, 194, 0.3) 50%,
+    rgba(168, 237, 234, 0.3) 75%,
+    rgba(254, 214, 227, 0.3) 100%);
+  animation: auroraWave 10s linear infinite;
+}
+
+@keyframes auroraGlow {
+  0%, 100% { opacity: 0.6; transform: scale(1); }
+  50% { opacity: 1; transform: scale(1.05); }
+}
+
+@keyframes auroraWave {
+  0% { background-position: 0% 50%; }
+  100% { background-position: 200% 50%; }
+}
+
+/* ===== 황금 (Golden) 배경 ===== */
+.bg-golden .bg-ground {
+  background: linear-gradient(180deg, #ffd89b 0%, #19547b 100%);
+  box-shadow: inset 0 4px 8px rgba(0, 0, 0, 0.15);
+  animation: goldenShimmer 3s ease-in-out infinite;
+}
+
+.bg-golden .bg-fence-left,
+.bg-golden .bg-fence-right {
+  background: linear-gradient(180deg, #FFB300 0%, #FF6F00 100%);
+  box-shadow: 0 0 20px rgba(255, 179, 0, 0.5);
+}
+
+.bg-golden .bg-sunlight {
+  background: radial-gradient(circle, #FFF9C4 0%, #FFEB3B 40%, #FDD835 70%, transparent 80%);
+  animation: goldenPulse 4s ease-in-out infinite;
+  box-shadow: 0 0 70px rgba(255, 235, 59, 0.9);
+}
+
+.bg-golden .bg-decoration {
+  width: 20px;
+  height: 20px;
+  top: 40%;
+  left: 50%;
+  animation: sparkle 2s ease-in-out infinite;
+}
+
+.bg-golden .bg-decoration::before,
+.bg-golden .bg-decoration::after {
+  content: '✨';
+  position: absolute;
+  font-size: 25px;
+  animation: sparkleRotate 2s linear infinite;
+}
+
+.bg-golden .bg-decoration::after {
+  left: 40px;
+  top: 30px;
+  animation-delay: 1s;
+}
+
+@keyframes goldenShimmer {
+  0%, 100% { filter: brightness(1); }
+  50% { filter: brightness(1.3); }
+}
+
+@keyframes goldenPulse {
+  0%, 100% { transform: scale(1); opacity: 0.8; }
+  50% { transform: scale(1.15); opacity: 1; }
+}
+
+@keyframes sparkle {
+  0%, 100% { opacity: 0; transform: scale(0.5); }
+  50% { opacity: 1; transform: scale(1); }
+}
+
+@keyframes sparkleRotate {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+/* 🎮 픽셀 아트 스타일 개선 */
+.ant-character {
+  image-rendering: pixelated;
+  image-rendering: -moz-crisp-edges;
+  image-rendering: crisp-edges;
+}
+
+/* 모든 개미 요소에 픽셀 효과 */
+.ant-stage * {
+  image-rendering: pixelated;
+}
+
+/* 알 픽셀 스타일 */
+.ant-egg .egg-shell {
+  border: 3px solid #8B4513;
+  box-shadow:
+    inset -3px -3px 0 0 rgba(0, 0, 0, 0.2),
+    3px 3px 0 0 rgba(0, 0, 0, 0.1),
+    0 0 0 6px rgba(255, 255, 255, 0.1);
+}
+
+.ant-egg .egg-pattern {
+  border: 2px dashed rgba(139, 69, 19, 0.3);
+}
+
+/* 애벌레 픽셀 스타일 */
+.ant-larva .larva-body {
+  border: 3px solid #6B8E23;
+  box-shadow:
+    inset -3px -3px 0 0 rgba(0, 0, 0, 0.2),
+    3px 3px 0 0 rgba(0, 0, 0, 0.15);
+}
+
+.ant-larva .larva-segment {
+  border-bottom: 2px solid rgba(0, 0, 0, 0.15);
+}
+
+.ant-larva .eye {
+  border: 2px solid #000;
+  box-shadow: none;
+}
+
+/* 번데기 픽셀 스타일 */
+.ant-pupa .pupa-shell {
+  border: 3px solid #8B4513;
+  box-shadow:
+    inset -4px -4px 0 0 rgba(0, 0, 0, 0.2),
+    4px 4px 0 0 rgba(0, 0, 0, 0.15),
+    0 0 20px rgba(255, 215, 0, 0.4);
+}
+
+.ant-pupa .pupa-lines {
+  background: rgba(0, 0, 0, 0.2);
+  height: 3px;
+}
+
+/* 일개미 픽셀 스타일 */
+.ant-worker .ant-head,
+.ant-soldier .ant-head,
+.ant-queen .ant-head {
+  border: 3px solid rgba(0, 0, 0, 0.3);
+  box-shadow:
+    inset -3px -3px 0 0 rgba(0, 0, 0, 0.2),
+    3px 3px 0 0 rgba(0, 0, 0, 0.15);
+}
+
+.ant-worker .ant-body,
+.ant-soldier .ant-body,
+.ant-queen .ant-body {
+  border: 3px solid rgba(0, 0, 0, 0.3);
+  box-shadow:
+    inset -3px -3px 0 0 rgba(0, 0, 0, 0.2),
+    3px 3px 0 0 rgba(0, 0, 0, 0.15);
+}
+
+.ant-worker .antenna,
+.ant-soldier .antenna,
+.ant-queen .antenna {
+  border: 2px solid rgba(0, 0, 0, 0.3);
+}
+
+.ant-worker .eye,
+.ant-soldier .eye,
+.ant-queen .eye {
+  border: 2px solid #000;
+  box-shadow: none;
+}
+
+.ant-worker .leg,
+.ant-soldier .leg,
+.ant-queen .leg {
+  border: 2px solid rgba(0, 0, 0, 0.3);
+}
+
+/* 병정개미 특별 픽셀 효과 */
+.ant-soldier .mandible {
+  border: 3px solid rgba(0, 0, 0, 0.4);
+  box-shadow:
+    inset -2px -2px 0 0 rgba(0, 0, 0, 0.2),
+    2px 2px 0 0 rgba(0, 0, 0, 0.15);
+}
+
+.ant-soldier .armor-plate {
+  border: 2px solid rgba(0, 0, 0, 0.3);
+  box-shadow:
+    inset -2px -2px 0 0 rgba(255, 255, 255, 0.2),
+    2px 2px 0 0 rgba(0, 0, 0, 0.15);
+}
+
+/* 여왕개미 특별 픽셀 효과 */
+.ant-queen .crown-piece {
+  border: 2px solid rgba(255, 215, 0, 0.8);
+  box-shadow:
+    inset -2px -2px 0 0 rgba(255, 165, 0, 0.5),
+    2px 2px 0 0 rgba(0, 0, 0, 0.2);
+}
+
+.ant-queen .wing {
+  border: 2px solid rgba(255, 255, 255, 0.3);
+  box-shadow:
+    inset -2px -2px 0 0 rgba(255, 255, 255, 0.2),
+    2px 2px 0 0 rgba(0, 0, 0, 0.1);
+}
+
+/* 배경 픽셀 스타일 */
+.ant-background {
+  border: 3px solid rgba(0, 0, 0, 0.2);
+  box-shadow:
+    inset -3px -3px 0 0 rgba(0, 0, 0, 0.1),
+    3px 3px 0 0 rgba(0, 0, 0, 0.1);
+}
+
+.bg-ground {
+  border-top: 3px solid rgba(139, 69, 19, 0.3);
+}
+
+/* 모자 픽셀 효과 */
+.ant-hat {
+  text-shadow:
+    2px 2px 0 #000,
+    -1px -1px 0 #000,
+    1px -1px 0 #000,
+    -1px 1px 0 #000;
+  filter: drop-shadow(3px 3px 0 rgba(0, 0, 0, 0.3));
+}
+
+/* 옷 픽셀 효과 */
+.ant-clothes * {
+  border: 2px solid rgba(0, 0, 0, 0.2);
+  box-shadow:
+    inset -2px -2px 0 0 rgba(0, 0, 0, 0.1),
+    2px 2px 0 0 rgba(0, 0, 0, 0.1);
+}
+
+/* 클릭 시 픽셀 반짝임 효과 */
+.ant-character.is-happy .ant-stage {
+  animation: pixel-sparkle 0.4s ease-out;
+}
+
+@keyframes pixel-sparkle {
+  0% {
+    transform: scale(1);
+    filter: brightness(1);
+  }
+  50% {
+    transform: scale(1.1);
+    filter: brightness(1.5) drop-shadow(0 0 10px rgba(255, 215, 0, 1));
+  }
+  100% {
+    transform: scale(1);
+    filter: brightness(1);
+  }
+}
+
+/* 호버 시 픽셀 효과 */
+.ant-container:hover .ant-stage {
+  filter: brightness(1.1);
+  cursor: pointer;
+  animation: pixel-hover 0.3s ease-in-out infinite;
+}
+
+@keyframes pixel-hover {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(-4px); }
+}
+
+/* 클릭 효과 강화 */
+.ant-container:active .ant-stage {
+  transform: scale(0.95);
+  filter: brightness(0.9);
+}
+
+/* 🎮 픽셀 아트 스타일 - 레트로 게임 느낌 */
+
+/* 전체 픽셀 렌더링 */
+.ant-stage * {
+  image-rendering: pixelated !important;
+  image-rendering: -moz-crisp-edges !important;
+  image-rendering: crisp-edges !important;
+}
+
+/* 픽셀 단위: 5px */
+:root {
+  --pixel: 5px;
+}
+
+/* 알 - 픽셀 계란 모양 (8x10 픽셀) */
+.ant-egg {
+  width: calc(var(--pixel) * 10) !important;
+  height: calc(var(--pixel) * 12) !important;
+}
+
+.ant-egg .egg-shell {
+  width: calc(var(--pixel) * 10) !important;
+  height: calc(var(--pixel) * 12) !important;
+  background: transparent !important;
+  position: relative;
+  animation: pixelBounce 2s ease-in-out infinite !important;
+}
+
+.ant-egg .egg-shell::before {
+  content: '';
+  position: absolute;
+  width: var(--pixel);
+  height: var(--pixel);
+  background: #000;
+  box-shadow:
+    /* Row 1 (2픽셀) */
+    calc(var(--pixel) * 3) 0 0 0 #F5DEB3,
+    calc(var(--pixel) * 4) 0 0 0 #F5DEB3,
+    calc(var(--pixel) * 5) 0 0 0 #F5DEB3,
+    calc(var(--pixel) * 6) 0 0 0 #F5DEB3,
+    /* Row 2 (4픽셀) */
+    calc(var(--pixel) * 2) var(--pixel) 0 0 #F5DEB3,
+    calc(var(--pixel) * 3) var(--pixel) 0 0 #FFE4B5,
+    calc(var(--pixel) * 4) var(--pixel) 0 0 #FFF,
+    calc(var(--pixel) * 5) var(--pixel) 0 0 #FFE4B5,
+    calc(var(--pixel) * 6) var(--pixel) 0 0 #F5DEB3,
+    calc(var(--pixel) * 7) var(--pixel) 0 0 #F5DEB3,
+    /* Row 3-4 (몸통) */
+    calc(var(--pixel) * 1) calc(var(--pixel) * 2) 0 0 #F5DEB3,
+    calc(var(--pixel) * 2) calc(var(--pixel) * 2) 0 0 #FFE4B5,
+    calc(var(--pixel) * 3) calc(var(--pixel) * 2) 0 0 #FFE4B5,
+    calc(var(--pixel) * 4) calc(var(--pixel) * 2) 0 0 #FFE4B5,
+    calc(var(--pixel) * 5) calc(var(--pixel) * 2) 0 0 #FFE4B5,
+    calc(var(--pixel) * 6) calc(var(--pixel) * 2) 0 0 #FFE4B5,
+    calc(var(--pixel) * 7) calc(var(--pixel) * 2) 0 0 #F5DEB3,
+    calc(var(--pixel) * 8) calc(var(--pixel) * 2) 0 0 #F5DEB3,
+    /* Row 5-8 (중간) */
+    calc(var(--pixel) * 1) calc(var(--pixel) * 3) 0 0 #F5DEB3,
+    calc(var(--pixel) * 2) calc(var(--pixel) * 3) 0 0 #FFE4B5,
+    calc(var(--pixel) * 3) calc(var(--pixel) * 3) 0 0 #FFE4B5,
+    calc(var(--pixel) * 4) calc(var(--pixel) * 3) 0 0 #FFE4B5,
+    calc(var(--pixel) * 5) calc(var(--pixel) * 3) 0 0 #DEB887,
+    calc(var(--pixel) * 6) calc(var(--pixel) * 3) 0 0 #FFE4B5,
+    calc(var(--pixel) * 7) calc(var(--pixel) * 3) 0 0 #F5DEB3,
+    calc(var(--pixel) * 8) calc(var(--pixel) * 3) 0 0 #F5DEB3,
+    calc(var(--pixel) * 1) calc(var(--pixel) * 4) 0 0 #F5DEB3,
+    calc(var(--pixel) * 2) calc(var(--pixel) * 4) 0 0 #FFE4B5,
+    calc(var(--pixel) * 3) calc(var(--pixel) * 4) 0 0 #FFE4B5,
+    calc(var(--pixel) * 4) calc(var(--pixel) * 4) 0 0 #DEB887,
+    calc(var(--pixel) * 5) calc(var(--pixel) * 4) 0 0 #DEB887,
+    calc(var(--pixel) * 6) calc(var(--pixel) * 4) 0 0 #FFE4B5,
+    calc(var(--pixel) * 7) calc(var(--pixel) * 4) 0 0 #F5DEB3,
+    calc(var(--pixel) * 8) calc(var(--pixel) * 4) 0 0 #F5DEB3,
+    calc(var(--pixel) * 1) calc(var(--pixel) * 5) 0 0 #F5DEB3,
+    calc(var(--pixel) * 2) calc(var(--pixel) * 5) 0 0 #FFE4B5,
+    calc(var(--pixel) * 3) calc(var(--pixel) * 5) 0 0 #FFE4B5,
+    calc(var(--pixel) * 4) calc(var(--pixel) * 5) 0 0 #DEB887,
+    calc(var(--pixel) * 5) calc(var(--pixel) * 5) 0 0 #DEB887,
+    calc(var(--pixel) * 6) calc(var(--pixel) * 5) 0 0 #FFE4B5,
+    calc(var(--pixel) * 7) calc(var(--pixel) * 5) 0 0 #F5DEB3,
+    calc(var(--pixel) * 8) calc(var(--pixel) * 5) 0 0 #F5DEB3,
+    calc(var(--pixel) * 1) calc(var(--pixel) * 6) 0 0 #F5DEB3,
+    calc(var(--pixel) * 2) calc(var(--pixel) * 6) 0 0 #FFE4B5,
+    calc(var(--pixel) * 3) calc(var(--pixel) * 6) 0 0 #FFE4B5,
+    calc(var(--pixel) * 4) calc(var(--pixel) * 6) 0 0 #FFE4B5,
+    calc(var(--pixel) * 5) calc(var(--pixel) * 6) 0 0 #DEB887,
+    calc(var(--pixel) * 6) calc(var(--pixel) * 6) 0 0 #FFE4B5,
+    calc(var(--pixel) * 7) calc(var(--pixel) * 6) 0 0 #F5DEB3,
+    calc(var(--pixel) * 8) calc(var(--pixel) * 6) 0 0 #F5DEB3,
+    /* 하단 */
+    calc(var(--pixel) * 1) calc(var(--pixel) * 7) 0 0 #F5DEB3,
+    calc(var(--pixel) * 2) calc(var(--pixel) * 7) 0 0 #F5DEB3,
+    calc(var(--pixel) * 3) calc(var(--pixel) * 7) 0 0 #FFE4B5,
+    calc(var(--pixel) * 4) calc(var(--pixel) * 7) 0 0 #FFE4B5,
+    calc(var(--pixel) * 5) calc(var(--pixel) * 7) 0 0 #FFE4B5,
+    calc(var(--pixel) * 6) calc(var(--pixel) * 7) 0 0 #F5DEB3,
+    calc(var(--pixel) * 7) calc(var(--pixel) * 7) 0 0 #F5DEB3,
+    calc(var(--pixel) * 8) calc(var(--pixel) * 7) 0 0 #F5DEB3,
+    calc(var(--pixel) * 2) calc(var(--pixel) * 8) 0 0 #F5DEB3,
+    calc(var(--pixel) * 3) calc(var(--pixel) * 8) 0 0 #F5DEB3,
+    calc(var(--pixel) * 4) calc(var(--pixel) * 8) 0 0 #F5DEB3,
+    calc(var(--pixel) * 5) calc(var(--pixel) * 8) 0 0 #F5DEB3,
+    calc(var(--pixel) * 6) calc(var(--pixel) * 8) 0 0 #F5DEB3,
+    calc(var(--pixel) * 7) calc(var(--pixel) * 8) 0 0 #F5DEB3,
+    calc(var(--pixel) * 3) calc(var(--pixel) * 9) 0 0 #F5DEB3,
+    calc(var(--pixel) * 4) calc(var(--pixel) * 9) 0 0 #F5DEB3,
+    calc(var(--pixel) * 5) calc(var(--pixel) * 9) 0 0 #F5DEB3,
+    calc(var(--pixel) * 6) calc(var(--pixel) * 9) 0 0 #F5DEB3;
+  top: var(--pixel);
+  left: 0;
+}
+
+/* 애벌레 - 픽셀 벌레 모양 (12x7 픽셀) */
+.ant-larva {
+  width: calc(var(--pixel) * 14) !important;
+  height: calc(var(--pixel) * 9) !important;
+}
+
+.ant-larva .larva-body {
+  width: calc(var(--pixel) * 14) !important;
+  height: calc(var(--pixel) * 9) !important;
+  background: transparent !important;
+  position: relative;
+  animation: pixelWiggle 1.5s ease-in-out infinite !important;
+}
+
+.ant-larva .larva-body::before {
+  content: '';
+  position: absolute;
+  width: var(--pixel);
+  height: var(--pixel);
+  background: #000;
+  box-shadow:
+    /* 몸통 */
+    calc(var(--pixel) * 2) calc(var(--pixel) * 3) 0 0 #7CFC00,
+    calc(var(--pixel) * 3) calc(var(--pixel) * 3) 0 0 #7CFC00,
+    calc(var(--pixel) * 4) calc(var(--pixel) * 3) 0 0 #90EE90,
+    calc(var(--pixel) * 5) calc(var(--pixel) * 3) 0 0 #90EE90,
+    calc(var(--pixel) * 6) calc(var(--pixel) * 3) 0 0 #7CFC00,
+    calc(var(--pixel) * 7) calc(var(--pixel) * 3) 0 0 #7CFC00,
+    calc(var(--pixel) * 8) calc(var(--pixel) * 3) 0 0 #90EE90,
+    calc(var(--pixel) * 9) calc(var(--pixel) * 3) 0 0 #90EE90,
+    calc(var(--pixel) * 10) calc(var(--pixel) * 3) 0 0 #7CFC00,
+    calc(var(--pixel) * 11) calc(var(--pixel) * 3) 0 0 #7CFC00,
+    calc(var(--pixel) * 1) calc(var(--pixel) * 4) 0 0 #7CFC00,
+    calc(var(--pixel) * 2) calc(var(--pixel) * 4) 0 0 #90EE90,
+    calc(var(--pixel) * 3) calc(var(--pixel) * 4) 0 0 #90EE90,
+    calc(var(--pixel) * 4) calc(var(--pixel) * 4) 0 0 #98FB98,
+    calc(var(--pixel) * 5) calc(var(--pixel) * 4) 0 0 #98FB98,
+    calc(var(--pixel) * 6) calc(var(--pixel) * 4) 0 0 #90EE90,
+    calc(var(--pixel) * 7) calc(var(--pixel) * 4) 0 0 #90EE90,
+    calc(var(--pixel) * 8) calc(var(--pixel) * 4) 0 0 #98FB98,
+    calc(var(--pixel) * 9) calc(var(--pixel) * 4) 0 0 #98FB98,
+    calc(var(--pixel) * 10) calc(var(--pixel) * 4) 0 0 #90EE90,
+    calc(var(--pixel) * 11) calc(var(--pixel) * 4) 0 0 #90EE90,
+    calc(var(--pixel) * 12) calc(var(--pixel) * 4) 0 0 #7CFC00,
+    calc(var(--pixel) * 2) calc(var(--pixel) * 5) 0 0 #7CFC00,
+    calc(var(--pixel) * 3) calc(var(--pixel) * 5) 0 0 #7CFC00,
+    calc(var(--pixel) * 4) calc(var(--pixel) * 5) 0 0 #90EE90,
+    calc(var(--pixel) * 5) calc(var(--pixel) * 5) 0 0 #90EE90,
+    calc(var(--pixel) * 6) calc(var(--pixel) * 5) 0 0 #7CFC00,
+    calc(var(--pixel) * 7) calc(var(--pixel) * 5) 0 0 #7CFC00,
+    calc(var(--pixel) * 8) calc(var(--pixel) * 5) 0 0 #90EE90,
+    calc(var(--pixel) * 9) calc(var(--pixel) * 5) 0 0 #90EE90,
+    calc(var(--pixel) * 10) calc(var(--pixel) * 5) 0 0 #7CFC00,
+    calc(var(--pixel) * 11) calc(var(--pixel) * 5) 0 0 #7CFC00;
+  top: 0;
+  left: 0;
+}
+
+.ant-larva .larva-eyes {
+  display: none !important;
+}
+
+.ant-larva .larva-face::before {
+  content: '';
+  position: absolute;
+  width: var(--pixel);
+  height: var(--pixel);
+  background: #000;
+  /* 눈 */
+  box-shadow:
+    calc(var(--pixel) * 3) calc(var(--pixel) * 1) 0 0 #000,
+    calc(var(--pixel) * 4) calc(var(--pixel) * 1) 0 0 #FFF,
+    calc(var(--pixel) * 6) calc(var(--pixel) * 1) 0 0 #000,
+    calc(var(--pixel) * 7) calc(var(--pixel) * 1) 0 0 #FFF;
+  top: 0;
+  left: 0;
+  z-index: 10;
+}
+
+.ant-larva .larva-mouth {
+  display: none !important;
+}
+
+/* 번데기 - 픽셀 타원 모양 (9x11 픽셀) */
+.ant-pupa {
+  width: calc(var(--pixel) * 10) !important;
+  height: calc(var(--pixel) * 13) !important;
+}
+
+.ant-pupa .pupa-shell {
+  width: calc(var(--pixel) * 10) !important;
+  height: calc(var(--pixel) * 13) !important;
+  background: transparent !important;
+  position: relative;
+  animation: pixelPulse 2s ease-in-out infinite, pixelGlow 3s ease-in-out infinite !important;
+}
+
+.ant-pupa .pupa-shell::before {
+  content: '';
+  position: absolute;
+  width: var(--pixel);
+  height: var(--pixel);
+  background: #000;
+  box-shadow:
+    /* 상단 */
+    calc(var(--pixel) * 3) 0 0 0 #DEB887,
+    calc(var(--pixel) * 4) 0 0 0 #DEB887,
+    calc(var(--pixel) * 5) 0 0 0 #DEB887,
+    calc(var(--pixel) * 6) 0 0 0 #DEB887,
+    calc(var(--pixel) * 2) var(--pixel) 0 0 #DEB887,
+    calc(var(--pixel) * 3) var(--pixel) 0 0 #D2B48C,
+    calc(var(--pixel) * 4) var(--pixel) 0 0 #D2B48C,
+    calc(var(--pixel) * 5) var(--pixel) 0 0 #FFD700,
+    calc(var(--pixel) * 6) var(--pixel) 0 0 #D2B48C,
+    calc(var(--pixel) * 7) var(--pixel) 0 0 #DEB887,
+    /* 중간 */
+    calc(var(--pixel) * 1) calc(var(--pixel) * 2) 0 0 #DEB887,
+    calc(var(--pixel) * 2) calc(var(--pixel) * 2) 0 0 #D2B48C,
+    calc(var(--pixel) * 3) calc(var(--pixel) * 2) 0 0 #D2B48C,
+    calc(var(--pixel) * 4) calc(var(--pixel) * 2) 0 0 #D2B48C,
+    calc(var(--pixel) * 5) calc(var(--pixel) * 2) 0 0 #C9A76C,
+    calc(var(--pixel) * 6) calc(var(--pixel) * 2) 0 0 #D2B48C,
+    calc(var(--pixel) * 7) calc(var(--pixel) * 2) 0 0 #D2B48C,
+    calc(var(--pixel) * 8) calc(var(--pixel) * 2) 0 0 #DEB887,
+    calc(var(--pixel) * 1) calc(var(--pixel) * 3) 0 0 #DEB887,
+    calc(var(--pixel) * 2) calc(var(--pixel) * 3) 0 0 #D2B48C,
+    calc(var(--pixel) * 3) calc(var(--pixel) * 3) 0 0 #D2B48C,
+    calc(var(--pixel) * 4) calc(var(--pixel) * 3) 0 0 #C9A76C,
+    calc(var(--pixel) * 5) calc(var(--pixel) * 3) 0 0 #C9A76C,
+    calc(var(--pixel) * 6) calc(var(--pixel) * 3) 0 0 #D2B48C,
+    calc(var(--pixel) * 7) calc(var(--pixel) * 3) 0 0 #D2B48C,
+    calc(var(--pixel) * 8) calc(var(--pixel) * 3) 0 0 #DEB887,
+    calc(var(--pixel) * 1) calc(var(--pixel) * 4) 0 0 #DEB887,
+    calc(var(--pixel) * 2) calc(var(--pixel) * 4) 0 0 #D2B48C,
+    calc(var(--pixel) * 3) calc(var(--pixel) * 4) 0 0 #D2B48C,
+    calc(var(--pixel) * 4) calc(var(--pixel) * 4) 0 0 #C9A76C,
+    calc(var(--pixel) * 5) calc(var(--pixel) * 4) 0 0 #C9A76C,
+    calc(var(--pixel) * 6) calc(var(--pixel) * 4) 0 0 #D2B48C,
+    calc(var(--pixel) * 7) calc(var(--pixel) * 4) 0 0 #D2B48C,
+    calc(var(--pixel) * 8) calc(var(--pixel) * 4) 0 0 #DEB887,
+    calc(var(--pixel) * 1) calc(var(--pixel) * 5) 0 0 #DEB887,
+    calc(var(--pixel) * 2) calc(var(--pixel) * 5) 0 0 #D2B48C,
+    calc(var(--pixel) * 3) calc(var(--pixel) * 5) 0 0 #D2B48C,
+    calc(var(--pixel) * 4) calc(var(--pixel) * 5) 0 0 #C9A76C,
+    calc(var(--pixel) * 5) calc(var(--pixel) * 5) 0 0 #C9A76C,
+    calc(var(--pixel) * 6) calc(var(--pixel) * 5) 0 0 #D2B48C,
+    calc(var(--pixel) * 7) calc(var(--pixel) * 5) 0 0 #D2B48C,
+    calc(var(--pixel) * 8) calc(var(--pixel) * 5) 0 0 #DEB887,
+    calc(var(--pixel) * 1) calc(var(--pixel) * 6) 0 0 #DEB887,
+    calc(var(--pixel) * 2) calc(var(--pixel) * 6) 0 0 #D2B48C,
+    calc(var(--pixel) * 3) calc(var(--pixel) * 6) 0 0 #D2B48C,
+    calc(var(--pixel) * 4) calc(var(--pixel) * 6) 0 0 #C9A76C,
+    calc(var(--pixel) * 5) calc(var(--pixel) * 6) 0 0 #C9A76C,
+    calc(var(--pixel) * 6) calc(var(--pixel) * 6) 0 0 #D2B48C,
+    calc(var(--pixel) * 7) calc(var(--pixel) * 6) 0 0 #D2B48C,
+    calc(var(--pixel) * 8) calc(var(--pixel) * 6) 0 0 #DEB887,
+    /* 하단 */
+    calc(var(--pixel) * 1) calc(var(--pixel) * 7) 0 0 #DEB887,
+    calc(var(--pixel) * 2) calc(var(--pixel) * 7) 0 0 #D2B48C,
+    calc(var(--pixel) * 3) calc(var(--pixel) * 7) 0 0 #D2B48C,
+    calc(var(--pixel) * 4) calc(var(--pixel) * 7) 0 0 #D2B48C,
+    calc(var(--pixel) * 5) calc(var(--pixel) * 7) 0 0 #C9A76C,
+    calc(var(--pixel) * 6) calc(var(--pixel) * 7) 0 0 #D2B48C,
+    calc(var(--pixel) * 7) calc(var(--pixel) * 7) 0 0 #D2B48C,
+    calc(var(--pixel) * 8) calc(var(--pixel) * 7) 0 0 #DEB887,
+    calc(var(--pixel) * 2) calc(var(--pixel) * 8) 0 0 #DEB887,
+    calc(var(--pixel) * 3) calc(var(--pixel) * 8) 0 0 #D2B48C,
+    calc(var(--pixel) * 4) calc(var(--pixel) * 8) 0 0 #D2B48C,
+    calc(var(--pixel) * 5) calc(var(--pixel) * 8) 0 0 #D2B48C,
+    calc(var(--pixel) * 6) calc(var(--pixel) * 8) 0 0 #D2B48C,
+    calc(var(--pixel) * 7) calc(var(--pixel) * 8) 0 0 #DEB887,
+    calc(var(--pixel) * 3) calc(var(--pixel) * 9) 0 0 #DEB887,
+    calc(var(--pixel) * 4) calc(var(--pixel) * 9) 0 0 #DEB887,
+    calc(var(--pixel) * 5) calc(var(--pixel) * 9) 0 0 #DEB887,
+    calc(var(--pixel) * 6) calc(var(--pixel) * 9) 0 0 #DEB887;
+  top: calc(var(--pixel) * 1);
+  left: 0;
+}
+
+.ant-pupa .pupa-glow {
+  display: none !important;
+}
+
+/* 일개미 - 더 크고 진한 픽셀 개미 (머리 10x10, 몸 14x15) */
+.ant-worker .ant-head {
+  width: calc(var(--pixel) * 12) !important;
+  height: calc(var(--pixel) * 12) !important;
+  background: transparent !important;
+  position: relative;
+  box-shadow: none !important;
+}
+
+.ant-worker .ant-head::before {
+  content: '';
+  position: absolute;
+  width: var(--pixel);
+  height: var(--pixel);
+  background: #000;
+  box-shadow:
+    /* 머리 - 더 크고 진한 갈색 */
+    calc(var(--pixel) * 3) calc(var(--pixel) * 1) 0 0 #8B4513,
+    calc(var(--pixel) * 4) calc(var(--pixel) * 1) 0 0 #8B4513,
+    calc(var(--pixel) * 5) calc(var(--pixel) * 1) 0 0 #8B4513,
+    calc(var(--pixel) * 6) calc(var(--pixel) * 1) 0 0 #8B4513,
+    calc(var(--pixel) * 7) calc(var(--pixel) * 1) 0 0 #8B4513,
+    calc(var(--pixel) * 8) calc(var(--pixel) * 1) 0 0 #8B4513,
+    calc(var(--pixel) * 2) calc(var(--pixel) * 2) 0 0 #8B4513,
+    calc(var(--pixel) * 3) calc(var(--pixel) * 2) 0 0 #A0522D,
+    calc(var(--pixel) * 4) calc(var(--pixel) * 2) 0 0 #A0522D,
+    calc(var(--pixel) * 5) calc(var(--pixel) * 2) 0 0 #A0522D,
+    calc(var(--pixel) * 6) calc(var(--pixel) * 2) 0 0 #A0522D,
+    calc(var(--pixel) * 7) calc(var(--pixel) * 2) 0 0 #A0522D,
+    calc(var(--pixel) * 8) calc(var(--pixel) * 2) 0 0 #A0522D,
+    calc(var(--pixel) * 9) calc(var(--pixel) * 2) 0 0 #8B4513,
+    calc(var(--pixel) * 2) calc(var(--pixel) * 3) 0 0 #8B4513,
+    calc(var(--pixel) * 3) calc(var(--pixel) * 3) 0 0 #A0522D,
+    calc(var(--pixel) * 4) calc(var(--pixel) * 3) 0 0 #A0522D,
+    calc(var(--pixel) * 5) calc(var(--pixel) * 3) 0 0 #A0522D,
+    calc(var(--pixel) * 6) calc(var(--pixel) * 3) 0 0 #A0522D,
+    calc(var(--pixel) * 7) calc(var(--pixel) * 3) 0 0 #A0522D,
+    calc(var(--pixel) * 8) calc(var(--pixel) * 3) 0 0 #A0522D,
+    calc(var(--pixel) * 9) calc(var(--pixel) * 3) 0 0 #8B4513,
+    calc(var(--pixel) * 1) calc(var(--pixel) * 4) 0 0 #8B4513,
+    calc(var(--pixel) * 2) calc(var(--pixel) * 4) 0 0 #A0522D,
+    calc(var(--pixel) * 3) calc(var(--pixel) * 4) 0 0 #A0522D,
+    calc(var(--pixel) * 4) calc(var(--pixel) * 4) 0 0 #A0522D,
+    calc(var(--pixel) * 5) calc(var(--pixel) * 4) 0 0 #A0522D,
+    calc(var(--pixel) * 6) calc(var(--pixel) * 4) 0 0 #A0522D,
+    calc(var(--pixel) * 7) calc(var(--pixel) * 4) 0 0 #A0522D,
+    calc(var(--pixel) * 8) calc(var(--pixel) * 4) 0 0 #A0522D,
+    calc(var(--pixel) * 9) calc(var(--pixel) * 4) 0 0 #A0522D,
+    calc(var(--pixel) * 10) calc(var(--pixel) * 4) 0 0 #8B4513,
+    calc(var(--pixel) * 1) calc(var(--pixel) * 5) 0 0 #8B4513,
+    calc(var(--pixel) * 2) calc(var(--pixel) * 5) 0 0 #A0522D,
+    calc(var(--pixel) * 3) calc(var(--pixel) * 5) 0 0 #000,
+    calc(var(--pixel) * 4) calc(var(--pixel) * 5) 0 0 #000,
+    calc(var(--pixel) * 5) calc(var(--pixel) * 5) 0 0 #A0522D,
+    calc(var(--pixel) * 6) calc(var(--pixel) * 5) 0 0 #A0522D,
+    calc(var(--pixel) * 7) calc(var(--pixel) * 5) 0 0 #A0522D,
+    calc(var(--pixel) * 8) calc(var(--pixel) * 5) 0 0 #000,
+    calc(var(--pixel) * 9) calc(var(--pixel) * 5) 0 0 #000,
+    calc(var(--pixel) * 10) calc(var(--pixel) * 5) 0 0 #8B4513,
+    calc(var(--pixel) * 1) calc(var(--pixel) * 6) 0 0 #8B4513,
+    calc(var(--pixel) * 2) calc(var(--pixel) * 6) 0 0 #A0522D,
+    calc(var(--pixel) * 3) calc(var(--pixel) * 6) 0 0 #000,
+    calc(var(--pixel) * 4) calc(var(--pixel) * 6) 0 0 #FFF,
+    calc(var(--pixel) * 5) calc(var(--pixel) * 6) 0 0 #000,
+    calc(var(--pixel) * 6) calc(var(--pixel) * 6) 0 0 #A0522D,
+    calc(var(--pixel) * 7) calc(var(--pixel) * 6) 0 0 #000,
+    calc(var(--pixel) * 8) calc(var(--pixel) * 6) 0 0 #FFF,
+    calc(var(--pixel) * 9) calc(var(--pixel) * 6) 0 0 #000,
+    calc(var(--pixel) * 10) calc(var(--pixel) * 6) 0 0 #8B4513,
+    calc(var(--pixel) * 1) calc(var(--pixel) * 7) 0 0 #8B4513,
+    calc(var(--pixel) * 2) calc(var(--pixel) * 7) 0 0 #A0522D,
+    calc(var(--pixel) * 3) calc(var(--pixel) * 7) 0 0 #A0522D,
+    calc(var(--pixel) * 4) calc(var(--pixel) * 7) 0 0 #A0522D,
+    calc(var(--pixel) * 5) calc(var(--pixel) * 7) 0 0 #A0522D,
+    calc(var(--pixel) * 6) calc(var(--pixel) * 7) 0 0 #A0522D,
+    calc(var(--pixel) * 7) calc(var(--pixel) * 7) 0 0 #A0522D,
+    calc(var(--pixel) * 8) calc(var(--pixel) * 7) 0 0 #A0522D,
+    calc(var(--pixel) * 9) calc(var(--pixel) * 7) 0 0 #A0522D,
+    calc(var(--pixel) * 10) calc(var(--pixel) * 7) 0 0 #8B4513,
+    calc(var(--pixel) * 2) calc(var(--pixel) * 8) 0 0 #8B4513,
+    calc(var(--pixel) * 3) calc(var(--pixel) * 8) 0 0 #A0522D,
+    calc(var(--pixel) * 4) calc(var(--pixel) * 8) 0 0 #A0522D,
+    calc(var(--pixel) * 5) calc(var(--pixel) * 8) 0 0 #A0522D,
+    calc(var(--pixel) * 6) calc(var(--pixel) * 8) 0 0 #A0522D,
+    calc(var(--pixel) * 7) calc(var(--pixel) * 8) 0 0 #A0522D,
+    calc(var(--pixel) * 8) calc(var(--pixel) * 8) 0 0 #A0522D,
+    calc(var(--pixel) * 9) calc(var(--pixel) * 8) 0 0 #8B4513,
+    calc(var(--pixel) * 3) calc(var(--pixel) * 9) 0 0 #8B4513,
+    calc(var(--pixel) * 4) calc(var(--pixel) * 9) 0 0 #8B4513,
+    calc(var(--pixel) * 5) calc(var(--pixel) * 9) 0 0 #8B4513,
+    calc(var(--pixel) * 6) calc(var(--pixel) * 9) 0 0 #8B4513,
+    calc(var(--pixel) * 7) calc(var(--pixel) * 9) 0 0 #8B4513,
+    calc(var(--pixel) * 8) calc(var(--pixel) * 9) 0 0 #8B4513;
+  top: 0;
+  left: 0;
+}
+
+.ant-worker .eye,
+.ant-worker .pupil,
+.ant-worker .sparkle,
+.ant-worker .antenna,
+.ant-worker .ant-smile {
+  display: none !important;
+}
+
+.ant-worker .ant-body {
+  width: calc(var(--pixel) * 16) !important;
+  height: calc(var(--pixel) * 17) !important;
+  background: transparent !important;
+  box-shadow: none !important;
+  position: relative;
+  margin-top: calc(var(--pixel) * -3) !important;
+}
+
+.ant-worker .ant-body::before {
+  content: '';
+  position: absolute;
+  width: var(--pixel);
+  height: var(--pixel);
+  background: #000;
+  box-shadow:
+    /* 몸통 - 더 크게 */
+    calc(var(--pixel) * 4) 0 0 0 #8B4513,
+    calc(var(--pixel) * 5) 0 0 0 #8B4513,
+    calc(var(--pixel) * 6) 0 0 0 #8B4513,
+    calc(var(--pixel) * 7) 0 0 0 #8B4513,
+    calc(var(--pixel) * 8) 0 0 0 #8B4513,
+    calc(var(--pixel) * 9) 0 0 0 #8B4513,
+    calc(var(--pixel) * 10) 0 0 0 #8B4513,
+    calc(var(--pixel) * 11) 0 0 0 #8B4513,
+    calc(var(--pixel) * 3) var(--pixel) 0 0 #8B4513,
+    calc(var(--pixel) * 4) var(--pixel) 0 0 #A0522D,
+    calc(var(--pixel) * 5) var(--pixel) 0 0 #A0522D,
+    calc(var(--pixel) * 6) var(--pixel) 0 0 #A0522D,
+    calc(var(--pixel) * 7) var(--pixel) 0 0 #A0522D,
+    calc(var(--pixel) * 8) var(--pixel) 0 0 #A0522D,
+    calc(var(--pixel) * 9) var(--pixel) 0 0 #A0522D,
+    calc(var(--pixel) * 10) var(--pixel) 0 0 #A0522D,
+    calc(var(--pixel) * 11) var(--pixel) 0 0 #A0522D,
+    calc(var(--pixel) * 12) var(--pixel) 0 0 #8B4513,
+    calc(var(--pixel) * 2) calc(var(--pixel) * 2) 0 0 #8B4513,
+    calc(var(--pixel) * 3) calc(var(--pixel) * 2) 0 0 #A0522D,
+    calc(var(--pixel) * 4) calc(var(--pixel) * 2) 0 0 #A0522D,
+    calc(var(--pixel) * 5) calc(var(--pixel) * 2) 0 0 #A0522D,
+    calc(var(--pixel) * 6) calc(var(--pixel) * 2) 0 0 #A0522D,
+    calc(var(--pixel) * 7) calc(var(--pixel) * 2) 0 0 #A0522D,
+    calc(var(--pixel) * 8) calc(var(--pixel) * 2) 0 0 #A0522D,
+    calc(var(--pixel) * 9) calc(var(--pixel) * 2) 0 0 #A0522D,
+    calc(var(--pixel) * 10) calc(var(--pixel) * 2) 0 0 #A0522D,
+    calc(var(--pixel) * 11) calc(var(--pixel) * 2) 0 0 #A0522D,
+    calc(var(--pixel) * 12) calc(var(--pixel) * 2) 0 0 #A0522D,
+    calc(var(--pixel) * 13) calc(var(--pixel) * 2) 0 0 #8B4513,
+    calc(var(--pixel) * 2) calc(var(--pixel) * 3) 0 0 #8B4513,
+    calc(var(--pixel) * 3) calc(var(--pixel) * 3) 0 0 #A0522D,
+    calc(var(--pixel) * 4) calc(var(--pixel) * 3) 0 0 #A0522D,
+    calc(var(--pixel) * 5) calc(var(--pixel) * 3) 0 0 #A0522D,
+    calc(var(--pixel) * 6) calc(var(--pixel) * 3) 0 0 #A0522D,
+    calc(var(--pixel) * 7) calc(var(--pixel) * 3) 0 0 #A0522D,
+    calc(var(--pixel) * 8) calc(var(--pixel) * 3) 0 0 #A0522D,
+    calc(var(--pixel) * 9) calc(var(--pixel) * 3) 0 0 #A0522D,
+    calc(var(--pixel) * 10) calc(var(--pixel) * 3) 0 0 #A0522D,
+    calc(var(--pixel) * 11) calc(var(--pixel) * 3) 0 0 #A0522D,
+    calc(var(--pixel) * 12) calc(var(--pixel) * 3) 0 0 #A0522D,
+    calc(var(--pixel) * 13) calc(var(--pixel) * 3) 0 0 #8B4513,
+    calc(var(--pixel) * 2) calc(var(--pixel) * 4) 0 0 #8B4513,
+    calc(var(--pixel) * 3) calc(var(--pixel) * 4) 0 0 #A0522D,
+    calc(var(--pixel) * 4) calc(var(--pixel) * 4) 0 0 #A0522D,
+    calc(var(--pixel) * 5) calc(var(--pixel) * 4) 0 0 #A0522D,
+    calc(var(--pixel) * 6) calc(var(--pixel) * 4) 0 0 #A0522D,
+    calc(var(--pixel) * 7) calc(var(--pixel) * 4) 0 0 #A0522D,
+    calc(var(--pixel) * 8) calc(var(--pixel) * 4) 0 0 #A0522D,
+    calc(var(--pixel) * 9) calc(var(--pixel) * 4) 0 0 #A0522D,
+    calc(var(--pixel) * 10) calc(var(--pixel) * 4) 0 0 #A0522D,
+    calc(var(--pixel) * 11) calc(var(--pixel) * 4) 0 0 #A0522D,
+    calc(var(--pixel) * 12) calc(var(--pixel) * 4) 0 0 #A0522D,
+    calc(var(--pixel) * 13) calc(var(--pixel) * 4) 0 0 #8B4513,
+    calc(var(--pixel) * 3) calc(var(--pixel) * 5) 0 0 #8B4513,
+    calc(var(--pixel) * 4) calc(var(--pixel) * 5) 0 0 #8B4513,
+    calc(var(--pixel) * 5) calc(var(--pixel) * 5) 0 0 #A0522D,
+    calc(var(--pixel) * 6) calc(var(--pixel) * 5) 0 0 #A0522D,
+    calc(var(--pixel) * 7) calc(var(--pixel) * 5) 0 0 #A0522D,
+    calc(var(--pixel) * 8) calc(var(--pixel) * 5) 0 0 #A0522D,
+    calc(var(--pixel) * 9) calc(var(--pixel) * 5) 0 0 #A0522D,
+    calc(var(--pixel) * 10) calc(var(--pixel) * 5) 0 0 #A0522D,
+    calc(var(--pixel) * 11) calc(var(--pixel) * 5) 0 0 #8B4513,
+    calc(var(--pixel) * 12) calc(var(--pixel) * 5) 0 0 #8B4513,
+    calc(var(--pixel) * 4) calc(var(--pixel) * 6) 0 0 #8B4513,
+    calc(var(--pixel) * 5) calc(var(--pixel) * 6) 0 0 #A0522D,
+    calc(var(--pixel) * 6) calc(var(--pixel) * 6) 0 0 #A0522D,
+    calc(var(--pixel) * 7) calc(var(--pixel) * 6) 0 0 #A0522D,
+    calc(var(--pixel) * 8) calc(var(--pixel) * 6) 0 0 #A0522D,
+    calc(var(--pixel) * 9) calc(var(--pixel) * 6) 0 0 #A0522D,
+    calc(var(--pixel) * 10) calc(var(--pixel) * 6) 0 0 #A0522D,
+    calc(var(--pixel) * 11) calc(var(--pixel) * 6) 0 0 #8B4513,
+    calc(var(--pixel) * 5) calc(var(--pixel) * 7) 0 0 #8B4513,
+    calc(var(--pixel) * 6) calc(var(--pixel) * 7) 0 0 #A0522D,
+    calc(var(--pixel) * 7) calc(var(--pixel) * 7) 0 0 #A0522D,
+    calc(var(--pixel) * 8) calc(var(--pixel) * 7) 0 0 #A0522D,
+    calc(var(--pixel) * 9) calc(var(--pixel) * 7) 0 0 #A0522D,
+    calc(var(--pixel) * 10) calc(var(--pixel) * 7) 0 0 #8B4513,
+    calc(var(--pixel) * 5) calc(var(--pixel) * 8) 0 0 #8B4513,
+    calc(var(--pixel) * 6) calc(var(--pixel) * 8) 0 0 #8B4513,
+    calc(var(--pixel) * 7) calc(var(--pixel) * 8) 0 0 #8B4513,
+    calc(var(--pixel) * 8) calc(var(--pixel) * 8) 0 0 #8B4513,
+    calc(var(--pixel) * 9) calc(var(--pixel) * 8) 0 0 #8B4513,
+    calc(var(--pixel) * 10) calc(var(--pixel) * 8) 0 0 #8B4513;
+  top: 0;
+  left: 0;
+}
+
+.ant-worker .leg {
+  display: none !important;
+}
+
+/* 병정개미 - 더 큰 픽셀 개미 (머리 7x7, 몸 9x10) */
+.ant-soldier .ant-head {
+  width: calc(var(--pixel) * 9) !important;
+  height: calc(var(--pixel) * 9) !important;
+  background: transparent !important;
+  box-shadow: none !important;
+}
+
+.ant-soldier .ant-head::before {
+  content: '';
+  position: absolute;
+  width: var(--pixel);
+  height: var(--pixel);
+  background: #000;
+  box-shadow:
+    /* 큰 머리 */
+    calc(var(--pixel) * 2) var(--pixel) 0 0 #A52A2A,
+    calc(var(--pixel) * 3) var(--pixel) 0 0 #A52A2A,
+    calc(var(--pixel) * 4) var(--pixel) 0 0 #A52A2A,
+    calc(var(--pixel) * 5) var(--pixel) 0 0 #A52A2A,
+    calc(var(--pixel) * 6) var(--pixel) 0 0 #A52A2A,
+    calc(var(--pixel) * 1) calc(var(--pixel) * 2) 0 0 #A52A2A,
+    calc(var(--pixel) * 2) calc(var(--pixel) * 2) 0 0 #CD5C5C,
+    calc(var(--pixel) * 3) calc(var(--pixel) * 2) 0 0 #CD5C5C,
+    calc(var(--pixel) * 4) calc(var(--pixel) * 2) 0 0 #CD5C5C,
+    calc(var(--pixel) * 5) calc(var(--pixel) * 2) 0 0 #CD5C5C,
+    calc(var(--pixel) * 6) calc(var(--pixel) * 2) 0 0 #CD5C5C,
+    calc(var(--pixel) * 7) calc(var(--pixel) * 2) 0 0 #A52A2A,
+    calc(var(--pixel) * 1) calc(var(--pixel) * 3) 0 0 #A52A2A,
+    calc(var(--pixel) * 2) calc(var(--pixel) * 3) 0 0 #000,
+    calc(var(--pixel) * 3) calc(var(--pixel) * 3) 0 0 #FFF,
+    calc(var(--pixel) * 4) calc(var(--pixel) * 3) 0 0 #CD5C5C,
+    calc(var(--pixel) * 5) calc(var(--pixel) * 3) 0 0 #CD5C5C,
+    calc(var(--pixel) * 6) calc(var(--pixel) * 3) 0 0 #000,
+    calc(var(--pixel) * 7) calc(var(--pixel) * 3) 0 0 #FFF,
+    calc(var(--pixel) * 1) calc(var(--pixel) * 4) 0 0 #A52A2A,
+    calc(var(--pixel) * 2) calc(var(--pixel) * 4) 0 0 #CD5C5C,
+    calc(var(--pixel) * 3) calc(var(--pixel) * 4) 0 0 #CD5C5C,
+    calc(var(--pixel) * 4) calc(var(--pixel) * 4) 0 0 #CD5C5C,
+    calc(var(--pixel) * 5) calc(var(--pixel) * 4) 0 0 #CD5C5C,
+    calc(var(--pixel) * 6) calc(var(--pixel) * 4) 0 0 #CD5C5C,
+    calc(var(--pixel) * 7) calc(var(--pixel) * 4) 0 0 #A52A2A,
+    calc(var(--pixel) * 1) calc(var(--pixel) * 5) 0 0 #A52A2A,
+    calc(var(--pixel) * 2) calc(var(--pixel) * 5) 0 0 #CD5C5C,
+    calc(var(--pixel) * 3) calc(var(--pixel) * 5) 0 0 #CD5C5C,
+    calc(var(--pixel) * 4) calc(var(--pixel) * 5) 0 0 #CD5C5C,
+    calc(var(--pixel) * 5) calc(var(--pixel) * 5) 0 0 #CD5C5C,
+    calc(var(--pixel) * 6) calc(var(--pixel) * 5) 0 0 #CD5C5C,
+    calc(var(--pixel) * 7) calc(var(--pixel) * 5) 0 0 #A52A2A,
+    calc(var(--pixel) * 2) calc(var(--pixel) * 6) 0 0 #A52A2A,
+    calc(var(--pixel) * 3) calc(var(--pixel) * 6) 0 0 #A52A2A,
+    calc(var(--pixel) * 4) calc(var(--pixel) * 6) 0 0 #A52A2A,
+    calc(var(--pixel) * 5) calc(var(--pixel) * 6) 0 0 #A52A2A,
+    calc(var(--pixel) * 6) calc(var(--pixel) * 6) 0 0 #A52A2A;
+  top: 0;
+  left: 0;
+}
+
+.ant-soldier .eye,
+.ant-soldier .pupil,
+.ant-soldier .antenna,
+.ant-soldier .mandible {
+  display: none !important;
+}
+
+.ant-soldier .ant-body {
+  width: calc(var(--pixel) * 11) !important;
+  height: calc(var(--pixel) * 12) !important;
+  background: transparent !important;
+  box-shadow: none !important;
+  margin-top: calc(var(--pixel) * -2) !important;
+}
+
+.ant-soldier .ant-body::before {
+  content: '';
+  position: absolute;
+  width: var(--pixel);
+  height: var(--pixel);
+  background: #000;
+  box-shadow:
+    /* 큰 몸통 */
+    calc(var(--pixel) * 2) 0 0 0 #8B4513,
+    calc(var(--pixel) * 3) 0 0 0 #8B4513,
+    calc(var(--pixel) * 4) 0 0 0 #8B4513,
+    calc(var(--pixel) * 5) 0 0 0 #8B4513,
+    calc(var(--pixel) * 6) 0 0 0 #8B4513,
+    calc(var(--pixel) * 7) 0 0 0 #8B4513,
+    calc(var(--pixel) * 8) 0 0 0 #8B4513,
+    calc(var(--pixel) * 1) var(--pixel) 0 0 #8B4513,
+    calc(var(--pixel) * 2) var(--pixel) 0 0 #A0522D,
+    calc(var(--pixel) * 3) var(--pixel) 0 0 #A0522D,
+    calc(var(--pixel) * 4) var(--pixel) 0 0 #A0522D,
+    calc(var(--pixel) * 5) var(--pixel) 0 0 #A0522D,
+    calc(var(--pixel) * 6) var(--pixel) 0 0 #A0522D,
+    calc(var(--pixel) * 7) var(--pixel) 0 0 #A0522D,
+    calc(var(--pixel) * 8) var(--pixel) 0 0 #A0522D,
+    calc(var(--pixel) * 9) var(--pixel) 0 0 #8B4513,
+    calc(var(--pixel) * 1) calc(var(--pixel) * 2) 0 0 #8B4513,
+    calc(var(--pixel) * 2) calc(var(--pixel) * 2) 0 0 #A0522D,
+    calc(var(--pixel) * 3) calc(var(--pixel) * 2) 0 0 #A0522D,
+    calc(var(--pixel) * 4) calc(var(--pixel) * 2) 0 0 #A0522D,
+    calc(var(--pixel) * 5) calc(var(--pixel) * 2) 0 0 #A0522D,
+    calc(var(--pixel) * 6) calc(var(--pixel) * 2) 0 0 #A0522D,
+    calc(var(--pixel) * 7) calc(var(--pixel) * 2) 0 0 #A0522D,
+    calc(var(--pixel) * 8) calc(var(--pixel) * 2) 0 0 #A0522D,
+    calc(var(--pixel) * 9) calc(var(--pixel) * 2) 0 0 #8B4513,
+    calc(var(--pixel) * 1) calc(var(--pixel) * 3) 0 0 #8B4513,
+    calc(var(--pixel) * 2) calc(var(--pixel) * 3) 0 0 #A0522D,
+    calc(var(--pixel) * 3) calc(var(--pixel) * 3) 0 0 #A0522D,
+    calc(var(--pixel) * 4) calc(var(--pixel) * 3) 0 0 #A0522D,
+    calc(var(--pixel) * 5) calc(var(--pixel) * 3) 0 0 #A0522D,
+    calc(var(--pixel) * 6) calc(var(--pixel) * 3) 0 0 #A0522D,
+    calc(var(--pixel) * 7) calc(var(--pixel) * 3) 0 0 #A0522D,
+    calc(var(--pixel) * 8) calc(var(--pixel) * 3) 0 0 #A0522D,
+    calc(var(--pixel) * 9) calc(var(--pixel) * 3) 0 0 #8B4513,
+    calc(var(--pixel) * 2) calc(var(--pixel) * 4) 0 0 #8B4513,
+    calc(var(--pixel) * 3) calc(var(--pixel) * 4) 0 0 #8B4513,
+    calc(var(--pixel) * 4) calc(var(--pixel) * 4) 0 0 #A0522D,
+    calc(var(--pixel) * 5) calc(var(--pixel) * 4) 0 0 #A0522D,
+    calc(var(--pixel) * 6) calc(var(--pixel) * 4) 0 0 #A0522D,
+    calc(var(--pixel) * 7) calc(var(--pixel) * 4) 0 0 #8B4513,
+    calc(var(--pixel) * 8) calc(var(--pixel) * 4) 0 0 #8B4513,
+    calc(var(--pixel) * 3) calc(var(--pixel) * 5) 0 0 #8B4513,
+    calc(var(--pixel) * 4) calc(var(--pixel) * 5) 0 0 #A0522D,
+    calc(var(--pixel) * 5) calc(var(--pixel) * 5) 0 0 #A0522D,
+    calc(var(--pixel) * 6) calc(var(--pixel) * 5) 0 0 #A0522D,
+    calc(var(--pixel) * 7) calc(var(--pixel) * 5) 0 0 #8B4513,
+    calc(var(--pixel) * 4) calc(var(--pixel) * 6) 0 0 #8B4513,
+    calc(var(--pixel) * 5) calc(var(--pixel) * 6) 0 0 #8B4513,
+    calc(var(--pixel) * 6) calc(var(--pixel) * 6) 0 0 #8B4513;
+  top: 0;
+  left: 0;
+}
+
+.ant-soldier .leg {
+  display: none !important;
+}
+
+/* 여왕개미 - 가장 큰 픽셀 개미 (머리 8x8, 몸 11x13) */
+.ant-queen .ant-head {
+  width: calc(var(--pixel) * 10) !important;
+  height: calc(var(--pixel) * 10) !important;
+  background: transparent !important;
+  box-shadow: none !important;
+}
+
+.ant-queen .ant-head::before {
+  content: '';
+  position: absolute;
+  width: var(--pixel);
+  height: var(--pixel);
+  background: #000;
+  box-shadow:
+    /* 황금 머리 */
+    calc(var(--pixel) * 2) var(--pixel) 0 0 #FF8C00,
+    calc(var(--pixel) * 3) var(--pixel) 0 0 #FF8C00,
+    calc(var(--pixel) * 4) var(--pixel) 0 0 #FF8C00,
+    calc(var(--pixel) * 5) var(--pixel) 0 0 #FF8C00,
+    calc(var(--pixel) * 6) var(--pixel) 0 0 #FF8C00,
+    calc(var(--pixel) * 7) var(--pixel) 0 0 #FF8C00,
+    calc(var(--pixel) * 1) calc(var(--pixel) * 2) 0 0 #FF8C00,
+    calc(var(--pixel) * 2) calc(var(--pixel) * 2) 0 0 #FFA500,
+    calc(var(--pixel) * 3) calc(var(--pixel) * 2) 0 0 #FFA500,
+    calc(var(--pixel) * 4) calc(var(--pixel) * 2) 0 0 #FFD700,
+    calc(var(--pixel) * 5) calc(var(--pixel) * 2) 0 0 #FFD700,
+    calc(var(--pixel) * 6) calc(var(--pixel) * 2) 0 0 #FFA500,
+    calc(var(--pixel) * 7) calc(var(--pixel) * 2) 0 0 #FFA500,
+    calc(var(--pixel) * 8) calc(var(--pixel) * 2) 0 0 #FF8C00,
+    calc(var(--pixel) * 1) calc(var(--pixel) * 3) 0 0 #FF8C00,
+    calc(var(--pixel) * 2) calc(var(--pixel) * 3) 0 0 #FFA500,
+    calc(var(--pixel) * 3) calc(var(--pixel) * 3) 0 0 #000,
+    calc(var(--pixel) * 4) calc(var(--pixel) * 3) 0 0 #FFF,
+    calc(var(--pixel) * 5) calc(var(--pixel) * 3) 0 0 #FFD700,
+    calc(var(--pixel) * 6) calc(var(--pixel) * 3) 0 0 #000,
+    calc(var(--pixel) * 7) calc(var(--pixel) * 3) 0 0 #FFF,
+    calc(var(--pixel) * 8) calc(var(--pixel) * 3) 0 0 #FF8C00,
+    calc(var(--pixel) * 1) calc(var(--pixel) * 4) 0 0 #FF8C00,
+    calc(var(--pixel) * 2) calc(var(--pixel) * 4) 0 0 #FFA500,
+    calc(var(--pixel) * 3) calc(var(--pixel) * 4) 0 0 #FFA500,
+    calc(var(--pixel) * 4) calc(var(--pixel) * 4) 0 0 #FFD700,
+    calc(var(--pixel) * 5) calc(var(--pixel) * 4) 0 0 #FFD700,
+    calc(var(--pixel) * 6) calc(var(--pixel) * 4) 0 0 #FFA500,
+    calc(var(--pixel) * 7) calc(var(--pixel) * 4) 0 0 #FFA500,
+    calc(var(--pixel) * 8) calc(var(--pixel) * 4) 0 0 #FF8C00,
+    calc(var(--pixel) * 1) calc(var(--pixel) * 5) 0 0 #FF8C00,
+    calc(var(--pixel) * 2) calc(var(--pixel) * 5) 0 0 #FFA500,
+    calc(var(--pixel) * 3) calc(var(--pixel) * 5) 0 0 #FFA500,
+    calc(var(--pixel) * 4) calc(var(--pixel) * 5) 0 0 #FFA500,
+    calc(var(--pixel) * 5) calc(var(--pixel) * 5) 0 0 #FFA500,
+    calc(var(--pixel) * 6) calc(var(--pixel) * 5) 0 0 #FFA500,
+    calc(var(--pixel) * 7) calc(var(--pixel) * 5) 0 0 #FFA500,
+    calc(var(--pixel) * 8) calc(var(--pixel) * 5) 0 0 #FF8C00,
+    calc(var(--pixel) * 2) calc(var(--pixel) * 6) 0 0 #FF8C00,
+    calc(var(--pixel) * 3) calc(var(--pixel) * 6) 0 0 #FFA500,
+    calc(var(--pixel) * 4) calc(var(--pixel) * 6) 0 0 #FFA500,
+    calc(var(--pixel) * 5) calc(var(--pixel) * 6) 0 0 #FFA500,
+    calc(var(--pixel) * 6) calc(var(--pixel) * 6) 0 0 #FFA500,
+    calc(var(--pixel) * 7) calc(var(--pixel) * 6) 0 0 #FF8C00,
+    calc(var(--pixel) * 3) calc(var(--pixel) * 7) 0 0 #FF8C00,
+    calc(var(--pixel) * 4) calc(var(--pixel) * 7) 0 0 #FF8C00,
+    calc(var(--pixel) * 5) calc(var(--pixel) * 7) 0 0 #FF8C00,
+    calc(var(--pixel) * 6) calc(var(--pixel) * 7) 0 0 #FF8C00;
+  top: 0;
+  left: 0;
+}
+
+.ant-queen .eye,
+.ant-queen .pupil,
+.ant-queen .antenna,
+.ant-queen .crown {
+  display: none !important;
+}
+
+.ant-queen .ant-body {
+  width: calc(var(--pixel) * 13) !important;
+  height: calc(var(--pixel) * 15) !important;
+  background: transparent !important;
+  box-shadow: none !important;
+  margin-top: calc(var(--pixel) * -2) !important;
+}
+
+.ant-queen .ant-body::before {
+  content: '';
+  position: absolute;
+  width: var(--pixel);
+  height: var(--pixel);
+  background: #000;
+  box-shadow:
+    /* 큰 황금 몸통 */
+    calc(var(--pixel) * 3) 0 0 0 #FF8C00,
+    calc(var(--pixel) * 4) 0 0 0 #FF8C00,
+    calc(var(--pixel) * 5) 0 0 0 #FF8C00,
+    calc(var(--pixel) * 6) 0 0 0 #FF8C00,
+    calc(var(--pixel) * 7) 0 0 0 #FF8C00,
+    calc(var(--pixel) * 8) 0 0 0 #FF8C00,
+    calc(var(--pixel) * 9) 0 0 0 #FF8C00,
+    calc(var(--pixel) * 2) var(--pixel) 0 0 #FF8C00,
+    calc(var(--pixel) * 3) var(--pixel) 0 0 #FFA500,
+    calc(var(--pixel) * 4) var(--pixel) 0 0 #FFA500,
+    calc(var(--pixel) * 5) var(--pixel) 0 0 #FFD700,
+    calc(var(--pixel) * 6) var(--pixel) 0 0 #FFD700,
+    calc(var(--pixel) * 7) var(--pixel) 0 0 #FFA500,
+    calc(var(--pixel) * 8) var(--pixel) 0 0 #FFA500,
+    calc(var(--pixel) * 9) var(--pixel) 0 0 #FFA500,
+    calc(var(--pixel) * 10) var(--pixel) 0 0 #FF8C00,
+    calc(var(--pixel) * 1) calc(var(--pixel) * 2) 0 0 #FF8C00,
+    calc(var(--pixel) * 2) calc(var(--pixel) * 2) 0 0 #FFA500,
+    calc(var(--pixel) * 3) calc(var(--pixel) * 2) 0 0 #FFA500,
+    calc(var(--pixel) * 4) calc(var(--pixel) * 2) 0 0 #FFD700,
+    calc(var(--pixel) * 5) calc(var(--pixel) * 2) 0 0 #FFD700,
+    calc(var(--pixel) * 6) calc(var(--pixel) * 2) 0 0 #FFD700,
+    calc(var(--pixel) * 7) calc(var(--pixel) * 2) 0 0 #FFD700,
+    calc(var(--pixel) * 8) calc(var(--pixel) * 2) 0 0 #FFA500,
+    calc(var(--pixel) * 9) calc(var(--pixel) * 2) 0 0 #FFA500,
+    calc(var(--pixel) * 10) calc(var(--pixel) * 2) 0 0 #FFA500,
+    calc(var(--pixel) * 11) calc(var(--pixel) * 2) 0 0 #FF8C00,
+    calc(var(--pixel) * 1) calc(var(--pixel) * 3) 0 0 #FF8C00,
+    calc(var(--pixel) * 2) calc(var(--pixel) * 3) 0 0 #FFA500,
+    calc(var(--pixel) * 3) calc(var(--pixel) * 3) 0 0 #FFA500,
+    calc(var(--pixel) * 4) calc(var(--pixel) * 3) 0 0 #FFD700,
+    calc(var(--pixel) * 5) calc(var(--pixel) * 3) 0 0 #FFD700,
+    calc(var(--pixel) * 6) calc(var(--pixel) * 3) 0 0 #FFD700,
+    calc(var(--pixel) * 7) calc(var(--pixel) * 3) 0 0 #FFD700,
+    calc(var(--pixel) * 8) calc(var(--pixel) * 3) 0 0 #FFA500,
+    calc(var(--pixel) * 9) calc(var(--pixel) * 3) 0 0 #FFA500,
+    calc(var(--pixel) * 10) calc(var(--pixel) * 3) 0 0 #FFA500,
+    calc(var(--pixel) * 11) calc(var(--pixel) * 3) 0 0 #FF8C00,
+    calc(var(--pixel) * 1) calc(var(--pixel) * 4) 0 0 #FF8C00,
+    calc(var(--pixel) * 2) calc(var(--pixel) * 4) 0 0 #FFA500,
+    calc(var(--pixel) * 3) calc(var(--pixel) * 4) 0 0 #FFA500,
+    calc(var(--pixel) * 4) calc(var(--pixel) * 4) 0 0 #FFA500,
+    calc(var(--pixel) * 5) calc(var(--pixel) * 4) 0 0 #FFD700,
+    calc(var(--pixel) * 6) calc(var(--pixel) * 4) 0 0 #FFD700,
+    calc(var(--pixel) * 7) calc(var(--pixel) * 4) 0 0 #FFA500,
+    calc(var(--pixel) * 8) calc(var(--pixel) * 4) 0 0 #FFA500,
+    calc(var(--pixel) * 9) calc(var(--pixel) * 4) 0 0 #FFA500,
+    calc(var(--pixel) * 10) calc(var(--pixel) * 4) 0 0 #FFA500,
+    calc(var(--pixel) * 11) calc(var(--pixel) * 4) 0 0 #FF8C00,
+    calc(var(--pixel) * 2) calc(var(--pixel) * 5) 0 0 #FF8C00,
+    calc(var(--pixel) * 3) calc(var(--pixel) * 5) 0 0 #FF8C00,
+    calc(var(--pixel) * 4) calc(var(--pixel) * 5) 0 0 #FFA500,
+    calc(var(--pixel) * 5) calc(var(--pixel) * 5) 0 0 #FFA500,
+    calc(var(--pixel) * 6) calc(var(--pixel) * 5) 0 0 #FFA500,
+    calc(var(--pixel) * 7) calc(var(--pixel) * 5) 0 0 #FFA500,
+    calc(var(--pixel) * 8) calc(var(--pixel) * 5) 0 0 #FFA500,
+    calc(var(--pixel) * 9) calc(var(--pixel) * 5) 0 0 #FF8C00,
+    calc(var(--pixel) * 10) calc(var(--pixel) * 5) 0 0 #FF8C00,
+    calc(var(--pixel) * 3) calc(var(--pixel) * 6) 0 0 #FF8C00,
+    calc(var(--pixel) * 4) calc(var(--pixel) * 6) 0 0 #FFA500,
+    calc(var(--pixel) * 5) calc(var(--pixel) * 6) 0 0 #FFA500,
+    calc(var(--pixel) * 6) calc(var(--pixel) * 6) 0 0 #FFA500,
+    calc(var(--pixel) * 7) calc(var(--pixel) * 6) 0 0 #FFA500,
+    calc(var(--pixel) * 8) calc(var(--pixel) * 6) 0 0 #FFA500,
+    calc(var(--pixel) * 9) calc(var(--pixel) * 6) 0 0 #FF8C00,
+    calc(var(--pixel) * 4) calc(var(--pixel) * 7) 0 0 #FF8C00,
+    calc(var(--pixel) * 5) calc(var(--pixel) * 7) 0 0 #FF8C00,
+    calc(var(--pixel) * 6) calc(var(--pixel) * 7) 0 0 #FF8C00,
+    calc(var(--pixel) * 7) calc(var(--pixel) * 7) 0 0 #FF8C00,
+    calc(var(--pixel) * 8) calc(var(--pixel) * 7) 0 0 #FF8C00;
+  top: 0;
+  left: 0;
+}
+
+.ant-queen .leg {
+  display: none !important;
+}
+
+/* 픽셀 애니메이션 */
+@keyframes pixelBounce {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(-8px); }
+}
+
+@keyframes pixelWiggle {
+  0%, 100% { transform: translateX(0) rotate(0deg); }
+  25% { transform: translateX(-2px) rotate(-2deg); }
+  75% { transform: translateX(2px) rotate(2deg); }
+}
+
+@keyframes pixelPulse {
+  0%, 100% { transform: scale(1); }
+  50% { transform: scale(1.05); }
+}
+
+@keyframes pixelGlow {
+  0%, 100% { filter: brightness(1) drop-shadow(0 0 5px rgba(255, 215, 0, 0.3)); }
+  50% { filter: brightness(1.2) drop-shadow(0 0 10px rgba(255, 215, 0, 0.6)); }
+}
+
+/* 전체 애니메이션 */
+.ant-stage {
+  animation: pixelFloat 3s ease-in-out infinite !important;
+}
+
+@keyframes pixelFloat {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(-6px); }
+}
+
+/* 클릭 시 픽셀 점프 */
+.ant-character.is-happy .ant-stage {
+  animation: pixelJump 0.4s ease-out !important;
+}
+
+@keyframes pixelJump {
+  0% { transform: scale(1) translateY(0); }
+  50% { transform: scale(1.1) translateY(-12px); }
+  100% { transform: scale(1) translateY(0); }
+}
+
+/* 호버 시 픽셀 효과 */
+.ant-container:hover .ant-stage {
+  animation: pixelHop 0.5s ease-in-out infinite !important;
+  filter: brightness(1.1) !important;
+}
+
+@keyframes pixelHop {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(-4px); }
+}
+</style>

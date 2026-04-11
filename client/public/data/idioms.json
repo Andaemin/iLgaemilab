@@ -1,0 +1,5938 @@
+{
+  "beginner": [
+    {
+      "id": 1,
+      "word": "각골난망",
+      "hanja": "刻骨難忘",
+      "meaning": "뼈에 새길 만큼 잊지 못할 은혜",
+      "example": "스승님의 은혜는 각골난망입니다.",
+      "groups": [
+        "size6_0",
+        "size8_0",
+        "size10_0"
+      ]
+    },
+    {
+      "id": 2,
+      "word": "감언이설",
+      "hanja": "甘言利說",
+      "meaning": "남의 비위를 맞추거나 이롭게 하는 달콤한 말",
+      "example": "그는 감언이설로 사람들을 속였다.",
+      "groups": [
+        "size6_1",
+        "size6_38",
+        "size8_1",
+        "size8_3",
+        "size8_37",
+        "size10_1",
+        "size10_11",
+        "size10_12"
+      ]
+    },
+    {
+      "id": 3,
+      "word": "견물생심",
+      "hanja": "見物生心",
+      "meaning": "물건을 보면 욕심이 생김",
+      "example": "명품을 보니 견물생심이 들었다.",
+      "groups": [
+        "size6_2",
+        "size6_16",
+        "size6_34",
+        "size6_37",
+        "size8_2",
+        "size8_7",
+        "size8_18",
+        "size10_2",
+        "size10_6"
+      ]
+    },
+    {
+      "id": 4,
+      "word": "고진감래",
+      "hanja": "苦盡甘來",
+      "meaning": "쓴 것이 다하면 단 것이 온다",
+      "example": "노력 끝에 고진감래를 맛봤다.",
+      "groups": [
+        "size6_3",
+        "size6_38",
+        "size8_3",
+        "size10_0",
+        "size10_3"
+      ]
+    },
+    {
+      "id": 5,
+      "word": "과유불급",
+      "hanja": "過猶不及",
+      "meaning": "지나침은 미치지 못함과 같음",
+      "example": "공부도 과유불급이다.",
+      "groups": [
+        "size6_4",
+        "size6_42",
+        "size8_4",
+        "size8_26",
+        "size8_42",
+        "size10_4"
+      ]
+    },
+    {
+      "id": 6,
+      "word": "군계일학",
+      "hanja": "群鷄一鶴",
+      "meaning": "많은 사람 가운데 뛰어난 인물",
+      "example": "그는 반에서 군계일학이었다.",
+      "groups": [
+        "size6_5",
+        "size6_27",
+        "size8_5",
+        "size8_17",
+        "size8_38",
+        "size8_46",
+        "size10_0",
+        "size10_5"
+      ]
+    },
+    {
+      "id": 7,
+      "word": "권선징악",
+      "hanja": "勸善懲惡",
+      "meaning": "착한 일을 권하고 악한 일을 벌함",
+      "example": "이 드라마는 권선징악의 메시지를 담았다.",
+      "groups": [
+        "size6_6",
+        "size6_20",
+        "size8_6",
+        "size8_10",
+        "size10_6"
+      ]
+    },
+    {
+      "id": 8,
+      "word": "기고만장",
+      "hanja": "氣高萬丈",
+      "meaning": "기세가 대단히 높음",
+      "example": "합격 소식에 기고만장했다.",
+      "groups": [
+        "size6_7",
+        "size6_45",
+        "size6_49",
+        "size8_7",
+        "size8_30",
+        "size8_49",
+        "size10_7",
+        "size10_8",
+        "size10_14"
+      ]
+    },
+    {
+      "id": 9,
+      "word": "기암괴석",
+      "hanja": "奇巖怪石",
+      "meaning": "기이하고 괴상한 바위와 돌",
+      "example": "산에는 기암괴석이 가득했다.",
+      "groups": [
+        "size6_8",
+        "size6_48",
+        "size8_8",
+        "size8_38",
+        "size10_8",
+        "size10_15"
+      ]
+    },
+    {
+      "id": 10,
+      "word": "내우외환",
+      "hanja": "內憂外患",
+      "meaning": "안으로는 근심이 있고 밖으로는 걱정거리가 있음",
+      "example": "그 나라는 내우외환에 시달렸다.",
+      "groups": [
+        "size6_1",
+        "size6_9",
+        "size6_35",
+        "size6_43",
+        "size8_0",
+        "size8_9",
+        "size8_11",
+        "size8_37",
+        "size10_4",
+        "size10_9",
+        "size10_14"
+      ]
+    },
+    {
+      "id": 11,
+      "word": "다다익선",
+      "hanja": "多多益善",
+      "meaning": "많으면 많을수록 좋음",
+      "example": "경험은 다다익선이다.",
+      "groups": [
+        "size6_6",
+        "size6_10",
+        "size6_20",
+        "size8_6",
+        "size8_10",
+        "size10_10"
+      ]
+    },
+    {
+      "id": 12,
+      "word": "동문서답",
+      "hanja": "東問西答",
+      "meaning": "질문과 대답이 서로 맞지 않음",
+      "example": "질문과는 동문서답이라 당황했다.",
+      "groups": [
+        "size6_11",
+        "size6_14",
+        "size6_19",
+        "size8_4",
+        "size8_5",
+        "size8_11",
+        "size8_13",
+        "size8_19",
+        "size10_11",
+        "size10_12",
+        "size10_17",
+        "size6_50",
+        "size6_59"
+      ]
+    },
+    {
+      "id": 13,
+      "word": "동병상련",
+      "hanja": "同病相憐",
+      "meaning": "같은 처지의 사람끼리 서로 가엾게 여김",
+      "example": "우리는 동병상련의 관계다.",
+      "groups": [
+        "size6_12",
+        "size6_33",
+        "size6_49",
+        "size8_12",
+        "size8_16",
+        "size8_25",
+        "size8_48",
+        "size10_1",
+        "size10_4",
+        "size10_9",
+        "size10_12",
+        "size10_13"
+      ]
+    },
+    {
+      "id": 14,
+      "word": "막상막하",
+      "hanja": "莫上莫下",
+      "meaning": "둘 사이의 우열을 가리기 어려움",
+      "example": "두 팀은 막상막하였다.",
+      "groups": [
+        "size6_13",
+        "size6_48",
+        "size8_13",
+        "size8_39",
+        "size8_48",
+        "size10_1",
+        "size10_4",
+        "size10_10",
+        "size10_13",
+        "size10_16",
+        "size10_18",
+        "size10_29"
+      ]
+    },
+    {
+      "id": 15,
+      "word": "만시지탄",
+      "hanja": "晩時之歎",
+      "meaning": "때가 늦어 탄식함",
+      "example": "기회를 놓쳐 만시지탄했다.",
+      "groups": [
+        "size6_14",
+        "size6_45",
+        "size8_14",
+        "size8_18",
+        "size8_30",
+        "size10_0",
+        "size10_14"
+      ]
+    },
+    {
+      "id": 16,
+      "word": "망양지탄",
+      "hanja": "亡羊之歎",
+      "meaning": "학문의 길이 많아 갈피를 잡지 못함",
+      "example": "학문의 깊이에 망양지탄했다.",
+      "groups": [
+        "size6_15",
+        "size8_13",
+        "size8_15",
+        "size8_24",
+        "size8_31",
+        "size8_33",
+        "size8_46",
+        "size10_1",
+        "size10_15",
+        "size10_24"
+      ]
+    },
+    {
+      "id": 17,
+      "word": "명실상부",
+      "hanja": "名實相符",
+      "meaning": "이름과 실상이 서로 꼭 들어맞음",
+      "example": "그는 명실상부한 실력자다.",
+      "groups": [
+        "size6_0",
+        "size6_13",
+        "size6_16",
+        "size6_21",
+        "size6_30",
+        "size6_33",
+        "size8_3",
+        "size8_16",
+        "size8_26",
+        "size10_10",
+        "size10_16"
+      ]
+    },
+    {
+      "id": 18,
+      "word": "미사여구",
+      "hanja": "美辭麗句",
+      "meaning": "아름답고 화려한 말",
+      "example": "글이 미사여구로 넘쳤다.",
+      "groups": [
+        "size6_2",
+        "size6_17",
+        "size6_42",
+        "size8_10",
+        "size8_17",
+        "size10_17",
+        "size10_27"
+      ]
+    },
+    {
+      "id": 19,
+      "word": "무용지물",
+      "hanja": "無用之物",
+      "meaning": "아무 쓸모가 없는 물건",
+      "example": "고장난 기계는 무용지물이다.",
+      "groups": [
+        "size6_18",
+        "size6_29",
+        "size6_37",
+        "size8_15",
+        "size8_18",
+        "size8_34",
+        "size8_39",
+        "size10_15",
+        "size10_18",
+        "size10_21"
+      ]
+    },
+    {
+      "id": 20,
+      "word": "문전성시",
+      "hanja": "門前成市",
+      "meaning": "집 앞이 시장처럼 붐빔",
+      "example": "맛집에 문전성시를 이뤘다.",
+      "groups": [
+        "size6_19",
+        "size6_21",
+        "size8_14",
+        "size8_19",
+        "size8_23",
+        "size8_37",
+        "size10_11",
+        "size10_19",
+        "size10_28",
+        "size6_59"
+      ]
+    },
+    {
+      "id": 21,
+      "word": "박학다식",
+      "hanja": "博學多識",
+      "meaning": "학식이 넓고 아는 것이 많음",
+      "example": "교수님은 박학다식하시다.",
+      "groups": [
+        "size6_20",
+        "size6_30",
+        "size8_6",
+        "size8_10",
+        "size8_20",
+        "size10_10",
+        "size10_20"
+      ]
+    },
+    {
+      "id": 22,
+      "word": "불편부당",
+      "hanja": "不偏不黨",
+      "meaning": "어느 쪽으로도 치우치지 않음",
+      "example": "불편부당한 자세를 유지했다.",
+      "groups": [
+        "size6_4",
+        "size6_21",
+        "size8_4",
+        "size8_19",
+        "size8_21",
+        "size8_34",
+        "size8_44",
+        "size10_4",
+        "size10_16",
+        "size10_21",
+        "size10_29"
+      ]
+    },
+    {
+      "id": 23,
+      "word": "사면초가",
+      "hanja": "四面楚歌",
+      "meaning": "사방이 모두 적으로 둘러싸임",
+      "example": "그는 사면초가에 처했다.",
+      "groups": [
+        "size6_12",
+        "size6_19",
+        "size6_22",
+        "size6_31",
+        "size6_41",
+        "size8_22",
+        "size8_32",
+        "size10_17",
+        "size10_22",
+        "size10_25",
+        "size10_27"
+      ]
+    },
+    {
+      "id": 24,
+      "word": "산전수전",
+      "hanja": "山戰水戰",
+      "meaning": "온갖 고생을 다 겪음",
+      "example": "산전수전 다 겪은 사람이다.",
+      "groups": [
+        "size6_23",
+        "size6_29",
+        "size6_36",
+        "size8_22",
+        "size8_23",
+        "size10_23"
+      ]
+    },
+    {
+      "id": 25,
+      "word": "새옹지마",
+      "hanja": "塞翁之馬",
+      "meaning": "인생의 길흉화복은 예측할 수 없음",
+      "example": "실직도 새옹지마일 수 있다.",
+      "groups": [
+        "size6_24",
+        "size6_45",
+        "size8_7",
+        "size8_11",
+        "size8_15",
+        "size8_18",
+        "size8_24",
+        "size10_7",
+        "size10_14",
+        "size10_24"
+      ]
+    },
+    {
+      "id": 26,
+      "word": "설상가상",
+      "hanja": "雪上加霜",
+      "meaning": "나쁜 일 위에 더 나쁜 일이 겹침",
+      "example": "감기에 시험까지 설상가상이다.",
+      "groups": [
+        "size6_12",
+        "size6_22",
+        "size6_25",
+        "size8_1",
+        "size8_3",
+        "size8_25",
+        "size8_39",
+        "size10_12",
+        "size10_13",
+        "size10_25",
+        "size10_26"
+      ]
+    },
+    {
+      "id": 27,
+      "word": "수수방관",
+      "hanja": "袖手傍觀",
+      "meaning": "손을 놓고 보고만 있음",
+      "example": "그는 수수방관했다.",
+      "groups": [
+        "size6_23",
+        "size6_26",
+        "size6_28",
+        "size6_29",
+        "size8_17",
+        "size8_26",
+        "size8_28",
+        "size10_11",
+        "size10_13",
+        "size10_14",
+        "size10_26"
+      ]
+    },
+    {
+      "id": 28,
+      "word": "승승장구",
+      "hanja": "乘勝長驅",
+      "meaning": "계속해서 성공을 거듦",
+      "example": "그 팀은 승승장구 중이다.",
+      "groups": [
+        "size6_27",
+        "size8_7",
+        "size8_8",
+        "size8_27",
+        "size8_42",
+        "size8_47",
+        "size10_3",
+        "size10_27"
+      ]
+    },
+    {
+      "id": 29,
+      "word": "아전인수",
+      "hanja": "我田引水",
+      "meaning": "자기에게만 이롭게 행동하거나 생각함",
+      "example": "그의 주장은 아전인수다.",
+      "groups": [
+        "size6_25",
+        "size6_28",
+        "size8_15",
+        "size8_19",
+        "size8_23",
+        "size8_28",
+        "size8_33",
+        "size10_28"
+      ]
+    },
+    {
+      "id": 30,
+      "word": "안하무인",
+      "hanja": "眼下無人",
+      "meaning": "눈 아래 사람이 없다는 뜻으로 방자하고 교만함",
+      "example": "그는 안하무인한 태도를 보였다.",
+      "groups": [
+        "size6_29",
+        "size6_34",
+        "size8_29",
+        "size8_41",
+        "size10_15",
+        "size10_17",
+        "size10_27",
+        "size10_29"
+      ]
+    },
+    {
+      "id": 31,
+      "word": "약육강식",
+      "hanja": "弱肉强食",
+      "meaning": "약한 것은 강한 것의 먹이가 됨",
+      "example": "약육강식의 세계다.",
+      "groups": [
+        "size6_30",
+        "size8_26",
+        "size8_30",
+        "size10_10",
+        "size10_20"
+      ]
+    },
+    {
+      "id": 32,
+      "word": "양두구육",
+      "hanja": "羊頭狗肉",
+      "meaning": "겉과 속이 다름",
+      "example": "그 광고는 양두구육이다.",
+      "groups": [
+        "size6_3",
+        "size6_31",
+        "size6_47",
+        "size8_10",
+        "size8_30",
+        "size8_31",
+        "size8_34",
+        "size10_3",
+        "size10_25",
+        "size10_28"
+      ]
+    },
+    {
+      "id": 33,
+      "word": "언행일치",
+      "hanja": "言行一致",
+      "meaning": "말과 행동이 일치함",
+      "example": "리더는 언행일치해야 한다.",
+      "groups": [
+        "size6_5",
+        "size6_32",
+        "size8_27",
+        "size8_32",
+        "size8_37",
+        "size10_5"
+      ]
+    },
+    {
+      "id": 34,
+      "word": "역지사지",
+      "hanja": "易地思之",
+      "meaning": "처지를 바꾸어 생각함",
+      "example": "역지사지해보자.",
+      "groups": [
+        "size6_10",
+        "size6_33",
+        "size8_7",
+        "size8_14",
+        "size8_24",
+        "size8_33",
+        "size8_45",
+        "size10_18",
+        "size10_22"
+      ]
+    },
+    {
+      "id": 35,
+      "word": "오리무중",
+      "hanja": "五里霧中",
+      "meaning": "무엇이 무엇인지 알 수 없는 상태",
+      "example": "사건은 오리무중이다.",
+      "groups": [
+        "size6_2",
+        "size6_34",
+        "size8_34",
+        "size8_41",
+        "size8_43",
+        "size10_17"
+      ]
+    },
+    {
+      "id": 36,
+      "word": "우유부단",
+      "hanja": "優柔不斷",
+      "meaning": "결단력이 없고 굼뜸",
+      "example": "그는 늘 우유부단하다.",
+      "groups": [
+        "size6_16",
+        "size6_30",
+        "size6_35",
+        "size8_9",
+        "size8_25",
+        "size8_35",
+        "size10_19",
+        "size10_21"
+      ]
+    },
+    {
+      "id": 37,
+      "word": "유유자적",
+      "hanja": "悠悠自適",
+      "meaning": "속세를 떠나 느긋하고 편안하게 지냄",
+      "example": "시골에서 유유자적했다.",
+      "groups": [
+        "size6_36",
+        "size8_4",
+        "size8_36",
+        "size8_49",
+        "size10_28",
+        "size6_51",
+        "size6_52",
+        "size6_53",
+        "size6_54",
+        "size6_55",
+        "size6_56",
+        "size6_57",
+        "size6_58",
+        "size8_50",
+        "size8_51",
+        "size8_52",
+        "size8_53",
+        "size8_55",
+        "size8_56",
+        "size8_57"
+      ]
+    },
+    {
+      "id": 38,
+      "word": "이심전심",
+      "hanja": "以心傳心",
+      "meaning": "마음에서 마음으로 전함",
+      "example": "우리는 이심전심이었다.",
+      "groups": [
+        "size6_37",
+        "size8_1",
+        "size8_14",
+        "size8_23",
+        "size8_28",
+        "size8_29",
+        "size8_37",
+        "size8_44",
+        "size8_48"
+      ]
+    },
+    {
+      "id": 39,
+      "word": "일석이조",
+      "hanja": "一石二鳥",
+      "meaning": "한 가지 일로 두 가지 이익을 얻음",
+      "example": "이 일은 일석이조다.",
+      "groups": [
+        "size6_6",
+        "size6_8",
+        "size6_11",
+        "size6_36",
+        "size6_38",
+        "size6_44",
+        "size8_2",
+        "size8_3",
+        "size8_5",
+        "size8_38"
+      ]
+    },
+    {
+      "id": 40,
+      "word": "자업자득",
+      "hanja": "自業自得",
+      "meaning": "자신이 저지른 일의 결과를 자신이 받음",
+      "example": "그건 자업자득이다.",
+      "groups": [
+        "size6_28",
+        "size6_39",
+        "size8_39",
+        "size8_47",
+        "size6_51",
+        "size6_52",
+        "size6_53",
+        "size6_54",
+        "size6_55",
+        "size6_57",
+        "size6_58",
+        "size8_50",
+        "size8_51",
+        "size8_52",
+        "size8_54",
+        "size8_55",
+        "size8_56",
+        "size8_57"
+      ]
+    },
+    {
+      "id": 41,
+      "word": "작심삼일",
+      "hanja": "作心三日",
+      "meaning": "결심이 사흘을 가지 못함",
+      "example": "운동도 작심삼일이었다.",
+      "groups": [
+        "size6_40",
+        "size6_41",
+        "size6_43",
+        "size8_2",
+        "size8_5",
+        "size8_14",
+        "size8_38",
+        "size8_40",
+        "size10_0",
+        "size10_23"
+      ]
+    },
+    {
+      "id": 42,
+      "word": "조삼모사",
+      "hanja": "朝三暮四",
+      "meaning": "눈앞의 차이만 알고 결과가 같음을 모름",
+      "example": "아이들을 조삼모사로 다뤘다.",
+      "groups": [
+        "size6_7",
+        "size6_17",
+        "size6_41",
+        "size8_32",
+        "size8_33",
+        "size8_36",
+        "size8_40",
+        "size8_41"
+      ]
+    },
+    {
+      "id": 43,
+      "word": "청출어람",
+      "hanja": "靑出於藍",
+      "meaning": "제자가 스승보다 나음",
+      "example": "그는 청출어람이다.",
+      "groups": [
+        "size6_17",
+        "size6_42",
+        "size8_24",
+        "size8_42",
+        "size8_45",
+        "size10_24"
+      ]
+    },
+    {
+      "id": 44,
+      "word": "천고마비",
+      "hanja": "天高馬肥",
+      "meaning": "하늘이 높고 말이 살찌는 가을",
+      "example": "천고마비의 계절이다.",
+      "groups": [
+        "size6_11",
+        "size6_43",
+        "size8_3",
+        "size8_11",
+        "size8_35",
+        "size8_43",
+        "size10_3",
+        "size10_19",
+        "size10_24"
+      ]
+    },
+    {
+      "id": 45,
+      "word": "침소봉대",
+      "hanja": "針小棒大",
+      "meaning": "작은 일을 크게 부풀려 말함",
+      "example": "그는 늘 침소봉대했다.",
+      "groups": [
+        "size6_44",
+        "size6_48",
+        "size8_43",
+        "size8_44",
+        "size8_49",
+        "size10_16"
+      ]
+    },
+    {
+      "id": 46,
+      "word": "호연지기",
+      "hanja": "浩然之氣",
+      "meaning": "천지 사이에 가득 찬 넓고 큰 기운",
+      "example": "정의를 위한 호연지기를 가져야 한다.",
+      "groups": [
+        "size6_8",
+        "size6_14",
+        "size6_24",
+        "size6_45",
+        "size8_7",
+        "size8_45",
+        "size10_8",
+        "size10_15"
+      ]
+    },
+    {
+      "id": 47,
+      "word": "문일지십",
+      "hanja": "聞一知十",
+      "meaning": "하나를 들으면 열 가지를 앎",
+      "example": "그는 문일지십의 총명함을 가졌다.",
+      "groups": [
+        "size6_10",
+        "size6_14",
+        "size6_24",
+        "size6_46",
+        "size8_21",
+        "size8_35",
+        "size8_46",
+        "size10_16",
+        "size10_17",
+        "size10_18",
+        "size6_50",
+        "size6_59"
+      ]
+    },
+    {
+      "id": 48,
+      "word": "진퇴양난",
+      "hanja": "進退兩難",
+      "meaning": "나아갈 수도 물러설 수도 없는 어려운 상황",
+      "example": "그는 진퇴양난에 빠졌다.",
+      "groups": [
+        "size6_3",
+        "size6_31",
+        "size6_47",
+        "size8_0",
+        "size8_47",
+        "size10_0",
+        "size10_3",
+        "size10_15"
+      ]
+    },
+    {
+      "id": 49,
+      "word": "괄목상대",
+      "hanja": "刮目相對",
+      "meaning": "학식이나 재주가 눈에 띄게 늘어 놀랄 만함",
+      "example": "그의 실력은 괄목상대할 만하다.",
+      "groups": [
+        "size6_21",
+        "size6_22",
+        "size6_44",
+        "size6_48",
+        "size8_2",
+        "size8_6",
+        "size8_12",
+        "size8_21",
+        "size8_27",
+        "size8_42",
+        "size8_48",
+        "size10_12",
+        "size10_13",
+        "size10_20",
+        "size10_22"
+      ]
+    },
+    {
+      "id": 51,
+      "word": "적반하장",
+      "hanja": "賊反荷杖",
+      "meaning": "도둑이 오히려 매를 든다",
+      "example": "그의 태도는 적반하장이었다.",
+      "groups": [
+        "size6_7",
+        "size6_27",
+        "size6_49",
+        "size8_49",
+        "size10_1",
+        "size10_4",
+        "size10_29"
+      ]
+    },
+    {
+      "id": 52,
+      "word": "금지옥엽",
+      "hanja": "金枝玉葉",
+      "meaning": "귀한 집안의 자손이나 왕족",
+      "example": "그녀는 금지옥엽으로 자랐다.",
+      "groups": [
+        "size6_8",
+        "size6_22",
+        "size6_45",
+        "size8_35",
+        "size8_46",
+        "size10_5",
+        "size10_7",
+        "size10_8"
+      ]
+    },
+    {
+      "id": 53,
+      "word": "백년대계",
+      "hanja": "百年大計",
+      "meaning": "먼 장래를 내다보고 세우는 큰 계획",
+      "example": "교육은 백년대계입니다.",
+      "groups": [
+        "size6_15"
+      ]
+    },
+    {
+      "id": 54,
+      "word": "와신상담",
+      "hanja": "臥薪嘗膽",
+      "meaning": "원수를 갚기 위해 온갖 괴로움을 참고 견딤",
+      "example": "그는 와신상담하며 준비했다.",
+      "groups": [
+        "size6_47",
+        "size8_16",
+        "size8_27",
+        "size8_46",
+        "size10_1",
+        "size10_5"
+      ]
+    },
+    {
+      "id": 55,
+      "word": "어부지리",
+      "hanja": "漁父之利",
+      "meaning": "두 사람이 싸우는 동안 엉뚱한 사람이 이익을 얻음",
+      "example": "결국 어부지리를 챙긴 건 제3자였다.",
+      "groups": [
+        "size6_33",
+        "size8_8",
+        "size8_9",
+        "size8_14",
+        "size8_15",
+        "size8_24",
+        "size8_46",
+        "size10_15",
+        "size10_17",
+        "size10_21",
+        "size10_22"
+      ]
+    },
+    {
+      "id": 56,
+      "word": "부화뇌동",
+      "hanja": "附和雷同",
+      "meaning": "자신의 주관 없이 남의 의견을 따라 움직임",
+      "example": "그는 부화뇌동하는 사람이다.",
+      "groups": [
+        "size6_39",
+        "size8_20",
+        "size8_25",
+        "size8_35",
+        "size10_11"
+      ]
+    },
+    {
+      "id": 57,
+      "word": "구우일모",
+      "hanja": "九牛一毛",
+      "meaning": "매우 많은 것 가운데 극히 적은 수량",
+      "example": "이 정도는 구우일모에 불과하다.",
+      "groups": [
+        "size6_5",
+        "size8_17",
+        "size8_27",
+        "size8_32"
+      ]
+    },
+    {
+      "id": 58,
+      "word": "독야청청",
+      "hanja": "獨也靑靑",
+      "meaning": "어려운 환경에서도 절개를 굽히지 않고 지킴",
+      "example": "그는 독야청청한 선비였다.",
+      "groups": [
+        "size6_1",
+        "size6_17"
+      ]
+    },
+    {
+      "id": 59,
+      "word": "명불허전",
+      "hanja": "名不虛傳",
+      "meaning": "이름이 헛되이 전해지지 않음",
+      "example": "그의 실력은 명불허전이었다.",
+      "groups": [
+        "size6_19",
+        "size8_16",
+        "size8_26",
+        "size8_37",
+        "size10_2",
+        "size10_21"
+      ]
+    },
+    {
+      "id": 60,
+      "word": "명약관화",
+      "hanja": "明若觀火",
+      "meaning": "사실이 매우 분명함",
+      "example": "그의 잘못은 명약관화하다.",
+      "groups": [
+        "size6_30",
+        "size6_33",
+        "size8_25",
+        "size8_26",
+        "size10_10",
+        "size10_16",
+        "size10_20"
+      ]
+    },
+    {
+      "id": 61,
+      "word": "백골난망",
+      "hanja": "白骨難忘",
+      "meaning": "죽어서까지 잊지 못할 큰 은혜",
+      "example": "그 은혜는 백골난망입니다.",
+      "groups": [
+        "size6_0",
+        "size6_10",
+        "size8_0"
+      ]
+    },
+    {
+      "id": 62,
+      "word": "십시일반",
+      "hanja": "十匙一飯",
+      "meaning": "여러 사람이 힘을 합치면 한 사람을 돕기 쉬움",
+      "example": "십시일반으로 도움을 모았다.",
+      "groups": [
+        "size6_32",
+        "size6_49",
+        "size8_30",
+        "size8_40",
+        "size8_41",
+        "size10_0"
+      ]
+    },
+    {
+      "id": 63,
+      "word": "사필귀정",
+      "hanja": "事必歸正",
+      "meaning": "모든 일은 반드시 바르게 돌아감",
+      "example": "결국 사필귀정이었다.",
+      "groups": [
+        "size6_17",
+        "size8_33",
+        "size10_21"
+      ]
+    },
+    {
+      "id": 64,
+      "word": "교각살우",
+      "hanja": "矯角殺牛",
+      "meaning": "잘못된 점을 고치려다 오히려 일을 그르침",
+      "example": "그것은 교각살우가 될 것이다.",
+      "groups": [
+        "size6_1",
+        "size8_0",
+        "size8_17",
+        "size10_9"
+      ]
+    },
+    {
+      "id": 65,
+      "word": "반신반의",
+      "hanja": "半信半疑",
+      "meaning": "반은 믿고 반은 의심함",
+      "example": "나는 반신반의했다.",
+      "groups": [
+        "size6_15",
+        "size6_20",
+        "size8_1",
+        "size8_40",
+        "size10_1",
+        "size10_14"
+      ]
+    },
+    {
+      "id": 66,
+      "word": "간담상조",
+      "hanja": "肝膽相照",
+      "meaning": "서로 속마음을 털어놓고 친하게 사귐",
+      "example": "우리는 간담상조하는 사이다.",
+      "groups": [
+        "size6_7",
+        "size6_25",
+        "size8_2",
+        "size8_28",
+        "size8_46",
+        "size10_18",
+        "size10_25"
+      ]
+    },
+    {
+      "id": 67,
+      "word": "결초보은",
+      "hanja": "結草報恩",
+      "meaning": "죽어서까지 은혜를 잊지 않고 갚음",
+      "example": "결초보은의 마음으로 보답했다.",
+      "groups": [
+        "size6_22",
+        "size8_23",
+        "size10_22"
+      ]
+    },
+    {
+      "id": 68,
+      "word": "우문현답",
+      "hanja": "愚問賢答",
+      "meaning": "어리석은 질문에 대한 현명한 대답",
+      "example": "그의 답변은 우문현답이었다.",
+      "groups": [
+        "size6_35",
+        "size8_9",
+        "size8_11",
+        "size8_37",
+        "size6_50",
+        "size6_59"
+      ]
+    },
+    {
+      "id": 69,
+      "word": "분서갱유",
+      "hanja": "焚書坑儒",
+      "meaning": "학문이나 사상을 탄압함",
+      "example": "분서갱유는 역사의 비극이다.",
+      "groups": [
+        "size6_9",
+        "size8_35"
+      ]
+    },
+    {
+      "id": 70,
+      "word": "맥수지탄",
+      "hanja": "麥秀之歎",
+      "meaning": "고국의 멸망을 슬퍼함",
+      "example": "그는 맥수지탄을 금할 수 없었다.",
+      "groups": [
+        "size6_24",
+        "size6_33",
+        "size8_13",
+        "size8_33",
+        "size8_39",
+        "size10_5",
+        "size10_26"
+      ]
+    },
+    {
+      "id": 71,
+      "word": "표리부동",
+      "hanja": "表裏不同",
+      "meaning": "겉으로 드러나는 언행과 속마음이 다름",
+      "example": "그는 표리부동한 사람이다.",
+      "groups": [
+        "size6_34",
+        "size8_4",
+        "size8_9",
+        "size8_13",
+        "size8_34",
+        "size8_36",
+        "size10_9",
+        "size10_13",
+        "size10_17"
+      ]
+    },
+    {
+      "id": 72,
+      "word": "대동소이",
+      "hanja": "大同小異",
+      "meaning": "큰 차이가 없이 거의 비슷함",
+      "example": "두 방법은 대동소이하다.",
+      "groups": [
+        "size6_44",
+        "size8_1",
+        "size8_12",
+        "size8_38",
+        "size8_41",
+        "size8_44",
+        "size10_11"
+      ]
+    },
+    {
+      "id": 73,
+      "word": "붕우유신",
+      "hanja": "朋友有信",
+      "meaning": "친구 사이에는 믿음이 있어야 함",
+      "example": "붕우유신은 중요한 덕목이다.",
+      "groups": [
+        "size10_6",
+        "size10_7",
+        "size10_9",
+        "size10_24"
+      ]
+    },
+    {
+      "id": 74,
+      "word": "견리사의",
+      "hanja": "見利思義",
+      "meaning": "이익을 보면 의리를 먼저 생각함",
+      "example": "그는 견리사의하는 군자였다.",
+      "groups": [
+        "size6_20",
+        "size6_34",
+        "size8_8",
+        "size10_17"
+      ]
+    },
+    {
+      "id": 75,
+      "word": "동분서주",
+      "hanja": "東奔西走",
+      "meaning": "여기저기 몹시 바쁘게 돌아다님",
+      "example": "그는 동분서주하며 일했다.",
+      "groups": [
+        "size8_1",
+        "size10_22"
+      ]
+    },
+    {
+      "id": 77,
+      "word": "죽마고우",
+      "hanja": "竹馬故友",
+      "meaning": "어릴 때부터 같이 놀며 자란 매우 친한 친구",
+      "example": "그는 나의 죽마고우다.",
+      "groups": [
+        "size6_3",
+        "size6_12",
+        "size8_9",
+        "size8_11",
+        "size8_35",
+        "size10_7",
+        "size10_8"
+      ]
+    },
+    {
+      "id": 78,
+      "word": "관포지교",
+      "hanja": "管鮑之交",
+      "meaning": "우정이 매우 깊고 변함없는 친구 사이",
+      "example": "우리는 관포지교를 나눴다.",
+      "groups": [
+        "size6_14",
+        "size6_18",
+        "size8_14",
+        "size8_24",
+        "size10_9",
+        "size10_20",
+        "size10_26"
+      ]
+    },
+    {
+      "id": 79,
+      "word": "자가당착",
+      "hanja": "自家撞着",
+      "meaning": "자기가 한 말이나 행동이 앞뒤가 맞지 않고 모순됨",
+      "example": "그의 주장은 자가당착이다.",
+      "groups": [
+        "size6_12",
+        "size6_51",
+        "size6_55",
+        "size8_50",
+        "size8_51",
+        "size8_53",
+        "size8_54",
+        "size8_55",
+        "size8_56",
+        "size8_57"
+      ]
+    },
+    {
+      "id": 80,
+      "word": "상전벽해",
+      "hanja": "桑田碧海",
+      "meaning": "세상일의 변천이 심함",
+      "example": "그곳은 상전벽해가 되었다.",
+      "groups": [
+        "size6_4",
+        "size6_13",
+        "size6_25",
+        "size8_25",
+        "size10_25"
+      ]
+    },
+    {
+      "id": 81,
+      "word": "목불식정",
+      "hanja": "目不識丁",
+      "meaning": "글자를 전혀 모르는 사람",
+      "example": "그는 목불식정이었다.",
+      "groups": [
+        "size6_48",
+        "size8_6",
+        "size8_12",
+        "size8_19",
+        "size8_21",
+        "size8_30",
+        "size8_45",
+        "size10_10"
+      ]
+    },
+    {
+      "id": 82,
+      "word": "연목구어",
+      "hanja": "緣木求魚",
+      "meaning": "도저히 불가능한 일을 하려고 애씀",
+      "example": "그것은 연목구어나 다름없다.",
+      "groups": [
+        "size6_17",
+        "size6_42",
+        "size8_9",
+        "size8_21",
+        "size8_27",
+        "size8_31",
+        "size8_42",
+        "size8_45"
+      ]
+    },
+    {
+      "id": 83,
+      "word": "오비이락",
+      "hanja": "烏飛梨落",
+      "meaning": "공교롭게 한 일이 다른 일과 때를 같이하여 의심을 받음",
+      "example": "그것은 오비이락의 상황이었다.",
+      "groups": [
+        "size8_38",
+        "size8_41",
+        "size8_43",
+        "size10_5",
+        "size10_7",
+        "size10_19",
+        "size10_23"
+      ]
+    },
+    {
+      "id": 84,
+      "word": "절치부심",
+      "hanja": "切齒腐心",
+      "meaning": "몹시 분하고 원통하여 이를 갈며 속을 태움",
+      "example": "그는 절치부심하며 준비했다.",
+      "groups": [
+        "size6_32",
+        "size8_4",
+        "size8_8",
+        "size8_15",
+        "size8_24",
+        "size10_25",
+        "size10_28"
+      ]
+    },
+    {
+      "id": 85,
+      "word": "불치하문",
+      "hanja": "不恥下問",
+      "meaning": "모르는 것을 아랫사람에게 묻는 것을 부끄럽게 여기지 않음",
+      "example": "그는 불치하문의 자세로 배웠다.",
+      "groups": [
+        "size8_6",
+        "size8_19",
+        "size8_21",
+        "size10_6",
+        "size6_50"
+      ]
+    },
+    {
+      "id": 86,
+      "word": "타산지석",
+      "hanja": "他山之石",
+      "meaning": "남의 하찮은 말이나 행동도 자신의 수양에 도움이 됨",
+      "example": "그 사건을 타산지석으로 삼았다.",
+      "groups": [
+        "size6_10",
+        "size8_8",
+        "size8_18",
+        "size8_39",
+        "size10_20",
+        "size10_24",
+        "size10_26"
+      ]
+    },
+    {
+      "id": 87,
+      "word": "견강부회",
+      "hanja": "牽强附會",
+      "meaning": "이치에 맞지 않는 말을 억지로 끌어다 붙임",
+      "example": "그의 주장은 견강부회였다.",
+      "groups": [
+        "size6_35",
+        "size8_14",
+        "size8_21",
+        "size8_26",
+        "size10_10",
+        "size10_13",
+        "size10_15",
+        "size10_17",
+        "size10_25"
+      ]
+    },
+    {
+      "id": 88,
+      "word": "삼삼오오",
+      "hanja": "三三五五",
+      "meaning": "몇 명씩 무리를 지어 다니거나 함께 일을 하는 모양",
+      "example": "사람들이 삼삼오오 모여들었다.",
+      "groups": [
+        "size6_18",
+        "size6_40",
+        "size10_0"
+      ]
+    },
+    {
+      "id": 89,
+      "word": "십중팔구",
+      "hanja": "十中八九",
+      "meaning": "열 가운데 여덟이나 아홉",
+      "example": "십중팔구 그가 우승할 것이다.",
+      "groups": [
+        "size6_46",
+        "size8_10",
+        "size8_34",
+        "size8_40",
+        "size10_16",
+        "size10_27",
+        "size10_28"
+      ]
+    },
+    {
+      "id": 90,
+      "word": "도학선생",
+      "hanja": "道學先生",
+      "meaning": "도덕의 이론만 캐고 현실 사회의 일에 어두운 사람을 조롱하는 말",
+      "example": "그는 도학선생처럼 행동했다.",
+      "groups": [
+        "size8_6",
+        "size10_6",
+        "size10_20"
+      ]
+    },
+    {
+      "id": 91,
+      "word": "인산인해",
+      "hanja": "人山人海",
+      "meaning": "사람으로 산과 바다를 이룰 만큼 사람이 많다는 뜻",
+      "example": "축제장은 인산인해를 이뤘다.",
+      "groups": [
+        "size6_23",
+        "size6_29",
+        "size8_28",
+        "size8_39",
+        "size10_3",
+        "size10_24"
+      ]
+    },
+    {
+      "id": 92,
+      "word": "속전속결",
+      "hanja": "速戰速決",
+      "meaning": "빠른 싸움으로 빠르게 결정함",
+      "example": "이 문제는 속전속결로 해결하자.",
+      "groups": [
+        "size6_23",
+        "size6_37",
+        "size8_16",
+        "size8_19",
+        "size8_23",
+        "size10_19",
+        "size10_23",
+        "size10_29"
+      ]
+    },
+    {
+      "id": 93,
+      "word": "삼십육계",
+      "hanja": "三十六計",
+      "meaning": "곤란할 때는 주저하지 말고 도망가는 것이 가장 좋다",
+      "example": "삼십육계 줄행랑이 상책이다.",
+      "groups": [
+        "size6_30",
+        "size6_32",
+        "size8_30",
+        "size8_31",
+        "size8_33",
+        "size10_27"
+      ]
+    },
+    {
+      "id": 94,
+      "word": "천차만별",
+      "hanja": "千差萬別",
+      "meaning": "여러 가지 사물이 모두 차이가 있고 구별이 있음",
+      "example": "사람들의 성격은 천차만별이다.",
+      "groups": [
+        "size8_7",
+        "size8_18"
+      ]
+    },
+    {
+      "id": 95,
+      "word": "일장일단",
+      "hanja": "一長一短",
+      "meaning": "장점이 있으면 단점도 있다고 하는 것",
+      "example": "모든 방법에는 일장일단이 있다.",
+      "groups": [
+        "size6_8",
+        "size6_27",
+        "size6_38",
+        "size8_9",
+        "size8_27",
+        "size8_47",
+        "size8_49",
+        "size10_6",
+        "size10_8",
+        "size10_18",
+        "size10_21"
+      ]
+    },
+    {
+      "id": 96,
+      "word": "춘하추동",
+      "hanja": "春夏秋冬",
+      "meaning": "봄, 여름, 가을, 겨울의 네 계절",
+      "example": "춘하추동 언제나 아름답다.",
+      "groups": [
+        "size6_11",
+        "size6_49",
+        "size8_5",
+        "size8_13",
+        "size10_11",
+        "size10_16",
+        "size10_22",
+        "size10_26"
+      ]
+    },
+    {
+      "id": 97,
+      "word": "고성방가",
+      "hanja": "高聲放歌",
+      "meaning": "큰 소리로 떠들고 마구 노래 부름",
+      "example": "그들은 고성방가하며 즐겼다.",
+      "groups": [
+        "size6_12",
+        "size8_11",
+        "size8_22",
+        "size8_25",
+        "size8_43"
+      ]
+    },
+    {
+      "id": 98,
+      "word": "삼간초가",
+      "hanja": "三間草家",
+      "meaning": "세 칸짜리 초가집이라는 뜻으로 작고 보잘것없는 집",
+      "example": "삼간초가에서 태어났다.",
+      "groups": [
+        "size6_19",
+        "size8_22"
+      ]
+    },
+    {
+      "id": 99,
+      "word": "마이동풍",
+      "hanja": "馬耳東風",
+      "meaning": "남의 말을 귀담아듣지 아니하고 지나쳐 흘려버림",
+      "example": "충고가 마이동풍이었다.",
+      "groups": [
+        "size6_11",
+        "size8_15",
+        "size8_20",
+        "size8_29",
+        "size8_48",
+        "size10_3",
+        "size10_7",
+        "size10_12"
+      ]
+    },
+    {
+      "id": 100,
+      "word": "일맥상통",
+      "hanja": "一脈相通",
+      "meaning": "생각, 성질, 처지 등이 어느 면에서 한 가지로 서로 통함",
+      "example": "두 이론은 일맥상통하는 점이 있다.",
+      "groups": [
+        "size6_5",
+        "size6_13",
+        "size6_24",
+        "size8_0",
+        "size8_5",
+        "size8_16",
+        "size8_17",
+        "size8_46",
+        "size10_13",
+        "size10_16"
+      ]
+    },
+    {
+      "id": 101,
+      "word": "임시방편",
+      "hanja": "臨時方便",
+      "meaning": "필요에 따라 그때 그때 정해 일을 쉽고 편리하게 치를 수 있는 수단",
+      "example": "이것은 임시방편에 불과하다.",
+      "groups": [
+        "size6_21",
+        "size8_18",
+        "size10_11",
+        "size10_14",
+        "size10_29"
+      ]
+    },
+    {
+      "id": 102,
+      "word": "일취월장",
+      "hanja": "日就月將",
+      "meaning": "날로 발전하여 나아감",
+      "example": "실력이 일취월장하고 있다.",
+      "groups": [
+        "size6_32",
+        "size6_41",
+        "size8_47",
+        "size10_3"
+      ]
+    },
+    {
+      "id": 103,
+      "word": "남녀노소",
+      "hanja": "男女老少",
+      "meaning": "남자와 여자 늙은이와 젊은이, 곧 모든 사람",
+      "example": "남녀노소 누구나 환영합니다.",
+      "groups": [
+        "size8_43",
+        "size8_44"
+      ]
+    },
+    {
+      "id": 104,
+      "word": "일확천금",
+      "hanja": "一攫千金",
+      "meaning": "한 번에 천금을 얻다",
+      "example": "일확천금의 꿈을 꾸었다.",
+      "groups": [
+        "size6_18",
+        "size6_46",
+        "size8_49",
+        "size10_5",
+        "size10_21"
+      ]
+    },
+    {
+      "id": 105,
+      "word": "천재지변",
+      "hanja": "天災地變",
+      "meaning": "하늘이나 땅에서 일어나는 재난이나 변사",
+      "example": "천재지변으로 피해를 입었다.",
+      "groups": [
+        "size6_6",
+        "size6_18",
+        "size8_18",
+        "size10_8"
+      ]
+    },
+    {
+      "id": 106,
+      "word": "유일무이",
+      "hanja": "唯一無二",
+      "meaning": "오직 하나뿐 둘도 없음",
+      "example": "이것은 유일무이한 작품이다.",
+      "groups": [
+        "size6_9",
+        "size6_36",
+        "size6_43",
+        "size8_29",
+        "size8_31",
+        "size10_2",
+        "size10_5",
+        "size10_18",
+        "size10_24"
+      ]
+    },
+    {
+      "id": 107,
+      "word": "자문자답",
+      "hanja": "自問自答",
+      "meaning": "제가 묻고 제가 대답함",
+      "example": "혼자서 자문자답하고 있었다.",
+      "groups": [
+        "size6_50",
+        "size6_51",
+        "size6_52",
+        "size6_53",
+        "size6_54",
+        "size6_55",
+        "size6_56",
+        "size6_57",
+        "size6_58",
+        "size6_59",
+        "size8_50",
+        "size8_51",
+        "size8_52",
+        "size8_53",
+        "size8_54",
+        "size8_55",
+        "size8_56",
+        "size8_57"
+      ]
+    },
+    {
+      "id": 108,
+      "word": "청산유수",
+      "hanja": "靑山流水",
+      "meaning": "청산에 흐르는 물, 거침없이 잘하는 말에 비유",
+      "example": "그의 말솜씨는 청산유수였다.",
+      "groups": [
+        "size6_24",
+        "size6_36",
+        "size6_42",
+        "size8_42",
+        "size10_24"
+      ]
+    },
+    {
+      "id": 109,
+      "word": "팔방미인",
+      "hanja": "八方美人",
+      "meaning": "여러 방면의 일이 두루 능통한 사람",
+      "example": "그녀는 팔방미인이다.",
+      "groups": [
+        "size6_16",
+        "size10_27",
+        "size10_28",
+        "size10_29"
+      ]
+    },
+    {
+      "id": 110,
+      "word": "기상천외",
+      "hanja": "奇想天外",
+      "meaning": "보통 사람이 쉽게 짐작할 수 없을 정도로 엉뚱하고 기발한 생각",
+      "example": "기상천외한 아이디어였다.",
+      "groups": [
+        "size6_1",
+        "size6_7",
+        "size6_9",
+        "size6_35",
+        "size6_43",
+        "size6_48",
+        "size8_28",
+        "size8_38",
+        "size10_9",
+        "size10_12",
+        "size10_14",
+        "size10_25"
+      ]
+    },
+    {
+      "id": 111,
+      "word": "입신양명",
+      "hanja": "立身揚名",
+      "meaning": "사회적으로 인정을 받고 출세하여 이름을 세상에 드날리다",
+      "example": "입신양명을 꿈꾸었다.",
+      "groups": [
+        "size6_15",
+        "size6_40",
+        "size6_47",
+        "size8_10",
+        "size10_1",
+        "size10_2"
+      ]
+    },
+    {
+      "id": 112,
+      "word": "일거양득",
+      "hanja": "一擧兩得",
+      "meaning": "한 가지 일을 하여 두 가지의 이득을 봄",
+      "example": "이것은 일거양득이다.",
+      "groups": [
+        "size6_27",
+        "size6_28",
+        "size8_0",
+        "size8_31",
+        "size8_32",
+        "size8_47",
+        "size10_0",
+        "size10_2",
+        "size10_8",
+        "size10_15"
+      ]
+    },
+    {
+      "id": 113,
+      "word": "명명백백",
+      "hanja": "明明白白",
+      "meaning": "아주 명백함",
+      "example": "사실은 명명백백하다.",
+      "groups": [
+        "size6_0",
+        "size6_13",
+        "size8_40"
+      ]
+    },
+    {
+      "id": 114,
+      "word": "불로장생",
+      "hanja": "不老長生",
+      "meaning": "늙지 않고 오래 산다",
+      "example": "불로장생을 꿈꾸었다.",
+      "groups": [
+        "size6_4",
+        "size6_5",
+        "size6_7",
+        "size6_21",
+        "size8_7",
+        "size8_19",
+        "size10_6",
+        "size10_7"
+      ]
+    },
+    {
+      "id": 115,
+      "word": "다사다난",
+      "hanja": "多事多難",
+      "meaning": "여러 가지 일이 많은 데다 어려운 일도 많음",
+      "example": "다사다난한 한 해였다.",
+      "groups": [
+        "size6_10",
+        "size6_20",
+        "size6_31",
+        "size6_47",
+        "size8_10",
+        "size8_20"
+      ]
+    },
+    {
+      "id": 116,
+      "word": "일조일석",
+      "hanja": "一朝一夕",
+      "meaning": "하루아침, 하루 저녁이라는 말로, 얼마 안 되는 짧은 시간을 일컬음",
+      "example": "일조일석에 이룰 수 없다.",
+      "groups": [
+        "size6_9",
+        "size6_25",
+        "size6_26",
+        "size6_40",
+        "size8_37",
+        "size10_24"
+      ]
+    },
+    {
+      "id": 117,
+      "word": "자수성가",
+      "hanja": "自手成家",
+      "meaning": "물려받은 재산이 없는 사람이 자신의 힘으로 한살림을 이룩함",
+      "example": "그는 자수성가한 사업가다.",
+      "groups": [
+        "size6_23",
+        "size6_26",
+        "size6_28",
+        "size6_39",
+        "size8_1",
+        "size8_22",
+        "size8_36",
+        "size8_39",
+        "size10_4",
+        "size10_22",
+        "size10_26",
+        "size6_52",
+        "size6_56",
+        "size6_58",
+        "size8_50",
+        "size8_51",
+        "size8_52",
+        "size8_53",
+        "size8_54",
+        "size8_55",
+        "size8_57"
+      ]
+    },
+    {
+      "id": 118,
+      "word": "독불장군",
+      "hanja": "獨不將軍",
+      "meaning": "혼자서는 장군을 못한다는 뜻으로, 남의 의견을 무시하고 혼자 모든 일을 처리하는 사람",
+      "example": "독불장군식으로 일하면 안 된다.",
+      "groups": [
+        "size6_5",
+        "size8_26",
+        "size8_38",
+        "size8_44",
+        "size10_4",
+        "size10_8",
+        "size10_21",
+        "size10_27"
+      ]
+    },
+    {
+      "id": 119,
+      "word": "공명정대",
+      "hanja": "公明正大",
+      "meaning": "마음이 공평하고 사심이 없으며 밝고 큼",
+      "example": "공명정대하게 처리했다.",
+      "groups": [
+        "size10_16",
+        "size10_20",
+        "size10_23"
+      ]
+    },
+    {
+      "id": 120,
+      "word": "백발백중",
+      "hanja": "百發百中",
+      "meaning": "총이나 활을 쏘면 어김없이 맞음",
+      "example": "그의 예측은 백발백중이다.",
+      "groups": [
+        "size6_15",
+        "size8_40",
+        "size8_48"
+      ]
+    },
+    {
+      "id": 121,
+      "word": "부자유친",
+      "hanja": "父子有親",
+      "meaning": "부자간에는 친애함이 있어야 함",
+      "example": "부자유친은 중요한 덕목이다.",
+      "groups": [
+        "size8_36",
+        "size10_15",
+        "size6_51",
+        "size6_54",
+        "size6_57",
+        "size6_58",
+        "size8_50",
+        "size8_51",
+        "size8_52",
+        "size8_53",
+        "size8_54",
+        "size8_55",
+        "size8_56"
+      ]
+    },
+    {
+      "id": 122,
+      "word": "신토불이",
+      "hanja": "身土不二",
+      "meaning": "몸과 태어난 땅은 하나라는 뜻으로, 제 땅에서 산출된 것이라야 체질에 잘 맞는다는 말",
+      "example": "신토불이 농산물을 선호한다.",
+      "groups": [
+        "size6_8",
+        "size8_3",
+        "size8_16",
+        "size10_1",
+        "size10_6",
+        "size10_12"
+      ]
+    },
+    {
+      "id": 123,
+      "word": "일심동체",
+      "hanja": "一心同體",
+      "meaning": "한마음 한 몸, 곧 굳은 결속",
+      "example": "우리는 일심동체다.",
+      "groups": [
+        "size6_31",
+        "size6_37",
+        "size8_5",
+        "size8_13",
+        "size8_28",
+        "size8_32",
+        "size8_41",
+        "size10_23"
+      ]
+    },
+    {
+      "id": 124,
+      "word": "정정당당",
+      "hanja": "正正堂堂",
+      "meaning": "바르고 떳떳하다",
+      "example": "정정당당하게 승부하자.",
+      "groups": [
+        "size8_45",
+        "size10_21",
+        "size10_29"
+      ]
+    },
+    {
+      "id": 125,
+      "word": "삼위일체",
+      "hanja": "三位一體",
+      "meaning": "세 가지의 것이 서로 연관, 통합하여 목적하는 것이 하나가 되는 일",
+      "example": "삼위일체가 되어 일했다.",
+      "groups": [
+        "size6_18",
+        "size6_38",
+        "size6_49",
+        "size8_2",
+        "size8_5",
+        "size8_33",
+        "size10_2"
+      ]
+    },
+    {
+      "id": 126,
+      "word": "유구불언",
+      "hanja": "有口不言",
+      "meaning": "입은 있으되 말을 하지 않는다는 뜻",
+      "example": "유구불언으로 일관했다.",
+      "groups": [
+        "size6_4",
+        "size6_27",
+        "size6_32",
+        "size6_36",
+        "size8_4",
+        "size8_34"
+      ]
+    },
+    {
+      "id": 127,
+      "word": "자급자족",
+      "hanja": "自給自足",
+      "meaning": "자기의 수요를 자기가 생산하여 충당함",
+      "example": "자급자족하는 삶을 살고 있다.",
+      "groups": [
+        "size6_26",
+        "size6_39",
+        "size10_4",
+        "size6_51",
+        "size6_52",
+        "size6_53",
+        "size6_54",
+        "size6_55",
+        "size6_56",
+        "size6_57",
+        "size6_58",
+        "size8_50",
+        "size8_51",
+        "size8_52",
+        "size8_53",
+        "size8_54",
+        "size8_56",
+        "size8_57"
+      ]
+    },
+    {
+      "id": 128,
+      "word": "청풍명월",
+      "hanja": "淸風明月",
+      "meaning": "초가을 밤의 싱그런 느낌, 상쾌한 밤바람과 맑고 밝은 달빛",
+      "example": "청풍명월을 즐겼다.",
+      "groups": [
+        "size6_42",
+        "size8_20",
+        "size8_45",
+        "size10_2"
+      ]
+    },
+    {
+      "id": 129,
+      "word": "능대능소",
+      "hanja": "能大能小",
+      "meaning": "재주와 주변이 좋아 모든 일에 두루 능함",
+      "example": "그는 능대능소한 인재다.",
+      "groups": [
+        "size8_6",
+        "size8_12"
+      ]
+    },
+    {
+      "id": 130,
+      "word": "의미심장",
+      "hanja": "意味深長",
+      "meaning": "말이나 글의 뜻이 매우 깊음",
+      "example": "의미심장한 말을 남겼다.",
+      "groups": [
+        "size6_2",
+        "size8_1",
+        "size8_8",
+        "size10_2",
+        "size10_14",
+        "size10_25"
+      ]
+    },
+    {
+      "id": 131,
+      "word": "부전자전",
+      "hanja": "父傳子傳",
+      "meaning": "아버지에게서 아들로 전해짐",
+      "example": "부전자전으로 기술이 이어졌다.",
+      "groups": [
+        "size6_4",
+        "size6_23",
+        "size6_29",
+        "size6_35",
+        "size6_37",
+        "size6_39",
+        "size8_15",
+        "size8_44",
+        "size8_47",
+        "size10_2",
+        "size10_10",
+        "size10_28",
+        "size10_29",
+        "size6_52",
+        "size6_53",
+        "size6_54",
+        "size6_56",
+        "size8_50",
+        "size8_52",
+        "size8_53",
+        "size8_54",
+        "size8_55",
+        "size8_56",
+        "size8_57"
+      ]
+    },
+    {
+      "id": 132,
+      "word": "사친이효",
+      "hanja": "事親以孝",
+      "meaning": "효도로 부모를 섬김",
+      "example": "사친이효를 실천했다.",
+      "groups": [
+        "size6_41",
+        "size8_20",
+        "size8_22",
+        "size8_31",
+        "size8_36",
+        "size8_40",
+        "size8_41",
+        "size8_43",
+        "size10_3",
+        "size10_11"
+      ]
+    },
+    {
+      "id": 133,
+      "word": "대동단결",
+      "hanja": "大同團結",
+      "meaning": "많은 사람, 여러 갈래의 당파가 큰 덩어리로 한 데 뭉치다",
+      "example": "대동단결하여 위기를 극복했다.",
+      "groups": [
+        "size6_11",
+        "size8_12",
+        "size8_27",
+        "size8_29",
+        "size10_18",
+        "size10_19",
+        "size10_20",
+        "size10_23"
+      ]
+    },
+    {
+      "id": 134,
+      "word": "대의명분",
+      "hanja": "大義名分",
+      "meaning": "내건 목적이나 이유",
+      "example": "대의명분이 있어야 한다.",
+      "groups": [
+        "size6_0",
+        "size6_15",
+        "size6_44",
+        "size8_25"
+      ]
+    },
+    {
+      "id": 135,
+      "word": "풍전등화",
+      "hanja": "風前燈火",
+      "meaning": "바람 앞의 등불이란 말로, 상황이 오래 견디지 못하고 매우 위급한 형태에 놓여 있음",
+      "example": "회사가 풍전등화의 위기다.",
+      "groups": [
+        "size6_28",
+        "size8_23",
+        "size10_11"
+      ]
+    },
+    {
+      "id": 136,
+      "word": "공리공론",
+      "hanja": "空理空論",
+      "meaning": "헛된 이치와 논의란 뜻으로, 사실에 맞지 않은 이론과 실제와 동떨어진 논의",
+      "example": "공리공론만 늘어놓지 마라.",
+      "groups": [
+        "size8_8",
+        "size10_20",
+        "size10_23"
+      ]
+    },
+    {
+      "id": 137,
+      "word": "물심양면",
+      "hanja": "物心兩面",
+      "meaning": "물질적인 면과 정신적인 면",
+      "example": "물심양면으로 지원했다.",
+      "groups": [
+        "size6_16",
+        "size6_31",
+        "size6_40",
+        "size8_24",
+        "size8_47",
+        "size10_2",
+        "size10_6",
+        "size10_25"
+      ]
+    },
+    {
+      "id": 138,
+      "word": "금시초문",
+      "hanja": "今時初聞",
+      "meaning": "이제야 처음으로 들음",
+      "example": "그 소식은 금시초문이다.",
+      "groups": [
+        "size6_19",
+        "size6_22",
+        "size6_41",
+        "size6_46",
+        "size8_22",
+        "size6_50",
+        "size6_59"
+      ]
+    },
+    {
+      "id": 139,
+      "word": "노발대발",
+      "hanja": "怒發大發",
+      "meaning": "몹시 크게 성을 냄",
+      "example": "그는 노발대발했다.",
+      "groups": [
+        "size6_44",
+        "size8_2",
+        "size8_29",
+        "size8_48"
+      ]
+    },
+    {
+      "id": 140,
+      "word": "인생무상",
+      "hanja": "人生無常",
+      "meaning": "인생이 덧없음을 이르는 말",
+      "example": "인생무상을 느꼈다.",
+      "groups": [
+        "size6_2",
+        "size6_13",
+        "size6_16",
+        "size6_34",
+        "size6_43",
+        "size8_3",
+        "size8_12",
+        "size8_16",
+        "size8_28",
+        "size8_42",
+        "size10_9"
+      ]
+    },
+    {
+      "id": 141,
+      "word": "근묵자흑",
+      "hanja": "近墨者黑",
+      "meaning": "먹을 가까이하면 검어진다는 뜻으로 좋지 못한 사람과 가까이 지내면 나쁜 것에 물들게 된다는 말",
+      "example": "근묵자흑이라고 친구를 잘 사귀어야 한다.",
+      "groups": [
+        "size6_39",
+        "size8_22",
+        "size6_53",
+        "size6_55",
+        "size6_56",
+        "size6_57",
+        "size8_51",
+        "size8_52",
+        "size8_53",
+        "size8_54",
+        "size8_55",
+        "size8_56",
+        "size8_57"
+      ]
+    },
+    {
+      "id": 142,
+      "word": "우이독경",
+      "hanja": "牛耳讀經",
+      "meaning": "쇠귀에 경 읽기라는 뜻으로 아무리 가르치고 알려 주어도 도무지 알아듣지 못함을 이르는 말",
+      "example": "말해봤자 우이독경이다.",
+      "groups": [
+        "size6_1",
+        "size6_3",
+        "size6_9",
+        "size8_29",
+        "size8_31",
+        "size8_36",
+        "size10_4",
+        "size10_6",
+        "size10_27"
+      ]
+    },
+    {
+      "id": 143,
+      "word": "촌철살인",
+      "hanja": "寸鐵殺人",
+      "meaning": "간단한 말로도 사람을 감동하게 할 수 있음을 이르는 말",
+      "example": "촌철살인의 비평이었다.",
+      "groups": [
+        "size6_2",
+        "size8_0",
+        "size8_23",
+        "size10_28"
+      ]
+    },
+    {
+      "id": 144,
+      "word": "낭중지추",
+      "hanja": "囊中之錐",
+      "meaning": "주머니 속의 송곳이란 뜻, 뛰어난 재능을 가진 사람은 아무리 숨으려 해도 드러나기 마련",
+      "example": "그는 낭중지추처럼 두각을 나타냈다.",
+      "groups": [
+        "size6_45",
+        "size8_13",
+        "size8_21",
+        "size8_34",
+        "size8_45",
+        "size10_5",
+        "size10_9",
+        "size10_26"
+      ]
+    },
+    {
+      "id": 145,
+      "word": "다재다능",
+      "hanja": "多才多能",
+      "meaning": "재주와 능력이 많다",
+      "example": "그는 다재다능한 사람이다.",
+      "groups": [
+        "size6_6",
+        "size8_20",
+        "size10_10"
+      ]
+    },
+    {
+      "id": 146,
+      "word": "동고동락",
+      "hanja": "同苦同樂",
+      "meaning": "괴로움과 즐거움을 같이한다",
+      "example": "동고동락하는 친구다.",
+      "groups": [
+        "size8_11",
+        "size8_12",
+        "size8_32",
+        "size8_44",
+        "size8_49",
+        "size10_7",
+        "size10_12",
+        "size10_26"
+      ]
+    },
+    {
+      "id": 147,
+      "word": "동상이몽",
+      "hanja": "同床異夢",
+      "meaning": "겉으로는 같이 행동하면서 서로 다른 생각을 하고 있는 것을 말함",
+      "example": "동상이몽인 관계다.",
+      "groups": [
+        "size8_20",
+        "size8_36",
+        "size10_1",
+        "size10_5",
+        "size10_7",
+        "size10_12",
+        "size10_13",
+        "size10_18",
+        "size10_19",
+        "size10_22",
+        "size10_23",
+        "size10_26",
+        "size10_29"
+      ]
+    },
+    {
+      "id": 148,
+      "word": "대기만성",
+      "hanja": "大器晩成",
+      "meaning": "큰 그릇을 만드는 데는 시간이 오랜 걸린다, 큰 사람은 늦게 이루어진다",
+      "example": "대기만성형 인재다.",
+      "groups": [
+        "size8_42",
+        "size8_43",
+        "size8_49",
+        "size10_9",
+        "size10_14",
+        "size10_19",
+        "size10_22",
+        "size10_23"
+      ]
+    },
+    {
+      "id": 149,
+      "word": "비일비재",
+      "hanja": "非一非再",
+      "meaning": "한 번도 아니고 두 번도 아니다, 일이나 어떤 경우가 아주 많이 일어날 때 쓰는 말",
+      "example": "그런 사례는 비일비재하다.",
+      "groups": [
+        "size6_6",
+        "size6_14",
+        "size6_46"
+      ]
+    },
+    {
+      "id": 150,
+      "word": "배은망덕",
+      "hanja": "背恩忘德",
+      "meaning": "남에게 입은 은혜를 저버리고 배반하는 태도가 있음",
+      "example": "배은망덕한 행동이다.",
+      "groups": [
+        "size6_0"
+      ]
+    },
+    {
+      "id": 151,
+      "word": "시시비비",
+      "hanja": "是是非非",
+      "meaning": "옳고 그름을 따진다",
+      "example": "시시비비를 가려야 한다.",
+      "groups": [
+        "size6_26",
+        "size8_17",
+        "size8_30",
+        "size10_19"
+      ]
+    },
+    {
+      "id": 152,
+      "word": "시종일관",
+      "hanja": "始終一貫",
+      "meaning": "시작부터 끝까지 일관되게 같다",
+      "example": "시종일관 성실했다.",
+      "groups": [
+        "size6_26",
+        "size6_40",
+        "size6_46",
+        "size8_17",
+        "size8_29",
+        "size8_32",
+        "size10_0",
+        "size10_8",
+        "size10_13",
+        "size10_18",
+        "size10_19"
+      ]
+    },
+    {
+      "id": 153,
+      "word": "산해진미",
+      "hanja": "山海珍味",
+      "meaning": "산과 바다에서 나오는 귀한 재료로 만든 맛있는 음식",
+      "example": "산해진미를 맛보았다.",
+      "groups": [
+        "size6_3",
+        "size6_25",
+        "size6_47",
+        "size10_3",
+        "size10_27",
+        "size10_28"
+      ]
+    },
+    {
+      "id": 154,
+      "word": "일편단심",
+      "hanja": "一片丹心",
+      "meaning": "한마음 붉은 마음, 한결같이 변하지 않는 마음",
+      "example": "일편단심으로 나라를 섬겼다.",
+      "groups": [
+        "size6_38",
+        "size8_2",
+        "size8_4",
+        "size8_35",
+        "size8_48"
+      ]
+    }
+  ],
+  "intermediate": [],
+  "advanced": [],
+  "groups": {
+    "size6": [
+      {
+        "id": "size6_0",
+        "size": 6,
+        "idiomIds": [
+          1,
+          61,
+          113,
+          150,
+          17,
+          134
+        ],
+        "idioms": [
+          "각골난망",
+          "백골난망",
+          "명명백백",
+          "배은망덕",
+          "명실상부",
+          "대의명분"
+        ]
+      },
+      {
+        "id": "size6_1",
+        "size": 6,
+        "idiomIds": [
+          2,
+          142,
+          10,
+          64,
+          58,
+          110
+        ],
+        "idioms": [
+          "감언이설",
+          "우이독경",
+          "내우외환",
+          "교각살우",
+          "독야청청",
+          "기상천외"
+        ]
+      },
+      {
+        "id": "size6_2",
+        "size": 6,
+        "idiomIds": [
+          3,
+          130,
+          140,
+          35,
+          143,
+          18
+        ],
+        "idioms": [
+          "견물생심",
+          "의미심장",
+          "인생무상",
+          "오리무중",
+          "촌철살인",
+          "미사여구"
+        ]
+      },
+      {
+        "id": "size6_3",
+        "size": 6,
+        "idiomIds": [
+          4,
+          48,
+          153,
+          32,
+          77,
+          142
+        ],
+        "idioms": [
+          "고진감래",
+          "진퇴양난",
+          "산해진미",
+          "양두구육",
+          "죽마고우",
+          "우이독경"
+        ]
+      },
+      {
+        "id": "size6_4",
+        "size": 6,
+        "idiomIds": [
+          5,
+          22,
+          114,
+          131,
+          80,
+          126
+        ],
+        "idioms": [
+          "과유불급",
+          "불편부당",
+          "불로장생",
+          "부전자전",
+          "상전벽해",
+          "유구불언"
+        ]
+      },
+      {
+        "id": "size6_5",
+        "size": 6,
+        "idiomIds": [
+          6,
+          118,
+          100,
+          33,
+          114,
+          57
+        ],
+        "idioms": [
+          "군계일학",
+          "독불장군",
+          "일맥상통",
+          "언행일치",
+          "불로장생",
+          "구우일모"
+        ]
+      },
+      {
+        "id": "size6_6",
+        "size": 6,
+        "idiomIds": [
+          7,
+          11,
+          145,
+          149,
+          39,
+          105
+        ],
+        "idioms": [
+          "권선징악",
+          "다다익선",
+          "다재다능",
+          "비일비재",
+          "일석이조",
+          "천재지변"
+        ]
+      },
+      {
+        "id": "size6_7",
+        "size": 6,
+        "idiomIds": [
+          8,
+          110,
+          114,
+          66,
+          42,
+          51
+        ],
+        "idioms": [
+          "기고만장",
+          "기상천외",
+          "불로장생",
+          "간담상조",
+          "조삼모사",
+          "적반하장"
+        ]
+      },
+      {
+        "id": "size6_8",
+        "size": 6,
+        "idiomIds": [
+          9,
+          39,
+          46,
+          122,
+          52,
+          95
+        ],
+        "idioms": [
+          "기암괴석",
+          "일석이조",
+          "호연지기",
+          "신토불이",
+          "금지옥엽",
+          "일장일단"
+        ]
+      },
+      {
+        "id": "size6_9",
+        "size": 6,
+        "idiomIds": [
+          10,
+          142,
+          106,
+          110,
+          69,
+          116
+        ],
+        "idioms": [
+          "내우외환",
+          "우이독경",
+          "유일무이",
+          "기상천외",
+          "분서갱유",
+          "일조일석"
+        ]
+      },
+      {
+        "id": "size6_10",
+        "size": 6,
+        "idiomIds": [
+          11,
+          115,
+          34,
+          86,
+          47,
+          61
+        ],
+        "idioms": [
+          "다다익선",
+          "다사다난",
+          "역지사지",
+          "타산지석",
+          "문일지십",
+          "백골난망"
+        ]
+      },
+      {
+        "id": "size6_11",
+        "size": 6,
+        "idiomIds": [
+          12,
+          99,
+          96,
+          39,
+          133,
+          44
+        ],
+        "idioms": [
+          "동문서답",
+          "마이동풍",
+          "춘하추동",
+          "일석이조",
+          "대동단결",
+          "천고마비"
+        ]
+      },
+      {
+        "id": "size6_12",
+        "size": 6,
+        "idiomIds": [
+          13,
+          26,
+          79,
+          97,
+          23,
+          77
+        ],
+        "idioms": [
+          "동병상련",
+          "설상가상",
+          "자가당착",
+          "고성방가",
+          "사면초가",
+          "죽마고우"
+        ]
+      },
+      {
+        "id": "size6_13",
+        "size": 6,
+        "idiomIds": [
+          14,
+          17,
+          140,
+          80,
+          113,
+          100
+        ],
+        "idioms": [
+          "막상막하",
+          "명실상부",
+          "인생무상",
+          "상전벽해",
+          "명명백백",
+          "일맥상통"
+        ]
+      },
+      {
+        "id": "size6_14",
+        "size": 6,
+        "idiomIds": [
+          15,
+          47,
+          149,
+          78,
+          46,
+          12
+        ],
+        "idioms": [
+          "만시지탄",
+          "문일지십",
+          "비일비재",
+          "관포지교",
+          "호연지기",
+          "동문서답"
+        ]
+      },
+      {
+        "id": "size6_15",
+        "size": 6,
+        "idiomIds": [
+          16,
+          111,
+          65,
+          134,
+          53,
+          120
+        ],
+        "idioms": [
+          "망양지탄",
+          "입신양명",
+          "반신반의",
+          "대의명분",
+          "백년대계",
+          "백발백중"
+        ]
+      },
+      {
+        "id": "size6_16",
+        "size": 6,
+        "idiomIds": [
+          17,
+          140,
+          3,
+          109,
+          36,
+          137
+        ],
+        "idioms": [
+          "명실상부",
+          "인생무상",
+          "견물생심",
+          "팔방미인",
+          "우유부단",
+          "물심양면"
+        ]
+      },
+      {
+        "id": "size6_17",
+        "size": 6,
+        "idiomIds": [
+          18,
+          42,
+          82,
+          43,
+          58,
+          63
+        ],
+        "idioms": [
+          "미사여구",
+          "조삼모사",
+          "연목구어",
+          "청출어람",
+          "독야청청",
+          "사필귀정"
+        ]
+      },
+      {
+        "id": "size6_18",
+        "size": 6,
+        "idiomIds": [
+          19,
+          105,
+          104,
+          78,
+          125,
+          88
+        ],
+        "idioms": [
+          "무용지물",
+          "천재지변",
+          "일확천금",
+          "관포지교",
+          "삼위일체",
+          "삼삼오오"
+        ]
+      },
+      {
+        "id": "size6_19",
+        "size": 6,
+        "idiomIds": [
+          20,
+          138,
+          23,
+          98,
+          59,
+          12
+        ],
+        "idioms": [
+          "문전성시",
+          "금시초문",
+          "사면초가",
+          "삼간초가",
+          "명불허전",
+          "동문서답"
+        ]
+      },
+      {
+        "id": "size6_20",
+        "size": 6,
+        "idiomIds": [
+          21,
+          11,
+          7,
+          115,
+          74,
+          65
+        ],
+        "idioms": [
+          "박학다식",
+          "다다익선",
+          "권선징악",
+          "다사다난",
+          "견리사의",
+          "반신반의"
+        ]
+      },
+      {
+        "id": "size6_21",
+        "size": 6,
+        "idiomIds": [
+          22,
+          101,
+          20,
+          17,
+          49,
+          114
+        ],
+        "idioms": [
+          "불편부당",
+          "임시방편",
+          "문전성시",
+          "명실상부",
+          "괄목상대",
+          "불로장생"
+        ]
+      },
+      {
+        "id": "size6_22",
+        "size": 6,
+        "idiomIds": [
+          23,
+          26,
+          138,
+          52,
+          49,
+          67
+        ],
+        "idioms": [
+          "사면초가",
+          "설상가상",
+          "금시초문",
+          "금지옥엽",
+          "괄목상대",
+          "결초보은"
+        ]
+      },
+      {
+        "id": "size6_23",
+        "size": 6,
+        "idiomIds": [
+          24,
+          117,
+          27,
+          91,
+          131,
+          92
+        ],
+        "idioms": [
+          "산전수전",
+          "자수성가",
+          "수수방관",
+          "인산인해",
+          "부전자전",
+          "속전속결"
+        ]
+      },
+      {
+        "id": "size6_24",
+        "size": 6,
+        "idiomIds": [
+          25,
+          46,
+          70,
+          108,
+          47,
+          100
+        ],
+        "idioms": [
+          "새옹지마",
+          "호연지기",
+          "맥수지탄",
+          "청산유수",
+          "문일지십",
+          "일맥상통"
+        ]
+      },
+      {
+        "id": "size6_25",
+        "size": 6,
+        "idiomIds": [
+          26,
+          66,
+          80,
+          153,
+          29,
+          116
+        ],
+        "idioms": [
+          "설상가상",
+          "간담상조",
+          "상전벽해",
+          "산해진미",
+          "아전인수",
+          "일조일석"
+        ]
+      },
+      {
+        "id": "size6_26",
+        "size": 6,
+        "idiomIds": [
+          27,
+          152,
+          116,
+          151,
+          117,
+          127
+        ],
+        "idioms": [
+          "수수방관",
+          "시종일관",
+          "일조일석",
+          "시시비비",
+          "자수성가",
+          "자급자족"
+        ]
+      },
+      {
+        "id": "size6_27",
+        "size": 6,
+        "idiomIds": [
+          28,
+          126,
+          95,
+          51,
+          112,
+          6
+        ],
+        "idioms": [
+          "승승장구",
+          "유구불언",
+          "일장일단",
+          "적반하장",
+          "일거양득",
+          "군계일학"
+        ]
+      },
+      {
+        "id": "size6_28",
+        "size": 6,
+        "idiomIds": [
+          29,
+          135,
+          117,
+          27,
+          40,
+          112
+        ],
+        "idioms": [
+          "아전인수",
+          "풍전등화",
+          "자수성가",
+          "수수방관",
+          "자업자득",
+          "일거양득"
+        ]
+      },
+      {
+        "id": "size6_29",
+        "size": 6,
+        "idiomIds": [
+          30,
+          91,
+          24,
+          131,
+          27,
+          19
+        ],
+        "idioms": [
+          "안하무인",
+          "인산인해",
+          "산전수전",
+          "부전자전",
+          "수수방관",
+          "무용지물"
+        ]
+      },
+      {
+        "id": "size6_30",
+        "size": 6,
+        "idiomIds": [
+          31,
+          60,
+          93,
+          17,
+          21,
+          36
+        ],
+        "idioms": [
+          "약육강식",
+          "명약관화",
+          "삼십육계",
+          "명실상부",
+          "박학다식",
+          "우유부단"
+        ]
+      },
+      {
+        "id": "size6_31",
+        "size": 6,
+        "idiomIds": [
+          32,
+          137,
+          23,
+          48,
+          115,
+          123
+        ],
+        "idioms": [
+          "양두구육",
+          "물심양면",
+          "사면초가",
+          "진퇴양난",
+          "다사다난",
+          "일심동체"
+        ]
+      },
+      {
+        "id": "size6_32",
+        "size": 6,
+        "idiomIds": [
+          33,
+          62,
+          102,
+          126,
+          84,
+          93
+        ],
+        "idioms": [
+          "언행일치",
+          "십시일반",
+          "일취월장",
+          "유구불언",
+          "절치부심",
+          "삼십육계"
+        ]
+      },
+      {
+        "id": "size6_33",
+        "size": 6,
+        "idiomIds": [
+          34,
+          55,
+          17,
+          70,
+          13,
+          60
+        ],
+        "idioms": [
+          "역지사지",
+          "어부지리",
+          "명실상부",
+          "맥수지탄",
+          "동병상련",
+          "명약관화"
+        ]
+      },
+      {
+        "id": "size6_34",
+        "size": 6,
+        "idiomIds": [
+          35,
+          74,
+          30,
+          3,
+          140,
+          71
+        ],
+        "idioms": [
+          "오리무중",
+          "견리사의",
+          "안하무인",
+          "견물생심",
+          "인생무상",
+          "표리부동"
+        ]
+      },
+      {
+        "id": "size6_35",
+        "size": 6,
+        "idiomIds": [
+          36,
+          68,
+          10,
+          131,
+          87,
+          110
+        ],
+        "idioms": [
+          "우유부단",
+          "우문현답",
+          "내우외환",
+          "부전자전",
+          "견강부회",
+          "기상천외"
+        ]
+      },
+      {
+        "id": "size6_36",
+        "size": 6,
+        "idiomIds": [
+          37,
+          108,
+          106,
+          126,
+          24,
+          39
+        ],
+        "idioms": [
+          "유유자적",
+          "청산유수",
+          "유일무이",
+          "유구불언",
+          "산전수전",
+          "일석이조"
+        ]
+      },
+      {
+        "id": "size6_37",
+        "size": 6,
+        "idiomIds": [
+          38,
+          3,
+          92,
+          19,
+          123,
+          131
+        ],
+        "idioms": [
+          "이심전심",
+          "견물생심",
+          "속전속결",
+          "무용지물",
+          "일심동체",
+          "부전자전"
+        ]
+      },
+      {
+        "id": "size6_38",
+        "size": 6,
+        "idiomIds": [
+          39,
+          154,
+          2,
+          125,
+          95,
+          4
+        ],
+        "idioms": [
+          "일석이조",
+          "일편단심",
+          "감언이설",
+          "삼위일체",
+          "일장일단",
+          "고진감래"
+        ]
+      },
+      {
+        "id": "size6_39",
+        "size": 6,
+        "idiomIds": [
+          40,
+          127,
+          141,
+          117,
+          131,
+          56
+        ],
+        "idioms": [
+          "자업자득",
+          "자급자족",
+          "근묵자흑",
+          "자수성가",
+          "부전자전",
+          "부화뇌동"
+        ]
+      },
+      {
+        "id": "size6_40",
+        "size": 6,
+        "idiomIds": [
+          41,
+          88,
+          137,
+          152,
+          116,
+          111
+        ],
+        "idioms": [
+          "작심삼일",
+          "삼삼오오",
+          "물심양면",
+          "시종일관",
+          "일조일석",
+          "입신양명"
+        ]
+      },
+      {
+        "id": "size6_41",
+        "size": 6,
+        "idiomIds": [
+          42,
+          23,
+          138,
+          41,
+          102,
+          132
+        ],
+        "idioms": [
+          "조삼모사",
+          "사면초가",
+          "금시초문",
+          "작심삼일",
+          "일취월장",
+          "사친이효"
+        ]
+      },
+      {
+        "id": "size6_42",
+        "size": 6,
+        "idiomIds": [
+          43,
+          82,
+          128,
+          108,
+          5,
+          18
+        ],
+        "idioms": [
+          "청출어람",
+          "연목구어",
+          "청풍명월",
+          "청산유수",
+          "과유불급",
+          "미사여구"
+        ]
+      },
+      {
+        "id": "size6_43",
+        "size": 6,
+        "idiomIds": [
+          44,
+          110,
+          140,
+          106,
+          41,
+          10
+        ],
+        "idioms": [
+          "천고마비",
+          "기상천외",
+          "인생무상",
+          "유일무이",
+          "작심삼일",
+          "내우외환"
+        ]
+      },
+      {
+        "id": "size6_44",
+        "size": 6,
+        "idiomIds": [
+          45,
+          139,
+          49,
+          72,
+          39,
+          134
+        ],
+        "idioms": [
+          "침소봉대",
+          "노발대발",
+          "괄목상대",
+          "대동소이",
+          "일석이조",
+          "대의명분"
+        ]
+      },
+      {
+        "id": "size6_45",
+        "size": 6,
+        "idiomIds": [
+          46,
+          144,
+          15,
+          52,
+          25,
+          8
+        ],
+        "idioms": [
+          "호연지기",
+          "낭중지추",
+          "만시지탄",
+          "금지옥엽",
+          "새옹지마",
+          "기고만장"
+        ]
+      },
+      {
+        "id": "size6_46",
+        "size": 6,
+        "idiomIds": [
+          47,
+          89,
+          152,
+          149,
+          104,
+          138
+        ],
+        "idioms": [
+          "문일지십",
+          "십중팔구",
+          "시종일관",
+          "비일비재",
+          "일확천금",
+          "금시초문"
+        ]
+      },
+      {
+        "id": "size6_47",
+        "size": 6,
+        "idiomIds": [
+          48,
+          111,
+          115,
+          32,
+          54,
+          153
+        ],
+        "idioms": [
+          "진퇴양난",
+          "입신양명",
+          "다사다난",
+          "양두구육",
+          "와신상담",
+          "산해진미"
+        ]
+      },
+      {
+        "id": "size6_48",
+        "size": 6,
+        "idiomIds": [
+          49,
+          14,
+          81,
+          110,
+          45,
+          9
+        ],
+        "idioms": [
+          "괄목상대",
+          "막상막하",
+          "목불식정",
+          "기상천외",
+          "침소봉대",
+          "기암괴석"
+        ]
+      },
+      {
+        "id": "size6_49",
+        "size": 6,
+        "idiomIds": [
+          51,
+          96,
+          13,
+          8,
+          62,
+          125
+        ],
+        "idioms": [
+          "적반하장",
+          "춘하추동",
+          "동병상련",
+          "기고만장",
+          "십시일반",
+          "삼위일체"
+        ]
+      },
+      {
+        "id": "size6_50",
+        "size": 6,
+        "idiomIds": [
+          107,
+          68,
+          138,
+          85,
+          12,
+          47
+        ],
+        "idioms": [
+          "자문자답",
+          "우문현답",
+          "금시초문",
+          "불치하문",
+          "동문서답",
+          "문일지십"
+        ]
+      },
+      {
+        "id": "size6_51",
+        "size": 6,
+        "idiomIds": [
+          107,
+          40,
+          37,
+          121,
+          127,
+          79
+        ],
+        "idioms": [
+          "자문자답",
+          "자업자득",
+          "유유자적",
+          "부자유친",
+          "자급자족",
+          "자가당착"
+        ]
+      },
+      {
+        "id": "size6_52",
+        "size": 6,
+        "idiomIds": [
+          107,
+          40,
+          37,
+          117,
+          131,
+          127
+        ],
+        "idioms": [
+          "자문자답",
+          "자업자득",
+          "유유자적",
+          "자수성가",
+          "부전자전",
+          "자급자족"
+        ]
+      },
+      {
+        "id": "size6_53",
+        "size": 6,
+        "idiomIds": [
+          107,
+          40,
+          131,
+          141,
+          37,
+          127
+        ],
+        "idioms": [
+          "자문자답",
+          "자업자득",
+          "부전자전",
+          "근묵자흑",
+          "유유자적",
+          "자급자족"
+        ]
+      },
+      {
+        "id": "size6_54",
+        "size": 6,
+        "idiomIds": [
+          107,
+          127,
+          131,
+          37,
+          121,
+          40
+        ],
+        "idioms": [
+          "자문자답",
+          "자급자족",
+          "부전자전",
+          "유유자적",
+          "부자유친",
+          "자업자득"
+        ]
+      },
+      {
+        "id": "size6_55",
+        "size": 6,
+        "idiomIds": [
+          107,
+          40,
+          79,
+          141,
+          37,
+          127
+        ],
+        "idioms": [
+          "자문자답",
+          "자업자득",
+          "자가당착",
+          "근묵자흑",
+          "유유자적",
+          "자급자족"
+        ]
+      },
+      {
+        "id": "size6_56",
+        "size": 6,
+        "idiomIds": [
+          107,
+          141,
+          131,
+          117,
+          127,
+          37
+        ],
+        "idioms": [
+          "자문자답",
+          "근묵자흑",
+          "부전자전",
+          "자수성가",
+          "자급자족",
+          "유유자적"
+        ]
+      },
+      {
+        "id": "size6_57",
+        "size": 6,
+        "idiomIds": [
+          107,
+          40,
+          141,
+          127,
+          37,
+          121
+        ],
+        "idioms": [
+          "자문자답",
+          "자업자득",
+          "근묵자흑",
+          "자급자족",
+          "유유자적",
+          "부자유친"
+        ]
+      },
+      {
+        "id": "size6_58",
+        "size": 6,
+        "idiomIds": [
+          107,
+          127,
+          37,
+          121,
+          117,
+          40
+        ],
+        "idioms": [
+          "자문자답",
+          "자급자족",
+          "유유자적",
+          "부자유친",
+          "자수성가",
+          "자업자득"
+        ]
+      },
+      {
+        "id": "size6_59",
+        "size": 6,
+        "idiomIds": [
+          107,
+          20,
+          138,
+          12,
+          47,
+          68
+        ],
+        "idioms": [
+          "자문자답",
+          "문전성시",
+          "금시초문",
+          "동문서답",
+          "문일지십",
+          "우문현답"
+        ]
+      }
+    ],
+    "size8": [
+      {
+        "id": "size8_0",
+        "size": 8,
+        "idiomIds": [
+          1,
+          64,
+          10,
+          48,
+          61,
+          112,
+          100,
+          143
+        ],
+        "idioms": [
+          "각골난망",
+          "교각살우",
+          "내우외환",
+          "진퇴양난",
+          "백골난망",
+          "일거양득",
+          "일맥상통",
+          "촌철살인"
+        ]
+      },
+      {
+        "id": "size8_1",
+        "size": 8,
+        "idiomIds": [
+          2,
+          26,
+          117,
+          38,
+          72,
+          75,
+          130,
+          65
+        ],
+        "idioms": [
+          "감언이설",
+          "설상가상",
+          "자수성가",
+          "이심전심",
+          "대동소이",
+          "동분서주",
+          "의미심장",
+          "반신반의"
+        ]
+      },
+      {
+        "id": "size8_2",
+        "size": 8,
+        "idiomIds": [
+          3,
+          41,
+          125,
+          39,
+          66,
+          154,
+          49,
+          139
+        ],
+        "idioms": [
+          "견물생심",
+          "작심삼일",
+          "삼위일체",
+          "일석이조",
+          "간담상조",
+          "일편단심",
+          "괄목상대",
+          "노발대발"
+        ]
+      },
+      {
+        "id": "size8_3",
+        "size": 8,
+        "idiomIds": [
+          4,
+          2,
+          26,
+          39,
+          17,
+          44,
+          140,
+          122
+        ],
+        "idioms": [
+          "고진감래",
+          "감언이설",
+          "설상가상",
+          "일석이조",
+          "명실상부",
+          "천고마비",
+          "인생무상",
+          "신토불이"
+        ]
+      },
+      {
+        "id": "size8_4",
+        "size": 8,
+        "idiomIds": [
+          5,
+          126,
+          22,
+          37,
+          71,
+          84,
+          12,
+          154
+        ],
+        "idioms": [
+          "과유불급",
+          "유구불언",
+          "불편부당",
+          "유유자적",
+          "표리부동",
+          "절치부심",
+          "동문서답",
+          "일편단심"
+        ]
+      },
+      {
+        "id": "size8_5",
+        "size": 8,
+        "idiomIds": [
+          6,
+          41,
+          123,
+          12,
+          100,
+          39,
+          125,
+          96
+        ],
+        "idioms": [
+          "군계일학",
+          "작심삼일",
+          "일심동체",
+          "동문서답",
+          "일맥상통",
+          "일석이조",
+          "삼위일체",
+          "춘하추동"
+        ]
+      },
+      {
+        "id": "size8_6",
+        "size": 8,
+        "idiomIds": [
+          7,
+          11,
+          21,
+          81,
+          90,
+          49,
+          129,
+          85
+        ],
+        "idioms": [
+          "권선징악",
+          "다다익선",
+          "박학다식",
+          "목불식정",
+          "도학선생",
+          "괄목상대",
+          "능대능소",
+          "불치하문"
+        ]
+      },
+      {
+        "id": "size8_7",
+        "size": 8,
+        "idiomIds": [
+          8,
+          46,
+          94,
+          34,
+          28,
+          25,
+          114,
+          3
+        ],
+        "idioms": [
+          "기고만장",
+          "호연지기",
+          "천차만별",
+          "역지사지",
+          "승승장구",
+          "새옹지마",
+          "불로장생",
+          "견물생심"
+        ]
+      },
+      {
+        "id": "size8_8",
+        "size": 8,
+        "idiomIds": [
+          9,
+          86,
+          55,
+          74,
+          130,
+          136,
+          84,
+          28
+        ],
+        "idioms": [
+          "기암괴석",
+          "타산지석",
+          "어부지리",
+          "견리사의",
+          "의미심장",
+          "공리공론",
+          "절치부심",
+          "승승장구"
+        ]
+      },
+      {
+        "id": "size8_9",
+        "size": 8,
+        "idiomIds": [
+          10,
+          68,
+          36,
+          71,
+          77,
+          55,
+          82,
+          95
+        ],
+        "idioms": [
+          "내우외환",
+          "우문현답",
+          "우유부단",
+          "표리부동",
+          "죽마고우",
+          "어부지리",
+          "연목구어",
+          "일장일단"
+        ]
+      },
+      {
+        "id": "size8_10",
+        "size": 8,
+        "idiomIds": [
+          11,
+          21,
+          115,
+          18,
+          32,
+          7,
+          89,
+          111
+        ],
+        "idioms": [
+          "다다익선",
+          "박학다식",
+          "다사다난",
+          "미사여구",
+          "양두구육",
+          "권선징악",
+          "십중팔구",
+          "입신양명"
+        ]
+      },
+      {
+        "id": "size8_11",
+        "size": 8,
+        "idiomIds": [
+          12,
+          68,
+          10,
+          146,
+          97,
+          77,
+          25,
+          44
+        ],
+        "idioms": [
+          "동문서답",
+          "우문현답",
+          "내우외환",
+          "동고동락",
+          "고성방가",
+          "죽마고우",
+          "새옹지마",
+          "천고마비"
+        ]
+      },
+      {
+        "id": "size8_12",
+        "size": 8,
+        "idiomIds": [
+          13,
+          140,
+          49,
+          146,
+          133,
+          72,
+          129,
+          81
+        ],
+        "idioms": [
+          "동병상련",
+          "인생무상",
+          "괄목상대",
+          "동고동락",
+          "대동단결",
+          "대동소이",
+          "능대능소",
+          "목불식정"
+        ]
+      },
+      {
+        "id": "size8_13",
+        "size": 8,
+        "idiomIds": [
+          14,
+          96,
+          144,
+          16,
+          71,
+          12,
+          123,
+          70
+        ],
+        "idioms": [
+          "막상막하",
+          "춘하추동",
+          "낭중지추",
+          "망양지탄",
+          "표리부동",
+          "동문서답",
+          "일심동체",
+          "맥수지탄"
+        ]
+      },
+      {
+        "id": "size8_14",
+        "size": 8,
+        "idiomIds": [
+          15,
+          20,
+          78,
+          34,
+          55,
+          38,
+          87,
+          41
+        ],
+        "idioms": [
+          "만시지탄",
+          "문전성시",
+          "관포지교",
+          "역지사지",
+          "어부지리",
+          "이심전심",
+          "견강부회",
+          "작심삼일"
+        ]
+      },
+      {
+        "id": "size8_15",
+        "size": 8,
+        "idiomIds": [
+          16,
+          55,
+          25,
+          19,
+          99,
+          84,
+          131,
+          29
+        ],
+        "idioms": [
+          "망양지탄",
+          "어부지리",
+          "새옹지마",
+          "무용지물",
+          "마이동풍",
+          "절치부심",
+          "부전자전",
+          "아전인수"
+        ]
+      },
+      {
+        "id": "size8_16",
+        "size": 8,
+        "idiomIds": [
+          17,
+          59,
+          92,
+          122,
+          100,
+          140,
+          54,
+          13
+        ],
+        "idioms": [
+          "명실상부",
+          "명불허전",
+          "속전속결",
+          "신토불이",
+          "일맥상통",
+          "인생무상",
+          "와신상담",
+          "동병상련"
+        ]
+      },
+      {
+        "id": "size8_17",
+        "size": 8,
+        "idiomIds": [
+          18,
+          57,
+          152,
+          27,
+          6,
+          64,
+          151,
+          100
+        ],
+        "idioms": [
+          "미사여구",
+          "구우일모",
+          "시종일관",
+          "수수방관",
+          "군계일학",
+          "교각살우",
+          "시시비비",
+          "일맥상통"
+        ]
+      },
+      {
+        "id": "size8_18",
+        "size": 8,
+        "idiomIds": [
+          19,
+          3,
+          15,
+          101,
+          105,
+          25,
+          86,
+          94
+        ],
+        "idioms": [
+          "무용지물",
+          "견물생심",
+          "만시지탄",
+          "임시방편",
+          "천재지변",
+          "새옹지마",
+          "타산지석",
+          "천차만별"
+        ]
+      },
+      {
+        "id": "size8_19",
+        "size": 8,
+        "idiomIds": [
+          20,
+          92,
+          12,
+          85,
+          81,
+          22,
+          29,
+          114
+        ],
+        "idioms": [
+          "문전성시",
+          "속전속결",
+          "동문서답",
+          "불치하문",
+          "목불식정",
+          "불편부당",
+          "아전인수",
+          "불로장생"
+        ]
+      },
+      {
+        "id": "size8_20",
+        "size": 8,
+        "idiomIds": [
+          21,
+          115,
+          132,
+          147,
+          145,
+          99,
+          128,
+          56
+        ],
+        "idioms": [
+          "박학다식",
+          "다사다난",
+          "사친이효",
+          "동상이몽",
+          "다재다능",
+          "마이동풍",
+          "청풍명월",
+          "부화뇌동"
+        ]
+      },
+      {
+        "id": "size8_21",
+        "size": 8,
+        "idiomIds": [
+          22,
+          87,
+          85,
+          47,
+          81,
+          144,
+          49,
+          82
+        ],
+        "idioms": [
+          "불편부당",
+          "견강부회",
+          "불치하문",
+          "문일지십",
+          "목불식정",
+          "낭중지추",
+          "괄목상대",
+          "연목구어"
+        ]
+      },
+      {
+        "id": "size8_22",
+        "size": 8,
+        "idiomIds": [
+          23,
+          138,
+          132,
+          98,
+          117,
+          24,
+          97,
+          141
+        ],
+        "idioms": [
+          "사면초가",
+          "금시초문",
+          "사친이효",
+          "삼간초가",
+          "자수성가",
+          "산전수전",
+          "고성방가",
+          "근묵자흑"
+        ]
+      },
+      {
+        "id": "size8_23",
+        "size": 8,
+        "idiomIds": [
+          24,
+          29,
+          92,
+          67,
+          143,
+          135,
+          38,
+          20
+        ],
+        "idioms": [
+          "산전수전",
+          "아전인수",
+          "속전속결",
+          "결초보은",
+          "촌철살인",
+          "풍전등화",
+          "이심전심",
+          "문전성시"
+        ]
+      },
+      {
+        "id": "size8_24",
+        "size": 8,
+        "idiomIds": [
+          25,
+          16,
+          34,
+          55,
+          137,
+          78,
+          84,
+          43
+        ],
+        "idioms": [
+          "새옹지마",
+          "망양지탄",
+          "역지사지",
+          "어부지리",
+          "물심양면",
+          "관포지교",
+          "절치부심",
+          "청출어람"
+        ]
+      },
+      {
+        "id": "size8_25",
+        "size": 8,
+        "idiomIds": [
+          26,
+          13,
+          97,
+          56,
+          80,
+          60,
+          36,
+          134
+        ],
+        "idioms": [
+          "설상가상",
+          "동병상련",
+          "고성방가",
+          "부화뇌동",
+          "상전벽해",
+          "명약관화",
+          "우유부단",
+          "대의명분"
+        ]
+      },
+      {
+        "id": "size8_26",
+        "size": 8,
+        "idiomIds": [
+          27,
+          60,
+          59,
+          31,
+          87,
+          5,
+          17,
+          118
+        ],
+        "idioms": [
+          "수수방관",
+          "명약관화",
+          "명불허전",
+          "약육강식",
+          "견강부회",
+          "과유불급",
+          "명실상부",
+          "독불장군"
+        ]
+      },
+      {
+        "id": "size8_27",
+        "size": 8,
+        "idiomIds": [
+          28,
+          82,
+          57,
+          95,
+          33,
+          49,
+          133,
+          54
+        ],
+        "idioms": [
+          "승승장구",
+          "연목구어",
+          "구우일모",
+          "일장일단",
+          "언행일치",
+          "괄목상대",
+          "대동단결",
+          "와신상담"
+        ]
+      },
+      {
+        "id": "size8_28",
+        "size": 8,
+        "idiomIds": [
+          29,
+          140,
+          38,
+          123,
+          27,
+          91,
+          66,
+          110
+        ],
+        "idioms": [
+          "아전인수",
+          "인생무상",
+          "이심전심",
+          "일심동체",
+          "수수방관",
+          "인산인해",
+          "간담상조",
+          "기상천외"
+        ]
+      },
+      {
+        "id": "size8_29",
+        "size": 8,
+        "idiomIds": [
+          30,
+          106,
+          99,
+          142,
+          133,
+          139,
+          38,
+          152
+        ],
+        "idioms": [
+          "안하무인",
+          "유일무이",
+          "마이동풍",
+          "우이독경",
+          "대동단결",
+          "노발대발",
+          "이심전심",
+          "시종일관"
+        ]
+      },
+      {
+        "id": "size8_30",
+        "size": 8,
+        "idiomIds": [
+          31,
+          93,
+          62,
+          32,
+          151,
+          15,
+          8,
+          81
+        ],
+        "idioms": [
+          "약육강식",
+          "삼십육계",
+          "십시일반",
+          "양두구육",
+          "시시비비",
+          "만시지탄",
+          "기고만장",
+          "목불식정"
+        ]
+      },
+      {
+        "id": "size8_31",
+        "size": 8,
+        "idiomIds": [
+          32,
+          82,
+          112,
+          106,
+          142,
+          16,
+          93,
+          132
+        ],
+        "idioms": [
+          "양두구육",
+          "연목구어",
+          "일거양득",
+          "유일무이",
+          "우이독경",
+          "망양지탄",
+          "삼십육계",
+          "사친이효"
+        ]
+      },
+      {
+        "id": "size8_32",
+        "size": 8,
+        "idiomIds": [
+          33,
+          57,
+          123,
+          42,
+          112,
+          152,
+          23,
+          146
+        ],
+        "idioms": [
+          "언행일치",
+          "구우일모",
+          "일심동체",
+          "조삼모사",
+          "일거양득",
+          "시종일관",
+          "사면초가",
+          "동고동락"
+        ]
+      },
+      {
+        "id": "size8_33",
+        "size": 8,
+        "idiomIds": [
+          34,
+          16,
+          70,
+          42,
+          125,
+          93,
+          29,
+          63
+        ],
+        "idioms": [
+          "역지사지",
+          "망양지탄",
+          "맥수지탄",
+          "조삼모사",
+          "삼위일체",
+          "삼십육계",
+          "아전인수",
+          "사필귀정"
+        ]
+      },
+      {
+        "id": "size8_34",
+        "size": 8,
+        "idiomIds": [
+          35,
+          89,
+          126,
+          32,
+          19,
+          22,
+          144,
+          71
+        ],
+        "idioms": [
+          "오리무중",
+          "십중팔구",
+          "유구불언",
+          "양두구육",
+          "무용지물",
+          "불편부당",
+          "낭중지추",
+          "표리부동"
+        ]
+      },
+      {
+        "id": "size8_35",
+        "size": 8,
+        "idiomIds": [
+          36,
+          69,
+          77,
+          44,
+          154,
+          56,
+          47,
+          52
+        ],
+        "idioms": [
+          "우유부단",
+          "분서갱유",
+          "죽마고우",
+          "천고마비",
+          "일편단심",
+          "부화뇌동",
+          "문일지십",
+          "금지옥엽"
+        ]
+      },
+      {
+        "id": "size8_36",
+        "size": 8,
+        "idiomIds": [
+          37,
+          121,
+          132,
+          42,
+          71,
+          147,
+          117,
+          142
+        ],
+        "idioms": [
+          "유유자적",
+          "부자유친",
+          "사친이효",
+          "조삼모사",
+          "표리부동",
+          "동상이몽",
+          "자수성가",
+          "우이독경"
+        ]
+      },
+      {
+        "id": "size8_37",
+        "size": 8,
+        "idiomIds": [
+          38,
+          2,
+          20,
+          33,
+          68,
+          10,
+          116,
+          59
+        ],
+        "idioms": [
+          "이심전심",
+          "감언이설",
+          "문전성시",
+          "언행일치",
+          "우문현답",
+          "내우외환",
+          "일조일석",
+          "명불허전"
+        ]
+      },
+      {
+        "id": "size8_38",
+        "size": 8,
+        "idiomIds": [
+          39,
+          9,
+          6,
+          110,
+          83,
+          118,
+          72,
+          41
+        ],
+        "idioms": [
+          "일석이조",
+          "기암괴석",
+          "군계일학",
+          "기상천외",
+          "오비이락",
+          "독불장군",
+          "대동소이",
+          "작심삼일"
+        ]
+      },
+      {
+        "id": "size8_39",
+        "size": 8,
+        "idiomIds": [
+          40,
+          117,
+          70,
+          26,
+          19,
+          14,
+          86,
+          91
+        ],
+        "idioms": [
+          "자업자득",
+          "자수성가",
+          "맥수지탄",
+          "설상가상",
+          "무용지물",
+          "막상막하",
+          "타산지석",
+          "인산인해"
+        ]
+      },
+      {
+        "id": "size8_40",
+        "size": 8,
+        "idiomIds": [
+          41,
+          62,
+          65,
+          89,
+          120,
+          113,
+          42,
+          132
+        ],
+        "idioms": [
+          "작심삼일",
+          "십시일반",
+          "반신반의",
+          "십중팔구",
+          "백발백중",
+          "명명백백",
+          "조삼모사",
+          "사친이효"
+        ]
+      },
+      {
+        "id": "size8_41",
+        "size": 8,
+        "idiomIds": [
+          42,
+          132,
+          83,
+          72,
+          123,
+          62,
+          35,
+          30
+        ],
+        "idioms": [
+          "조삼모사",
+          "사친이효",
+          "오비이락",
+          "대동소이",
+          "일심동체",
+          "십시일반",
+          "오리무중",
+          "안하무인"
+        ]
+      },
+      {
+        "id": "size8_42",
+        "size": 8,
+        "idiomIds": [
+          43,
+          82,
+          49,
+          148,
+          108,
+          140,
+          5,
+          28
+        ],
+        "idioms": [
+          "청출어람",
+          "연목구어",
+          "괄목상대",
+          "대기만성",
+          "청산유수",
+          "인생무상",
+          "과유불급",
+          "승승장구"
+        ]
+      },
+      {
+        "id": "size8_43",
+        "size": 8,
+        "idiomIds": [
+          44,
+          97,
+          148,
+          45,
+          83,
+          132,
+          103,
+          35
+        ],
+        "idioms": [
+          "천고마비",
+          "고성방가",
+          "대기만성",
+          "침소봉대",
+          "오비이락",
+          "사친이효",
+          "남녀노소",
+          "오리무중"
+        ]
+      },
+      {
+        "id": "size8_44",
+        "size": 8,
+        "idiomIds": [
+          45,
+          72,
+          103,
+          38,
+          131,
+          146,
+          22,
+          118
+        ],
+        "idioms": [
+          "침소봉대",
+          "대동소이",
+          "남녀노소",
+          "이심전심",
+          "부전자전",
+          "동고동락",
+          "불편부당",
+          "독불장군"
+        ]
+      },
+      {
+        "id": "size8_45",
+        "size": 8,
+        "idiomIds": [
+          46,
+          144,
+          82,
+          81,
+          34,
+          43,
+          124,
+          128
+        ],
+        "idioms": [
+          "호연지기",
+          "낭중지추",
+          "연목구어",
+          "목불식정",
+          "역지사지",
+          "청출어람",
+          "정정당당",
+          "청풍명월"
+        ]
+      },
+      {
+        "id": "size8_46",
+        "size": 8,
+        "idiomIds": [
+          47,
+          100,
+          52,
+          16,
+          6,
+          66,
+          55,
+          54
+        ],
+        "idioms": [
+          "문일지십",
+          "일맥상통",
+          "금지옥엽",
+          "망양지탄",
+          "군계일학",
+          "간담상조",
+          "어부지리",
+          "와신상담"
+        ]
+      },
+      {
+        "id": "size8_47",
+        "size": 8,
+        "idiomIds": [
+          48,
+          112,
+          102,
+          137,
+          95,
+          28,
+          40,
+          131
+        ],
+        "idioms": [
+          "진퇴양난",
+          "일거양득",
+          "일취월장",
+          "물심양면",
+          "일장일단",
+          "승승장구",
+          "자업자득",
+          "부전자전"
+        ]
+      },
+      {
+        "id": "size8_48",
+        "size": 8,
+        "idiomIds": [
+          49,
+          13,
+          14,
+          139,
+          99,
+          120,
+          38,
+          154
+        ],
+        "idioms": [
+          "괄목상대",
+          "동병상련",
+          "막상막하",
+          "노발대발",
+          "마이동풍",
+          "백발백중",
+          "이심전심",
+          "일편단심"
+        ]
+      },
+      {
+        "id": "size8_49",
+        "size": 8,
+        "idiomIds": [
+          51,
+          8,
+          148,
+          95,
+          45,
+          37,
+          104,
+          146
+        ],
+        "idioms": [
+          "적반하장",
+          "기고만장",
+          "대기만성",
+          "일장일단",
+          "침소봉대",
+          "유유자적",
+          "일확천금",
+          "동고동락"
+        ]
+      },
+      {
+        "id": "size8_50",
+        "size": 8,
+        "idiomIds": [
+          107,
+          79,
+          131,
+          40,
+          127,
+          121,
+          117,
+          37
+        ],
+        "idioms": [
+          "자문자답",
+          "자가당착",
+          "부전자전",
+          "자업자득",
+          "자급자족",
+          "부자유친",
+          "자수성가",
+          "유유자적"
+        ]
+      },
+      {
+        "id": "size8_51",
+        "size": 8,
+        "idiomIds": [
+          107,
+          127,
+          37,
+          121,
+          79,
+          117,
+          40,
+          141
+        ],
+        "idioms": [
+          "자문자답",
+          "자급자족",
+          "유유자적",
+          "부자유친",
+          "자가당착",
+          "자수성가",
+          "자업자득",
+          "근묵자흑"
+        ]
+      },
+      {
+        "id": "size8_52",
+        "size": 8,
+        "idiomIds": [
+          107,
+          131,
+          121,
+          117,
+          37,
+          40,
+          127,
+          141
+        ],
+        "idioms": [
+          "자문자답",
+          "부전자전",
+          "부자유친",
+          "자수성가",
+          "유유자적",
+          "자업자득",
+          "자급자족",
+          "근묵자흑"
+        ]
+      },
+      {
+        "id": "size8_53",
+        "size": 8,
+        "idiomIds": [
+          107,
+          117,
+          131,
+          79,
+          127,
+          121,
+          37,
+          141
+        ],
+        "idioms": [
+          "자문자답",
+          "자수성가",
+          "부전자전",
+          "자가당착",
+          "자급자족",
+          "부자유친",
+          "유유자적",
+          "근묵자흑"
+        ]
+      },
+      {
+        "id": "size8_54",
+        "size": 8,
+        "idiomIds": [
+          107,
+          121,
+          127,
+          141,
+          79,
+          131,
+          40,
+          117
+        ],
+        "idioms": [
+          "자문자답",
+          "부자유친",
+          "자급자족",
+          "근묵자흑",
+          "자가당착",
+          "부전자전",
+          "자업자득",
+          "자수성가"
+        ]
+      },
+      {
+        "id": "size8_55",
+        "size": 8,
+        "idiomIds": [
+          107,
+          117,
+          37,
+          121,
+          40,
+          131,
+          79,
+          141
+        ],
+        "idioms": [
+          "자문자답",
+          "자수성가",
+          "유유자적",
+          "부자유친",
+          "자업자득",
+          "부전자전",
+          "자가당착",
+          "근묵자흑"
+        ]
+      },
+      {
+        "id": "size8_56",
+        "size": 8,
+        "idiomIds": [
+          107,
+          79,
+          141,
+          121,
+          127,
+          37,
+          40,
+          131
+        ],
+        "idioms": [
+          "자문자답",
+          "자가당착",
+          "근묵자흑",
+          "부자유친",
+          "자급자족",
+          "유유자적",
+          "자업자득",
+          "부전자전"
+        ]
+      },
+      {
+        "id": "size8_57",
+        "size": 8,
+        "idiomIds": [
+          107,
+          79,
+          40,
+          117,
+          127,
+          131,
+          141,
+          37
+        ],
+        "idioms": [
+          "자문자답",
+          "자가당착",
+          "자업자득",
+          "자수성가",
+          "자급자족",
+          "부전자전",
+          "근묵자흑",
+          "유유자적"
+        ]
+      }
+    ],
+    "size10": [
+      {
+        "id": "size10_0",
+        "size": 10,
+        "idiomIds": [
+          1,
+          48,
+          112,
+          41,
+          152,
+          4,
+          62,
+          15,
+          6,
+          88
+        ],
+        "idioms": [
+          "각골난망",
+          "진퇴양난",
+          "일거양득",
+          "작심삼일",
+          "시종일관",
+          "고진감래",
+          "십시일반",
+          "만시지탄",
+          "군계일학",
+          "삼삼오오"
+        ]
+      },
+      {
+        "id": "size10_1",
+        "size": 10,
+        "idiomIds": [
+          2,
+          147,
+          122,
+          111,
+          54,
+          14,
+          13,
+          16,
+          51,
+          65
+        ],
+        "idioms": [
+          "감언이설",
+          "동상이몽",
+          "신토불이",
+          "입신양명",
+          "와신상담",
+          "막상막하",
+          "동병상련",
+          "망양지탄",
+          "적반하장",
+          "반신반의"
+        ]
+      },
+      {
+        "id": "size10_2",
+        "size": 10,
+        "idiomIds": [
+          3,
+          137,
+          112,
+          130,
+          111,
+          125,
+          59,
+          106,
+          131,
+          128
+        ],
+        "idioms": [
+          "견물생심",
+          "물심양면",
+          "일거양득",
+          "의미심장",
+          "입신양명",
+          "삼위일체",
+          "명불허전",
+          "유일무이",
+          "부전자전",
+          "청풍명월"
+        ]
+      },
+      {
+        "id": "size10_3",
+        "size": 10,
+        "idiomIds": [
+          4,
+          153,
+          91,
+          44,
+          48,
+          32,
+          99,
+          132,
+          28,
+          102
+        ],
+        "idioms": [
+          "고진감래",
+          "산해진미",
+          "인산인해",
+          "천고마비",
+          "진퇴양난",
+          "양두구육",
+          "마이동풍",
+          "사친이효",
+          "승승장구",
+          "일취월장"
+        ]
+      },
+      {
+        "id": "size10_4",
+        "size": 10,
+        "idiomIds": [
+          5,
+          127,
+          118,
+          51,
+          117,
+          14,
+          142,
+          13,
+          22,
+          10
+        ],
+        "idioms": [
+          "과유불급",
+          "자급자족",
+          "독불장군",
+          "적반하장",
+          "자수성가",
+          "막상막하",
+          "우이독경",
+          "동병상련",
+          "불편부당",
+          "내우외환"
+        ]
+      },
+      {
+        "id": "size10_5",
+        "size": 10,
+        "idiomIds": [
+          6,
+          33,
+          104,
+          52,
+          144,
+          106,
+          83,
+          147,
+          54,
+          70
+        ],
+        "idioms": [
+          "군계일학",
+          "언행일치",
+          "일확천금",
+          "금지옥엽",
+          "낭중지추",
+          "유일무이",
+          "오비이락",
+          "동상이몽",
+          "와신상담",
+          "맥수지탄"
+        ]
+      },
+      {
+        "id": "size10_6",
+        "size": 10,
+        "idiomIds": [
+          7,
+          90,
+          114,
+          122,
+          3,
+          85,
+          142,
+          95,
+          73,
+          137
+        ],
+        "idioms": [
+          "권선징악",
+          "도학선생",
+          "불로장생",
+          "신토불이",
+          "견물생심",
+          "불치하문",
+          "우이독경",
+          "일장일단",
+          "붕우유신",
+          "물심양면"
+        ]
+      },
+      {
+        "id": "size10_7",
+        "size": 10,
+        "idiomIds": [
+          8,
+          77,
+          73,
+          99,
+          25,
+          114,
+          83,
+          147,
+          52,
+          146
+        ],
+        "idioms": [
+          "기고만장",
+          "죽마고우",
+          "붕우유신",
+          "마이동풍",
+          "새옹지마",
+          "불로장생",
+          "오비이락",
+          "동상이몽",
+          "금지옥엽",
+          "동고동락"
+        ]
+      },
+      {
+        "id": "size10_8",
+        "size": 10,
+        "idiomIds": [
+          9,
+          46,
+          105,
+          8,
+          77,
+          118,
+          95,
+          112,
+          152,
+          52
+        ],
+        "idioms": [
+          "기암괴석",
+          "호연지기",
+          "천재지변",
+          "기고만장",
+          "죽마고우",
+          "독불장군",
+          "일장일단",
+          "일거양득",
+          "시종일관",
+          "금지옥엽"
+        ]
+      },
+      {
+        "id": "size10_9",
+        "size": 10,
+        "idiomIds": [
+          10,
+          110,
+          64,
+          13,
+          140,
+          78,
+          144,
+          71,
+          73,
+          148
+        ],
+        "idioms": [
+          "내우외환",
+          "기상천외",
+          "교각살우",
+          "동병상련",
+          "인생무상",
+          "관포지교",
+          "낭중지추",
+          "표리부동",
+          "붕우유신",
+          "대기만성"
+        ]
+      },
+      {
+        "id": "size10_10",
+        "size": 10,
+        "idiomIds": [
+          11,
+          21,
+          81,
+          31,
+          145,
+          60,
+          87,
+          17,
+          14,
+          131
+        ],
+        "idioms": [
+          "다다익선",
+          "박학다식",
+          "목불식정",
+          "약육강식",
+          "다재다능",
+          "명약관화",
+          "견강부회",
+          "명실상부",
+          "막상막하",
+          "부전자전"
+        ]
+      },
+      {
+        "id": "size10_11",
+        "size": 10,
+        "idiomIds": [
+          12,
+          20,
+          135,
+          101,
+          56,
+          96,
+          27,
+          72,
+          132,
+          2
+        ],
+        "idioms": [
+          "동문서답",
+          "문전성시",
+          "풍전등화",
+          "임시방편",
+          "부화뇌동",
+          "춘하추동",
+          "수수방관",
+          "대동소이",
+          "사친이효",
+          "감언이설"
+        ]
+      },
+      {
+        "id": "size10_12",
+        "size": 10,
+        "idiomIds": [
+          13,
+          146,
+          12,
+          110,
+          99,
+          2,
+          147,
+          49,
+          26,
+          122
+        ],
+        "idioms": [
+          "동병상련",
+          "동고동락",
+          "동문서답",
+          "기상천외",
+          "마이동풍",
+          "감언이설",
+          "동상이몽",
+          "괄목상대",
+          "설상가상",
+          "신토불이"
+        ]
+      },
+      {
+        "id": "size10_13",
+        "size": 10,
+        "idiomIds": [
+          14,
+          49,
+          147,
+          71,
+          13,
+          100,
+          152,
+          27,
+          87,
+          26
+        ],
+        "idioms": [
+          "막상막하",
+          "괄목상대",
+          "동상이몽",
+          "표리부동",
+          "동병상련",
+          "일맥상통",
+          "시종일관",
+          "수수방관",
+          "견강부회",
+          "설상가상"
+        ]
+      },
+      {
+        "id": "size10_14",
+        "size": 10,
+        "idiomIds": [
+          15,
+          148,
+          8,
+          101,
+          27,
+          130,
+          110,
+          10,
+          25,
+          65
+        ],
+        "idioms": [
+          "만시지탄",
+          "대기만성",
+          "기고만장",
+          "임시방편",
+          "수수방관",
+          "의미심장",
+          "기상천외",
+          "내우외환",
+          "새옹지마",
+          "반신반의"
+        ]
+      },
+      {
+        "id": "size10_15",
+        "size": 10,
+        "idiomIds": [
+          16,
+          46,
+          112,
+          48,
+          9,
+          55,
+          87,
+          121,
+          19,
+          30
+        ],
+        "idioms": [
+          "망양지탄",
+          "호연지기",
+          "일거양득",
+          "진퇴양난",
+          "기암괴석",
+          "어부지리",
+          "견강부회",
+          "부자유친",
+          "무용지물",
+          "안하무인"
+        ]
+      },
+      {
+        "id": "size10_16",
+        "size": 10,
+        "idiomIds": [
+          17,
+          14,
+          100,
+          96,
+          119,
+          47,
+          45,
+          22,
+          89,
+          60
+        ],
+        "idioms": [
+          "명실상부",
+          "막상막하",
+          "일맥상통",
+          "춘하추동",
+          "공명정대",
+          "문일지십",
+          "침소봉대",
+          "불편부당",
+          "십중팔구",
+          "명약관화"
+        ]
+      },
+      {
+        "id": "size10_17",
+        "size": 10,
+        "idiomIds": [
+          18,
+          74,
+          55,
+          71,
+          87,
+          35,
+          23,
+          47,
+          12,
+          30
+        ],
+        "idioms": [
+          "미사여구",
+          "견리사의",
+          "어부지리",
+          "표리부동",
+          "견강부회",
+          "오리무중",
+          "사면초가",
+          "문일지십",
+          "동문서답",
+          "안하무인"
+        ]
+      },
+      {
+        "id": "size10_18",
+        "size": 10,
+        "idiomIds": [
+          19,
+          106,
+          152,
+          34,
+          95,
+          147,
+          14,
+          133,
+          47,
+          66
+        ],
+        "idioms": [
+          "무용지물",
+          "유일무이",
+          "시종일관",
+          "역지사지",
+          "일장일단",
+          "동상이몽",
+          "막상막하",
+          "대동단결",
+          "문일지십",
+          "간담상조"
+        ]
+      },
+      {
+        "id": "size10_19",
+        "size": 10,
+        "idiomIds": [
+          20,
+          151,
+          148,
+          133,
+          147,
+          44,
+          92,
+          36,
+          152,
+          83
+        ],
+        "idioms": [
+          "문전성시",
+          "시시비비",
+          "대기만성",
+          "대동단결",
+          "동상이몽",
+          "천고마비",
+          "속전속결",
+          "우유부단",
+          "시종일관",
+          "오비이락"
+        ]
+      },
+      {
+        "id": "size10_20",
+        "size": 10,
+        "idiomIds": [
+          21,
+          31,
+          60,
+          119,
+          49,
+          78,
+          90,
+          86,
+          133,
+          136
+        ],
+        "idioms": [
+          "박학다식",
+          "약육강식",
+          "명약관화",
+          "공명정대",
+          "괄목상대",
+          "관포지교",
+          "도학선생",
+          "타산지석",
+          "대동단결",
+          "공리공론"
+        ]
+      },
+      {
+        "id": "size10_21",
+        "size": 10,
+        "idiomIds": [
+          22,
+          118,
+          124,
+          95,
+          59,
+          55,
+          63,
+          36,
+          19,
+          104
+        ],
+        "idioms": [
+          "불편부당",
+          "독불장군",
+          "정정당당",
+          "일장일단",
+          "명불허전",
+          "어부지리",
+          "사필귀정",
+          "우유부단",
+          "무용지물",
+          "일확천금"
+        ]
+      },
+      {
+        "id": "size10_22",
+        "size": 10,
+        "idiomIds": [
+          23,
+          34,
+          117,
+          148,
+          55,
+          49,
+          147,
+          75,
+          67,
+          96
+        ],
+        "idioms": [
+          "사면초가",
+          "역지사지",
+          "자수성가",
+          "대기만성",
+          "어부지리",
+          "괄목상대",
+          "동상이몽",
+          "동분서주",
+          "결초보은",
+          "춘하추동"
+        ]
+      },
+      {
+        "id": "size10_23",
+        "size": 10,
+        "idiomIds": [
+          24,
+          92,
+          133,
+          147,
+          148,
+          83,
+          119,
+          123,
+          41,
+          136
+        ],
+        "idioms": [
+          "산전수전",
+          "속전속결",
+          "대동단결",
+          "동상이몽",
+          "대기만성",
+          "오비이락",
+          "공명정대",
+          "일심동체",
+          "작심삼일",
+          "공리공론"
+        ]
+      },
+      {
+        "id": "size10_24",
+        "size": 10,
+        "idiomIds": [
+          25,
+          44,
+          86,
+          16,
+          108,
+          43,
+          73,
+          91,
+          116,
+          106
+        ],
+        "idioms": [
+          "새옹지마",
+          "천고마비",
+          "타산지석",
+          "망양지탄",
+          "청산유수",
+          "청출어람",
+          "붕우유신",
+          "인산인해",
+          "일조일석",
+          "유일무이"
+        ]
+      },
+      {
+        "id": "size10_25",
+        "size": 10,
+        "idiomIds": [
+          26,
+          23,
+          137,
+          66,
+          32,
+          80,
+          84,
+          87,
+          130,
+          110
+        ],
+        "idioms": [
+          "설상가상",
+          "사면초가",
+          "물심양면",
+          "간담상조",
+          "양두구육",
+          "상전벽해",
+          "절치부심",
+          "견강부회",
+          "의미심장",
+          "기상천외"
+        ]
+      },
+      {
+        "id": "size10_26",
+        "size": 10,
+        "idiomIds": [
+          27,
+          117,
+          70,
+          86,
+          144,
+          96,
+          146,
+          26,
+          147,
+          78
+        ],
+        "idioms": [
+          "수수방관",
+          "자수성가",
+          "맥수지탄",
+          "타산지석",
+          "낭중지추",
+          "춘하추동",
+          "동고동락",
+          "설상가상",
+          "동상이몽",
+          "관포지교"
+        ]
+      },
+      {
+        "id": "size10_27",
+        "size": 10,
+        "idiomIds": [
+          28,
+          18,
+          109,
+          118,
+          89,
+          153,
+          30,
+          93,
+          23,
+          142
+        ],
+        "idioms": [
+          "승승장구",
+          "미사여구",
+          "팔방미인",
+          "독불장군",
+          "십중팔구",
+          "산해진미",
+          "안하무인",
+          "삼십육계",
+          "사면초가",
+          "우이독경"
+        ]
+      },
+      {
+        "id": "size10_28",
+        "size": 10,
+        "idiomIds": [
+          29,
+          109,
+          89,
+          32,
+          143,
+          131,
+          20,
+          84,
+          37,
+          153
+        ],
+        "idioms": [
+          "아전인수",
+          "팔방미인",
+          "십중팔구",
+          "양두구육",
+          "촌철살인",
+          "부전자전",
+          "문전성시",
+          "절치부심",
+          "유유자적",
+          "산해진미"
+        ]
+      },
+      {
+        "id": "size10_29",
+        "size": 10,
+        "idiomIds": [
+          30,
+          109,
+          14,
+          101,
+          22,
+          131,
+          124,
+          92,
+          147,
+          51
+        ],
+        "idioms": [
+          "안하무인",
+          "팔방미인",
+          "막상막하",
+          "임시방편",
+          "불편부당",
+          "부전자전",
+          "정정당당",
+          "속전속결",
+          "동상이몽",
+          "적반하장"
+        ]
+      }
+    ]
+  }
+}

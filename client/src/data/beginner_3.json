@@ -1,0 +1,408 @@
+{
+  "title": "장소와 위치",
+  "subtitle": "한국어로 장소를 묻고 위치를 설명하는 방법을 배워요",
+  "totalSteps": 11,
+  "lessons": [
+    {
+      "stepNumber": 1,
+      "type": "single_expression",
+      "expression": {
+        "korean": "어디",
+        "romanization": "eodi",
+        "meaning": "Where",
+        "explanation": "장소나 위치를 물어볼 때 사용하는 의문사예요.",
+        "whenToUse": "장소를 모를 때, 어디에 있는지 물어볼 때",
+        "examples": [
+          {
+            "korean": "화장실이 어디예요?",
+            "romanization": "hwajangsiri eodiyeyo?",
+            "meaning": "Where is the restroom?"
+          },
+          {
+            "korean": "어디 가세요?",
+            "romanization": "eodi gaseyo?",
+            "meaning": "Where are you going?"
+          }
+        ],
+        "culturalTip": "'어디'는 가장 자주 사용하는 의문사 중 하나예요!",
+        "explanationEn": "This is an interrogative word used to ask about places or locations.",
+        "whenToUseEn": "\"When you don't know the location and want to ask where it is.\"",
+        "culturalTipEn": "\"'어디' is one of the most commonly used question words!\""
+      }
+    },
+    {
+      "stepNumber": 2,
+      "type": "single_expression",
+      "expression": {
+        "korean": "여기 / 거기 / 저기",
+        "romanization": "yeogi / geogi / jeogi",
+        "meaning": "Here / There / Over there",
+        "explanation": "거리에 따라 다른 지시어를 사용해요. 여기(가까이), 거기(중간), 저기(멀리)",
+        "whenToUse": "위치를 가리킬 때",
+        "examples": [
+          {
+            "korean": "여기 앉으세요.",
+            "romanization": "yeogi anjeuseyo.",
+            "meaning": "Please sit here."
+          },
+          {
+            "korean": "화장실은 저기 있어요.",
+            "romanization": "hwajangsireun jeogi isseoyo.",
+            "meaning": "The restroom is over there."
+          }
+        ],
+        "culturalTip": "이/그/저 시스템: 이(this/가까움), 그(that/중간), 저(that/멀리)",
+        "explanationEn": "Different demonstratives are used depending on the distance. \"Here\" (close), \"there\" (medium distance), and \"over there\" (far away).",
+        "whenToUseEn": "\"When pointing out a location\"",
+        "culturalTipEn": "This/That/That over there system: 이 (this/close), 그 (that/middle distance), 저 (that over there/far away)"
+      }
+    },
+    {
+      "stepNumber": 3,
+      "type": "single_expression",
+      "expression": {
+        "korean": "___이/가 어디 있어요?",
+        "romanization": "___i/ga eodi isseoyo?",
+        "meaning": "Where is ___?",
+        "explanation": "특정 장소나 물건의 위치를 물어보는 표현이에요.",
+        "whenToUse": "찾는 것의 위치를 물어볼 때",
+        "examples": [
+          {
+            "korean": "은행이 어디 있어요?",
+            "romanization": "eunhaengi eodi isseoyo?",
+            "meaning": "Where is the bank?"
+          },
+          {
+            "korean": "지하철역이 어디 있어요?",
+            "romanization": "jihacheollyeogi eodi isseoyo?",
+            "meaning": "Where is the subway station?"
+          }
+        ],
+        "culturalTip": "받침이 있으면 '이', 없으면 '가'를 사용해요.",
+        "explanationEn": "This is an expression used to ask about the location of a specific place or object.",
+        "whenToUseEn": "\"When asking for the location of something you are looking for\"",
+        "culturalTipEn": "If there is a batchim (final consonant), use '이'; if there isn't, use '가'."
+      }
+    },
+    {
+      "stepNumber": 4,
+      "type": "single_expression",
+      "expression": {
+        "korean": "___에 가다",
+        "romanization": "___e gada",
+        "meaning": "To go to ___",
+        "explanation": "'에'는 장소를 나타내는 조사이고, '가다'는 'to go'를 의미해요.",
+        "whenToUse": "어디로 가는지 말할 때",
+        "examples": [
+          {
+            "korean": "학교에 가요.",
+            "romanization": "hakgyoe gayo.",
+            "meaning": "I go to school."
+          },
+          {
+            "korean": "어디에 가요? - 카페에 가요.",
+            "romanization": "eodie gayo? - kapee gayo.",
+            "meaning": "Where are you going? - I'm going to a cafe."
+          }
+        ],
+        "culturalTip": "'에'는 방향이나 위치를 나타내는 중요한 조사예요!",
+        "explanationEn": "'에' is a particle that indicates a location, and '가다' means 'to go.'",
+        "whenToUseEn": "\"When you talk about where you are going.\"",
+        "culturalTipEn": "'에' is an important particle that indicates direction or location!"
+      }
+    },
+    {
+      "stepNumber": 5,
+      "type": "single_expression",
+      "expression": {
+        "korean": "___에 있다",
+        "romanization": "___e itda",
+        "meaning": "To be at/in ___",
+        "explanation": "어디에 있는지 위치를 말할 때 사용해요.",
+        "whenToUse": "자신이나 누군가의 위치를 말할 때",
+        "examples": [
+          {
+            "korean": "저는 집에 있어요.",
+            "romanization": "jeoneun jibe isseoyo.",
+            "meaning": "I am at home."
+          },
+          {
+            "korean": "친구가 도서관에 있어요.",
+            "romanization": "chinguga doseogwane isseoyo.",
+            "meaning": "My friend is at the library."
+          }
+        ],
+        "culturalTip": "'있다'는 존재와 위치를 모두 표현할 수 있어요.",
+        "explanationEn": "\"It is used when talking about where something is located.\"",
+        "whenToUseEn": "\"When talking about your own or someone else's location\"",
+        "culturalTipEn": "The verb '있다' can express both existence and location."
+      }
+    },
+    {
+      "stepNumber": 6,
+      "type": "single_expression",
+      "expression": {
+        "korean": "위 / 아래 / 옆",
+        "romanization": "wi / arae / yeop",
+        "meaning": "Above / Below / Beside",
+        "explanation": "상대적인 위치를 표현하는 기본 방향어예요.",
+        "whenToUse": "물건이나 사람의 위치를 설명할 때",
+        "examples": [
+          {
+            "korean": "책상 위에 책이 있어요.",
+            "romanization": "chaeksang wie chaegi isseoyo.",
+            "meaning": "There is a book on the desk."
+          },
+          {
+            "korean": "의자 옆에 가방이 있어요.",
+            "romanization": "uija yeope gabangi isseoyo.",
+            "meaning": "There is a bag beside the chair."
+          }
+        ],
+        "culturalTip": "다른 위치어: 앞(front), 뒤(back), 안(inside), 밖(outside)",
+        "explanationEn": "This is a basic directional word that expresses relative position.",
+        "whenToUseEn": "\"When describing the location of objects or people\"",
+        "culturalTipEn": "Other locational words: front, back, inside, outside."
+      }
+    },
+    {
+      "stepNumber": 7,
+      "type": "single_expression",
+      "expression": {
+        "korean": "___와/과 ___사이",
+        "romanization": "___wa/gwa ___sai",
+        "meaning": "Between ___ and ___",
+        "explanation": "두 개의 대상 사이의 위치를 표현할 때 사용해요.",
+        "whenToUse": "중간 위치를 설명할 때",
+        "examples": [
+          {
+            "korean": "은행은 학교와 병원 사이에 있어요.",
+            "romanization": "eunhaengeun hakgyowa byeongwon saie isseoyo.",
+            "meaning": "The bank is between the school and the hospital."
+          },
+          {
+            "korean": "저는 민수와 영희 사이에 앉았어요.",
+            "romanization": "jeoneun minsuwa yeonghui saie anjasseoyo.",
+            "meaning": "I sat between Minsu and Younghee."
+          }
+        ],
+        "culturalTip": "받침이 있으면 '과', 없으면 '와'를 사용해요.",
+        "explanationEn": "It is used to express the position between two objects.",
+        "whenToUseEn": "\"When describing a middle position\"",
+        "culturalTipEn": "If there is a batchim (final consonant), use '과'; if there isn't, use '와'."
+      }
+    },
+    {
+      "stepNumber": 8,
+      "type": "single_expression",
+      "expression": {
+        "korean": "가까워요 / 멀어요",
+        "romanization": "gakkawoyo / meoreoyo",
+        "meaning": "It's close / It's far",
+        "explanation": "거리의 가까움과 멀음을 표현하는 형용사예요.",
+        "whenToUse": "장소까지의 거리를 설명할 때",
+        "examples": [
+          {
+            "korean": "집에서 학교까지 가까워요.",
+            "romanization": "jibeseo hakgyokkaji gakkawoyo.",
+            "meaning": "It's close from home to school."
+          },
+          {
+            "korean": "여기서 서울역까지 멀어요?",
+            "romanization": "yeogiseo seoullyeokkkaji meoreoyo?",
+            "meaning": "Is it far from here to Seoul Station?"
+          }
+        ],
+        "culturalTip": "'에서'는 출발점, '까지'는 도착점을 나타내요.",
+        "explanationEn": "This is an adjective that expresses proximity and distance.",
+        "whenToUseEn": "\"When describing the distance to a location\"",
+        "culturalTipEn": "The word '에서' indicates the starting point, while '까지' indicates the destination."
+      }
+    },
+    {
+      "stepNumber": 9,
+      "type": "single_expression",
+      "expression": {
+        "korean": "왼쪽 / 오른쪽",
+        "romanization": "oenjjok / oreunjjok",
+        "meaning": "Left side / Right side",
+        "explanation": "좌우 방향을 표현하는 단어예요.",
+        "whenToUse": "길을 안내할 때, 방향을 설명할 때",
+        "examples": [
+          {
+            "korean": "왼쪽으로 가세요.",
+            "romanization": "oenjjogeuro gaseyo.",
+            "meaning": "Go to the left."
+          },
+          {
+            "korean": "오른쪽에 편의점이 있어요.",
+            "romanization": "oreunjjoge pyeonuijeomi isseoyo.",
+            "meaning": "There is a convenience store on the right."
+          }
+        ],
+        "culturalTip": "방향을 나타낼 때 '으로/로'를 붙여요.",
+        "explanationEn": "This is a word that expresses directions, specifically left and right.",
+        "whenToUseEn": "When giving directions, when explaining the way.",
+        "culturalTipEn": "When indicating direction, we attach '으로/로'."
+      }
+    },
+    {
+      "stepNumber": 10,
+      "type": "single_expression",
+      "expression": {
+        "korean": "___에서 ___까지",
+        "romanization": "___eseo ___kkaji",
+        "meaning": "From ___ to ___",
+        "explanation": "출발점과 도착점을 표현할 때 사용해요.",
+        "whenToUse": "이동 경로나 범위를 말할 때",
+        "examples": [
+          {
+            "korean": "집에서 회사까지 30분 걸려요.",
+            "romanization": "jibeseo hoesakkaji samsip bun geollyeoyo.",
+            "meaning": "It takes 30 minutes from home to work."
+          },
+          {
+            "korean": "월요일에서 금요일까지 일해요.",
+            "romanization": "woryorireseo geumyorilkkaji ilhaeyo.",
+            "meaning": "I work from Monday to Friday."
+          }
+        ],
+        "culturalTip": "'에서...까지'는 시간과 장소 모두에 사용할 수 있어요!",
+        "explanationEn": "It is used to express the starting point and the destination.",
+        "whenToUseEn": "\"When talking about movement routes or ranges\"",
+        "culturalTipEn": "\"'에서...까지' can be used for both time and place!\""
+      }
+    },
+    {
+      "stepNumber": 11,
+      "type": "quiz",
+      "quiz": {
+        "title": "복습 퀴즈",
+        "description": "장소와 위치 표현을 복습해볼까요?",
+        "questions": [
+          {
+            "question": "How do you ask 'Where is the restroom?'",
+            "questionKo": "'화장실이 어디에 있나요?'를 어떻게 물어보나요?",
+            "options": [
+              "화장실이 뭐예요?",
+              "화장실이 어디예요?",
+              "화장실이 언제예요?",
+              "화장실이 누구예요?"
+            ],
+            "optionsKo": [
+              "화장실이 뭐예요?",
+              "화장실이 어디예요?",
+              "화장실이 언제예요?",
+              "화장실이 누구예요?"
+            ],
+            "optionsVi": [
+              "화장실이 뭐예요? (nhà vệ sinh là gì?)",
+              "화장실이 어디예요? (nhà vệ sinh ở đâu?)",
+              "화장실이 언제예요? (nhà vệ sinh khi nào?)",
+              "화장실이 누구예요? (nhà vệ sinh là ai?)"
+            ],
+            "correctAnswer": 1,
+            "explanation": "'어디'는 'where'를 의미하고, '이/가'는 주어를 나타내요."
+          },
+          {
+            "question": "What does '여기'mean?",
+            "questionKo": "'여기'는 무슨 뜻인가요?",
+            "options": [
+              "There",
+              "Over there",
+              "Here",
+              "Somewhere"
+            ],
+            "optionsKo": [
+              "거기",
+              "저기",
+              "여기",
+              "어딜가"
+            ],
+            "optionsVi": [
+              "Ở đó",
+              "Ở kia",
+              "Ở đây",
+              "Ở đâu đó"
+            ],
+            "correctAnswer": 2,
+            "explanation": "'여기'는 here(가까운 곳)을 의미해요."
+          },
+          {
+            "question": "Which particle is used to indicate a location?",
+            "questionKo": "장소를 나타내는 조사는 무엇인가요?",
+            "options": [
+              "을/를",
+              "이/가",
+              "에",
+              "도"
+            ],
+            "optionsKo": [
+              "을/를",
+              "이/가",
+              "에",
+              "도"
+            ],
+            "optionsVi": [
+              "을/를 (tân ngữ)",
+              "이/가 (chủ ngữ)",
+              "에 (vị trí)",
+              "도 (cũng, cả)"
+            ],
+            "correctAnswer": 2,
+            "explanation": "'에'는 장소나 위치를 나타내는 조사예요."
+          },
+          {
+            "question": "What does '위'mean?",
+            "questionKo": "'위'는 무슨 뜻인가요?",
+            "options": [
+              "Below",
+              "Above",
+              "Beside",
+              "Behind"
+            ],
+            "optionsKo": [
+              "아래",
+              "위",
+              "옆",
+              "뒤"
+            ],
+            "optionsVi": [
+              "Dưới",
+              "Trên",
+              "Bên cạnh",
+              "Đằng sau"
+            ],
+            "correctAnswer": 1,
+            "explanation": "'위'는 위쪽, 'above/on top'을 의미해요."
+          },
+          {
+            "question": "How do you say 'between A and B'?",
+            "questionKo": "'A와 B 사이'를 어떻게 말하나요?",
+            "options": [
+              "A에 B",
+              "A와 B 사이",
+              "A부터 B까지",
+              "A에서 B로"
+            ],
+            "optionsKo": [
+              "A에 B",
+              "A와 B 사이",
+              "A부터 B까지",
+              "A에서 B로"
+            ],
+            "optionsVi": [
+              "A에 B (A tại B)",
+              "A와 B 사이 (giữa A và B)",
+              "A부터 B까지 (từ A đến B)",
+              "A에서 B로 (từ A đến B)"
+            ],
+            "correctAnswer": 1,
+            "explanation": "'와/과...사이'는 'between'을 의미해요."
+          }
+        ]
+      }
+    }
+  ],
+  "subtitleEn": "Let's learn how to ask for a place in Korean and explain its location."
+}

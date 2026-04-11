@@ -1,0 +1,387 @@
+{
+  "title": "문화·명절·사회생활",
+  "subtitle": "한국의 문화와 명절, 사회생활에 대해 배워요",
+  "totalSteps": 11,
+  "lessons": [
+    {
+      "stepNumber": 1,
+      "type": "single_expression",
+      "expression": {
+        "korean": "명절",
+        "romanization": "myeongjeol",
+        "meaning": "Holiday / Festival",
+        "explanation": "전통적으로 기념하는 특별한 날을 의미해요.",
+        "whenToUse": "명절에 대해 이야기할 때",
+        "examples": [
+          {
+            "korean": "한국의 큰 명절은 설날과 추석이에요.",
+            "romanization": "hangugui keun myeongjeoreun seollalgwa chuseogieyo.",
+            "meaning": "Korea's major holidays are Lunar New Year and Chuseok."
+          },
+          {
+            "korean": "명절에 고향에 가요.",
+            "romanization": "myeongjeore gohyange gayo.",
+            "meaning": "I go to my hometown during the holidays."
+          }
+        ],
+        "culturalTip": "명절에는 가족들이 모여서 전통 음식을 먹고 조상께 제사를 지내요.",
+        "explanationEn": "It means a special day that is traditionally celebrated.",
+        "whenToUseEn": "\"When talking about holidays\"",
+        "culturalTipEn": "During holidays, families gather to eat traditional foods and hold ancestral rites."
+      }
+    },
+    {
+      "stepNumber": 2,
+      "type": "single_expression",
+      "expression": {
+        "korean": "설날",
+        "romanization": "seollal",
+        "meaning": "Lunar New Year",
+        "explanation": "음력 1월 1일로, 한국의 가장 큰 명절 중 하나예요.",
+        "whenToUse": "설날에 대해 말할 때",
+        "examples": [
+          {
+            "korean": "설날에는 떡국을 먹어요.",
+            "romanization": "seollaleneun tteokgugeul meogeoyo.",
+            "meaning": "We eat rice cake soup on Lunar New Year."
+          },
+          {
+            "korean": "새해 복 많이 받으세요!",
+            "romanization": "saehae bok mani badeuseyo!",
+            "meaning": "Happy New Year! (Receive lots of blessings)"
+          }
+        ],
+        "culturalTip": "설날에는 한복을 입고 어른들께 세배를 드려요!",
+        "explanationEn": "It is the first day of the lunar calendar, and it is one of the biggest holidays in Korea.",
+        "whenToUseEn": "\"When talking about Seollal (Lunar New Year)\"",
+        "culturalTipEn": "On Lunar New Year, we wear hanbok and bow to our elders to show respect!"
+      }
+    },
+    {
+      "stepNumber": 3,
+      "type": "single_expression",
+      "expression": {
+        "korean": "추석",
+        "romanization": "chuseok",
+        "meaning": "Korean Thanksgiving",
+        "explanation": "음력 8월 15일로, 추수를 감사하는 명절이에요.",
+        "whenToUse": "추석에 대해 이야기할 때",
+        "examples": [
+          {
+            "korean": "추석에는 송편을 만들어요.",
+            "romanization": "chuseogeneun songpyeoneul mandeureoyo.",
+            "meaning": "We make songpyeon (rice cake) during Chuseok."
+          },
+          {
+            "korean": "추석 잘 보내세요!",
+            "romanization": "chuseok jal bonaeseyo!",
+            "meaning": "Have a great Chuseok!"
+          }
+        ],
+        "culturalTip": "추석에는 햇곡식과 과일로 차례를 지내고 성묘를 가요.",
+        "explanationEn": "It is the 15th day of the 8th month of the lunar calendar, a holiday for giving thanks for the harvest.",
+        "whenToUseEn": "\"When talking about Chuseok\"",
+        "culturalTipEn": "During Chuseok, we hold a ritual with freshly harvested grains and fruits, and we visit the graves of our ancestors."
+      }
+    },
+    {
+      "stepNumber": 4,
+      "type": "single_expression",
+      "expression": {
+        "korean": "한복",
+        "romanization": "hanbok",
+        "meaning": "Korean traditional clothing",
+        "explanation": "한국의 전통 의상이에요.",
+        "whenToUse": "한국 전통 문화에 대해 말할 때",
+        "examples": [
+          {
+            "korean": "명절에 한복을 입어요.",
+            "romanization": "myeongjeore hanbogeul ibeoyo.",
+            "meaning": "I wear hanbok during holidays."
+          },
+          {
+            "korean": "한복이 정말 아름다워요.",
+            "romanization": "hanbogi jeongmal areumdawoyo.",
+            "meaning": "Hanbok is really beautiful."
+          }
+        ],
+        "culturalTip": "요즘은 젊은 사람들도 한복을 즐겨 입고, 관광지에서 한복 대여도 인기예요!",
+        "explanationEn": "It's traditional clothing from Korea.",
+        "whenToUseEn": "\"When talking about traditional Korean culture\"",
+        "culturalTipEn": "These days, young people also enjoy wearing hanbok, and renting hanbok at tourist spots is quite popular!"
+      }
+    },
+    {
+      "stepNumber": 5,
+      "type": "single_expression",
+      "expression": {
+        "korean": "세배",
+        "romanization": "sebae",
+        "meaning": "New Year's bow",
+        "explanation": "설날에 어른들께 절을 하며 인사하는 전통이에요.",
+        "whenToUse": "설날 풍습에 대해 말할 때",
+        "examples": [
+          {
+            "korean": "할머니께 세배를 드렸어요.",
+            "romanization": "halmeonikkke sebaereul deuryeosseoyo.",
+            "meaning": "I gave a New Year's bow to my grandmother."
+          },
+          {
+            "korean": "세배를 하면 세배돈을 받아요.",
+            "romanization": "sebaereul hamyeon sebaedoneul badayo.",
+            "meaning": "When you give a New Year's bow, you receive money."
+          }
+        ],
+        "culturalTip": "세배돈은 어른들이 아이들에게 주는 새해 선물이에요!",
+        "explanationEn": "It is a tradition to bow and greet the elders on Lunar New Year.",
+        "whenToUseEn": "\"When talking about the customs of Seollal (Lunar New Year)\"",
+        "culturalTipEn": "\"Seollal money is a New Year's gift that adults give to children!\""
+      }
+    },
+    {
+      "stepNumber": 6,
+      "type": "single_expression",
+      "expression": {
+        "korean": "예절 / 예의",
+        "romanization": "yejeol / yeeui",
+        "meaning": "Etiquette / Manners",
+        "explanation": "사회에서 지켜야 할 바른 행동 규범이에요.",
+        "whenToUse": "매너나 예절에 대해 말할 때",
+        "examples": [
+          {
+            "korean": "한국은 예절을 중요하게 생각해요.",
+            "romanization": "hangugeun yejeo-reul jungyohage saenggakaeyo.",
+            "meaning": "Korea values etiquette importantly."
+          },
+          {
+            "korean": "어른께 예의를 지켜야 해요.",
+            "romanization": "eoreonkkke yeeuireul jikyeoya haeyo.",
+            "meaning": "You should be respectful to elders."
+          }
+        ],
+        "culturalTip": "한국에서는 나이와 직위에 따른 예절이 중요해요.",
+        "explanationEn": "It is a code of proper conduct that should be observed in society.",
+        "whenToUseEn": "\"When talking about manners or etiquette\"",
+        "culturalTipEn": "In Korea, etiquette based on age and position is important."
+      }
+    },
+    {
+      "stepNumber": 7,
+      "type": "single_expression",
+      "expression": {
+        "korean": "인사하다",
+        "romanization": "insahada",
+        "meaning": "To greet",
+        "explanation": "사람을 만났을 때 예의를 갖춰 말하거나 행동하는 것이에요.",
+        "whenToUse": "인사에 대해 말할 때",
+        "examples": [
+          {
+            "korean": "아침에 이웃에게 인사했어요.",
+            "romanization": "achime iutege insahaesseoyo.",
+            "meaning": "I greeted my neighbor in the morning."
+          },
+          {
+            "korean": "한국에서는 고개를 숙여 인사해요.",
+            "romanization": "hangugeseoneun gogaereul sugyeo insahaeyo.",
+            "meaning": "In Korea, we bow when greeting."
+          }
+        ],
+        "culturalTip": "한국에서는 인사할 때 고개를 숙이는 것이 기본 예절이에요!",
+        "explanationEn": "It means showing respect by speaking or behaving appropriately when meeting someone.",
+        "whenToUseEn": "When talking about greetings",
+        "culturalTipEn": "In Korea, it is basic etiquette to bow your head when greeting someone!"
+      }
+    },
+    {
+      "stepNumber": 8,
+      "type": "single_expression",
+      "expression": {
+        "korean": "문화",
+        "romanization": "munhwa",
+        "meaning": "Culture",
+        "explanation": "한 사회의 생활 양식과 전통을 의미해요.",
+        "whenToUse": "문화에 대해 이야기할 때",
+        "examples": [
+          {
+            "korean": "한국 문화가 궁금해요.",
+            "romanization": "hanguk munhwaga gunggeumhaeyo.",
+            "meaning": "I'm curious about Korean culture."
+          },
+          {
+            "korean": "음식 문화가 다양해요.",
+            "romanization": "eumsik munhwaga dayangha-eyo.",
+            "meaning": "The food culture is diverse."
+          }
+        ],
+        "culturalTip": "한국은 K-POP, K-드라마 등으로 세계적으로 문화가 알려져 있어요!",
+        "explanationEn": "It means the lifestyle and traditions of a society.",
+        "whenToUseEn": "\"When talking about culture\"",
+        "culturalTipEn": "Korea's culture is well-known around the world through K-POP, K-dramas, and more!"
+      }
+    },
+    {
+      "stepNumber": 9,
+      "type": "single_expression",
+      "expression": {
+        "korean": "존댓말 / 반말",
+        "romanization": "jondaenmal / banmal",
+        "meaning": "Formal speech / Casual speech",
+        "explanation": "한국어의 높임말과 낮춤말 체계예요.",
+        "whenToUse": "말투에 대해 설명할 때",
+        "examples": [
+          {
+            "korean": "어른에게는 존댓말을 써요.",
+            "romanization": "eoreunegeneun jondaenmareul sseoyo.",
+            "meaning": "We use formal speech to elders."
+          },
+          {
+            "korean": "친한 친구에게는 반말을 써요.",
+            "romanization": "chinhan chinguegeneun banmareul sseoyo.",
+            "meaning": "We use casual speech to close friends."
+          }
+        ],
+        "culturalTip": "한국어에서 존댓말/반말 선택은 나이와 관계에 따라 중요해요!",
+        "explanationEn": "This is the system of honorifics and informal speech in Korean.",
+        "whenToUseEn": "\"When explaining speech style\"",
+        "culturalTipEn": "In Korean, the choice between using formal (존댓말) and informal (반말) speech is important and depends on age and relationships!"
+      }
+    },
+    {
+      "stepNumber": 10,
+      "type": "single_expression",
+      "expression": {
+        "korean": "전통",
+        "romanization": "jeontong",
+        "meaning": "Tradition",
+        "explanation": "옛날부터 이어져 내려오는 풍습이나 문화예요.",
+        "whenToUse": "전통에 대해 이야기할 때",
+        "examples": [
+          {
+            "korean": "한국의 전통 음악을 들었어요.",
+            "romanization": "hangugui jeontong eumageul deureosseoyo.",
+            "meaning": "I listened to traditional Korean music."
+          },
+          {
+            "korean": "전통을 지키는 것이 중요해요.",
+            "romanization": "jeontongeul jikineun geosi jungyohaeyo.",
+            "meaning": "It's important to preserve traditions."
+          }
+        ],
+        "culturalTip": "한국은 현대화되었지만 여전히 전통을 중요하게 여겨요!",
+        "explanationEn": "It's a custom or culture that has been passed down since ancient times.",
+        "whenToUseEn": "\"When talking about tradition\"",
+        "culturalTipEn": "Korea has modernized, but it still values tradition highly!"
+      }
+    },
+    {
+      "stepNumber": 11,
+      "type": "quiz",
+      "quiz": {
+        "title": "복습 퀴즈",
+        "description": "문화와 명절 표현을 복습해볼까요?",
+        "questions": [
+          {
+            "question": "What are Korea's two major holidays?",
+            "questionKo": "한국의 두 큰 명절은 무엇인가요?",
+            "options": [
+              "크리스마스와 추석",
+              "설날과 추석",
+              "설날과 어린이날",
+              "추석과 광복절"
+            ],
+            "optionsKo": [
+              "크리스마스와 추석",
+              "설날과 추석",
+              "설날과 어린이날",
+              "추석과 광복절"
+            ],
+            "optionsVi": [
+              "Giáng sinh và Chu-seok",
+              "Tết nguyên đán và Chu-seok",
+              "Tết nguyên đán và Ngày trẻ em",
+              "Chu-seok và Ngày quang phục"
+            ],
+            "correctAnswer": 1,
+            "explanation": "한국의 큰 명절은 설날(Lunar New Year)과 추석(Chuseok)이에요."
+          },
+          {
+            "question": "What do people eat on Lunar New Year?",
+            "options": [
+              "송편",
+              "떡국",
+              "불고기",
+              "비빔밥"
+            ],
+            "correctAnswer": 1,
+            "explanation": "설날에는 떡국(rice cake soup)을 먹어요.",
+            "optionsVi": [
+              "[VI: 송편]",
+              "[VI: 떡국]",
+              "[VI: 불고기]",
+              "[VI: 비빔밥]"
+            ]
+          },
+          {
+            "question": "What does '한복'mean?",
+            "options": [
+              "Korean food",
+              "Korean traditional clothing",
+              "Korean house",
+              "Korean holiday"
+            ],
+            "correctAnswer": 1,
+            "explanation": "'한복'은 한국의 전통 의상이에요.",
+            "optionsVi": [
+              "[VI: Korean food]",
+              "[VI: Korean traditional clothing]",
+              "[VI: Korean house]",
+              "[VI: Korean holiday]"
+            ]
+          },
+          {
+            "question": "What does '세배'mean?",
+            "options": [
+              "Traditional food",
+              "New Year's bow",
+              "Traditional game",
+              "Holiday gift"
+            ],
+            "correctAnswer": 1,
+            "explanation": "'세배'는 설날에 어른들께 드리는 절이에요.",
+            "optionsVi": [
+              "[VI: Traditional food]",
+              "[VI: New Year's bow]",
+              "[VI: Traditional game]",
+              "[VI: Holiday gift]"
+            ]
+          },
+          {
+            "question": "What speech style should you use with elders?",
+            "questionKo": "어른에게 어떤 말투를 사용해야 하나요?",
+            "options": [
+              "반말",
+              "존댓말",
+              "Both are fine",
+              "Neither"
+            ],
+            "optionsKo": [
+              "반말",
+              "존댓말",
+              "둘 다 괜찮아요",
+              "둘 다 안 돼요"
+            ],
+            "optionsVi": [
+              "반말 (lời nói thân mật)",
+              "존댓말 (lời nói lịch sự)",
+              "Cả hai đều ổn",
+              "Cả hai đều không được"
+            ],
+            "correctAnswer": 1,
+            "explanation": "어른에게는 존댓말(formal speech)을 사용해야 해요."
+          }
+        ]
+      }
+    }
+  ],
+  "subtitleEn": "Let's learn about Korean culture, holidays, and social life."
+}

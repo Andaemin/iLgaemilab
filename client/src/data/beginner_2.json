@@ -1,0 +1,408 @@
+{
+  "title": "숫자와 시간 표현",
+  "subtitle": "한국어로 숫자를 세고 시간을 말하는 방법을 배워요",
+  "totalSteps": 11,
+  "lessons": [
+    {
+      "stepNumber": 1,
+      "type": "single_expression",
+      "expression": {
+        "korean": "하나, 둘, 셋",
+        "romanization": "hana, dul, set",
+        "meaning": "One, two, three (Native Korean numbers)",
+        "explanation": "한국어에는 두 가지 숫자 체계가 있어요. 이것은 순우리말 숫자예요. 개수를 셀 때 주로 사용해요.",
+        "whenToUse": "물건의 개수를 셀 때, 나이를 말할 때, 시간(hour)을 말할 때",
+        "examples": [
+          {
+            "korean": "사과 세 개 주세요.",
+            "romanization": "sagwa se gae juseyo.",
+            "meaning": "Please give me three apples."
+          },
+          {
+            "korean": "저는 스물다섯 살입니다.",
+            "romanization": "jeoneun seumuldaseos salimnida.",
+            "meaning": "I am 25 years old."
+          }
+        ],
+        "culturalTip": "순우리말 숫자: 하나(1), 둘(2), 셋(3), 넷(4), 다섯(5), 여섯(6), 일곱(7), 여덟(8), 아홉(9), 열(10)",
+        "explanationEn": "Korean has two number systems. This is the native Korean number system. It is mainly used for counting things.",
+        "whenToUseEn": "\"When counting objects, stating age, and telling time (hours)\"",
+        "culturalTipEn": "Pure Korean Numbers: 하나 (1), 둘 (2), 셋 (3), 넷 (4), 다섯 (5), 여섯 (6), 일곱 (7), 여덟 (8), 아홉 (9), 열 (10) \n\nIn Korean, these numbers are referred to as \"순우리말 숫자,\" which means \"pure Korean numbers.\" Unlike Sino-Korean numbers, which are derived from Chinese, these numbers have indigenous Korean origins. They are primarily used for counting items, age, and in certain contexts like telling time."
+      }
+    },
+    {
+      "stepNumber": 2,
+      "type": "single_expression",
+      "expression": {
+        "korean": "일, 이, 삼",
+        "romanization": "il, i, sam",
+        "meaning": "One, two, three (Sino-Korean numbers)",
+        "explanation": "이것은 한자에서 유래한 숫자예요. 날짜, 분, 돈, 전화번호 등에 사용해요.",
+        "whenToUse": "날짜, 분, 초, 돈, 전화번호, 층수를 말할 때",
+        "examples": [
+          {
+            "korean": "삼천 원입니다.",
+            "romanization": "samcheon wonimnida.",
+            "meaning": "It's 3,000 won."
+          },
+          {
+            "korean": "오늘은 삼월 십오일입니다.",
+            "romanization": "oneureun samwol siboilimnida.",
+            "meaning": "Today is March 15th."
+          }
+        ],
+        "culturalTip": "한자 숫자: 일(1), 이(2), 삼(3), 사(4), 오(5), 육(6), 칠(7), 팔(8), 구(9), 십(10)",
+        "explanationEn": "This is a number derived from Hanja (Chinese characters). It is used for dates, minutes, money, phone numbers, and so on.",
+        "whenToUseEn": "When talking about dates, minutes, seconds, money, phone numbers, and floors.",
+        "culturalTipEn": "Hanja Numbers: 일 (1), 이 (2), 삼 (3), 사 (4), 오 (5), 육 (6), 칠 (7), 팔 (8), 구 (9), 십 (10) \n\nIn Korean, the Hanja characters represent the numbers one through ten. Understanding these characters can help learners recognize their use in various contexts, such as in formal documents, traditional literature, and certain counting systems."
+      }
+    },
+    {
+      "stepNumber": 3,
+      "type": "single_expression",
+      "expression": {
+        "korean": "지금 몇 시예요?",
+        "romanization": "jigeum myeot siyeyo?",
+        "meaning": "What time is it now?",
+        "explanation": "현재 시간을 물어볼 때 사용하는 표현이에요. '몇'은 'what', '시'는 'o'clock'을 의미해요.",
+        "whenToUse": "시간을 모를 때, 약속 시간을 확인할 때",
+        "examples": [
+          {
+            "korean": "지금 몇 시예요? - 세 시예요.",
+            "romanization": "jigeum myeot siyeyo? - se siyeyo.",
+            "meaning": "What time is it? - It's 3 o'clock."
+          },
+          {
+            "korean": "회의가 몇 시예요?",
+            "romanization": "hoeuiga myeot siyeyo?",
+            "meaning": "What time is the meeting?"
+          }
+        ],
+        "culturalTip": "시간(hour)은 순우리말 숫자를 쓰고, 분(minute)은 한자 숫자를 써요!",
+        "explanationEn": "This is an expression used to ask for the current time. '몇' means 'what,' and '시' means 'o'clock.'",
+        "whenToUseEn": "\"When you don't know the time, checking the appointment time.\"",
+        "culturalTipEn": "In Korean, we use native Korean numbers for hours and Sino-Korean numbers for minutes!"
+      }
+    },
+    {
+      "stepNumber": 4,
+      "type": "single_expression",
+      "expression": {
+        "korean": "___시 ___분",
+        "romanization": "___si ___bun",
+        "meaning": "___ o'clock ___ minutes",
+        "explanation": "정확한 시간을 말할 때 사용해요. 시(hour)는 순우리말 숫자, 분(minute)은 한자 숫자를 사용해요.",
+        "whenToUse": "정확한 시간을 말할 때, 약속 시간을 정할 때",
+        "examples": [
+          {
+            "korean": "지금 두 시 삼십 분이에요.",
+            "romanization": "jigeum du si samsip bunieyo.",
+            "meaning": "It's 2:30 now."
+          },
+          {
+            "korean": "다섯 시 십오 분에 만나요.",
+            "romanization": "daseot si sibo bune mannayo.",
+            "meaning": "Let's meet at 5:15."
+          }
+        ],
+        "culturalTip": "예: 한 시(1시), 두 시(2시), 세 시(3시) + 십 분(10분), 이십 분(20분), 삼십 분(30분)",
+        "explanationEn": "This is used when telling the exact time. For hours, we use native Korean numbers, while for minutes, we use Sino-Korean numbers.",
+        "whenToUseEn": "\"When stating the exact time or when setting an appointment time.\"",
+        "culturalTipEn": "Example: One o'clock (1 o'clock), two o'clock (2 o'clock), three o'clock (3 o'clock) + ten minutes (10 minutes), twenty minutes (20 minutes), thirty minutes (30 minutes)."
+      }
+    },
+    {
+      "stepNumber": 5,
+      "type": "single_expression",
+      "expression": {
+        "korean": "오전 / 오후",
+        "romanization": "ojeon / ohu",
+        "meaning": "AM / PM",
+        "explanation": "'오전'은 아침부터 정오 전까지, '오후'는 정오부터 밤까지를 의미해요.",
+        "whenToUse": "아침인지 저녁인지 명확히 할 때",
+        "examples": [
+          {
+            "korean": "오전 아홉 시에 수업이 있어요.",
+            "romanization": "ojeon ahop sie sueopi isseoyo.",
+            "meaning": "I have class at 9 AM."
+          },
+          {
+            "korean": "오후 세 시에 만나요.",
+            "romanization": "ohu se sie mannayo.",
+            "meaning": "Let's meet at 3 PM."
+          }
+        ],
+        "culturalTip": "한국에서는 24시간제도 많이 사용해요. 예: 15시(오후 3시), 20시(오후 8시)",
+        "explanationEn": "\"'오전' (ojeon) refers to the time from morning until just before noon, while '오후' (ohu) means the time from noon until night.\"",
+        "whenToUseEn": "\"When clarifying whether it is morning or evening.\"",
+        "culturalTipEn": "In Korea, the 24-hour system is commonly used. For example: 15:00 (3 PM), 20:00 (8 PM)."
+      }
+    },
+    {
+      "stepNumber": 6,
+      "type": "single_expression",
+      "expression": {
+        "korean": "오늘, 어제, 내일",
+        "romanization": "oneul, eoje, naeil",
+        "meaning": "Today, yesterday, tomorrow",
+        "explanation": "날짜를 표현하는 가장 기본적인 단어들이에요.",
+        "whenToUse": "날짜를 말할 때, 일정을 이야기할 때",
+        "examples": [
+          {
+            "korean": "오늘은 월요일이에요.",
+            "romanization": "oneureun woryorieyo.",
+            "meaning": "Today is Monday."
+          },
+          {
+            "korean": "내일 뭐 해요?",
+            "romanization": "naeil mwo haeyo?",
+            "meaning": "What are you doing tomorrow?"
+          }
+        ],
+        "culturalTip": "모레(day after tomorrow), 그저께(day before yesterday)도 자주 사용해요!",
+        "explanationEn": "These are the most basic words for expressing dates.",
+        "whenToUseEn": "\"When talking about dates and discussing schedules\"",
+        "culturalTipEn": "\"We often use '모레' (day after tomorrow) and '그저께' (day before yesterday)!\""
+      }
+    },
+    {
+      "stepNumber": 7,
+      "type": "single_expression",
+      "expression": {
+        "korean": "이번 주 / 다음 주 / 지난 주",
+        "romanization": "ibeon ju / daeum ju / jinan ju",
+        "meaning": "This week / Next week / Last week",
+        "explanation": "주(week)를 기준으로 시간을 표현하는 방법이에요.",
+        "whenToUse": "일주일 단위로 일정을 말할 때",
+        "examples": [
+          {
+            "korean": "이번 주 금요일에 시험이 있어요.",
+            "romanization": "ibeon ju geumyoire siheomi isseoyo.",
+            "meaning": "I have an exam this Friday."
+          },
+          {
+            "korean": "다음 주에 휴가예요.",
+            "romanization": "daeum jue hyugayeyo.",
+            "meaning": "I'm on vacation next week."
+          }
+        ],
+        "culturalTip": "한국에서는 일주일의 시작을 일요일로 보는 경우가 많아요.",
+        "explanationEn": "This is a way to express time based on the week.",
+        "whenToUseEn": "\"When talking about schedules on a weekly basis\"",
+        "culturalTipEn": "In Korea, it is common to consider Sunday as the start of the week."
+      }
+    },
+    {
+      "stepNumber": 8,
+      "type": "single_expression",
+      "expression": {
+        "korean": "월요일, 화요일, 수요일...",
+        "romanization": "woryoril, hwayoril, suyoril...",
+        "meaning": "Monday, Tuesday, Wednesday...",
+        "explanation": "한 주의 요일을 표현하는 단어예요. 각각 오행(五行)에서 유래했어요.",
+        "whenToUse": "특정 요일을 말할 때",
+        "examples": [
+          {
+            "korean": "저는 월요일부터 금요일까지 일해요.",
+            "romanization": "jeoneun woryorilbuteo geumyorilkkaji ilhaeyo.",
+            "meaning": "I work from Monday to Friday."
+          },
+          {
+            "korean": "토요일에 뭐 해요?",
+            "romanization": "toyoire mwo haeyo?",
+            "meaning": "What are you doing on Saturday?"
+          }
+        ],
+        "culturalTip": "월(月월), 화(火불화), 수(水물수), 목(木나무목), 금(金쇠금), 토(土흙토), 일(日해일)",
+        "explanationEn": "This is a word that expresses the days of the week. Each day is derived from the five elements (오행, ohaeng).",
+        "whenToUseEn": "\"When mentioning specific days of the week\"",
+        "culturalTipEn": "The text lists the days of the week in Korean, along with their corresponding meanings:\n\n- 월 (월요일) - Moon (Monday)\n- 화 (화요일) - Fire (Tuesday)\n- 수 (수요일) - Water (Wednesday)\n- 목 (목요일) - Wood (Thursday)\n- 금 (금요일) - Metal (Friday)\n- 토 (토요일) - Earth (Saturday)\n- 일 (일요일) - Sun (Sunday)\n\nIn Korean culture, each day of the week is associated with one of the five elements (wood, fire, earth, metal, water) and the sun or moon, reflecting traditional beliefs and cosmology."
+      }
+    },
+    {
+      "stepNumber": 9,
+      "type": "single_expression",
+      "expression": {
+        "korean": "___개",
+        "romanization": "___gae",
+        "meaning": "___ pieces/items",
+        "explanation": "물건의 개수를 셀 때 사용하는 단위예요. 순우리말 숫자와 함께 사용해요.",
+        "whenToUse": "물건의 개수를 말할 때",
+        "examples": [
+          {
+            "korean": "커피 두 개 주세요.",
+            "romanization": "keopi du gae juseyo.",
+            "meaning": "Please give me two coffees."
+          },
+          {
+            "korean": "사과 다섯 개 샀어요.",
+            "romanization": "sagwa daseot gae sasseoyo.",
+            "meaning": "I bought five apples."
+          }
+        ],
+        "culturalTip": "개는 가장 일반적인 단위예요. 병(bottle), 잔(cup), 마리(animal)도 많이 써요!",
+        "explanationEn": "This is a unit used for counting objects. It is used together with native Korean numbers.",
+        "whenToUseEn": "\"When talking about the number of items.\"",
+        "culturalTipEn": "\"The most common unit is '개' (gae), which is used for counting things. We also often use '병' (byeong) for bottles, '잔' (jan) for cups, and '마리' (mari) for animals!\""
+      }
+    },
+    {
+      "stepNumber": 10,
+      "type": "single_expression",
+      "expression": {
+        "korean": "___원",
+        "romanization": "___won",
+        "meaning": "___ won (Korean currency)",
+        "explanation": "한국 화폐 단위예요. 한자 숫자와 함께 사용해요.",
+        "whenToUse": "가격을 말할 때, 돈을 셀 때",
+        "examples": [
+          {
+            "korean": "이거 얼마예요? - 오천 원이에요.",
+            "romanization": "igeo eolmayeyo? - ocheon wonieyo.",
+            "meaning": "How much is this? - It's 5,000 won."
+          },
+          {
+            "korean": "만 원 있어요?",
+            "romanization": "man won isseoyo?",
+            "meaning": "Do you have 10,000 won?"
+          }
+        ],
+        "culturalTip": "천(1,000), 만(10,000), 십만(100,000), 백만(1,000,000)을 기억하세요!",
+        "explanationEn": "It is the unit of Korean currency. It is used together with Chinese characters for numbers.",
+        "whenToUseEn": "\"When talking about prices and counting money.\"",
+        "culturalTipEn": "Remember 천 (1,000), 만 (10,000), 십만 (100,000), and 백만 (1,000,000)!"
+      }
+    },
+    {
+      "stepNumber": 11,
+      "type": "quiz",
+      "quiz": {
+        "title": "복습 퀴즈",
+        "description": "숫자와 시간 표현을 복습해볼까요?",
+        "questions": [
+          {
+            "question": "What time is '두 시 삼십 분'?",
+            "questionKo": "'두 시 삼십 분'은 몇 시인가요?",
+            "options": [
+              "12:30",
+              "2:30",
+              "2:13",
+              "20:30"
+            ],
+            "optionsKo": [
+              "12:30",
+              "2:30",
+              "2:13",
+              "20:30"
+            ],
+            "optionsVi": [
+              "12:30",
+              "2:30",
+              "2:13",
+              "20:30"
+            ],
+            "correctAnswer": 1,
+            "explanation": "'두 시'는 2 o'clock, '삼십 분'은 30 minutes를 의미해요."
+          },
+          {
+            "question": "Which number system is used for counting objects?",
+            "questionKo": "물건을 셀 때 어떤 숫자 체계를 사용하나요?",
+            "options": [
+              "한자 숫자 (일, 이, 삼)",
+              "순우리말 숫자 (하나, 둘, 셋)",
+              "Both",
+              "Neither"
+            ],
+            "optionsKo": [
+              "한자 숫자 (일, 이, 삼)",
+              "순우리말 숫자 (하나, 둘, 셋)",
+              "둘 다",
+              "둘 다 아님"
+            ],
+            "optionsVi": [
+              "Số Hán (일, 이, 삼)",
+              "Số thuần Hàn (하나, 둘, 셋)",
+              "Cả hai",
+              "Không cái nào"
+            ],
+            "correctAnswer": 1,
+            "explanation": "물건의 개수를 셀 때는 순우리말 숫자(하나, 둘, 셋)를 사용해요."
+          },
+          {
+            "question": "How do you say 'Monday' in Korean?",
+            "questionKo": "한국어로 '월요일'을 어떻게 말하나요?",
+            "options": [
+              "화요일",
+              "수요일",
+              "월요일",
+              "목요일"
+            ],
+            "optionsKo": [
+              "화요일",
+              "수요일",
+              "월요일",
+              "목요일"
+            ],
+            "optionsVi": [
+              "화요일 (thứ Ba)",
+              "수요일 (thứ Tư)",
+              "월요일 (thứ Hai)",
+              "목요일 (thứ Năm)"
+            ],
+            "correctAnswer": 2,
+            "explanation": "월요일(woryoril)이 Monday예요. 월(月)은 달을 의미해요."
+          },
+          {
+            "question": "What does '오전'mean?",
+            "questionKo": "'오전'은 무슨 뜻인가요?",
+            "options": [
+              "PM",
+              "AM",
+              "Noon",
+              "Midnight"
+            ],
+            "optionsKo": [
+              "오후",
+              "오전",
+              "정오",
+              "자정"
+            ],
+            "optionsVi": [
+              "Chiều/Tối",
+              "Sáng",
+              "Trưa",
+              "Nửa đêm"
+            ],
+            "correctAnswer": 1,
+            "explanation": "'오전'은 AM(아침)을 의미하고, '오후'는 PM(저녁)을 의미해요."
+          },
+          {
+            "question": "How do you say '3,000 won'?",
+            "questionKo": "'3,000원'을 어떻게 말하나요?",
+            "options": [
+              "세 원",
+              "삼천 원",
+              "삼백 원",
+              "삼만 원"
+            ],
+            "optionsKo": [
+              "세 원",
+              "삼천 원",
+              "삼백 원",
+              "삼만 원"
+            ],
+            "optionsVi": [
+              "세 원 (3 won)",
+              "삼천 원 (3.000 won)",
+              "삼백 원 (300 won)",
+              "삼만 원 (30.000 won)"
+            ],
+            "correctAnswer": 1,
+            "explanation": "돈을 셀 때는 한자 숫자를 사용해요. 삼천 원 = 3,000 won."
+          }
+        ]
+      }
+    }
+  ],
+  "subtitleEn": "We learn how to count numbers and tell time in Korean."
+}

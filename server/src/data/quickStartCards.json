@@ -1,0 +1,342 @@
+{
+  "manufacturing": {
+    "id": "manufacturing",
+    "name": "제조업",
+    "nameVi": "Sản xuất",
+    "icon": "⚙️",
+    "cards": [
+      {
+        "id": "mfg-1",
+        "order": 1,
+        "korean": "안전모를 쓰세요.",
+        "vietnamese": "Hãy đội mũ bảo hộ.",
+        "chinese": "请戴安全帽。",
+        "english": "Please wear a safety helmet.",
+        "phonetic": "안전모를 쓰세요",
+        "icon": "🪖",
+        "situation": "작업장 입장 시 필수",
+        "tags": ["안전", "지시", "필수"]
+      },
+      {
+        "id": "mfg-2",
+        "order": 2,
+        "korean": "이 기계를 꺼 주세요.",
+        "vietnamese": "Tắt máy này giúp tôi.",
+        "chinese": "请关掉这台机器。",
+        "english": "Please turn off this machine.",
+        "phonetic": "이 기계를 꺼 주세요",
+        "icon": "🔌",
+        "situation": "작업 종료 시",
+        "tags": ["기계", "지시", "종료"]
+      },
+      {
+        "id": "mfg-3",
+        "order": 3,
+        "korean": "지금 쉬세요.",
+        "vietnamese": "Hãy nghỉ ngơi bây giờ.",
+        "chinese": "现在休息吧。",
+        "english": "Take a break now.",
+        "phonetic": "지금 쉬세요",
+        "icon": "☕",
+        "situation": "휴식 시간",
+        "tags": ["휴식", "시간", "복지"]
+      },
+      {
+        "id": "mfg-4",
+        "order": 4,
+        "korean": "도와드릴게요.",
+        "vietnamese": "Tôi sẽ giúp bạn.",
+        "chinese": "我来帮你。",
+        "english": "I'll help you.",
+        "phonetic": "도와드릴게요",
+        "icon": "🤝",
+        "situation": "동료 협력",
+        "tags": ["도움", "협력", "친절"]
+      },
+      {
+        "id": "mfg-5",
+        "order": 5,
+        "korean": "여기로 오세요.",
+        "vietnamese": "Hãy đến đây.",
+        "chinese": "请到这里来。",
+        "english": "Please come here.",
+        "phonetic": "여기로 오세요",
+        "icon": "👋",
+        "situation": "위치 안내",
+        "tags": ["위치", "이동", "안내"]
+      }
+    ]
+  },
+  "construction": {
+    "id": "construction",
+    "name": "건설업",
+    "nameVi": "Xây dựng",
+    "icon": "🏗️",
+    "cards": [
+      {
+        "id": "con-1",
+        "order": 1,
+        "korean": "조심하세요. 미끄러워요.",
+        "vietnamese": "Hãy cẩn thận. Trơn trượt đấy.",
+        "chinese": "小心，很滑。",
+        "english": "Be careful. It's slippery.",
+        "phonetic": "조심하세요 미끄러워요",
+        "icon": "⚠️",
+        "situation": "위험 경고",
+        "tags": ["안전", "경고", "주의"]
+      },
+      {
+        "id": "con-2",
+        "order": 2,
+        "korean": "사다리를 잘 잡으세요.",
+        "vietnamese": "Giữ thang cẩn thận nhé.",
+        "chinese": "请扶好梯子。",
+        "english": "Hold the ladder carefully.",
+        "phonetic": "사다리를 잘 잡으세요",
+        "icon": "🪜",
+        "situation": "높은 곳 작업",
+        "tags": ["도구", "안전", "작업"]
+      },
+      {
+        "id": "con-3",
+        "order": 3,
+        "korean": "위험하니까 가까이 오지 마세요.",
+        "vietnamese": "Nguy hiểm, đừng lại gần.",
+        "chinese": "危险，不要靠近。",
+        "english": "It's dangerous, don't come close.",
+        "phonetic": "위험하니까 가까이 오지 마세요",
+        "icon": "🚫",
+        "situation": "위험 구역",
+        "tags": ["위험", "금지", "안전"]
+      },
+      {
+        "id": "con-4",
+        "order": 4,
+        "korean": "작업장에 들어갑니다.",
+        "vietnamese": "Tôi vào khu làm việc.",
+        "chinese": "进入工地。",
+        "english": "Entering the work site.",
+        "phonetic": "작업장에 들어갑니다",
+        "icon": "🚧",
+        "situation": "현장 진입",
+        "tags": ["이동", "현장", "진입"]
+      },
+      {
+        "id": "con-5",
+        "order": 5,
+        "korean": "도구를 챙기세요.",
+        "vietnamese": "Lấy dụng cụ đi nhé.",
+        "chinese": "请带好工具。",
+        "english": "Take your tools.",
+        "phonetic": "도구를 챙기세요",
+        "icon": "🔨",
+        "situation": "작업 준비",
+        "tags": ["도구", "준비", "작업"]
+      }
+    ]
+  },
+  "service": {
+    "id": "service",
+    "name": "서비스직",
+    "nameVi": "Dịch vụ",
+    "icon": "🛍️",
+    "cards": [
+      {
+        "id": "svc-1",
+        "order": 1,
+        "korean": "어서 오세요.",
+        "vietnamese": "Xin chào quý khách.",
+        "chinese": "欢迎光临。",
+        "english": "Welcome.",
+        "phonetic": "어서 오세요",
+        "icon": "🙏",
+        "situation": "고객 맞이",
+        "tags": ["인사", "고객", "응대"]
+      },
+      {
+        "id": "svc-2",
+        "order": 2,
+        "korean": "결제 도와드릴게요.",
+        "vietnamese": "Tôi sẽ giúp bạn thanh toán.",
+        "chinese": "我来帮您结账。",
+        "english": "I'll help you with payment.",
+        "phonetic": "결제 도와드릴게요",
+        "icon": "💳",
+        "situation": "계산대",
+        "tags": ["결제", "도움", "계산"]
+      },
+      {
+        "id": "svc-3",
+        "order": 3,
+        "korean": "총 구천원입니다.",
+        "vietnamese": "Tổng cộng là 9,000 won.",
+        "chinese": "总共9000韩元。",
+        "english": "That's 9,000 won in total.",
+        "phonetic": "총 구천원입니다",
+        "icon": "💰",
+        "situation": "금액 안내",
+        "tags": ["금액", "계산", "안내"]
+      },
+      {
+        "id": "svc-4",
+        "order": 4,
+        "korean": "이 제품은 저쪽에 있어요.",
+        "vietnamese": "Sản phẩm này ở phía bên kia.",
+        "chinese": "这个产品在那边。",
+        "english": "This product is over there.",
+        "phonetic": "이 제품은 저쪽에 있어요",
+        "icon": "👉",
+        "situation": "위치 안내",
+        "tags": ["안내", "위치", "제품"]
+      },
+      {
+        "id": "svc-5",
+        "order": 5,
+        "korean": "감사합니다. 또 오세요.",
+        "vietnamese": "Cảm ơn. Hẹn gặp lại.",
+        "chinese": "谢谢，欢迎再来。",
+        "english": "Thank you. Please come again.",
+        "phonetic": "감사합니다 또 오세요",
+        "icon": "😊",
+        "situation": "배웅 인사",
+        "tags": ["인사", "감사", "배웅"]
+      }
+    ]
+  },
+  "hospital": {
+    "id": "hospital",
+    "name": "병원/생활",
+    "nameVi": "Bệnh viện/Cuộc sống",
+    "icon": "🏥",
+    "cards": [
+      {
+        "id": "hos-1",
+        "order": 1,
+        "korean": "예약하고 싶어요.",
+        "vietnamese": "Tôi muốn đặt lịch hẹn.",
+        "chinese": "我想预约。",
+        "english": "I'd like to make an appointment.",
+        "phonetic": "예약하고 싶어요",
+        "icon": "📅",
+        "situation": "병원 예약",
+        "tags": ["예약", "병원", "요청"]
+      },
+      {
+        "id": "hos-2",
+        "order": 2,
+        "korean": "배가 아파요.",
+        "vietnamese": "Tôi bị đau bụng.",
+        "chinese": "肚子疼。",
+        "english": "My stomach hurts.",
+        "phonetic": "배가 아파요",
+        "icon": "🤒",
+        "situation": "증상 설명",
+        "tags": ["증상", "아픔", "설명"]
+      },
+      {
+        "id": "hos-3",
+        "order": 3,
+        "korean": "기침이 나요.",
+        "vietnamese": "Tôi bị ho.",
+        "chinese": "我咳嗽。",
+        "english": "I have a cough.",
+        "phonetic": "기침이 나요",
+        "icon": "😷",
+        "situation": "증상 설명",
+        "tags": ["증상", "기침", "감기"]
+      },
+      {
+        "id": "hos-4",
+        "order": 4,
+        "korean": "약을 받으러 왔어요.",
+        "vietnamese": "Tôi đến lấy thuốc.",
+        "chinese": "我来取药。",
+        "english": "I came to pick up medicine.",
+        "phonetic": "약을 받으러 왔어요",
+        "icon": "💊",
+        "situation": "약국",
+        "tags": ["약", "수령", "약국"]
+      },
+      {
+        "id": "hos-5",
+        "order": 5,
+        "korean": "보험증이 있어요?",
+        "vietnamese": "Bạn có thẻ bảo hiểm không?",
+        "chinese": "有保险证吗？",
+        "english": "Do you have insurance?",
+        "phonetic": "보험증이 있어요",
+        "icon": "🏥",
+        "situation": "접수",
+        "tags": ["보험", "서류", "접수"]
+      }
+    ]
+  },
+  "market": {
+    "id": "market",
+    "name": "마트/매장",
+    "nameVi": "Siêu thị",
+    "icon": "🛒",
+    "cards": [
+      {
+        "id": "mkt-1",
+        "order": 1,
+        "korean": "상품을 정리하세요.",
+        "vietnamese": "Hãy sắp xếp hàng hóa.",
+        "chinese": "请整理商品。",
+        "english": "Please arrange the products.",
+        "phonetic": "상품을 정리하세요",
+        "icon": "📦",
+        "situation": "진열 작업",
+        "tags": ["정리", "진열", "작업"]
+      },
+      {
+        "id": "mkt-2",
+        "order": 2,
+        "korean": "카드로 결제하세요.",
+        "vietnamese": "Thanh toán bằng thẻ.",
+        "chinese": "请刷卡支付。",
+        "english": "Please pay by card.",
+        "phonetic": "카드로 결제하세요",
+        "icon": "💳",
+        "situation": "계산",
+        "tags": ["결제", "카드", "계산"]
+      },
+      {
+        "id": "mkt-3",
+        "order": 3,
+        "korean": "이번 진열대에 있어요.",
+        "vietnamese": "Ở kệ hàng số 2.",
+        "chinese": "在2号货架。",
+        "english": "It's on aisle 2.",
+        "phonetic": "이번 진열대에 있어요",
+        "icon": "🏪",
+        "situation": "위치 안내",
+        "tags": ["위치", "안내", "진열대"]
+      },
+      {
+        "id": "mkt-4",
+        "order": 4,
+        "korean": "재고가 없어요.",
+        "vietnamese": "Hết hàng rồi.",
+        "chinese": "没有库存了。",
+        "english": "Out of stock.",
+        "phonetic": "재고가 없어요",
+        "icon": "📊",
+        "situation": "재고 확인",
+        "tags": ["재고", "품절", "안내"]
+      },
+      {
+        "id": "mkt-5",
+        "order": 5,
+        "korean": "봉투 필요하세요?",
+        "vietnamese": "Bạn cần túi không?",
+        "chinese": "需要袋子吗？",
+        "english": "Do you need a bag?",
+        "phonetic": "봉투 필요하세요",
+        "icon": "🛍️",
+        "situation": "계산대",
+        "tags": ["봉투", "질문", "서비스"]
+      }
+    ]
+  }
+}

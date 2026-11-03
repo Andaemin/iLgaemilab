@@ -1,0 +1,44 @@
+{
+  "name": "server",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "nodemon server.mjs",
+    "start": "node server.mjs",
+    "setup:db": "node scripts/setup-database.js",
+    "seed": "node src/seeders/index.js",
+    "seed:leveltest": "node src/seeders/levelTestSeeder.js",
+    "dev:express": "gen-express-app dev .express/www.js",
+    "start:express": "gen-express-app start .express/www.js"
+  },
+  "dependencies": {
+    "bcrypt": "^6.0.0",
+    "cookie-parser": "~1.4.4",
+    "cors": "^2.8.5",
+    "debug": "~2.6.9",
+    "dirname-filename-esm": "^1.1.1",
+    "dotenv": "^16.3.1",
+    "ejs": "~2.6.1",
+    "express": "~4.16.1",
+    "express-validator": "^7.2.1",
+    "form-data": "^4.0.4",
+    "hbs": "~4.0.4",
+    "http-errors": "~1.6.3",
+    "jsonwebtoken": "^9.0.2",
+    "morgan": "~1.9.1",
+    "multer": "^2.0.2",
+    "mysql2": "^3.14.5",
+    "node-fetch": "^2.7.0",
+    "openai": "^4.104.0",
+    "pug": "2.0.0-beta11",
+    "sequelize": "^6.37.7",
+    "sequelize-cli": "^6.6.3",
+    "uuid": "^13.0.0",
+    "ws": "^8.18.3"
+  },
+  "devDependencies": {
+    "gen-express-app": "^0.2.5",
+    "nodemon": "^3.0.1"
+  }
+}

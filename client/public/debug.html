@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Debug Page</title>
+    <style>
+        body {
+            font-family: monospace;
+            padding: 20px;
+            background: #f5f5f5;
+        }
+        .status {
+            padding: 10px;
+            margin: 10px 0;
+            border-radius: 5px;
+        }
+        .success { background: #d4edda; color: #155724; }
+        .error { background: #f8d7da; color: #721c24; }
+        .info { background: #d1ecf1; color: #0c5460; }
+        pre {
+            background: white;
+            padding: 10px;
+            border-radius: 5px;
+            overflow-x: auto;
+        }
+    </style>
+</head>
+<body>
+    <h1>일개미랩 디버그 페이지</h1>
+
+    <div class="status info">
+        <h3>1. HTML 렌더링 테스트</h3>
+        <p>✅ HTML이 정상적으로 로드되었습니다.</p>
+    </div>
+
+    <div id="js-test" class="status">
+        <h3>2. JavaScript 실행 테스트</h3>
+        <p>테스트 중...</p>
+    </div>
+
+    <div id="api-test" class="status">
+        <h3>3. API 연결 테스트</h3>
+        <p>테스트 중...</p>
+    </div>
+
+    <div id="vite-test" class="status">
+        <h3>4. Vite Dev Server 테스트</h3>
+        <p>테스트 중...</p>
+    </div>
+
+    <h2>콘솔 로그:</h2>
+    <pre id="console-log"></pre>
+
+    <script>
+        const log = (msg, type = 'info') => {
+            const logEl = document.getElementById('console-log');
+            const time = new Date().toLocaleTimeString();
+            logEl.innerHTML += `[${time}] ${type.toUpperCase()}: ${msg}\n`;
+            console.log(`[${type}]`, msg);
+        };
+
+        // JavaScript 테스트
+        try {
+            document.getElementById('js-test').className = 'status success';
+            document.getElementById('js-test').querySelector('p').textContent = '✅ JavaScript가 정상 실행됩니다.';
+            log('JavaScript 실행 성공');
+        } catch (e) {
+            document.getElementById('js-test').className = 'status error';
+            document.getElementById('js-test').querySelector('p').textContent = '❌ JavaScript 에러: ' + e.message;
+            log('JavaScript 에러: ' + e.message, 'error');
+        }
+
+        // API 테스트
+        fetch('http://localhost:3031/api/auth/me')
+            .then(res => {
+                log(`API 응답 상태: ${res.status}`);
+                if (res.ok || res.status === 401) {
+                    document.getElementById('api-test').className = 'status success';
+                    document.getElementById('api-test').querySelector('p').textContent = `✅ API 서버 연결 성공 (상태: ${res.status})`;
+                } else {
+                    throw new Error(`API 응답 에러: ${res.status}`);
+                }
+                return res.json();
+            })
+            .then(data => {
+                log('API 응답: ' + JSON.stringify(data));
+            })
+            .catch(err => {
+                document.getElementById('api-test').className = 'status error';
+                document.getElementById('api-test').querySelector('p').textContent = '❌ API 연결 실패: ' + err.message;
+                log('API 에러: ' + err.message, 'error');
+            });
+
+        // Vite Dev Server 테스트
+        fetch('http://localhost:5288/@vite/client')
+            .then(res => {
+                if (res.ok) {
+                    document.getElementById('vite-test').className = 'status success';
+                    document.getElementById('vite-test').querySelector('p').textContent = '✅ Vite Dev Server 연결 성공';
+                    log('Vite Dev Server 연결 성공');
+                } else {
+                    throw new Error(`Vite 응답 에러: ${res.status}`);
+                }
+            })
+            .catch(err => {
+                document.getElementById('vite-test').className = 'status error';
+                document.getElementById('vite-test').querySelector('p').textContent = '❌ Vite Dev Server 연결 실패: ' + err.message;
+                log('Vite 에러: ' + err.message, 'error');
+            });
+
+        // 페이지 정보
+        log('현재 URL: ' + window.location.href);
+        log('User Agent: ' + navigator.userAgent);
+    </script>
+</body>
+</html>

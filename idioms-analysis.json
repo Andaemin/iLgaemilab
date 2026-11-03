@@ -1,0 +1,5757 @@
+{
+  "totalIdioms": 87,
+  "connections": {
+    "1": [
+      {
+        "id": 16,
+        "word": "망양지탄",
+        "commonChars": [
+          "망"
+        ]
+      },
+      {
+        "id": 48,
+        "word": "진퇴양난",
+        "commonChars": [
+          "난"
+        ]
+      },
+      {
+        "id": 61,
+        "word": "백골난망",
+        "commonChars": [
+          "골",
+          "난",
+          "망"
+        ]
+      },
+      {
+        "id": 64,
+        "word": "교각살우",
+        "commonChars": [
+          "각"
+        ]
+      }
+    ],
+    "2": [
+      {
+        "id": 4,
+        "word": "고진감래",
+        "commonChars": [
+          "감"
+        ]
+      },
+      {
+        "id": 26,
+        "word": "설상가상",
+        "commonChars": [
+          "설"
+        ]
+      },
+      {
+        "id": 33,
+        "word": "언행일치",
+        "commonChars": [
+          "언"
+        ]
+      },
+      {
+        "id": 38,
+        "word": "이심전심",
+        "commonChars": [
+          "이"
+        ]
+      },
+      {
+        "id": 39,
+        "word": "일석이조",
+        "commonChars": [
+          "이"
+        ]
+      },
+      {
+        "id": 72,
+        "word": "대동소이",
+        "commonChars": [
+          "이"
+        ]
+      },
+      {
+        "id": 83,
+        "word": "오비이락",
+        "commonChars": [
+          "이"
+        ]
+      }
+    ],
+    "3": [
+      {
+        "id": 19,
+        "word": "무용지물",
+        "commonChars": [
+          "물"
+        ]
+      },
+      {
+        "id": 38,
+        "word": "이심전심",
+        "commonChars": [
+          "심"
+        ]
+      },
+      {
+        "id": 41,
+        "word": "작심삼일",
+        "commonChars": [
+          "심"
+        ]
+      },
+      {
+        "id": 74,
+        "word": "견리사의",
+        "commonChars": [
+          "견"
+        ]
+      },
+      {
+        "id": 84,
+        "word": "절치부심",
+        "commonChars": [
+          "심"
+        ]
+      },
+      {
+        "id": 87,
+        "word": "견강부회",
+        "commonChars": [
+          "견"
+        ]
+      }
+    ],
+    "4": [
+      {
+        "id": 2,
+        "word": "감언이설",
+        "commonChars": [
+          "감"
+        ]
+      },
+      {
+        "id": 8,
+        "word": "기고만장",
+        "commonChars": [
+          "고"
+        ]
+      },
+      {
+        "id": 44,
+        "word": "천고마비",
+        "commonChars": [
+          "고"
+        ]
+      },
+      {
+        "id": 48,
+        "word": "진퇴양난",
+        "commonChars": [
+          "진"
+        ]
+      },
+      {
+        "id": 77,
+        "word": "죽마고우",
+        "commonChars": [
+          "고"
+        ]
+      }
+    ],
+    "5": [
+      {
+        "id": 22,
+        "word": "불편부당",
+        "commonChars": [
+          "불"
+        ]
+      },
+      {
+        "id": 36,
+        "word": "우유부단",
+        "commonChars": [
+          "유"
+        ]
+      },
+      {
+        "id": 37,
+        "word": "유유자적",
+        "commonChars": [
+          "유"
+        ]
+      },
+      {
+        "id": 59,
+        "word": "명불허전",
+        "commonChars": [
+          "불"
+        ]
+      },
+      {
+        "id": 69,
+        "word": "분서갱유",
+        "commonChars": [
+          "유"
+        ]
+      },
+      {
+        "id": 73,
+        "word": "붕우유신",
+        "commonChars": [
+          "유"
+        ]
+      },
+      {
+        "id": 81,
+        "word": "목불식정",
+        "commonChars": [
+          "불"
+        ]
+      },
+      {
+        "id": 85,
+        "word": "불치하문",
+        "commonChars": [
+          "불"
+        ]
+      }
+    ],
+    "6": [
+      {
+        "id": 21,
+        "word": "박학다식",
+        "commonChars": [
+          "학"
+        ]
+      },
+      {
+        "id": 33,
+        "word": "언행일치",
+        "commonChars": [
+          "일"
+        ]
+      },
+      {
+        "id": 39,
+        "word": "일석이조",
+        "commonChars": [
+          "일"
+        ]
+      },
+      {
+        "id": 41,
+        "word": "작심삼일",
+        "commonChars": [
+          "일"
+        ]
+      },
+      {
+        "id": 47,
+        "word": "문일지십",
+        "commonChars": [
+          "일"
+        ]
+      },
+      {
+        "id": 53,
+        "word": "백년대계",
+        "commonChars": [
+          "계"
+        ]
+      },
+      {
+        "id": 57,
+        "word": "구우일모",
+        "commonChars": [
+          "일"
+        ]
+      },
+      {
+        "id": 62,
+        "word": "십시일반",
+        "commonChars": [
+          "일"
+        ]
+      }
+    ],
+    "7": [
+      {
+        "id": 11,
+        "word": "다다익선",
+        "commonChars": [
+          "선"
+        ]
+      }
+    ],
+    "8": [
+      {
+        "id": 4,
+        "word": "고진감래",
+        "commonChars": [
+          "고"
+        ]
+      },
+      {
+        "id": 9,
+        "word": "기암괴석",
+        "commonChars": [
+          "기"
+        ]
+      },
+      {
+        "id": 15,
+        "word": "만시지탄",
+        "commonChars": [
+          "만"
+        ]
+      },
+      {
+        "id": 28,
+        "word": "승승장구",
+        "commonChars": [
+          "장"
+        ]
+      },
+      {
+        "id": 44,
+        "word": "천고마비",
+        "commonChars": [
+          "고"
+        ]
+      },
+      {
+        "id": 46,
+        "word": "호연지기",
+        "commonChars": [
+          "기"
+        ]
+      },
+      {
+        "id": 51,
+        "word": "적반하장",
+        "commonChars": [
+          "장"
+        ]
+      },
+      {
+        "id": 77,
+        "word": "죽마고우",
+        "commonChars": [
+          "고"
+        ]
+      }
+    ],
+    "9": [
+      {
+        "id": 8,
+        "word": "기고만장",
+        "commonChars": [
+          "기"
+        ]
+      },
+      {
+        "id": 39,
+        "word": "일석이조",
+        "commonChars": [
+          "석"
+        ]
+      },
+      {
+        "id": 46,
+        "word": "호연지기",
+        "commonChars": [
+          "기"
+        ]
+      },
+      {
+        "id": 86,
+        "word": "타산지석",
+        "commonChars": [
+          "석"
+        ]
+      }
+    ],
+    "10": [
+      {
+        "id": 36,
+        "word": "우유부단",
+        "commonChars": [
+          "우"
+        ]
+      },
+      {
+        "id": 57,
+        "word": "구우일모",
+        "commonChars": [
+          "우"
+        ]
+      },
+      {
+        "id": 64,
+        "word": "교각살우",
+        "commonChars": [
+          "우"
+        ]
+      },
+      {
+        "id": 68,
+        "word": "우문현답",
+        "commonChars": [
+          "우"
+        ]
+      },
+      {
+        "id": 73,
+        "word": "붕우유신",
+        "commonChars": [
+          "우"
+        ]
+      },
+      {
+        "id": 77,
+        "word": "죽마고우",
+        "commonChars": [
+          "우"
+        ]
+      }
+    ],
+    "11": [
+      {
+        "id": 7,
+        "word": "권선징악",
+        "commonChars": [
+          "선"
+        ]
+      },
+      {
+        "id": 21,
+        "word": "박학다식",
+        "commonChars": [
+          "다"
+        ]
+      }
+    ],
+    "12": [
+      {
+        "id": 13,
+        "word": "동병상련",
+        "commonChars": [
+          "동"
+        ]
+      },
+      {
+        "id": 20,
+        "word": "문전성시",
+        "commonChars": [
+          "문"
+        ]
+      },
+      {
+        "id": 47,
+        "word": "문일지십",
+        "commonChars": [
+          "문"
+        ]
+      },
+      {
+        "id": 56,
+        "word": "부화뇌동",
+        "commonChars": [
+          "동"
+        ]
+      },
+      {
+        "id": 68,
+        "word": "우문현답",
+        "commonChars": [
+          "문",
+          "답"
+        ]
+      },
+      {
+        "id": 69,
+        "word": "분서갱유",
+        "commonChars": [
+          "서"
+        ]
+      },
+      {
+        "id": 71,
+        "word": "표리부동",
+        "commonChars": [
+          "동"
+        ]
+      },
+      {
+        "id": 72,
+        "word": "대동소이",
+        "commonChars": [
+          "동"
+        ]
+      },
+      {
+        "id": 75,
+        "word": "동분서주",
+        "commonChars": [
+          "동",
+          "서"
+        ]
+      },
+      {
+        "id": 85,
+        "word": "불치하문",
+        "commonChars": [
+          "문"
+        ]
+      }
+    ],
+    "13": [
+      {
+        "id": 12,
+        "word": "동문서답",
+        "commonChars": [
+          "동"
+        ]
+      },
+      {
+        "id": 14,
+        "word": "막상막하",
+        "commonChars": [
+          "상"
+        ]
+      },
+      {
+        "id": 17,
+        "word": "명실상부",
+        "commonChars": [
+          "상"
+        ]
+      },
+      {
+        "id": 26,
+        "word": "설상가상",
+        "commonChars": [
+          "상"
+        ]
+      },
+      {
+        "id": 49,
+        "word": "괄목상대",
+        "commonChars": [
+          "상"
+        ]
+      },
+      {
+        "id": 54,
+        "word": "와신상담",
+        "commonChars": [
+          "상"
+        ]
+      },
+      {
+        "id": 56,
+        "word": "부화뇌동",
+        "commonChars": [
+          "동"
+        ]
+      },
+      {
+        "id": 66,
+        "word": "간담상조",
+        "commonChars": [
+          "상"
+        ]
+      },
+      {
+        "id": 71,
+        "word": "표리부동",
+        "commonChars": [
+          "동"
+        ]
+      },
+      {
+        "id": 72,
+        "word": "대동소이",
+        "commonChars": [
+          "동"
+        ]
+      },
+      {
+        "id": 75,
+        "word": "동분서주",
+        "commonChars": [
+          "동"
+        ]
+      },
+      {
+        "id": 80,
+        "word": "상전벽해",
+        "commonChars": [
+          "상"
+        ]
+      }
+    ],
+    "14": [
+      {
+        "id": 13,
+        "word": "동병상련",
+        "commonChars": [
+          "상"
+        ]
+      },
+      {
+        "id": 17,
+        "word": "명실상부",
+        "commonChars": [
+          "상"
+        ]
+      },
+      {
+        "id": 26,
+        "word": "설상가상",
+        "commonChars": [
+          "상"
+        ]
+      },
+      {
+        "id": 30,
+        "word": "안하무인",
+        "commonChars": [
+          "하"
+        ]
+      },
+      {
+        "id": 49,
+        "word": "괄목상대",
+        "commonChars": [
+          "상"
+        ]
+      },
+      {
+        "id": 51,
+        "word": "적반하장",
+        "commonChars": [
+          "하"
+        ]
+      },
+      {
+        "id": 54,
+        "word": "와신상담",
+        "commonChars": [
+          "상"
+        ]
+      },
+      {
+        "id": 66,
+        "word": "간담상조",
+        "commonChars": [
+          "상"
+        ]
+      },
+      {
+        "id": 80,
+        "word": "상전벽해",
+        "commonChars": [
+          "상"
+        ]
+      },
+      {
+        "id": 85,
+        "word": "불치하문",
+        "commonChars": [
+          "하"
+        ]
+      }
+    ],
+    "15": [
+      {
+        "id": 8,
+        "word": "기고만장",
+        "commonChars": [
+          "만"
+        ]
+      },
+      {
+        "id": 16,
+        "word": "망양지탄",
+        "commonChars": [
+          "지",
+          "탄"
+        ]
+      },
+      {
+        "id": 19,
+        "word": "무용지물",
+        "commonChars": [
+          "지"
+        ]
+      },
+      {
+        "id": 20,
+        "word": "문전성시",
+        "commonChars": [
+          "시"
+        ]
+      },
+      {
+        "id": 25,
+        "word": "새옹지마",
+        "commonChars": [
+          "지"
+        ]
+      },
+      {
+        "id": 34,
+        "word": "역지사지",
+        "commonChars": [
+          "지"
+        ]
+      },
+      {
+        "id": 46,
+        "word": "호연지기",
+        "commonChars": [
+          "지"
+        ]
+      },
+      {
+        "id": 47,
+        "word": "문일지십",
+        "commonChars": [
+          "지"
+        ]
+      },
+      {
+        "id": 52,
+        "word": "금지옥엽",
+        "commonChars": [
+          "지"
+        ]
+      },
+      {
+        "id": 55,
+        "word": "어부지리",
+        "commonChars": [
+          "지"
+        ]
+      },
+      {
+        "id": 62,
+        "word": "십시일반",
+        "commonChars": [
+          "시"
+        ]
+      },
+      {
+        "id": 70,
+        "word": "맥수지탄",
+        "commonChars": [
+          "지",
+          "탄"
+        ]
+      },
+      {
+        "id": 78,
+        "word": "관포지교",
+        "commonChars": [
+          "지"
+        ]
+      },
+      {
+        "id": 86,
+        "word": "타산지석",
+        "commonChars": [
+          "지"
+        ]
+      }
+    ],
+    "16": [
+      {
+        "id": 1,
+        "word": "각골난망",
+        "commonChars": [
+          "망"
+        ]
+      },
+      {
+        "id": 15,
+        "word": "만시지탄",
+        "commonChars": [
+          "지",
+          "탄"
+        ]
+      },
+      {
+        "id": 19,
+        "word": "무용지물",
+        "commonChars": [
+          "지"
+        ]
+      },
+      {
+        "id": 25,
+        "word": "새옹지마",
+        "commonChars": [
+          "지"
+        ]
+      },
+      {
+        "id": 32,
+        "word": "양두구육",
+        "commonChars": [
+          "양"
+        ]
+      },
+      {
+        "id": 34,
+        "word": "역지사지",
+        "commonChars": [
+          "지"
+        ]
+      },
+      {
+        "id": 46,
+        "word": "호연지기",
+        "commonChars": [
+          "지"
+        ]
+      },
+      {
+        "id": 47,
+        "word": "문일지십",
+        "commonChars": [
+          "지"
+        ]
+      },
+      {
+        "id": 48,
+        "word": "진퇴양난",
+        "commonChars": [
+          "양"
+        ]
+      },
+      {
+        "id": 52,
+        "word": "금지옥엽",
+        "commonChars": [
+          "지"
+        ]
+      },
+      {
+        "id": 55,
+        "word": "어부지리",
+        "commonChars": [
+          "지"
+        ]
+      },
+      {
+        "id": 61,
+        "word": "백골난망",
+        "commonChars": [
+          "망"
+        ]
+      },
+      {
+        "id": 70,
+        "word": "맥수지탄",
+        "commonChars": [
+          "지",
+          "탄"
+        ]
+      },
+      {
+        "id": 78,
+        "word": "관포지교",
+        "commonChars": [
+          "지"
+        ]
+      },
+      {
+        "id": 86,
+        "word": "타산지석",
+        "commonChars": [
+          "지"
+        ]
+      }
+    ],
+    "17": [
+      {
+        "id": 13,
+        "word": "동병상련",
+        "commonChars": [
+          "상"
+        ]
+      },
+      {
+        "id": 14,
+        "word": "막상막하",
+        "commonChars": [
+          "상"
+        ]
+      },
+      {
+        "id": 22,
+        "word": "불편부당",
+        "commonChars": [
+          "부"
+        ]
+      },
+      {
+        "id": 26,
+        "word": "설상가상",
+        "commonChars": [
+          "상"
+        ]
+      },
+      {
+        "id": 36,
+        "word": "우유부단",
+        "commonChars": [
+          "부"
+        ]
+      },
+      {
+        "id": 49,
+        "word": "괄목상대",
+        "commonChars": [
+          "상"
+        ]
+      },
+      {
+        "id": 54,
+        "word": "와신상담",
+        "commonChars": [
+          "상"
+        ]
+      },
+      {
+        "id": 55,
+        "word": "어부지리",
+        "commonChars": [
+          "부"
+        ]
+      },
+      {
+        "id": 56,
+        "word": "부화뇌동",
+        "commonChars": [
+          "부"
+        ]
+      },
+      {
+        "id": 59,
+        "word": "명불허전",
+        "commonChars": [
+          "명"
+        ]
+      },
+      {
+        "id": 60,
+        "word": "명약관화",
+        "commonChars": [
+          "명"
+        ]
+      },
+      {
+        "id": 66,
+        "word": "간담상조",
+        "commonChars": [
+          "상"
+        ]
+      },
+      {
+        "id": 71,
+        "word": "표리부동",
+        "commonChars": [
+          "부"
+        ]
+      },
+      {
+        "id": 80,
+        "word": "상전벽해",
+        "commonChars": [
+          "상"
+        ]
+      },
+      {
+        "id": 84,
+        "word": "절치부심",
+        "commonChars": [
+          "부"
+        ]
+      },
+      {
+        "id": 87,
+        "word": "견강부회",
+        "commonChars": [
+          "부"
+        ]
+      }
+    ],
+    "18": [
+      {
+        "id": 23,
+        "word": "사면초가",
+        "commonChars": [
+          "사"
+        ]
+      },
+      {
+        "id": 28,
+        "word": "승승장구",
+        "commonChars": [
+          "구"
+        ]
+      },
+      {
+        "id": 32,
+        "word": "양두구육",
+        "commonChars": [
+          "구"
+        ]
+      },
+      {
+        "id": 34,
+        "word": "역지사지",
+        "commonChars": [
+          "사"
+        ]
+      },
+      {
+        "id": 42,
+        "word": "조삼모사",
+        "commonChars": [
+          "사"
+        ]
+      },
+      {
+        "id": 57,
+        "word": "구우일모",
+        "commonChars": [
+          "구"
+        ]
+      },
+      {
+        "id": 63,
+        "word": "사필귀정",
+        "commonChars": [
+          "사"
+        ]
+      },
+      {
+        "id": 74,
+        "word": "견리사의",
+        "commonChars": [
+          "사"
+        ]
+      },
+      {
+        "id": 82,
+        "word": "연목구어",
+        "commonChars": [
+          "구"
+        ]
+      }
+    ],
+    "19": [
+      {
+        "id": 3,
+        "word": "견물생심",
+        "commonChars": [
+          "물"
+        ]
+      },
+      {
+        "id": 15,
+        "word": "만시지탄",
+        "commonChars": [
+          "지"
+        ]
+      },
+      {
+        "id": 16,
+        "word": "망양지탄",
+        "commonChars": [
+          "지"
+        ]
+      },
+      {
+        "id": 25,
+        "word": "새옹지마",
+        "commonChars": [
+          "지"
+        ]
+      },
+      {
+        "id": 30,
+        "word": "안하무인",
+        "commonChars": [
+          "무"
+        ]
+      },
+      {
+        "id": 34,
+        "word": "역지사지",
+        "commonChars": [
+          "지"
+        ]
+      },
+      {
+        "id": 35,
+        "word": "오리무중",
+        "commonChars": [
+          "무"
+        ]
+      },
+      {
+        "id": 46,
+        "word": "호연지기",
+        "commonChars": [
+          "지"
+        ]
+      },
+      {
+        "id": 47,
+        "word": "문일지십",
+        "commonChars": [
+          "지"
+        ]
+      },
+      {
+        "id": 52,
+        "word": "금지옥엽",
+        "commonChars": [
+          "지"
+        ]
+      },
+      {
+        "id": 55,
+        "word": "어부지리",
+        "commonChars": [
+          "지"
+        ]
+      },
+      {
+        "id": 70,
+        "word": "맥수지탄",
+        "commonChars": [
+          "지"
+        ]
+      },
+      {
+        "id": 78,
+        "word": "관포지교",
+        "commonChars": [
+          "지"
+        ]
+      },
+      {
+        "id": 86,
+        "word": "타산지석",
+        "commonChars": [
+          "지"
+        ]
+      }
+    ],
+    "20": [
+      {
+        "id": 12,
+        "word": "동문서답",
+        "commonChars": [
+          "문"
+        ]
+      },
+      {
+        "id": 15,
+        "word": "만시지탄",
+        "commonChars": [
+          "시"
+        ]
+      },
+      {
+        "id": 24,
+        "word": "산전수전",
+        "commonChars": [
+          "전"
+        ]
+      },
+      {
+        "id": 29,
+        "word": "아전인수",
+        "commonChars": [
+          "전"
+        ]
+      },
+      {
+        "id": 38,
+        "word": "이심전심",
+        "commonChars": [
+          "전"
+        ]
+      },
+      {
+        "id": 47,
+        "word": "문일지십",
+        "commonChars": [
+          "문"
+        ]
+      },
+      {
+        "id": 59,
+        "word": "명불허전",
+        "commonChars": [
+          "전"
+        ]
+      },
+      {
+        "id": 62,
+        "word": "십시일반",
+        "commonChars": [
+          "시"
+        ]
+      },
+      {
+        "id": 68,
+        "word": "우문현답",
+        "commonChars": [
+          "문"
+        ]
+      },
+      {
+        "id": 80,
+        "word": "상전벽해",
+        "commonChars": [
+          "전"
+        ]
+      },
+      {
+        "id": 85,
+        "word": "불치하문",
+        "commonChars": [
+          "문"
+        ]
+      }
+    ],
+    "21": [
+      {
+        "id": 6,
+        "word": "군계일학",
+        "commonChars": [
+          "학"
+        ]
+      },
+      {
+        "id": 11,
+        "word": "다다익선",
+        "commonChars": [
+          "다"
+        ]
+      },
+      {
+        "id": 31,
+        "word": "약육강식",
+        "commonChars": [
+          "식"
+        ]
+      },
+      {
+        "id": 81,
+        "word": "목불식정",
+        "commonChars": [
+          "식"
+        ]
+      }
+    ],
+    "22": [
+      {
+        "id": 5,
+        "word": "과유불급",
+        "commonChars": [
+          "불"
+        ]
+      },
+      {
+        "id": 17,
+        "word": "명실상부",
+        "commonChars": [
+          "부"
+        ]
+      },
+      {
+        "id": 36,
+        "word": "우유부단",
+        "commonChars": [
+          "부"
+        ]
+      },
+      {
+        "id": 55,
+        "word": "어부지리",
+        "commonChars": [
+          "부"
+        ]
+      },
+      {
+        "id": 56,
+        "word": "부화뇌동",
+        "commonChars": [
+          "부"
+        ]
+      },
+      {
+        "id": 59,
+        "word": "명불허전",
+        "commonChars": [
+          "불"
+        ]
+      },
+      {
+        "id": 71,
+        "word": "표리부동",
+        "commonChars": [
+          "부"
+        ]
+      },
+      {
+        "id": 79,
+        "word": "자가당착",
+        "commonChars": [
+          "당"
+        ]
+      },
+      {
+        "id": 81,
+        "word": "목불식정",
+        "commonChars": [
+          "불"
+        ]
+      },
+      {
+        "id": 84,
+        "word": "절치부심",
+        "commonChars": [
+          "부"
+        ]
+      },
+      {
+        "id": 85,
+        "word": "불치하문",
+        "commonChars": [
+          "불"
+        ]
+      },
+      {
+        "id": 87,
+        "word": "견강부회",
+        "commonChars": [
+          "부"
+        ]
+      }
+    ],
+    "23": [
+      {
+        "id": 18,
+        "word": "미사여구",
+        "commonChars": [
+          "사"
+        ]
+      },
+      {
+        "id": 26,
+        "word": "설상가상",
+        "commonChars": [
+          "가"
+        ]
+      },
+      {
+        "id": 34,
+        "word": "역지사지",
+        "commonChars": [
+          "사"
+        ]
+      },
+      {
+        "id": 42,
+        "word": "조삼모사",
+        "commonChars": [
+          "사"
+        ]
+      },
+      {
+        "id": 63,
+        "word": "사필귀정",
+        "commonChars": [
+          "사"
+        ]
+      },
+      {
+        "id": 67,
+        "word": "결초보은",
+        "commonChars": [
+          "초"
+        ]
+      },
+      {
+        "id": 74,
+        "word": "견리사의",
+        "commonChars": [
+          "사"
+        ]
+      },
+      {
+        "id": 79,
+        "word": "자가당착",
+        "commonChars": [
+          "가"
+        ]
+      }
+    ],
+    "24": [
+      {
+        "id": 20,
+        "word": "문전성시",
+        "commonChars": [
+          "전"
+        ]
+      },
+      {
+        "id": 27,
+        "word": "수수방관",
+        "commonChars": [
+          "수"
+        ]
+      },
+      {
+        "id": 29,
+        "word": "아전인수",
+        "commonChars": [
+          "전",
+          "수"
+        ]
+      },
+      {
+        "id": 38,
+        "word": "이심전심",
+        "commonChars": [
+          "전"
+        ]
+      },
+      {
+        "id": 59,
+        "word": "명불허전",
+        "commonChars": [
+          "전"
+        ]
+      },
+      {
+        "id": 70,
+        "word": "맥수지탄",
+        "commonChars": [
+          "수"
+        ]
+      },
+      {
+        "id": 80,
+        "word": "상전벽해",
+        "commonChars": [
+          "전"
+        ]
+      },
+      {
+        "id": 86,
+        "word": "타산지석",
+        "commonChars": [
+          "산"
+        ]
+      }
+    ],
+    "25": [
+      {
+        "id": 15,
+        "word": "만시지탄",
+        "commonChars": [
+          "지"
+        ]
+      },
+      {
+        "id": 16,
+        "word": "망양지탄",
+        "commonChars": [
+          "지"
+        ]
+      },
+      {
+        "id": 19,
+        "word": "무용지물",
+        "commonChars": [
+          "지"
+        ]
+      },
+      {
+        "id": 34,
+        "word": "역지사지",
+        "commonChars": [
+          "지"
+        ]
+      },
+      {
+        "id": 44,
+        "word": "천고마비",
+        "commonChars": [
+          "마"
+        ]
+      },
+      {
+        "id": 46,
+        "word": "호연지기",
+        "commonChars": [
+          "지"
+        ]
+      },
+      {
+        "id": 47,
+        "word": "문일지십",
+        "commonChars": [
+          "지"
+        ]
+      },
+      {
+        "id": 52,
+        "word": "금지옥엽",
+        "commonChars": [
+          "지"
+        ]
+      },
+      {
+        "id": 55,
+        "word": "어부지리",
+        "commonChars": [
+          "지"
+        ]
+      },
+      {
+        "id": 70,
+        "word": "맥수지탄",
+        "commonChars": [
+          "지"
+        ]
+      },
+      {
+        "id": 77,
+        "word": "죽마고우",
+        "commonChars": [
+          "마"
+        ]
+      },
+      {
+        "id": 78,
+        "word": "관포지교",
+        "commonChars": [
+          "지"
+        ]
+      },
+      {
+        "id": 86,
+        "word": "타산지석",
+        "commonChars": [
+          "지"
+        ]
+      }
+    ],
+    "26": [
+      {
+        "id": 2,
+        "word": "감언이설",
+        "commonChars": [
+          "설"
+        ]
+      },
+      {
+        "id": 13,
+        "word": "동병상련",
+        "commonChars": [
+          "상"
+        ]
+      },
+      {
+        "id": 14,
+        "word": "막상막하",
+        "commonChars": [
+          "상"
+        ]
+      },
+      {
+        "id": 17,
+        "word": "명실상부",
+        "commonChars": [
+          "상"
+        ]
+      },
+      {
+        "id": 23,
+        "word": "사면초가",
+        "commonChars": [
+          "가"
+        ]
+      },
+      {
+        "id": 49,
+        "word": "괄목상대",
+        "commonChars": [
+          "상"
+        ]
+      },
+      {
+        "id": 54,
+        "word": "와신상담",
+        "commonChars": [
+          "상"
+        ]
+      },
+      {
+        "id": 66,
+        "word": "간담상조",
+        "commonChars": [
+          "상"
+        ]
+      },
+      {
+        "id": 79,
+        "word": "자가당착",
+        "commonChars": [
+          "가"
+        ]
+      },
+      {
+        "id": 80,
+        "word": "상전벽해",
+        "commonChars": [
+          "상"
+        ]
+      }
+    ],
+    "27": [
+      {
+        "id": 24,
+        "word": "산전수전",
+        "commonChars": [
+          "수"
+        ]
+      },
+      {
+        "id": 29,
+        "word": "아전인수",
+        "commonChars": [
+          "수"
+        ]
+      },
+      {
+        "id": 60,
+        "word": "명약관화",
+        "commonChars": [
+          "관"
+        ]
+      },
+      {
+        "id": 70,
+        "word": "맥수지탄",
+        "commonChars": [
+          "수"
+        ]
+      },
+      {
+        "id": 78,
+        "word": "관포지교",
+        "commonChars": [
+          "관"
+        ]
+      }
+    ],
+    "28": [
+      {
+        "id": 8,
+        "word": "기고만장",
+        "commonChars": [
+          "장"
+        ]
+      },
+      {
+        "id": 18,
+        "word": "미사여구",
+        "commonChars": [
+          "구"
+        ]
+      },
+      {
+        "id": 32,
+        "word": "양두구육",
+        "commonChars": [
+          "구"
+        ]
+      },
+      {
+        "id": 51,
+        "word": "적반하장",
+        "commonChars": [
+          "장"
+        ]
+      },
+      {
+        "id": 57,
+        "word": "구우일모",
+        "commonChars": [
+          "구"
+        ]
+      },
+      {
+        "id": 82,
+        "word": "연목구어",
+        "commonChars": [
+          "구"
+        ]
+      }
+    ],
+    "29": [
+      {
+        "id": 20,
+        "word": "문전성시",
+        "commonChars": [
+          "전"
+        ]
+      },
+      {
+        "id": 24,
+        "word": "산전수전",
+        "commonChars": [
+          "전",
+          "수"
+        ]
+      },
+      {
+        "id": 27,
+        "word": "수수방관",
+        "commonChars": [
+          "수"
+        ]
+      },
+      {
+        "id": 30,
+        "word": "안하무인",
+        "commonChars": [
+          "인"
+        ]
+      },
+      {
+        "id": 38,
+        "word": "이심전심",
+        "commonChars": [
+          "전"
+        ]
+      },
+      {
+        "id": 59,
+        "word": "명불허전",
+        "commonChars": [
+          "전"
+        ]
+      },
+      {
+        "id": 70,
+        "word": "맥수지탄",
+        "commonChars": [
+          "수"
+        ]
+      },
+      {
+        "id": 80,
+        "word": "상전벽해",
+        "commonChars": [
+          "전"
+        ]
+      }
+    ],
+    "30": [
+      {
+        "id": 14,
+        "word": "막상막하",
+        "commonChars": [
+          "하"
+        ]
+      },
+      {
+        "id": 19,
+        "word": "무용지물",
+        "commonChars": [
+          "무"
+        ]
+      },
+      {
+        "id": 29,
+        "word": "아전인수",
+        "commonChars": [
+          "인"
+        ]
+      },
+      {
+        "id": 35,
+        "word": "오리무중",
+        "commonChars": [
+          "무"
+        ]
+      },
+      {
+        "id": 51,
+        "word": "적반하장",
+        "commonChars": [
+          "하"
+        ]
+      },
+      {
+        "id": 85,
+        "word": "불치하문",
+        "commonChars": [
+          "하"
+        ]
+      }
+    ],
+    "31": [
+      {
+        "id": 21,
+        "word": "박학다식",
+        "commonChars": [
+          "식"
+        ]
+      },
+      {
+        "id": 32,
+        "word": "양두구육",
+        "commonChars": [
+          "육"
+        ]
+      },
+      {
+        "id": 60,
+        "word": "명약관화",
+        "commonChars": [
+          "약"
+        ]
+      },
+      {
+        "id": 81,
+        "word": "목불식정",
+        "commonChars": [
+          "식"
+        ]
+      },
+      {
+        "id": 87,
+        "word": "견강부회",
+        "commonChars": [
+          "강"
+        ]
+      }
+    ],
+    "32": [
+      {
+        "id": 16,
+        "word": "망양지탄",
+        "commonChars": [
+          "양"
+        ]
+      },
+      {
+        "id": 18,
+        "word": "미사여구",
+        "commonChars": [
+          "구"
+        ]
+      },
+      {
+        "id": 28,
+        "word": "승승장구",
+        "commonChars": [
+          "구"
+        ]
+      },
+      {
+        "id": 31,
+        "word": "약육강식",
+        "commonChars": [
+          "육"
+        ]
+      },
+      {
+        "id": 48,
+        "word": "진퇴양난",
+        "commonChars": [
+          "양"
+        ]
+      },
+      {
+        "id": 57,
+        "word": "구우일모",
+        "commonChars": [
+          "구"
+        ]
+      },
+      {
+        "id": 82,
+        "word": "연목구어",
+        "commonChars": [
+          "구"
+        ]
+      }
+    ],
+    "33": [
+      {
+        "id": 2,
+        "word": "감언이설",
+        "commonChars": [
+          "언"
+        ]
+      },
+      {
+        "id": 6,
+        "word": "군계일학",
+        "commonChars": [
+          "일"
+        ]
+      },
+      {
+        "id": 39,
+        "word": "일석이조",
+        "commonChars": [
+          "일"
+        ]
+      },
+      {
+        "id": 41,
+        "word": "작심삼일",
+        "commonChars": [
+          "일"
+        ]
+      },
+      {
+        "id": 47,
+        "word": "문일지십",
+        "commonChars": [
+          "일"
+        ]
+      },
+      {
+        "id": 57,
+        "word": "구우일모",
+        "commonChars": [
+          "일"
+        ]
+      },
+      {
+        "id": 62,
+        "word": "십시일반",
+        "commonChars": [
+          "일"
+        ]
+      },
+      {
+        "id": 84,
+        "word": "절치부심",
+        "commonChars": [
+          "치"
+        ]
+      },
+      {
+        "id": 85,
+        "word": "불치하문",
+        "commonChars": [
+          "치"
+        ]
+      }
+    ],
+    "34": [
+      {
+        "id": 15,
+        "word": "만시지탄",
+        "commonChars": [
+          "지"
+        ]
+      },
+      {
+        "id": 16,
+        "word": "망양지탄",
+        "commonChars": [
+          "지"
+        ]
+      },
+      {
+        "id": 18,
+        "word": "미사여구",
+        "commonChars": [
+          "사"
+        ]
+      },
+      {
+        "id": 19,
+        "word": "무용지물",
+        "commonChars": [
+          "지"
+        ]
+      },
+      {
+        "id": 23,
+        "word": "사면초가",
+        "commonChars": [
+          "사"
+        ]
+      },
+      {
+        "id": 25,
+        "word": "새옹지마",
+        "commonChars": [
+          "지"
+        ]
+      },
+      {
+        "id": 42,
+        "word": "조삼모사",
+        "commonChars": [
+          "사"
+        ]
+      },
+      {
+        "id": 46,
+        "word": "호연지기",
+        "commonChars": [
+          "지"
+        ]
+      },
+      {
+        "id": 47,
+        "word": "문일지십",
+        "commonChars": [
+          "지"
+        ]
+      },
+      {
+        "id": 52,
+        "word": "금지옥엽",
+        "commonChars": [
+          "지"
+        ]
+      },
+      {
+        "id": 55,
+        "word": "어부지리",
+        "commonChars": [
+          "지"
+        ]
+      },
+      {
+        "id": 63,
+        "word": "사필귀정",
+        "commonChars": [
+          "사"
+        ]
+      },
+      {
+        "id": 70,
+        "word": "맥수지탄",
+        "commonChars": [
+          "지"
+        ]
+      },
+      {
+        "id": 74,
+        "word": "견리사의",
+        "commonChars": [
+          "사"
+        ]
+      },
+      {
+        "id": 78,
+        "word": "관포지교",
+        "commonChars": [
+          "지"
+        ]
+      },
+      {
+        "id": 86,
+        "word": "타산지석",
+        "commonChars": [
+          "지"
+        ]
+      }
+    ],
+    "35": [
+      {
+        "id": 19,
+        "word": "무용지물",
+        "commonChars": [
+          "무"
+        ]
+      },
+      {
+        "id": 30,
+        "word": "안하무인",
+        "commonChars": [
+          "무"
+        ]
+      },
+      {
+        "id": 55,
+        "word": "어부지리",
+        "commonChars": [
+          "리"
+        ]
+      },
+      {
+        "id": 71,
+        "word": "표리부동",
+        "commonChars": [
+          "리"
+        ]
+      },
+      {
+        "id": 74,
+        "word": "견리사의",
+        "commonChars": [
+          "리"
+        ]
+      },
+      {
+        "id": 83,
+        "word": "오비이락",
+        "commonChars": [
+          "오"
+        ]
+      }
+    ],
+    "36": [
+      {
+        "id": 5,
+        "word": "과유불급",
+        "commonChars": [
+          "유"
+        ]
+      },
+      {
+        "id": 10,
+        "word": "내우외환",
+        "commonChars": [
+          "우"
+        ]
+      },
+      {
+        "id": 17,
+        "word": "명실상부",
+        "commonChars": [
+          "부"
+        ]
+      },
+      {
+        "id": 22,
+        "word": "불편부당",
+        "commonChars": [
+          "부"
+        ]
+      },
+      {
+        "id": 37,
+        "word": "유유자적",
+        "commonChars": [
+          "유"
+        ]
+      },
+      {
+        "id": 55,
+        "word": "어부지리",
+        "commonChars": [
+          "부"
+        ]
+      },
+      {
+        "id": 56,
+        "word": "부화뇌동",
+        "commonChars": [
+          "부"
+        ]
+      },
+      {
+        "id": 57,
+        "word": "구우일모",
+        "commonChars": [
+          "우"
+        ]
+      },
+      {
+        "id": 64,
+        "word": "교각살우",
+        "commonChars": [
+          "우"
+        ]
+      },
+      {
+        "id": 68,
+        "word": "우문현답",
+        "commonChars": [
+          "우"
+        ]
+      },
+      {
+        "id": 69,
+        "word": "분서갱유",
+        "commonChars": [
+          "유"
+        ]
+      },
+      {
+        "id": 71,
+        "word": "표리부동",
+        "commonChars": [
+          "부"
+        ]
+      },
+      {
+        "id": 73,
+        "word": "붕우유신",
+        "commonChars": [
+          "우",
+          "유"
+        ]
+      },
+      {
+        "id": 77,
+        "word": "죽마고우",
+        "commonChars": [
+          "우"
+        ]
+      },
+      {
+        "id": 84,
+        "word": "절치부심",
+        "commonChars": [
+          "부"
+        ]
+      },
+      {
+        "id": 87,
+        "word": "견강부회",
+        "commonChars": [
+          "부"
+        ]
+      }
+    ],
+    "37": [
+      {
+        "id": 5,
+        "word": "과유불급",
+        "commonChars": [
+          "유"
+        ]
+      },
+      {
+        "id": 36,
+        "word": "우유부단",
+        "commonChars": [
+          "유"
+        ]
+      },
+      {
+        "id": 40,
+        "word": "자업자득",
+        "commonChars": [
+          "자"
+        ]
+      },
+      {
+        "id": 51,
+        "word": "적반하장",
+        "commonChars": [
+          "적"
+        ]
+      },
+      {
+        "id": 69,
+        "word": "분서갱유",
+        "commonChars": [
+          "유"
+        ]
+      },
+      {
+        "id": 73,
+        "word": "붕우유신",
+        "commonChars": [
+          "유"
+        ]
+      },
+      {
+        "id": 79,
+        "word": "자가당착",
+        "commonChars": [
+          "자"
+        ]
+      }
+    ],
+    "38": [
+      {
+        "id": 2,
+        "word": "감언이설",
+        "commonChars": [
+          "이"
+        ]
+      },
+      {
+        "id": 3,
+        "word": "견물생심",
+        "commonChars": [
+          "심"
+        ]
+      },
+      {
+        "id": 20,
+        "word": "문전성시",
+        "commonChars": [
+          "전"
+        ]
+      },
+      {
+        "id": 24,
+        "word": "산전수전",
+        "commonChars": [
+          "전"
+        ]
+      },
+      {
+        "id": 29,
+        "word": "아전인수",
+        "commonChars": [
+          "전"
+        ]
+      },
+      {
+        "id": 39,
+        "word": "일석이조",
+        "commonChars": [
+          "이"
+        ]
+      },
+      {
+        "id": 41,
+        "word": "작심삼일",
+        "commonChars": [
+          "심"
+        ]
+      },
+      {
+        "id": 59,
+        "word": "명불허전",
+        "commonChars": [
+          "전"
+        ]
+      },
+      {
+        "id": 72,
+        "word": "대동소이",
+        "commonChars": [
+          "이"
+        ]
+      },
+      {
+        "id": 80,
+        "word": "상전벽해",
+        "commonChars": [
+          "전"
+        ]
+      },
+      {
+        "id": 83,
+        "word": "오비이락",
+        "commonChars": [
+          "이"
+        ]
+      },
+      {
+        "id": 84,
+        "word": "절치부심",
+        "commonChars": [
+          "심"
+        ]
+      }
+    ],
+    "39": [
+      {
+        "id": 2,
+        "word": "감언이설",
+        "commonChars": [
+          "이"
+        ]
+      },
+      {
+        "id": 6,
+        "word": "군계일학",
+        "commonChars": [
+          "일"
+        ]
+      },
+      {
+        "id": 9,
+        "word": "기암괴석",
+        "commonChars": [
+          "석"
+        ]
+      },
+      {
+        "id": 33,
+        "word": "언행일치",
+        "commonChars": [
+          "일"
+        ]
+      },
+      {
+        "id": 38,
+        "word": "이심전심",
+        "commonChars": [
+          "이"
+        ]
+      },
+      {
+        "id": 41,
+        "word": "작심삼일",
+        "commonChars": [
+          "일"
+        ]
+      },
+      {
+        "id": 42,
+        "word": "조삼모사",
+        "commonChars": [
+          "조"
+        ]
+      },
+      {
+        "id": 47,
+        "word": "문일지십",
+        "commonChars": [
+          "일"
+        ]
+      },
+      {
+        "id": 57,
+        "word": "구우일모",
+        "commonChars": [
+          "일"
+        ]
+      },
+      {
+        "id": 62,
+        "word": "십시일반",
+        "commonChars": [
+          "일"
+        ]
+      },
+      {
+        "id": 66,
+        "word": "간담상조",
+        "commonChars": [
+          "조"
+        ]
+      },
+      {
+        "id": 72,
+        "word": "대동소이",
+        "commonChars": [
+          "이"
+        ]
+      },
+      {
+        "id": 83,
+        "word": "오비이락",
+        "commonChars": [
+          "이"
+        ]
+      },
+      {
+        "id": 86,
+        "word": "타산지석",
+        "commonChars": [
+          "석"
+        ]
+      }
+    ],
+    "40": [
+      {
+        "id": 37,
+        "word": "유유자적",
+        "commonChars": [
+          "자"
+        ]
+      },
+      {
+        "id": 79,
+        "word": "자가당착",
+        "commonChars": [
+          "자"
+        ]
+      }
+    ],
+    "41": [
+      {
+        "id": 3,
+        "word": "견물생심",
+        "commonChars": [
+          "심"
+        ]
+      },
+      {
+        "id": 6,
+        "word": "군계일학",
+        "commonChars": [
+          "일"
+        ]
+      },
+      {
+        "id": 33,
+        "word": "언행일치",
+        "commonChars": [
+          "일"
+        ]
+      },
+      {
+        "id": 38,
+        "word": "이심전심",
+        "commonChars": [
+          "심"
+        ]
+      },
+      {
+        "id": 39,
+        "word": "일석이조",
+        "commonChars": [
+          "일"
+        ]
+      },
+      {
+        "id": 42,
+        "word": "조삼모사",
+        "commonChars": [
+          "삼"
+        ]
+      },
+      {
+        "id": 47,
+        "word": "문일지십",
+        "commonChars": [
+          "일"
+        ]
+      },
+      {
+        "id": 57,
+        "word": "구우일모",
+        "commonChars": [
+          "일"
+        ]
+      },
+      {
+        "id": 62,
+        "word": "십시일반",
+        "commonChars": [
+          "일"
+        ]
+      },
+      {
+        "id": 84,
+        "word": "절치부심",
+        "commonChars": [
+          "심"
+        ]
+      }
+    ],
+    "42": [
+      {
+        "id": 18,
+        "word": "미사여구",
+        "commonChars": [
+          "사"
+        ]
+      },
+      {
+        "id": 23,
+        "word": "사면초가",
+        "commonChars": [
+          "사"
+        ]
+      },
+      {
+        "id": 34,
+        "word": "역지사지",
+        "commonChars": [
+          "사"
+        ]
+      },
+      {
+        "id": 39,
+        "word": "일석이조",
+        "commonChars": [
+          "조"
+        ]
+      },
+      {
+        "id": 41,
+        "word": "작심삼일",
+        "commonChars": [
+          "삼"
+        ]
+      },
+      {
+        "id": 57,
+        "word": "구우일모",
+        "commonChars": [
+          "모"
+        ]
+      },
+      {
+        "id": 63,
+        "word": "사필귀정",
+        "commonChars": [
+          "사"
+        ]
+      },
+      {
+        "id": 66,
+        "word": "간담상조",
+        "commonChars": [
+          "조"
+        ]
+      },
+      {
+        "id": 74,
+        "word": "견리사의",
+        "commonChars": [
+          "사"
+        ]
+      }
+    ],
+    "43": [
+      {
+        "id": 55,
+        "word": "어부지리",
+        "commonChars": [
+          "어"
+        ]
+      },
+      {
+        "id": 58,
+        "word": "독야청청",
+        "commonChars": [
+          "청"
+        ]
+      },
+      {
+        "id": 82,
+        "word": "연목구어",
+        "commonChars": [
+          "어"
+        ]
+      }
+    ],
+    "44": [
+      {
+        "id": 4,
+        "word": "고진감래",
+        "commonChars": [
+          "고"
+        ]
+      },
+      {
+        "id": 8,
+        "word": "기고만장",
+        "commonChars": [
+          "고"
+        ]
+      },
+      {
+        "id": 25,
+        "word": "새옹지마",
+        "commonChars": [
+          "마"
+        ]
+      },
+      {
+        "id": 77,
+        "word": "죽마고우",
+        "commonChars": [
+          "고",
+          "마"
+        ]
+      },
+      {
+        "id": 83,
+        "word": "오비이락",
+        "commonChars": [
+          "비"
+        ]
+      }
+    ],
+    "45": [
+      {
+        "id": 49,
+        "word": "괄목상대",
+        "commonChars": [
+          "대"
+        ]
+      },
+      {
+        "id": 53,
+        "word": "백년대계",
+        "commonChars": [
+          "대"
+        ]
+      },
+      {
+        "id": 72,
+        "word": "대동소이",
+        "commonChars": [
+          "소",
+          "대"
+        ]
+      }
+    ],
+    "46": [
+      {
+        "id": 8,
+        "word": "기고만장",
+        "commonChars": [
+          "기"
+        ]
+      },
+      {
+        "id": 9,
+        "word": "기암괴석",
+        "commonChars": [
+          "기"
+        ]
+      },
+      {
+        "id": 15,
+        "word": "만시지탄",
+        "commonChars": [
+          "지"
+        ]
+      },
+      {
+        "id": 16,
+        "word": "망양지탄",
+        "commonChars": [
+          "지"
+        ]
+      },
+      {
+        "id": 19,
+        "word": "무용지물",
+        "commonChars": [
+          "지"
+        ]
+      },
+      {
+        "id": 25,
+        "word": "새옹지마",
+        "commonChars": [
+          "지"
+        ]
+      },
+      {
+        "id": 34,
+        "word": "역지사지",
+        "commonChars": [
+          "지"
+        ]
+      },
+      {
+        "id": 47,
+        "word": "문일지십",
+        "commonChars": [
+          "지"
+        ]
+      },
+      {
+        "id": 52,
+        "word": "금지옥엽",
+        "commonChars": [
+          "지"
+        ]
+      },
+      {
+        "id": 55,
+        "word": "어부지리",
+        "commonChars": [
+          "지"
+        ]
+      },
+      {
+        "id": 70,
+        "word": "맥수지탄",
+        "commonChars": [
+          "지"
+        ]
+      },
+      {
+        "id": 78,
+        "word": "관포지교",
+        "commonChars": [
+          "지"
+        ]
+      },
+      {
+        "id": 82,
+        "word": "연목구어",
+        "commonChars": [
+          "연"
+        ]
+      },
+      {
+        "id": 86,
+        "word": "타산지석",
+        "commonChars": [
+          "지"
+        ]
+      }
+    ],
+    "47": [
+      {
+        "id": 6,
+        "word": "군계일학",
+        "commonChars": [
+          "일"
+        ]
+      },
+      {
+        "id": 12,
+        "word": "동문서답",
+        "commonChars": [
+          "문"
+        ]
+      },
+      {
+        "id": 15,
+        "word": "만시지탄",
+        "commonChars": [
+          "지"
+        ]
+      },
+      {
+        "id": 16,
+        "word": "망양지탄",
+        "commonChars": [
+          "지"
+        ]
+      },
+      {
+        "id": 19,
+        "word": "무용지물",
+        "commonChars": [
+          "지"
+        ]
+      },
+      {
+        "id": 20,
+        "word": "문전성시",
+        "commonChars": [
+          "문"
+        ]
+      },
+      {
+        "id": 25,
+        "word": "새옹지마",
+        "commonChars": [
+          "지"
+        ]
+      },
+      {
+        "id": 33,
+        "word": "언행일치",
+        "commonChars": [
+          "일"
+        ]
+      },
+      {
+        "id": 34,
+        "word": "역지사지",
+        "commonChars": [
+          "지"
+        ]
+      },
+      {
+        "id": 39,
+        "word": "일석이조",
+        "commonChars": [
+          "일"
+        ]
+      },
+      {
+        "id": 41,
+        "word": "작심삼일",
+        "commonChars": [
+          "일"
+        ]
+      },
+      {
+        "id": 46,
+        "word": "호연지기",
+        "commonChars": [
+          "지"
+        ]
+      },
+      {
+        "id": 52,
+        "word": "금지옥엽",
+        "commonChars": [
+          "지"
+        ]
+      },
+      {
+        "id": 55,
+        "word": "어부지리",
+        "commonChars": [
+          "지"
+        ]
+      },
+      {
+        "id": 57,
+        "word": "구우일모",
+        "commonChars": [
+          "일"
+        ]
+      },
+      {
+        "id": 62,
+        "word": "십시일반",
+        "commonChars": [
+          "일",
+          "십"
+        ]
+      },
+      {
+        "id": 68,
+        "word": "우문현답",
+        "commonChars": [
+          "문"
+        ]
+      },
+      {
+        "id": 70,
+        "word": "맥수지탄",
+        "commonChars": [
+          "지"
+        ]
+      },
+      {
+        "id": 78,
+        "word": "관포지교",
+        "commonChars": [
+          "지"
+        ]
+      },
+      {
+        "id": 85,
+        "word": "불치하문",
+        "commonChars": [
+          "문"
+        ]
+      },
+      {
+        "id": 86,
+        "word": "타산지석",
+        "commonChars": [
+          "지"
+        ]
+      }
+    ],
+    "48": [
+      {
+        "id": 1,
+        "word": "각골난망",
+        "commonChars": [
+          "난"
+        ]
+      },
+      {
+        "id": 4,
+        "word": "고진감래",
+        "commonChars": [
+          "진"
+        ]
+      },
+      {
+        "id": 16,
+        "word": "망양지탄",
+        "commonChars": [
+          "양"
+        ]
+      },
+      {
+        "id": 32,
+        "word": "양두구육",
+        "commonChars": [
+          "양"
+        ]
+      },
+      {
+        "id": 61,
+        "word": "백골난망",
+        "commonChars": [
+          "난"
+        ]
+      }
+    ],
+    "49": [
+      {
+        "id": 13,
+        "word": "동병상련",
+        "commonChars": [
+          "상"
+        ]
+      },
+      {
+        "id": 14,
+        "word": "막상막하",
+        "commonChars": [
+          "상"
+        ]
+      },
+      {
+        "id": 17,
+        "word": "명실상부",
+        "commonChars": [
+          "상"
+        ]
+      },
+      {
+        "id": 26,
+        "word": "설상가상",
+        "commonChars": [
+          "상"
+        ]
+      },
+      {
+        "id": 45,
+        "word": "침소봉대",
+        "commonChars": [
+          "대"
+        ]
+      },
+      {
+        "id": 53,
+        "word": "백년대계",
+        "commonChars": [
+          "대"
+        ]
+      },
+      {
+        "id": 54,
+        "word": "와신상담",
+        "commonChars": [
+          "상"
+        ]
+      },
+      {
+        "id": 66,
+        "word": "간담상조",
+        "commonChars": [
+          "상"
+        ]
+      },
+      {
+        "id": 72,
+        "word": "대동소이",
+        "commonChars": [
+          "대"
+        ]
+      },
+      {
+        "id": 80,
+        "word": "상전벽해",
+        "commonChars": [
+          "상"
+        ]
+      },
+      {
+        "id": 81,
+        "word": "목불식정",
+        "commonChars": [
+          "목"
+        ]
+      },
+      {
+        "id": 82,
+        "word": "연목구어",
+        "commonChars": [
+          "목"
+        ]
+      }
+    ],
+    "50": [],
+    "51": [
+      {
+        "id": 8,
+        "word": "기고만장",
+        "commonChars": [
+          "장"
+        ]
+      },
+      {
+        "id": 14,
+        "word": "막상막하",
+        "commonChars": [
+          "하"
+        ]
+      },
+      {
+        "id": 28,
+        "word": "승승장구",
+        "commonChars": [
+          "장"
+        ]
+      },
+      {
+        "id": 30,
+        "word": "안하무인",
+        "commonChars": [
+          "하"
+        ]
+      },
+      {
+        "id": 37,
+        "word": "유유자적",
+        "commonChars": [
+          "적"
+        ]
+      },
+      {
+        "id": 62,
+        "word": "십시일반",
+        "commonChars": [
+          "반"
+        ]
+      },
+      {
+        "id": 65,
+        "word": "반신반의",
+        "commonChars": [
+          "반"
+        ]
+      },
+      {
+        "id": 85,
+        "word": "불치하문",
+        "commonChars": [
+          "하"
+        ]
+      }
+    ],
+    "52": [
+      {
+        "id": 15,
+        "word": "만시지탄",
+        "commonChars": [
+          "지"
+        ]
+      },
+      {
+        "id": 16,
+        "word": "망양지탄",
+        "commonChars": [
+          "지"
+        ]
+      },
+      {
+        "id": 19,
+        "word": "무용지물",
+        "commonChars": [
+          "지"
+        ]
+      },
+      {
+        "id": 25,
+        "word": "새옹지마",
+        "commonChars": [
+          "지"
+        ]
+      },
+      {
+        "id": 34,
+        "word": "역지사지",
+        "commonChars": [
+          "지"
+        ]
+      },
+      {
+        "id": 46,
+        "word": "호연지기",
+        "commonChars": [
+          "지"
+        ]
+      },
+      {
+        "id": 47,
+        "word": "문일지십",
+        "commonChars": [
+          "지"
+        ]
+      },
+      {
+        "id": 55,
+        "word": "어부지리",
+        "commonChars": [
+          "지"
+        ]
+      },
+      {
+        "id": 70,
+        "word": "맥수지탄",
+        "commonChars": [
+          "지"
+        ]
+      },
+      {
+        "id": 78,
+        "word": "관포지교",
+        "commonChars": [
+          "지"
+        ]
+      },
+      {
+        "id": 86,
+        "word": "타산지석",
+        "commonChars": [
+          "지"
+        ]
+      }
+    ],
+    "53": [
+      {
+        "id": 6,
+        "word": "군계일학",
+        "commonChars": [
+          "계"
+        ]
+      },
+      {
+        "id": 45,
+        "word": "침소봉대",
+        "commonChars": [
+          "대"
+        ]
+      },
+      {
+        "id": 49,
+        "word": "괄목상대",
+        "commonChars": [
+          "대"
+        ]
+      },
+      {
+        "id": 61,
+        "word": "백골난망",
+        "commonChars": [
+          "백"
+        ]
+      },
+      {
+        "id": 72,
+        "word": "대동소이",
+        "commonChars": [
+          "대"
+        ]
+      }
+    ],
+    "54": [
+      {
+        "id": 13,
+        "word": "동병상련",
+        "commonChars": [
+          "상"
+        ]
+      },
+      {
+        "id": 14,
+        "word": "막상막하",
+        "commonChars": [
+          "상"
+        ]
+      },
+      {
+        "id": 17,
+        "word": "명실상부",
+        "commonChars": [
+          "상"
+        ]
+      },
+      {
+        "id": 26,
+        "word": "설상가상",
+        "commonChars": [
+          "상"
+        ]
+      },
+      {
+        "id": 49,
+        "word": "괄목상대",
+        "commonChars": [
+          "상"
+        ]
+      },
+      {
+        "id": 65,
+        "word": "반신반의",
+        "commonChars": [
+          "신"
+        ]
+      },
+      {
+        "id": 66,
+        "word": "간담상조",
+        "commonChars": [
+          "상",
+          "담"
+        ]
+      },
+      {
+        "id": 73,
+        "word": "붕우유신",
+        "commonChars": [
+          "신"
+        ]
+      },
+      {
+        "id": 80,
+        "word": "상전벽해",
+        "commonChars": [
+          "상"
+        ]
+      }
+    ],
+    "55": [
+      {
+        "id": 15,
+        "word": "만시지탄",
+        "commonChars": [
+          "지"
+        ]
+      },
+      {
+        "id": 16,
+        "word": "망양지탄",
+        "commonChars": [
+          "지"
+        ]
+      },
+      {
+        "id": 17,
+        "word": "명실상부",
+        "commonChars": [
+          "부"
+        ]
+      },
+      {
+        "id": 19,
+        "word": "무용지물",
+        "commonChars": [
+          "지"
+        ]
+      },
+      {
+        "id": 22,
+        "word": "불편부당",
+        "commonChars": [
+          "부"
+        ]
+      },
+      {
+        "id": 25,
+        "word": "새옹지마",
+        "commonChars": [
+          "지"
+        ]
+      },
+      {
+        "id": 34,
+        "word": "역지사지",
+        "commonChars": [
+          "지"
+        ]
+      },
+      {
+        "id": 35,
+        "word": "오리무중",
+        "commonChars": [
+          "리"
+        ]
+      },
+      {
+        "id": 36,
+        "word": "우유부단",
+        "commonChars": [
+          "부"
+        ]
+      },
+      {
+        "id": 43,
+        "word": "청출어람",
+        "commonChars": [
+          "어"
+        ]
+      },
+      {
+        "id": 46,
+        "word": "호연지기",
+        "commonChars": [
+          "지"
+        ]
+      },
+      {
+        "id": 47,
+        "word": "문일지십",
+        "commonChars": [
+          "지"
+        ]
+      },
+      {
+        "id": 52,
+        "word": "금지옥엽",
+        "commonChars": [
+          "지"
+        ]
+      },
+      {
+        "id": 56,
+        "word": "부화뇌동",
+        "commonChars": [
+          "부"
+        ]
+      },
+      {
+        "id": 70,
+        "word": "맥수지탄",
+        "commonChars": [
+          "지"
+        ]
+      },
+      {
+        "id": 71,
+        "word": "표리부동",
+        "commonChars": [
+          "부",
+          "리"
+        ]
+      },
+      {
+        "id": 74,
+        "word": "견리사의",
+        "commonChars": [
+          "리"
+        ]
+      },
+      {
+        "id": 78,
+        "word": "관포지교",
+        "commonChars": [
+          "지"
+        ]
+      },
+      {
+        "id": 82,
+        "word": "연목구어",
+        "commonChars": [
+          "어"
+        ]
+      },
+      {
+        "id": 84,
+        "word": "절치부심",
+        "commonChars": [
+          "부"
+        ]
+      },
+      {
+        "id": 86,
+        "word": "타산지석",
+        "commonChars": [
+          "지"
+        ]
+      },
+      {
+        "id": 87,
+        "word": "견강부회",
+        "commonChars": [
+          "부"
+        ]
+      }
+    ],
+    "56": [
+      {
+        "id": 12,
+        "word": "동문서답",
+        "commonChars": [
+          "동"
+        ]
+      },
+      {
+        "id": 13,
+        "word": "동병상련",
+        "commonChars": [
+          "동"
+        ]
+      },
+      {
+        "id": 17,
+        "word": "명실상부",
+        "commonChars": [
+          "부"
+        ]
+      },
+      {
+        "id": 22,
+        "word": "불편부당",
+        "commonChars": [
+          "부"
+        ]
+      },
+      {
+        "id": 36,
+        "word": "우유부단",
+        "commonChars": [
+          "부"
+        ]
+      },
+      {
+        "id": 55,
+        "word": "어부지리",
+        "commonChars": [
+          "부"
+        ]
+      },
+      {
+        "id": 60,
+        "word": "명약관화",
+        "commonChars": [
+          "화"
+        ]
+      },
+      {
+        "id": 71,
+        "word": "표리부동",
+        "commonChars": [
+          "부",
+          "동"
+        ]
+      },
+      {
+        "id": 72,
+        "word": "대동소이",
+        "commonChars": [
+          "동"
+        ]
+      },
+      {
+        "id": 75,
+        "word": "동분서주",
+        "commonChars": [
+          "동"
+        ]
+      },
+      {
+        "id": 84,
+        "word": "절치부심",
+        "commonChars": [
+          "부"
+        ]
+      },
+      {
+        "id": 87,
+        "word": "견강부회",
+        "commonChars": [
+          "부"
+        ]
+      }
+    ],
+    "57": [
+      {
+        "id": 6,
+        "word": "군계일학",
+        "commonChars": [
+          "일"
+        ]
+      },
+      {
+        "id": 10,
+        "word": "내우외환",
+        "commonChars": [
+          "우"
+        ]
+      },
+      {
+        "id": 18,
+        "word": "미사여구",
+        "commonChars": [
+          "구"
+        ]
+      },
+      {
+        "id": 28,
+        "word": "승승장구",
+        "commonChars": [
+          "구"
+        ]
+      },
+      {
+        "id": 32,
+        "word": "양두구육",
+        "commonChars": [
+          "구"
+        ]
+      },
+      {
+        "id": 33,
+        "word": "언행일치",
+        "commonChars": [
+          "일"
+        ]
+      },
+      {
+        "id": 36,
+        "word": "우유부단",
+        "commonChars": [
+          "우"
+        ]
+      },
+      {
+        "id": 39,
+        "word": "일석이조",
+        "commonChars": [
+          "일"
+        ]
+      },
+      {
+        "id": 41,
+        "word": "작심삼일",
+        "commonChars": [
+          "일"
+        ]
+      },
+      {
+        "id": 42,
+        "word": "조삼모사",
+        "commonChars": [
+          "모"
+        ]
+      },
+      {
+        "id": 47,
+        "word": "문일지십",
+        "commonChars": [
+          "일"
+        ]
+      },
+      {
+        "id": 62,
+        "word": "십시일반",
+        "commonChars": [
+          "일"
+        ]
+      },
+      {
+        "id": 64,
+        "word": "교각살우",
+        "commonChars": [
+          "우"
+        ]
+      },
+      {
+        "id": 68,
+        "word": "우문현답",
+        "commonChars": [
+          "우"
+        ]
+      },
+      {
+        "id": 73,
+        "word": "붕우유신",
+        "commonChars": [
+          "우"
+        ]
+      },
+      {
+        "id": 77,
+        "word": "죽마고우",
+        "commonChars": [
+          "우"
+        ]
+      },
+      {
+        "id": 82,
+        "word": "연목구어",
+        "commonChars": [
+          "구"
+        ]
+      }
+    ],
+    "58": [
+      {
+        "id": 43,
+        "word": "청출어람",
+        "commonChars": [
+          "청"
+        ]
+      }
+    ],
+    "59": [
+      {
+        "id": 5,
+        "word": "과유불급",
+        "commonChars": [
+          "불"
+        ]
+      },
+      {
+        "id": 17,
+        "word": "명실상부",
+        "commonChars": [
+          "명"
+        ]
+      },
+      {
+        "id": 20,
+        "word": "문전성시",
+        "commonChars": [
+          "전"
+        ]
+      },
+      {
+        "id": 22,
+        "word": "불편부당",
+        "commonChars": [
+          "불"
+        ]
+      },
+      {
+        "id": 24,
+        "word": "산전수전",
+        "commonChars": [
+          "전"
+        ]
+      },
+      {
+        "id": 29,
+        "word": "아전인수",
+        "commonChars": [
+          "전"
+        ]
+      },
+      {
+        "id": 38,
+        "word": "이심전심",
+        "commonChars": [
+          "전"
+        ]
+      },
+      {
+        "id": 60,
+        "word": "명약관화",
+        "commonChars": [
+          "명"
+        ]
+      },
+      {
+        "id": 80,
+        "word": "상전벽해",
+        "commonChars": [
+          "전"
+        ]
+      },
+      {
+        "id": 81,
+        "word": "목불식정",
+        "commonChars": [
+          "불"
+        ]
+      },
+      {
+        "id": 85,
+        "word": "불치하문",
+        "commonChars": [
+          "불"
+        ]
+      }
+    ],
+    "60": [
+      {
+        "id": 17,
+        "word": "명실상부",
+        "commonChars": [
+          "명"
+        ]
+      },
+      {
+        "id": 27,
+        "word": "수수방관",
+        "commonChars": [
+          "관"
+        ]
+      },
+      {
+        "id": 31,
+        "word": "약육강식",
+        "commonChars": [
+          "약"
+        ]
+      },
+      {
+        "id": 56,
+        "word": "부화뇌동",
+        "commonChars": [
+          "화"
+        ]
+      },
+      {
+        "id": 59,
+        "word": "명불허전",
+        "commonChars": [
+          "명"
+        ]
+      },
+      {
+        "id": 78,
+        "word": "관포지교",
+        "commonChars": [
+          "관"
+        ]
+      }
+    ],
+    "61": [
+      {
+        "id": 1,
+        "word": "각골난망",
+        "commonChars": [
+          "골",
+          "난",
+          "망"
+        ]
+      },
+      {
+        "id": 16,
+        "word": "망양지탄",
+        "commonChars": [
+          "망"
+        ]
+      },
+      {
+        "id": 48,
+        "word": "진퇴양난",
+        "commonChars": [
+          "난"
+        ]
+      },
+      {
+        "id": 53,
+        "word": "백년대계",
+        "commonChars": [
+          "백"
+        ]
+      }
+    ],
+    "62": [
+      {
+        "id": 6,
+        "word": "군계일학",
+        "commonChars": [
+          "일"
+        ]
+      },
+      {
+        "id": 15,
+        "word": "만시지탄",
+        "commonChars": [
+          "시"
+        ]
+      },
+      {
+        "id": 20,
+        "word": "문전성시",
+        "commonChars": [
+          "시"
+        ]
+      },
+      {
+        "id": 33,
+        "word": "언행일치",
+        "commonChars": [
+          "일"
+        ]
+      },
+      {
+        "id": 39,
+        "word": "일석이조",
+        "commonChars": [
+          "일"
+        ]
+      },
+      {
+        "id": 41,
+        "word": "작심삼일",
+        "commonChars": [
+          "일"
+        ]
+      },
+      {
+        "id": 47,
+        "word": "문일지십",
+        "commonChars": [
+          "십",
+          "일"
+        ]
+      },
+      {
+        "id": 51,
+        "word": "적반하장",
+        "commonChars": [
+          "반"
+        ]
+      },
+      {
+        "id": 57,
+        "word": "구우일모",
+        "commonChars": [
+          "일"
+        ]
+      },
+      {
+        "id": 65,
+        "word": "반신반의",
+        "commonChars": [
+          "반"
+        ]
+      }
+    ],
+    "63": [
+      {
+        "id": 18,
+        "word": "미사여구",
+        "commonChars": [
+          "사"
+        ]
+      },
+      {
+        "id": 23,
+        "word": "사면초가",
+        "commonChars": [
+          "사"
+        ]
+      },
+      {
+        "id": 34,
+        "word": "역지사지",
+        "commonChars": [
+          "사"
+        ]
+      },
+      {
+        "id": 42,
+        "word": "조삼모사",
+        "commonChars": [
+          "사"
+        ]
+      },
+      {
+        "id": 74,
+        "word": "견리사의",
+        "commonChars": [
+          "사"
+        ]
+      },
+      {
+        "id": 81,
+        "word": "목불식정",
+        "commonChars": [
+          "정"
+        ]
+      }
+    ],
+    "64": [
+      {
+        "id": 1,
+        "word": "각골난망",
+        "commonChars": [
+          "각"
+        ]
+      },
+      {
+        "id": 10,
+        "word": "내우외환",
+        "commonChars": [
+          "우"
+        ]
+      },
+      {
+        "id": 36,
+        "word": "우유부단",
+        "commonChars": [
+          "우"
+        ]
+      },
+      {
+        "id": 57,
+        "word": "구우일모",
+        "commonChars": [
+          "우"
+        ]
+      },
+      {
+        "id": 68,
+        "word": "우문현답",
+        "commonChars": [
+          "우"
+        ]
+      },
+      {
+        "id": 73,
+        "word": "붕우유신",
+        "commonChars": [
+          "우"
+        ]
+      },
+      {
+        "id": 77,
+        "word": "죽마고우",
+        "commonChars": [
+          "우"
+        ]
+      },
+      {
+        "id": 78,
+        "word": "관포지교",
+        "commonChars": [
+          "교"
+        ]
+      }
+    ],
+    "65": [
+      {
+        "id": 51,
+        "word": "적반하장",
+        "commonChars": [
+          "반"
+        ]
+      },
+      {
+        "id": 54,
+        "word": "와신상담",
+        "commonChars": [
+          "신"
+        ]
+      },
+      {
+        "id": 62,
+        "word": "십시일반",
+        "commonChars": [
+          "반"
+        ]
+      },
+      {
+        "id": 73,
+        "word": "붕우유신",
+        "commonChars": [
+          "신"
+        ]
+      },
+      {
+        "id": 74,
+        "word": "견리사의",
+        "commonChars": [
+          "의"
+        ]
+      }
+    ],
+    "66": [
+      {
+        "id": 13,
+        "word": "동병상련",
+        "commonChars": [
+          "상"
+        ]
+      },
+      {
+        "id": 14,
+        "word": "막상막하",
+        "commonChars": [
+          "상"
+        ]
+      },
+      {
+        "id": 17,
+        "word": "명실상부",
+        "commonChars": [
+          "상"
+        ]
+      },
+      {
+        "id": 26,
+        "word": "설상가상",
+        "commonChars": [
+          "상"
+        ]
+      },
+      {
+        "id": 39,
+        "word": "일석이조",
+        "commonChars": [
+          "조"
+        ]
+      },
+      {
+        "id": 42,
+        "word": "조삼모사",
+        "commonChars": [
+          "조"
+        ]
+      },
+      {
+        "id": 49,
+        "word": "괄목상대",
+        "commonChars": [
+          "상"
+        ]
+      },
+      {
+        "id": 54,
+        "word": "와신상담",
+        "commonChars": [
+          "담",
+          "상"
+        ]
+      },
+      {
+        "id": 80,
+        "word": "상전벽해",
+        "commonChars": [
+          "상"
+        ]
+      }
+    ],
+    "67": [
+      {
+        "id": 23,
+        "word": "사면초가",
+        "commonChars": [
+          "초"
+        ]
+      }
+    ],
+    "68": [
+      {
+        "id": 10,
+        "word": "내우외환",
+        "commonChars": [
+          "우"
+        ]
+      },
+      {
+        "id": 12,
+        "word": "동문서답",
+        "commonChars": [
+          "문",
+          "답"
+        ]
+      },
+      {
+        "id": 20,
+        "word": "문전성시",
+        "commonChars": [
+          "문"
+        ]
+      },
+      {
+        "id": 36,
+        "word": "우유부단",
+        "commonChars": [
+          "우"
+        ]
+      },
+      {
+        "id": 47,
+        "word": "문일지십",
+        "commonChars": [
+          "문"
+        ]
+      },
+      {
+        "id": 57,
+        "word": "구우일모",
+        "commonChars": [
+          "우"
+        ]
+      },
+      {
+        "id": 64,
+        "word": "교각살우",
+        "commonChars": [
+          "우"
+        ]
+      },
+      {
+        "id": 73,
+        "word": "붕우유신",
+        "commonChars": [
+          "우"
+        ]
+      },
+      {
+        "id": 77,
+        "word": "죽마고우",
+        "commonChars": [
+          "우"
+        ]
+      },
+      {
+        "id": 85,
+        "word": "불치하문",
+        "commonChars": [
+          "문"
+        ]
+      }
+    ],
+    "69": [
+      {
+        "id": 5,
+        "word": "과유불급",
+        "commonChars": [
+          "유"
+        ]
+      },
+      {
+        "id": 12,
+        "word": "동문서답",
+        "commonChars": [
+          "서"
+        ]
+      },
+      {
+        "id": 36,
+        "word": "우유부단",
+        "commonChars": [
+          "유"
+        ]
+      },
+      {
+        "id": 37,
+        "word": "유유자적",
+        "commonChars": [
+          "유"
+        ]
+      },
+      {
+        "id": 73,
+        "word": "붕우유신",
+        "commonChars": [
+          "유"
+        ]
+      },
+      {
+        "id": 75,
+        "word": "동분서주",
+        "commonChars": [
+          "분",
+          "서"
+        ]
+      }
+    ],
+    "70": [
+      {
+        "id": 15,
+        "word": "만시지탄",
+        "commonChars": [
+          "지",
+          "탄"
+        ]
+      },
+      {
+        "id": 16,
+        "word": "망양지탄",
+        "commonChars": [
+          "지",
+          "탄"
+        ]
+      },
+      {
+        "id": 19,
+        "word": "무용지물",
+        "commonChars": [
+          "지"
+        ]
+      },
+      {
+        "id": 24,
+        "word": "산전수전",
+        "commonChars": [
+          "수"
+        ]
+      },
+      {
+        "id": 25,
+        "word": "새옹지마",
+        "commonChars": [
+          "지"
+        ]
+      },
+      {
+        "id": 27,
+        "word": "수수방관",
+        "commonChars": [
+          "수"
+        ]
+      },
+      {
+        "id": 29,
+        "word": "아전인수",
+        "commonChars": [
+          "수"
+        ]
+      },
+      {
+        "id": 34,
+        "word": "역지사지",
+        "commonChars": [
+          "지"
+        ]
+      },
+      {
+        "id": 46,
+        "word": "호연지기",
+        "commonChars": [
+          "지"
+        ]
+      },
+      {
+        "id": 47,
+        "word": "문일지십",
+        "commonChars": [
+          "지"
+        ]
+      },
+      {
+        "id": 52,
+        "word": "금지옥엽",
+        "commonChars": [
+          "지"
+        ]
+      },
+      {
+        "id": 55,
+        "word": "어부지리",
+        "commonChars": [
+          "지"
+        ]
+      },
+      {
+        "id": 78,
+        "word": "관포지교",
+        "commonChars": [
+          "지"
+        ]
+      },
+      {
+        "id": 86,
+        "word": "타산지석",
+        "commonChars": [
+          "지"
+        ]
+      }
+    ],
+    "71": [
+      {
+        "id": 12,
+        "word": "동문서답",
+        "commonChars": [
+          "동"
+        ]
+      },
+      {
+        "id": 13,
+        "word": "동병상련",
+        "commonChars": [
+          "동"
+        ]
+      },
+      {
+        "id": 17,
+        "word": "명실상부",
+        "commonChars": [
+          "부"
+        ]
+      },
+      {
+        "id": 22,
+        "word": "불편부당",
+        "commonChars": [
+          "부"
+        ]
+      },
+      {
+        "id": 35,
+        "word": "오리무중",
+        "commonChars": [
+          "리"
+        ]
+      },
+      {
+        "id": 36,
+        "word": "우유부단",
+        "commonChars": [
+          "부"
+        ]
+      },
+      {
+        "id": 55,
+        "word": "어부지리",
+        "commonChars": [
+          "리",
+          "부"
+        ]
+      },
+      {
+        "id": 56,
+        "word": "부화뇌동",
+        "commonChars": [
+          "부",
+          "동"
+        ]
+      },
+      {
+        "id": 72,
+        "word": "대동소이",
+        "commonChars": [
+          "동"
+        ]
+      },
+      {
+        "id": 74,
+        "word": "견리사의",
+        "commonChars": [
+          "리"
+        ]
+      },
+      {
+        "id": 75,
+        "word": "동분서주",
+        "commonChars": [
+          "동"
+        ]
+      },
+      {
+        "id": 84,
+        "word": "절치부심",
+        "commonChars": [
+          "부"
+        ]
+      },
+      {
+        "id": 87,
+        "word": "견강부회",
+        "commonChars": [
+          "부"
+        ]
+      }
+    ],
+    "72": [
+      {
+        "id": 2,
+        "word": "감언이설",
+        "commonChars": [
+          "이"
+        ]
+      },
+      {
+        "id": 12,
+        "word": "동문서답",
+        "commonChars": [
+          "동"
+        ]
+      },
+      {
+        "id": 13,
+        "word": "동병상련",
+        "commonChars": [
+          "동"
+        ]
+      },
+      {
+        "id": 38,
+        "word": "이심전심",
+        "commonChars": [
+          "이"
+        ]
+      },
+      {
+        "id": 39,
+        "word": "일석이조",
+        "commonChars": [
+          "이"
+        ]
+      },
+      {
+        "id": 45,
+        "word": "침소봉대",
+        "commonChars": [
+          "대",
+          "소"
+        ]
+      },
+      {
+        "id": 49,
+        "word": "괄목상대",
+        "commonChars": [
+          "대"
+        ]
+      },
+      {
+        "id": 53,
+        "word": "백년대계",
+        "commonChars": [
+          "대"
+        ]
+      },
+      {
+        "id": 56,
+        "word": "부화뇌동",
+        "commonChars": [
+          "동"
+        ]
+      },
+      {
+        "id": 71,
+        "word": "표리부동",
+        "commonChars": [
+          "동"
+        ]
+      },
+      {
+        "id": 75,
+        "word": "동분서주",
+        "commonChars": [
+          "동"
+        ]
+      },
+      {
+        "id": 83,
+        "word": "오비이락",
+        "commonChars": [
+          "이"
+        ]
+      }
+    ],
+    "73": [
+      {
+        "id": 5,
+        "word": "과유불급",
+        "commonChars": [
+          "유"
+        ]
+      },
+      {
+        "id": 10,
+        "word": "내우외환",
+        "commonChars": [
+          "우"
+        ]
+      },
+      {
+        "id": 36,
+        "word": "우유부단",
+        "commonChars": [
+          "우",
+          "유"
+        ]
+      },
+      {
+        "id": 37,
+        "word": "유유자적",
+        "commonChars": [
+          "유"
+        ]
+      },
+      {
+        "id": 54,
+        "word": "와신상담",
+        "commonChars": [
+          "신"
+        ]
+      },
+      {
+        "id": 57,
+        "word": "구우일모",
+        "commonChars": [
+          "우"
+        ]
+      },
+      {
+        "id": 64,
+        "word": "교각살우",
+        "commonChars": [
+          "우"
+        ]
+      },
+      {
+        "id": 65,
+        "word": "반신반의",
+        "commonChars": [
+          "신"
+        ]
+      },
+      {
+        "id": 68,
+        "word": "우문현답",
+        "commonChars": [
+          "우"
+        ]
+      },
+      {
+        "id": 69,
+        "word": "분서갱유",
+        "commonChars": [
+          "유"
+        ]
+      },
+      {
+        "id": 77,
+        "word": "죽마고우",
+        "commonChars": [
+          "우"
+        ]
+      }
+    ],
+    "74": [
+      {
+        "id": 3,
+        "word": "견물생심",
+        "commonChars": [
+          "견"
+        ]
+      },
+      {
+        "id": 18,
+        "word": "미사여구",
+        "commonChars": [
+          "사"
+        ]
+      },
+      {
+        "id": 23,
+        "word": "사면초가",
+        "commonChars": [
+          "사"
+        ]
+      },
+      {
+        "id": 34,
+        "word": "역지사지",
+        "commonChars": [
+          "사"
+        ]
+      },
+      {
+        "id": 35,
+        "word": "오리무중",
+        "commonChars": [
+          "리"
+        ]
+      },
+      {
+        "id": 42,
+        "word": "조삼모사",
+        "commonChars": [
+          "사"
+        ]
+      },
+      {
+        "id": 55,
+        "word": "어부지리",
+        "commonChars": [
+          "리"
+        ]
+      },
+      {
+        "id": 63,
+        "word": "사필귀정",
+        "commonChars": [
+          "사"
+        ]
+      },
+      {
+        "id": 65,
+        "word": "반신반의",
+        "commonChars": [
+          "의"
+        ]
+      },
+      {
+        "id": 71,
+        "word": "표리부동",
+        "commonChars": [
+          "리"
+        ]
+      },
+      {
+        "id": 87,
+        "word": "견강부회",
+        "commonChars": [
+          "견"
+        ]
+      }
+    ],
+    "75": [
+      {
+        "id": 12,
+        "word": "동문서답",
+        "commonChars": [
+          "동",
+          "서"
+        ]
+      },
+      {
+        "id": 13,
+        "word": "동병상련",
+        "commonChars": [
+          "동"
+        ]
+      },
+      {
+        "id": 56,
+        "word": "부화뇌동",
+        "commonChars": [
+          "동"
+        ]
+      },
+      {
+        "id": 69,
+        "word": "분서갱유",
+        "commonChars": [
+          "분",
+          "서"
+        ]
+      },
+      {
+        "id": 71,
+        "word": "표리부동",
+        "commonChars": [
+          "동"
+        ]
+      },
+      {
+        "id": 72,
+        "word": "대동소이",
+        "commonChars": [
+          "동"
+        ]
+      }
+    ],
+    "76": [],
+    "77": [
+      {
+        "id": 4,
+        "word": "고진감래",
+        "commonChars": [
+          "고"
+        ]
+      },
+      {
+        "id": 8,
+        "word": "기고만장",
+        "commonChars": [
+          "고"
+        ]
+      },
+      {
+        "id": 10,
+        "word": "내우외환",
+        "commonChars": [
+          "우"
+        ]
+      },
+      {
+        "id": 25,
+        "word": "새옹지마",
+        "commonChars": [
+          "마"
+        ]
+      },
+      {
+        "id": 36,
+        "word": "우유부단",
+        "commonChars": [
+          "우"
+        ]
+      },
+      {
+        "id": 44,
+        "word": "천고마비",
+        "commonChars": [
+          "마",
+          "고"
+        ]
+      },
+      {
+        "id": 57,
+        "word": "구우일모",
+        "commonChars": [
+          "우"
+        ]
+      },
+      {
+        "id": 64,
+        "word": "교각살우",
+        "commonChars": [
+          "우"
+        ]
+      },
+      {
+        "id": 68,
+        "word": "우문현답",
+        "commonChars": [
+          "우"
+        ]
+      },
+      {
+        "id": 73,
+        "word": "붕우유신",
+        "commonChars": [
+          "우"
+        ]
+      }
+    ],
+    "78": [
+      {
+        "id": 15,
+        "word": "만시지탄",
+        "commonChars": [
+          "지"
+        ]
+      },
+      {
+        "id": 16,
+        "word": "망양지탄",
+        "commonChars": [
+          "지"
+        ]
+      },
+      {
+        "id": 19,
+        "word": "무용지물",
+        "commonChars": [
+          "지"
+        ]
+      },
+      {
+        "id": 25,
+        "word": "새옹지마",
+        "commonChars": [
+          "지"
+        ]
+      },
+      {
+        "id": 27,
+        "word": "수수방관",
+        "commonChars": [
+          "관"
+        ]
+      },
+      {
+        "id": 34,
+        "word": "역지사지",
+        "commonChars": [
+          "지"
+        ]
+      },
+      {
+        "id": 46,
+        "word": "호연지기",
+        "commonChars": [
+          "지"
+        ]
+      },
+      {
+        "id": 47,
+        "word": "문일지십",
+        "commonChars": [
+          "지"
+        ]
+      },
+      {
+        "id": 52,
+        "word": "금지옥엽",
+        "commonChars": [
+          "지"
+        ]
+      },
+      {
+        "id": 55,
+        "word": "어부지리",
+        "commonChars": [
+          "지"
+        ]
+      },
+      {
+        "id": 60,
+        "word": "명약관화",
+        "commonChars": [
+          "관"
+        ]
+      },
+      {
+        "id": 64,
+        "word": "교각살우",
+        "commonChars": [
+          "교"
+        ]
+      },
+      {
+        "id": 70,
+        "word": "맥수지탄",
+        "commonChars": [
+          "지"
+        ]
+      },
+      {
+        "id": 86,
+        "word": "타산지석",
+        "commonChars": [
+          "지"
+        ]
+      }
+    ],
+    "79": [
+      {
+        "id": 22,
+        "word": "불편부당",
+        "commonChars": [
+          "당"
+        ]
+      },
+      {
+        "id": 23,
+        "word": "사면초가",
+        "commonChars": [
+          "가"
+        ]
+      },
+      {
+        "id": 26,
+        "word": "설상가상",
+        "commonChars": [
+          "가"
+        ]
+      },
+      {
+        "id": 37,
+        "word": "유유자적",
+        "commonChars": [
+          "자"
+        ]
+      },
+      {
+        "id": 40,
+        "word": "자업자득",
+        "commonChars": [
+          "자"
+        ]
+      }
+    ],
+    "80": [
+      {
+        "id": 13,
+        "word": "동병상련",
+        "commonChars": [
+          "상"
+        ]
+      },
+      {
+        "id": 14,
+        "word": "막상막하",
+        "commonChars": [
+          "상"
+        ]
+      },
+      {
+        "id": 17,
+        "word": "명실상부",
+        "commonChars": [
+          "상"
+        ]
+      },
+      {
+        "id": 20,
+        "word": "문전성시",
+        "commonChars": [
+          "전"
+        ]
+      },
+      {
+        "id": 24,
+        "word": "산전수전",
+        "commonChars": [
+          "전"
+        ]
+      },
+      {
+        "id": 26,
+        "word": "설상가상",
+        "commonChars": [
+          "상"
+        ]
+      },
+      {
+        "id": 29,
+        "word": "아전인수",
+        "commonChars": [
+          "전"
+        ]
+      },
+      {
+        "id": 38,
+        "word": "이심전심",
+        "commonChars": [
+          "전"
+        ]
+      },
+      {
+        "id": 49,
+        "word": "괄목상대",
+        "commonChars": [
+          "상"
+        ]
+      },
+      {
+        "id": 54,
+        "word": "와신상담",
+        "commonChars": [
+          "상"
+        ]
+      },
+      {
+        "id": 59,
+        "word": "명불허전",
+        "commonChars": [
+          "전"
+        ]
+      },
+      {
+        "id": 66,
+        "word": "간담상조",
+        "commonChars": [
+          "상"
+        ]
+      }
+    ],
+    "81": [
+      {
+        "id": 5,
+        "word": "과유불급",
+        "commonChars": [
+          "불"
+        ]
+      },
+      {
+        "id": 21,
+        "word": "박학다식",
+        "commonChars": [
+          "식"
+        ]
+      },
+      {
+        "id": 22,
+        "word": "불편부당",
+        "commonChars": [
+          "불"
+        ]
+      },
+      {
+        "id": 31,
+        "word": "약육강식",
+        "commonChars": [
+          "식"
+        ]
+      },
+      {
+        "id": 49,
+        "word": "괄목상대",
+        "commonChars": [
+          "목"
+        ]
+      },
+      {
+        "id": 59,
+        "word": "명불허전",
+        "commonChars": [
+          "불"
+        ]
+      },
+      {
+        "id": 63,
+        "word": "사필귀정",
+        "commonChars": [
+          "정"
+        ]
+      },
+      {
+        "id": 82,
+        "word": "연목구어",
+        "commonChars": [
+          "목"
+        ]
+      },
+      {
+        "id": 85,
+        "word": "불치하문",
+        "commonChars": [
+          "불"
+        ]
+      }
+    ],
+    "82": [
+      {
+        "id": 18,
+        "word": "미사여구",
+        "commonChars": [
+          "구"
+        ]
+      },
+      {
+        "id": 28,
+        "word": "승승장구",
+        "commonChars": [
+          "구"
+        ]
+      },
+      {
+        "id": 32,
+        "word": "양두구육",
+        "commonChars": [
+          "구"
+        ]
+      },
+      {
+        "id": 43,
+        "word": "청출어람",
+        "commonChars": [
+          "어"
+        ]
+      },
+      {
+        "id": 46,
+        "word": "호연지기",
+        "commonChars": [
+          "연"
+        ]
+      },
+      {
+        "id": 49,
+        "word": "괄목상대",
+        "commonChars": [
+          "목"
+        ]
+      },
+      {
+        "id": 55,
+        "word": "어부지리",
+        "commonChars": [
+          "어"
+        ]
+      },
+      {
+        "id": 57,
+        "word": "구우일모",
+        "commonChars": [
+          "구"
+        ]
+      },
+      {
+        "id": 81,
+        "word": "목불식정",
+        "commonChars": [
+          "목"
+        ]
+      }
+    ],
+    "83": [
+      {
+        "id": 2,
+        "word": "감언이설",
+        "commonChars": [
+          "이"
+        ]
+      },
+      {
+        "id": 35,
+        "word": "오리무중",
+        "commonChars": [
+          "오"
+        ]
+      },
+      {
+        "id": 38,
+        "word": "이심전심",
+        "commonChars": [
+          "이"
+        ]
+      },
+      {
+        "id": 39,
+        "word": "일석이조",
+        "commonChars": [
+          "이"
+        ]
+      },
+      {
+        "id": 44,
+        "word": "천고마비",
+        "commonChars": [
+          "비"
+        ]
+      },
+      {
+        "id": 72,
+        "word": "대동소이",
+        "commonChars": [
+          "이"
+        ]
+      }
+    ],
+    "84": [
+      {
+        "id": 3,
+        "word": "견물생심",
+        "commonChars": [
+          "심"
+        ]
+      },
+      {
+        "id": 17,
+        "word": "명실상부",
+        "commonChars": [
+          "부"
+        ]
+      },
+      {
+        "id": 22,
+        "word": "불편부당",
+        "commonChars": [
+          "부"
+        ]
+      },
+      {
+        "id": 33,
+        "word": "언행일치",
+        "commonChars": [
+          "치"
+        ]
+      },
+      {
+        "id": 36,
+        "word": "우유부단",
+        "commonChars": [
+          "부"
+        ]
+      },
+      {
+        "id": 38,
+        "word": "이심전심",
+        "commonChars": [
+          "심"
+        ]
+      },
+      {
+        "id": 41,
+        "word": "작심삼일",
+        "commonChars": [
+          "심"
+        ]
+      },
+      {
+        "id": 55,
+        "word": "어부지리",
+        "commonChars": [
+          "부"
+        ]
+      },
+      {
+        "id": 56,
+        "word": "부화뇌동",
+        "commonChars": [
+          "부"
+        ]
+      },
+      {
+        "id": 71,
+        "word": "표리부동",
+        "commonChars": [
+          "부"
+        ]
+      },
+      {
+        "id": 85,
+        "word": "불치하문",
+        "commonChars": [
+          "치"
+        ]
+      },
+      {
+        "id": 87,
+        "word": "견강부회",
+        "commonChars": [
+          "부"
+        ]
+      }
+    ],
+    "85": [
+      {
+        "id": 5,
+        "word": "과유불급",
+        "commonChars": [
+          "불"
+        ]
+      },
+      {
+        "id": 12,
+        "word": "동문서답",
+        "commonChars": [
+          "문"
+        ]
+      },
+      {
+        "id": 14,
+        "word": "막상막하",
+        "commonChars": [
+          "하"
+        ]
+      },
+      {
+        "id": 20,
+        "word": "문전성시",
+        "commonChars": [
+          "문"
+        ]
+      },
+      {
+        "id": 22,
+        "word": "불편부당",
+        "commonChars": [
+          "불"
+        ]
+      },
+      {
+        "id": 30,
+        "word": "안하무인",
+        "commonChars": [
+          "하"
+        ]
+      },
+      {
+        "id": 33,
+        "word": "언행일치",
+        "commonChars": [
+          "치"
+        ]
+      },
+      {
+        "id": 47,
+        "word": "문일지십",
+        "commonChars": [
+          "문"
+        ]
+      },
+      {
+        "id": 51,
+        "word": "적반하장",
+        "commonChars": [
+          "하"
+        ]
+      },
+      {
+        "id": 59,
+        "word": "명불허전",
+        "commonChars": [
+          "불"
+        ]
+      },
+      {
+        "id": 68,
+        "word": "우문현답",
+        "commonChars": [
+          "문"
+        ]
+      },
+      {
+        "id": 81,
+        "word": "목불식정",
+        "commonChars": [
+          "불"
+        ]
+      },
+      {
+        "id": 84,
+        "word": "절치부심",
+        "commonChars": [
+          "치"
+        ]
+      }
+    ],
+    "86": [
+      {
+        "id": 9,
+        "word": "기암괴석",
+        "commonChars": [
+          "석"
+        ]
+      },
+      {
+        "id": 15,
+        "word": "만시지탄",
+        "commonChars": [
+          "지"
+        ]
+      },
+      {
+        "id": 16,
+        "word": "망양지탄",
+        "commonChars": [
+          "지"
+        ]
+      },
+      {
+        "id": 19,
+        "word": "무용지물",
+        "commonChars": [
+          "지"
+        ]
+      },
+      {
+        "id": 24,
+        "word": "산전수전",
+        "commonChars": [
+          "산"
+        ]
+      },
+      {
+        "id": 25,
+        "word": "새옹지마",
+        "commonChars": [
+          "지"
+        ]
+      },
+      {
+        "id": 34,
+        "word": "역지사지",
+        "commonChars": [
+          "지"
+        ]
+      },
+      {
+        "id": 39,
+        "word": "일석이조",
+        "commonChars": [
+          "석"
+        ]
+      },
+      {
+        "id": 46,
+        "word": "호연지기",
+        "commonChars": [
+          "지"
+        ]
+      },
+      {
+        "id": 47,
+        "word": "문일지십",
+        "commonChars": [
+          "지"
+        ]
+      },
+      {
+        "id": 52,
+        "word": "금지옥엽",
+        "commonChars": [
+          "지"
+        ]
+      },
+      {
+        "id": 55,
+        "word": "어부지리",
+        "commonChars": [
+          "지"
+        ]
+      },
+      {
+        "id": 70,
+        "word": "맥수지탄",
+        "commonChars": [
+          "지"
+        ]
+      },
+      {
+        "id": 78,
+        "word": "관포지교",
+        "commonChars": [
+          "지"
+        ]
+      }
+    ],
+    "87": [
+      {
+        "id": 3,
+        "word": "견물생심",
+        "commonChars": [
+          "견"
+        ]
+      },
+      {
+        "id": 17,
+        "word": "명실상부",
+        "commonChars": [
+          "부"
+        ]
+      },
+      {
+        "id": 22,
+        "word": "불편부당",
+        "commonChars": [
+          "부"
+        ]
+      },
+      {
+        "id": 31,
+        "word": "약육강식",
+        "commonChars": [
+          "강"
+        ]
+      },
+      {
+        "id": 36,
+        "word": "우유부단",
+        "commonChars": [
+          "부"
+        ]
+      },
+      {
+        "id": 55,
+        "word": "어부지리",
+        "commonChars": [
+          "부"
+        ]
+      },
+      {
+        "id": 56,
+        "word": "부화뇌동",
+        "commonChars": [
+          "부"
+        ]
+      },
+      {
+        "id": 71,
+        "word": "표리부동",
+        "commonChars": [
+          "부"
+        ]
+      },
+      {
+        "id": 74,
+        "word": "견리사의",
+        "commonChars": [
+          "견"
+        ]
+      },
+      {
+        "id": 84,
+        "word": "절치부심",
+        "commonChars": [
+          "부"
+        ]
+      }
+    ]
+  },
+  "charFrequency": {
+    "각": 2,
+    "골": 2,
+    "난": 3,
+    "망": 3,
+    "감": 2,
+    "언": 2,
+    "이": 5,
+    "설": 2,
+    "견": 3,
+    "물": 2,
+    "생": 1,
+    "심": 5,
+    "고": 4,
+    "진": 2,
+    "래": 1,
+    "과": 1,
+    "유": 6,
+    "불": 5,
+    "급": 1,
+    "군": 1,
+    "계": 2,
+    "일": 7,
+    "학": 2,
+    "권": 1,
+    "선": 2,
+    "징": 1,
+    "악": 1,
+    "기": 3,
+    "만": 2,
+    "장": 3,
+    "암": 1,
+    "괴": 1,
+    "석": 3,
+    "내": 1,
+    "우": 7,
+    "외": 1,
+    "환": 1,
+    "다": 3,
+    "익": 1,
+    "동": 6,
+    "문": 5,
+    "서": 3,
+    "답": 2,
+    "병": 1,
+    "상": 9,
+    "련": 1,
+    "막": 2,
+    "하": 4,
+    "시": 3,
+    "지": 13,
+    "탄": 3,
+    "양": 3,
+    "명": 3,
+    "실": 1,
+    "부": 8,
+    "미": 1,
+    "사": 6,
+    "여": 1,
+    "구": 5,
+    "무": 3,
+    "용": 1,
+    "전": 7,
+    "성": 1,
+    "박": 1,
+    "식": 3,
+    "편": 1,
+    "당": 2,
+    "면": 1,
+    "초": 2,
+    "가": 3,
+    "산": 2,
+    "수": 5,
+    "새": 1,
+    "옹": 1,
+    "마": 3,
+    "방": 1,
+    "관": 3,
+    "승": 2,
+    "아": 1,
+    "인": 2,
+    "안": 1,
+    "약": 2,
+    "육": 2,
+    "강": 2,
+    "두": 1,
+    "행": 1,
+    "치": 3,
+    "역": 1,
+    "오": 2,
+    "리": 4,
+    "중": 1,
+    "단": 1,
+    "자": 4,
+    "적": 2,
+    "조": 3,
+    "업": 1,
+    "득": 1,
+    "작": 1,
+    "삼": 2,
+    "모": 2,
+    "청": 3,
+    "출": 1,
+    "어": 3,
+    "람": 1,
+    "천": 1,
+    "비": 2,
+    "침": 1,
+    "소": 2,
+    "봉": 1,
+    "대": 4,
+    "호": 1,
+    "연": 2,
+    "십": 2,
+    "퇴": 1,
+    "괄": 1,
+    "목": 3,
+    "염": 1,
+    "량": 1,
+    "세": 1,
+    "태": 1,
+    "반": 4,
+    "금": 1,
+    "옥": 1,
+    "엽": 1,
+    "백": 2,
+    "년": 1,
+    "와": 1,
+    "신": 3,
+    "담": 2,
+    "화": 2,
+    "뇌": 1,
+    "독": 1,
+    "야": 1,
+    "허": 1,
+    "필": 1,
+    "귀": 1,
+    "정": 2,
+    "교": 2,
+    "살": 1,
+    "의": 2,
+    "간": 1,
+    "결": 1,
+    "보": 1,
+    "은": 1,
+    "현": 1,
+    "분": 2,
+    "갱": 1,
+    "맥": 1,
+    "표": 1,
+    "붕": 1,
+    "주": 1,
+    "갑": 1,
+    "남": 1,
+    "을": 1,
+    "녀": 1,
+    "죽": 1,
+    "포": 1,
+    "착": 1,
+    "벽": 1,
+    "해": 1,
+    "락": 1,
+    "절": 1,
+    "타": 1,
+    "회": 1
+  },
+  "statistics": {
+    "avgConnections": "8.8",
+    "minConnections": 0,
+    "maxConnections": 22,
+    "mainGroupSize": 85
+  }
+}

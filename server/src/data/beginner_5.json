@@ -1,0 +1,408 @@
+{
+  "title": "감정·기분 표현",
+  "subtitle": "한국어로 자신의 감정과 기분을 표현하는 방법을 배워요",
+  "totalSteps": 11,
+  "lessons": [
+    {
+      "stepNumber": 1,
+      "type": "single_expression",
+      "expression": {
+        "korean": "기분이 좋아요",
+        "romanization": "gibuni joayo",
+        "meaning": "I feel good / I'm in a good mood",
+        "explanation": "기분이 좋을 때 사용하는 표현이에요. '기분'은 'mood/feeling'을 의미해요.",
+        "whenToUse": "기분이 좋을 때, 즐거운 일이 있을 때",
+        "examples": [
+          {
+            "korean": "오늘 기분이 정말 좋아요!",
+            "romanization": "oneul gibuni jeongmal joayo!",
+            "meaning": "I feel really good today!"
+          },
+          {
+            "korean": "날씨가 좋아서 기분이 좋아요.",
+            "romanization": "nalssiga joaseo gibuni joayo.",
+            "meaning": "I feel good because the weather is nice."
+          }
+        ],
+        "culturalTip": "한국 사람들은 감정을 직접적으로 표현하는 것을 조금 조심스러워할 수 있어요.",
+        "explanationEn": "This is an expression used when you are feeling good. '기분' means 'mood' or 'feeling.'",
+        "whenToUseEn": "\"When you feel good, when something enjoyable happens.\"",
+        "culturalTipEn": "Koreans may be a bit cautious about expressing their emotions directly."
+      }
+    },
+    {
+      "stepNumber": 2,
+      "type": "single_expression",
+      "expression": {
+        "korean": "행복해요",
+        "romanization": "haengbokhaeyo",
+        "meaning": "I'm happy",
+        "explanation": "행복한 감정을 표현할 때 사용해요.",
+        "whenToUse": "큰 기쁨이나 만족감을 느낄 때",
+        "examples": [
+          {
+            "korean": "가족과 함께 있어서 행복해요.",
+            "romanization": "gajokgwa hamkke isseoseo haengbokhaeyo.",
+            "meaning": "I'm happy being with my family."
+          },
+          {
+            "korean": "정말 행복해요!",
+            "romanization": "jeongmal haengbokhaeyo!",
+            "meaning": "I'm really happy!"
+          }
+        ],
+        "culturalTip": "'행복'은 깊은 만족감을, '기쁘다'는 순간적인 기쁨을 표현해요.",
+        "explanationEn": "It is used to express happy feelings.",
+        "whenToUseEn": "\"When you feel great joy or satisfaction.\"",
+        "culturalTipEn": "The word '행복' (happiness) expresses a deep sense of satisfaction, while '기쁘다' (to be happy) conveys a momentary joy."
+      }
+    },
+    {
+      "stepNumber": 3,
+      "type": "single_expression",
+      "expression": {
+        "korean": "슬퍼요",
+        "romanization": "seulpeoyo",
+        "meaning": "I'm sad",
+        "explanation": "슬픈 감정을 표현할 때 사용해요.",
+        "whenToUse": "슬픈 일이 있을 때, 우울할 때",
+        "examples": [
+          {
+            "korean": "친구가 떠나서 슬퍼요.",
+            "romanization": "chinguga tteonaseo seulpeoyo.",
+            "meaning": "I'm sad because my friend is leaving."
+          },
+          {
+            "korean": "왜 슬퍼요?",
+            "romanization": "wae seulpeoyo?",
+            "meaning": "Why are you sad?"
+          }
+        ],
+        "culturalTip": "한국에서는 감정을 나누는 것을 중요하게 생각해요.",
+        "explanationEn": "\"It is used to express sad emotions.\"",
+        "whenToUseEn": "\"When something sad happens, when you're feeling down.\"",
+        "culturalTipEn": "In Korea, sharing emotions is considered important."
+      }
+    },
+    {
+      "stepNumber": 4,
+      "type": "single_expression",
+      "expression": {
+        "korean": "화나요",
+        "romanization": "hwanayo",
+        "meaning": "I'm angry",
+        "explanation": "화가 날 때 사용하는 표현이에요.",
+        "whenToUse": "짜증나거나 화가 날 때",
+        "examples": [
+          {
+            "korean": "너무 화나요!",
+            "romanization": "neomu hwanayo!",
+            "meaning": "I'm so angry!"
+          },
+          {
+            "korean": "왜 화났어요?",
+            "romanization": "wae hwanasseoyo?",
+            "meaning": "Why are you angry?"
+          }
+        ],
+        "culturalTip": "한국 문화에서는 공개적으로 화를 내는 것을 좋지 않게 봐요.",
+        "explanationEn": "This is an expression used when you are angry.",
+        "whenToUseEn": "\"When you feel annoyed or angry\"",
+        "culturalTipEn": "In Korean culture, expressing anger openly is viewed negatively."
+      }
+    },
+    {
+      "stepNumber": 5,
+      "type": "single_expression",
+      "expression": {
+        "korean": "무서워요",
+        "romanization": "museowoyo",
+        "meaning": "I'm scared / I'm afraid",
+        "explanation": "두려움이나 공포를 느낄 때 사용해요.",
+        "whenToUse": "무서운 것을 볼 때, 두려울 때",
+        "examples": [
+          {
+            "korean": "귀신 영화는 무서워요.",
+            "romanization": "gwisin yeonghwaneun museowoyo.",
+            "meaning": "Ghost movies are scary."
+          },
+          {
+            "korean": "높은 곳이 무서워요.",
+            "romanization": "nopeun gosi museowoyo.",
+            "meaning": "I'm afraid of heights."
+          }
+        ],
+        "culturalTip": "'무섭다'는 외부 대상이 무서울 때, '두렵다'는 내면의 불안을 표현해요.",
+        "explanationEn": "\"It is used when you feel fear or terror.\"",
+        "whenToUseEn": "\"When you see something scary or when you feel afraid.\"",
+        "culturalTipEn": "The word '무섭다' (museopda) is used when something external is frightening, while '두렵다' (duryeopda) expresses an inner sense of fear or anxiety."
+      }
+    },
+    {
+      "stepNumber": 6,
+      "type": "single_expression",
+      "expression": {
+        "korean": "피곤해요",
+        "romanization": "pigonhaeyo",
+        "meaning": "I'm tired",
+        "explanation": "신체적, 정신적으로 지쳤을 때 사용하는 표현이에요.",
+        "whenToUse": "피곤할 때, 쉬고 싶을 때",
+        "examples": [
+          {
+            "korean": "오늘 너무 피곤해요.",
+            "romanization": "oneul neomu pigonhaeyo.",
+            "meaning": "I'm so tired today."
+          },
+          {
+            "korean": "일이 많아서 피곤해요.",
+            "romanization": "iri manaseo pigonhaeyo.",
+            "meaning": "I'm tired because I have a lot of work."
+          }
+        ],
+        "culturalTip": "한국 직장 문화에서 '피곤하다'는 매우 자주 사용되는 표현이에요.",
+        "explanationEn": "This is an expression used when you are physically and mentally exhausted.",
+        "whenToUseEn": "\"When you are tired, when you want to rest.\"",
+        "culturalTipEn": "In Korean workplace culture, the expression \"I'm tired\" is used very frequently."
+      }
+    },
+    {
+      "stepNumber": 7,
+      "type": "single_expression",
+      "expression": {
+        "korean": "심심해요",
+        "romanization": "simsimhaeyo",
+        "meaning": "I'm bored",
+        "explanation": "지루할 때, 할 일이 없을 때 사용해요.",
+        "whenToUse": "무료할 때, 재미없을 때",
+        "examples": [
+          {
+            "korean": "주말인데 심심해요.",
+            "romanization": "jumalinde simsimhaeyo.",
+            "meaning": "It's the weekend but I'm bored."
+          },
+          {
+            "korean": "혼자 있으면 심심해요.",
+            "romanization": "honja isseumyeon simsimhaeyo.",
+            "meaning": "I get bored when I'm alone."
+          }
+        ],
+        "culturalTip": "'심심하다'는 'lonely'의 의미도 조금 포함할 수 있어요.",
+        "explanationEn": "\"I use it when I'm bored or have nothing to do.\"",
+        "whenToUseEn": "\"When you're bored, when there's nothing fun to do.\"",
+        "culturalTipEn": "The phrase '심심하다' can also carry a slight meaning of 'lonely.'"
+      }
+    },
+    {
+      "stepNumber": 8,
+      "type": "single_expression",
+      "expression": {
+        "korean": "걱정돼요",
+        "romanization": "geokjeongdwaeyo",
+        "meaning": "I'm worried",
+        "explanation": "무언가에 대해 걱정될 때 사용하는 표현이에요.",
+        "whenToUse": "불안하거나 걱정될 때",
+        "examples": [
+          {
+            "korean": "시험이 걱정돼요.",
+            "romanization": "siheomi geokjeongdwaeyo.",
+            "meaning": "I'm worried about the exam."
+          },
+          {
+            "korean": "친구가 걱정돼요.",
+            "romanization": "chinguga geokjeongdwaeyo.",
+            "meaning": "I'm worried about my friend."
+          }
+        ],
+        "culturalTip": "한국 사람들은 서로를 걱정하는 마음을 자주 표현해요.",
+        "explanationEn": "This is an expression used when you are worried about something.",
+        "whenToUseEn": "\"When you feel anxious or worried\"",
+        "culturalTipEn": "Koreans often express their concern for one another."
+      }
+    },
+    {
+      "stepNumber": 9,
+      "type": "single_expression",
+      "expression": {
+        "korean": "신나요",
+        "romanization": "sinnayo",
+        "meaning": "I'm excited",
+        "explanation": "들뜨거나 흥분될 때 사용하는 표현이에요.",
+        "whenToUse": "기대되는 일이 있을 때, 즐거운 기분일 때",
+        "examples": [
+          {
+            "korean": "여행이 너무 신나요!",
+            "romanization": "yeohaengi neomu sinnayo!",
+            "meaning": "I'm so excited about the trip!"
+          },
+          {
+            "korean": "내일 만날 생각에 신나요.",
+            "romanization": "naeil mannal saenggage sinnayo.",
+            "meaning": "I'm excited to meet you tomorrow."
+          }
+        ],
+        "culturalTip": "'신나다'는 긍정적인 흥분과 기쁨을 표현해요!",
+        "explanationEn": "This expression is used when you feel excited or thrilled.",
+        "whenToUseEn": "\"When there is something to look forward to, when you feel happy.\"",
+        "culturalTipEn": "The word '신나다' expresses positive excitement and joy!"
+      }
+    },
+    {
+      "stepNumber": 10,
+      "type": "single_expression",
+      "expression": {
+        "korean": "외로워요",
+        "romanization": "oerowoyo",
+        "meaning": "I'm lonely",
+        "explanation": "혼자라고 느끼거나 외로울 때 사용해요.",
+        "whenToUse": "고독하거나 쓸쓸할 때",
+        "examples": [
+          {
+            "korean": "친구가 없어서 외로워요.",
+            "romanization": "chinguga eopseoseo oerowoyo.",
+            "meaning": "I'm lonely because I have no friends."
+          },
+          {
+            "korean": "혼자 있으면 외로워요.",
+            "romanization": "honja isseumyeon oerowoyo.",
+            "meaning": "I feel lonely when I'm alone."
+          }
+        ],
+        "culturalTip": "한국에서는 함께하는 문화가 강해서 '외롭다'는 표현을 잘 이해해요.",
+        "explanationEn": "\"I use it when I feel alone or lonely.\"",
+        "whenToUseEn": "\"When you feel lonely or desolate.\"",
+        "culturalTipEn": "In Korea, there is a strong culture of togetherness, so the expression \"to feel lonely\" is well understood."
+      }
+    },
+    {
+      "stepNumber": 11,
+      "type": "quiz",
+      "quiz": {
+        "title": "복습 퀴즈",
+        "description": "감정과 기분 표현을 복습해볼까요?",
+        "questions": [
+          {
+            "question": "How do you say 'I'm happy'?",
+            "questionKo": "'행복해요'를 어떻게 말하나요?",
+            "options": [
+              "슬퍼요",
+              "행복해요",
+              "화나요",
+              "무서워요"
+            ],
+            "optionsKo": [
+              "슬퍼요",
+              "행복해요",
+              "화나요",
+              "무서워요"
+            ],
+            "optionsVi": [
+              "슬퍼요 (buồn)",
+              "행복해요 (hạnh phúc)",
+              "화나요 (tức giận)",
+              "무서워요 (sợ)"
+            ],
+            "correctAnswer": 1,
+            "explanation": "'행복해요'는 'I'm happy'를 의미해요."
+          },
+          {
+            "question": "What does '피곤해요'mean?",
+            "questionKo": "'피곤해요'는 무슨 뜻인가요?",
+            "options": [
+              "I'm excited",
+              "I'm bored",
+              "I'm tired",
+              "I'm sad"
+            ],
+            "optionsKo": [
+              "신나요",
+              "심심해요",
+              "피곤해요",
+              "슬퍼요"
+            ],
+            "optionsVi": [
+              "Tôi hào hứng",
+              "Tôi chán",
+              "Tôi mệt",
+              "Tôi buồn"
+            ],
+            "correctAnswer": 2,
+            "explanation": "'피곤해요'는 'I'm tired'를 의미해요."
+          },
+          {
+            "question": "Which word means 'I'm angry'?",
+            "questionKo": "'화나요'를 의미하는 단어는 무엇인가요?",
+            "options": [
+              "기분이 좋아요",
+              "화나요",
+              "신나요",
+              "외로워요"
+            ],
+            "optionsKo": [
+              "기분이 좋아요",
+              "화나요",
+              "신나요",
+              "외로워요"
+            ],
+            "optionsVi": [
+              "기분이 좋아요 (tâm trạng tốt)",
+              "화나요 (tức giận)",
+              "신나요 (hào hứng)",
+              "외로워요 (cô đơn)"
+            ],
+            "correctAnswer": 1,
+            "explanation": "'화나요'는 'I'm angry'를 의미해요."
+          },
+          {
+            "question": "What does '심심해요'mean?",
+            "questionKo": "'심심해요'는 무슨 뜻인가요?",
+            "options": [
+              "I'm worried",
+              "I'm scared",
+              "I'm bored",
+              "I'm happy"
+            ],
+            "optionsKo": [
+              "걱정돼요",
+              "무서워요",
+              "심심해요",
+              "행복해요"
+            ],
+            "optionsVi": [
+              "Tôi lo lắng",
+              "Tôi sợ",
+              "Tôi chán",
+              "Tôi hạnh phúc"
+            ],
+            "correctAnswer": 2,
+            "explanation": "'심심해요'는 'I'm bored'를 의미해요."
+          },
+          {
+            "question": "How do you say 'I'm excited'?",
+            "questionKo": "'신나요'를 어떻게 말하나요?",
+            "options": [
+              "슬퍼요",
+              "걱정돼요",
+              "신나요",
+              "피곤해요"
+            ],
+            "optionsKo": [
+              "슬퍼요",
+              "걱정돼요",
+              "신나요",
+              "피곤해요"
+            ],
+            "optionsVi": [
+              "슬퍼요 (buồn)",
+              "걱정돼요 (lo lắng)",
+              "신나요 (hào hứng)",
+              "피곤해요 (mệt)"
+            ],
+            "correctAnswer": 2,
+            "explanation": "'신나요'는 'I'm excited'를 의미해요."
+          }
+        ]
+      }
+    }
+  ],
+  "subtitleEn": "I'm learning how to express my emotions and feelings in Korean."
+}

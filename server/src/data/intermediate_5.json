@@ -1,0 +1,408 @@
+{
+  "title": "간단한 의견·감정 표현",
+  "subtitle": "한국어로 자신의 의견과 감정을 표현하는 방법을 배워요",
+  "totalSteps": 11,
+  "lessons": [
+    {
+      "stepNumber": 1,
+      "type": "single_expression",
+      "expression": {
+        "korean": "생각하다",
+        "romanization": "saenggakhada",
+        "meaning": "To think",
+        "explanation": "머리로 무언가를 생각하는 것을 의미해요.",
+        "whenToUse": "의견이나 생각을 말할 때",
+        "examples": [
+          {
+            "korean": "저는 그렇게 생각해요.",
+            "romanization": "jeoneun geureoke saenggakaeyo.",
+            "meaning": "I think so."
+          },
+          {
+            "korean": "어떻게 생각해요?",
+            "romanization": "eotteoke saenggakaeyo?",
+            "meaning": "What do you think?"
+          }
+        ],
+        "culturalTip": "한국에서는 의견을 물을 때 '어떻게 생각하세요?'를 자주 사용해요.",
+        "explanationEn": "It means to think of something in your head.",
+        "whenToUseEn": "\"When expressing opinions or thoughts\"",
+        "culturalTipEn": "In Korea, when asking for someone's opinion, it is common to say, \"What do you think?\""
+      }
+    },
+    {
+      "stepNumber": 2,
+      "type": "single_expression",
+      "expression": {
+        "korean": "___인 것 같아요",
+        "romanization": "___in geot gatayo",
+        "meaning": "I think ___ / It seems ___",
+        "explanation": "확실하지 않지만 그렇다고 생각할 때 사용하는 표현이에요.",
+        "whenToUse": "추측이나 의견을 부드럽게 말할 때",
+        "examples": [
+          {
+            "korean": "비가 올 것 같아요.",
+            "romanization": "biga ol geot gatayo.",
+            "meaning": "I think it's going to rain."
+          },
+          {
+            "korean": "맛있는 것 같아요.",
+            "romanization": "masinneun geot gatayo.",
+            "meaning": "It seems delicious."
+          }
+        ],
+        "culturalTip": "'것 같아요'를 쓰면 단정적이지 않아서 더 공손해 보여요!",
+        "explanationEn": "This is an expression used when you think something is true, but you're not entirely sure.",
+        "whenToUseEn": "\"When expressing guesses or opinions gently\"",
+        "culturalTipEn": "Using '것 같아요' makes your statement less definitive, which makes it sound more polite!"
+      }
+    },
+    {
+      "stepNumber": 3,
+      "type": "single_expression",
+      "expression": {
+        "korean": "___고 싶어요",
+        "romanization": "___go sipeoyo",
+        "meaning": "I want to ___",
+        "explanation": "무언가를 하고 싶은 욕구를 표현할 때 사용해요.",
+        "whenToUse": "희망이나 소망을 말할 때",
+        "examples": [
+          {
+            "korean": "한국에 가고 싶어요.",
+            "romanization": "hanguge gago sipeoyo.",
+            "meaning": "I want to go to Korea."
+          },
+          {
+            "korean": "뭐 하고 싶어요?",
+            "romanization": "mwo hago sipeoyo?",
+            "meaning": "What do you want to do?"
+          }
+        ],
+        "culturalTip": "'-고 싶다'는 개인의 바람을 나타내는 가장 기본적인 표현이에요.",
+        "explanationEn": "It is used to express the desire to do something.",
+        "whenToUseEn": "\"When talking about hope or wishes\"",
+        "culturalTipEn": "The phrase '-고 싶다' is the most basic expression used to indicate a person's desire or wish."
+      }
+    },
+    {
+      "stepNumber": 4,
+      "type": "single_expression",
+      "expression": {
+        "korean": "좋겠어요",
+        "romanization": "jokesseoyo",
+        "meaning": "I hope ___ / That would be nice",
+        "explanation": "바람이나 희망을 나타낼 때 사용하는 표현이에요.",
+        "whenToUse": "소망이나 바람을 말할 때",
+        "examples": [
+          {
+            "korean": "날씨가 좋겠어요.",
+            "romanization": "nalssiga jokesseoyo.",
+            "meaning": "I hope the weather is nice."
+          },
+          {
+            "korean": "빨리 주말이 왔으면 좋겠어요.",
+            "romanization": "ppalli jumari wasseumyeon jokesseoyo.",
+            "meaning": "I wish the weekend would come soon."
+          }
+        ],
+        "culturalTip": "'-으면 좋겠어요'는 간접적인 소망을 표현하는 정중한 방법이에요.",
+        "explanationEn": "This is an expression used to indicate wind or hope.",
+        "whenToUseEn": "\"When expressing hopes or wishes\"",
+        "culturalTipEn": "The phrase '-으면 좋겠어요' is a polite way to express an indirect wish."
+      }
+    },
+    {
+      "stepNumber": 5,
+      "type": "single_expression",
+      "expression": {
+        "korean": "동의하다 / 반대하다",
+        "romanization": "donguihada / bandaehada",
+        "meaning": "To agree / To disagree",
+        "explanation": "의견에 찬성하거나 반대할 때 사용하는 동사예요.",
+        "whenToUse": "의견을 표현할 때",
+        "examples": [
+          {
+            "korean": "저도 동의해요.",
+            "romanization": "jeodo donguihaeyo.",
+            "meaning": "I agree too."
+          },
+          {
+            "korean": "그 의견에 반대해요.",
+            "romanization": "geu uigyeone bandaehaeyo.",
+            "meaning": "I disagree with that opinion."
+          }
+        ],
+        "culturalTip": "한국 문화에서는 직접적인 반대보다 '그런데', '하지만'으로 부드럽게 표현해요.",
+        "explanationEn": "This is a verb used when agreeing or disagreeing with an opinion.",
+        "whenToUseEn": "\"When expressing opinions\"",
+        "culturalTipEn": "In Korean culture, instead of expressing direct opposition, we tend to use softer phrases like \"but\" or \"however.\""
+      }
+    },
+    {
+      "stepNumber": 6,
+      "type": "single_expression",
+      "expression": {
+        "korean": "제 생각에는",
+        "romanization": "je saenggageneun",
+        "meaning": "In my opinion",
+        "explanation": "자신의 의견을 말하기 시작할 때 사용하는 표현이에요.",
+        "whenToUse": "의견을 제시할 때",
+        "examples": [
+          {
+            "korean": "제 생각에는 좋은 계획이에요.",
+            "romanization": "je saenggageneun joeun gyehoegeyo.",
+            "meaning": "In my opinion, it's a good plan."
+          },
+          {
+            "korean": "제 생각에는 너무 비싸요.",
+            "romanization": "je saenggageneun neomu bissayo.",
+            "meaning": "In my opinion, it's too expensive."
+          }
+        ],
+        "culturalTip": "'제 생각에는'을 쓰면 의견을 더 정중하게 표현할 수 있어요.",
+        "explanationEn": "This is an expression used when you start to share your opinion.",
+        "whenToUseEn": "\"When presenting an opinion\"",
+        "culturalTipEn": "Using \"제 생각에는\" allows you to express your opinion more politely."
+      }
+    },
+    {
+      "stepNumber": 7,
+      "type": "single_expression",
+      "expression": {
+        "korean": "___는/(으)ㄴ 것 같아요",
+        "romanization": "___neun/(eu)n geot gatayo",
+        "meaning": "I think ___ / It seems ___",
+        "explanation": "현재나 과거의 상황에 대한 추측을 표현해요.",
+        "whenToUse": "추측이나 불확실한 의견을 말할 때",
+        "examples": [
+          {
+            "korean": "맛있는 것 같아요.",
+            "romanization": "masinneun geot gatayo.",
+            "meaning": "It seems delicious."
+          },
+          {
+            "korean": "이미 간 것 같아요.",
+            "romanization": "imi gan geot gatayo.",
+            "meaning": "I think they already left."
+          }
+        ],
+        "culturalTip": "확신이 없을 때 '것 같다'를 사용하면 단정적이지 않아 좋아요.",
+        "explanationEn": "It expresses speculation about current or past situations.",
+        "whenToUseEn": "\"When expressing guesses or uncertain opinions\"",
+        "culturalTipEn": "Using '것 같다' when you're unsure is great because it makes your statement less definitive."
+      }
+    },
+    {
+      "stepNumber": 8,
+      "type": "single_expression",
+      "expression": {
+        "korean": "기대하다",
+        "romanization": "gidaehada",
+        "meaning": "To look forward to / To expect",
+        "explanation": "앞으로 일어날 일을 고대하는 마음을 표현해요.",
+        "whenToUse": "기대감을 표현할 때",
+        "examples": [
+          {
+            "korean": "주말을 기대하고 있어요.",
+            "romanization": "jumareul gidaehago isseoyo.",
+            "meaning": "I'm looking forward to the weekend."
+          },
+          {
+            "korean": "만나기를 기대해요.",
+            "romanization": "mannagireul gidaehaeyo.",
+            "meaning": "I look forward to meeting you."
+          }
+        ],
+        "culturalTip": "'기대하다'는 긍정적인 감정을 담고 있어요!",
+        "explanationEn": "This expresses a feeling of anticipation for what is to come.",
+        "whenToUseEn": "When expressing anticipation",
+        "culturalTipEn": "The word '기대하다' carries a positive emotion!"
+      }
+    },
+    {
+      "stepNumber": 9,
+      "type": "single_expression",
+      "expression": {
+        "korean": "놀라다 / 실망하다",
+        "romanization": "nollada / silmanghada",
+        "meaning": "To be surprised / To be disappointed",
+        "explanation": "예상치 못한 일이나 기대에 못 미친 일에 대한 감정을 표현해요.",
+        "whenToUse": "놀람이나 실망을 표현할 때",
+        "examples": [
+          {
+            "korean": "너무 놀랐어요!",
+            "romanization": "neomu nollasseoyo!",
+            "meaning": "I was so surprised!"
+          },
+          {
+            "korean": "결과에 실망했어요.",
+            "romanization": "gyeolgwae silmanghaesseoyo.",
+            "meaning": "I was disappointed with the result."
+          }
+        ],
+        "culturalTip": "놀랐을 때 '깜짝이야!'라고 말하기도 해요.",
+        "explanationEn": "It expresses feelings about unexpected events or situations that fall short of expectations.",
+        "whenToUseEn": "When expressing surprise or disappointment",
+        "culturalTipEn": "When you're surprised, you can say \"깜짝이야!\" which means \"Oh, I'm surprised!\" in English."
+      }
+    },
+    {
+      "stepNumber": 10,
+      "type": "single_expression",
+      "expression": {
+        "korean": "어쩌면 / 아마도",
+        "romanization": "eojjeomyeon / amado",
+        "meaning": "Maybe / Perhaps",
+        "explanation": "불확실한 추측을 나타낼 때 사용하는 부사예요.",
+        "whenToUse": "가능성을 표현할 때",
+        "examples": [
+          {
+            "korean": "어쩌면 늦을 수도 있어요.",
+            "romanization": "eojjeomyeon neujeul sudo isseoyo.",
+            "meaning": "Maybe I could be late."
+          },
+          {
+            "korean": "아마도 비가 올 거예요.",
+            "romanization": "amado biga ol geoyeyo.",
+            "meaning": "It will probably rain."
+          }
+        ],
+        "culturalTip": "'아마도'는 '아마'로 줄여서 쓰기도 해요.",
+        "explanationEn": "This is an adverb used to indicate uncertain guesses.",
+        "whenToUseEn": "When expressing possibilities",
+        "culturalTipEn": "\"'아마도' can also be shortened to '아마'.\""
+      }
+    },
+    {
+      "stepNumber": 11,
+      "type": "quiz",
+      "quiz": {
+        "title": "복습 퀴즈",
+        "description": "의견과 감정 표현을 복습해볼까요?",
+        "questions": [
+          {
+            "question": "How do you say 'I want to go'?",
+            "questionKo": "'가고 싶어요'를 영어로 어떻게 말하나요?",
+            "options": [
+              "가요",
+              "가고 싶어요",
+              "갔어요",
+              "갈 거예요"
+            ],
+            "optionsKo": [
+              "가요",
+              "가고 싶어요",
+              "갔어요",
+              "갈 거예요"
+            ],
+            "optionsVi": [
+              "가요 (đi - hiện tại)",
+              "가고 싶어요 (muốn đi)",
+              "갔어요 (đã đi - quá khứ)",
+              "갈 거예요 (sẽ đi - tương lai)"
+            ],
+            "correctAnswer": 1,
+            "explanation": "'-고 싶어요'는 'I want to'를 의미해요."
+          },
+          {
+            "question": "What does '제 생각에는'mean?",
+            "questionKo": "'제 생각에는'은 무슨 뜻인가요?",
+            "options": [
+              "In your opinion",
+              "In my opinion",
+              "I think so",
+              "Maybe"
+            ],
+            "optionsKo": [
+              "당신 생각에는",
+              "제 생각에는",
+              "그렇게 생각해요",
+              "아마도"
+            ],
+            "optionsVi": [
+              "Theo ý kiến của bạn",
+              "Theo ý kiến của tôi",
+              "Tôi nghĩ vậy",
+              "Có thể"
+            ],
+            "correctAnswer": 1,
+            "explanation": "'제 생각에는'은 'In my opinion'을 의미해요."
+          },
+          {
+            "question": "How do you express 'I think it will rain'?",
+            "questionKo": "'비가 올 것 같아요'를 영어로 어떻게 말하나요?",
+            "options": [
+              "비가 와요",
+              "비가 왔어요",
+              "비가 올 것 같아요",
+              "비가 오고 싶어요"
+            ],
+            "optionsKo": [
+              "비가 와요",
+              "비가 왔어요",
+              "비가 올 것 같아요",
+              "비가 오고 싶어요"
+            ],
+            "optionsVi": [
+              "비가 와요 (mưa - hiện tại)",
+              "비가 왔어요 (đã mưa - quá khứ)",
+              "비가 올 것 같아요 (có vẻ sẽ mưa)",
+              "비가 오고 싶어요 (muốn mưa)"
+            ],
+            "correctAnswer": 2,
+            "explanation": "'것 같아요'는 추측을 나타내요."
+          },
+          {
+            "question": "What does '동의하다'mean?",
+            "questionKo": "'동의하다'는 무슨 뜻인가요?",
+            "options": [
+              "To disagree",
+              "To agree",
+              "To think",
+              "To expect"
+            ],
+            "optionsKo": [
+              "반대하다",
+              "동의하다",
+              "생각하다",
+              "기대하다"
+            ],
+            "optionsVi": [
+              "Không đồng ý",
+              "Đồng ý",
+              "Nghĩ",
+              "Mong đợi"
+            ],
+            "correctAnswer": 1,
+            "explanation": "'동의하다'는 'to agree'를 의미해요."
+          },
+          {
+            "question": "How do you say 'I was surprised'?",
+            "questionKo": "'놀랐어요'를 영어로 어떻게 말하나요?",
+            "options": [
+              "기대했어요",
+              "실망했어요",
+              "놀랐어요",
+              "생각했어요"
+            ],
+            "optionsKo": [
+              "기대했어요",
+              "실망했어요",
+              "놀랐어요",
+              "생각했어요"
+            ],
+            "optionsVi": [
+              "기대했어요 (đã mong đợi)",
+              "실망했어요 (đã thất vọng)",
+              "놀랐어요 (đã ngạc nhiên)",
+              "생각했어요 (đã nghĩ)"
+            ],
+            "correctAnswer": 2,
+            "explanation": "'놀랐어요'는 'I was surprised'를 의미해요."
+          }
+        ]
+      }
+    }
+  ],
+  "subtitleEn": "I learn how to express my opinions and feelings in Korean."
+}

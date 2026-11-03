@@ -1,0 +1,1204 @@
+{
+  "quizzes": [
+    {
+      "id": 1,
+      "question": "오늘 일찍 퇴근해도 {blank}?",
+      "options": [
+        "되요",
+        "돼요"
+      ],
+      "correctAnswer": 1,
+      "highlightWord": [
+        "되요",
+        "돼요"
+      ],
+      "explanation": "'되어요'의 줄임말이므로 '돼요'가 맞습니다.",
+      "category": "축약형",
+      "difficulty": "easy"
+    },
+    {
+      "id": 2,
+      "question": "이 일은 내가 {blank}.",
+      "options": [
+        "해도 되",
+        "해도 돼"
+      ],
+      "correctAnswer": 1,
+      "highlightWord": [
+        "해도 되",
+        "해도 돼"
+      ],
+      "explanation": "'하여도 되어'의 줄임말이므로 '해도 돼'가 맞습니다.",
+      "category": "축약형",
+      "difficulty": "medium"
+    },
+    {
+      "id": 3,
+      "question": "그건 {blank} 돼요!",
+      "options": [
+        "안",
+        "않"
+      ],
+      "correctAnswer": 0,
+      "highlightWord": [
+        "안",
+        "않"
+      ],
+      "explanation": "'안'은 부정 부사로 '되다' 앞에서 사용합니다.",
+      "category": "부정어",
+      "difficulty": "easy"
+    },
+    {
+      "id": 4,
+      "question": "나는 그 일을 하지 {blank}.",
+      "options": [
+        "안았다",
+        "않았다"
+      ],
+      "correctAnswer": 1,
+      "highlightWord": [
+        "안았다",
+        "않았다"
+      ],
+      "explanation": "'하지'와 함께 쓰일 때는 '않-'을 사용합니다.",
+      "category": "부정어",
+      "difficulty": "medium"
+    },
+    {
+      "id": 5,
+      "question": "시간이 {blank} 지나갔어요.",
+      "options": [
+        "금새",
+        "금세"
+      ],
+      "correctAnswer": 1,
+      "highlightWord": [
+        "금새",
+        "금세"
+      ],
+      "explanation": "'금시에'의 준말이므로 '금세'가 맞습니다.",
+      "category": "맞춤법",
+      "difficulty": "medium"
+    },
+    {
+      "id": 6,
+      "question": "{blank} 모르게 기분이 좋아요.",
+      "options": [
+        "왠지",
+        "웬지"
+      ],
+      "correctAnswer": 0,
+      "highlightWord": [
+        "왠지",
+        "웬지"
+      ],
+      "explanation": "'왜인지'의 준말이므로 '왠지'가 맞습니다.",
+      "category": "맞춤법",
+      "difficulty": "hard"
+    },
+    {
+      "id": 7,
+      "question": "{blank} 일로 여기 왔어요?",
+      "options": [
+        "왠",
+        "웬"
+      ],
+      "correctAnswer": 1,
+      "highlightWord": [
+        "왠",
+        "웬"
+      ],
+      "explanation": "'어찌된, 어떠한'의 뜻을 가진 관형사는 '웬'입니다.",
+      "category": "맞춤법",
+      "difficulty": "hard"
+    },
+    {
+      "id": 8,
+      "question": "지금 {blank}야 할지 모르겠어.",
+      "options": [
+        "어떻해",
+        "어떡해"
+      ],
+      "correctAnswer": 1,
+      "highlightWord": [
+        "어떻해",
+        "어떡해"
+      ],
+      "explanation": "'어떻게 해'의 줄임말은 '어떡해'입니다.",
+      "category": "구어/축약",
+      "difficulty": "easy"
+    },
+    {
+      "id": 9,
+      "question": "나는 {blank}어요!",
+      "options": [
+        "할수있",
+        "할 수 있"
+      ],
+      "correctAnswer": 1,
+      "highlightWord": [
+        "할수있",
+        "할 수 있"
+      ],
+      "explanation": "의존명사 '수'는 앞말과 띄어 써야 합니다.",
+      "category": "띄어쓰기",
+      "difficulty": "easy"
+    },
+    {
+      "id": 10,
+      "question": "나는 매운 음식을 {blank}어요.",
+      "options": [
+        "못먹",
+        "못 먹"
+      ],
+      "correctAnswer": 1,
+      "highlightWord": [
+        "못먹",
+        "못 먹"
+      ],
+      "explanation": "부정 부사 '못'은 뒤의 동사와 띄어 씁니다.",
+      "category": "띄어쓰기",
+      "difficulty": "easy"
+    },
+    {
+      "id": 11,
+      "question": "{blank} 했으면 쉬세요.",
+      "options": [
+        "왠만큼",
+        "웬만큼"
+      ],
+      "correctAnswer": 1,
+      "highlightWord": [
+        "왠만큼",
+        "웬만큼"
+      ],
+      "explanation": "'대강, 어지간히'의 뜻을 가진 단어는 '웬만큼'입니다.",
+      "category": "맞춤법",
+      "difficulty": "hard"
+    },
+    {
+      "id": 12,
+      "question": "내 생각과 {blank}네요.",
+      "options": [
+        "틀리",
+        "다르"
+      ],
+      "correctAnswer": 1,
+      "highlightWord": [
+        "틀리",
+        "다르"
+      ],
+      "explanation": "'같지 않다'의 의미는 '다르다'입니다.",
+      "category": "의미구별",
+      "difficulty": "medium"
+    },
+    {
+      "id": 13,
+      "question": "시험에서 답을 {blank} 썼어요.",
+      "options": [
+        "다르게",
+        "틀리게"
+      ],
+      "correctAnswer": 1,
+      "highlightWord": [
+        "다르게",
+        "틀리게"
+      ],
+      "explanation": "'정답이 아닌'의 의미이므로 '틀리게'가 맞습니다.",
+      "category": "의미구별",
+      "difficulty": "medium"
+    },
+    {
+      "id": 14,
+      "question": "{blank} 영화를 봤어요.",
+      "options": [
+        "친구과",
+        "친구와"
+      ],
+      "correctAnswer": 1,
+      "highlightWord": [
+        "친구과",
+        "친구와"
+      ],
+      "explanation": "받침이 없는 '친구' 뒤에는 '와'를 사용합니다.",
+      "category": "조사",
+      "difficulty": "easy"
+    },
+    {
+      "id": 15,
+      "question": "{blank} 상담했어요.",
+      "options": [
+        "선생님와",
+        "선생님과"
+      ],
+      "correctAnswer": 1,
+      "highlightWord": [
+        "선생님와",
+        "선생님과"
+      ],
+      "explanation": "받침이 있는 '선생님' 뒤에는 '과'를 사용합니다.",
+      "category": "조사",
+      "difficulty": "easy"
+    },
+    {
+      "id": 16,
+      "question": "선생님이 학생을 {blank}고 있어요.",
+      "options": [
+        "가르키",
+        "가르치"
+      ],
+      "correctAnswer": 1,
+      "highlightWord": [
+        "가르키",
+        "가르치"
+      ],
+      "explanation": "'가르치다'가 표준어입니다.",
+      "category": "맞춤법",
+      "difficulty": "medium"
+    },
+    {
+      "id": 17,
+      "question": "{blank} 후에 만나요.",
+      "options": [
+        "며칠",
+        "몇일"
+      ],
+      "correctAnswer": 1,
+      "highlightWord": [
+        "며칠",
+        "몇일"
+      ],
+      "explanation": "'며칠'은 하나의 단어이므로 붙여 씁니다.",
+      "category": "띄어쓰기",
+      "difficulty": "medium"
+    },
+    {
+      "id": 18,
+      "question": "문제를 {blank}!",
+      "options": [
+        "맞추었어요",
+        "맞혔어요"
+      ],
+      "correctAnswer": 1,
+      "highlightWord": [
+        "맞추었어요",
+        "맞혔어요"
+      ],
+      "explanation": "'정답을 말하거나 쓰다'의 의미는 '맞히다'입니다.",
+      "category": "의미구별",
+      "difficulty": "hard"
+    },
+    {
+      "id": 19,
+      "question": "좋은 결과를 {blank}.",
+      "options": [
+        "바래요",
+        "바라요"
+      ],
+      "correctAnswer": 1,
+      "highlightWord": [
+        "바래요",
+        "바라요"
+      ],
+      "explanation": "'희망하다'의 의미는 '바라다'입니다.",
+      "category": "의미구별",
+      "difficulty": "medium"
+    },
+    {
+      "id": 20,
+      "question": "{blank}게 시험을 마쳤어요.",
+      "options": [
+        "문안하",
+        "무난하"
+      ],
+      "correctAnswer": 1,
+      "highlightWord": [
+        "문안하",
+        "무난하"
+      ],
+      "explanation": "'특별한 문제가 없다'의 의미는 '무난하다'입니다.",
+      "category": "맞춤법",
+      "difficulty": "medium"
+    },
+    {
+      "id": 21,
+      "question": "내 {blank} 이게 맞아요.",
+      "options": [
+        "생각건대",
+        "생각컨대"
+      ],
+      "correctAnswer": 1,
+      "highlightWord": [
+        "생각건대",
+        "생각컨대"
+      ],
+      "explanation": "'생각컨대'가 표준어입니다.",
+      "category": "맞춤법",
+      "difficulty": "hard"
+    },
+    {
+      "id": 22,
+      "question": "감기가 {blank}어요.",
+      "options": [
+        "낳았",
+        "나았"
+      ],
+      "correctAnswer": 1,
+      "highlightWord": [
+        "낳았",
+        "나았"
+      ],
+      "explanation": "'병이 치유되다'의 의미는 '낫다'입니다.",
+      "category": "의미구별",
+      "difficulty": "medium"
+    },
+    {
+      "id": 23,
+      "question": "친구가 아기를 {blank}어요.",
+      "options": [
+        "낫았",
+        "낳았"
+      ],
+      "correctAnswer": 1,
+      "highlightWord": [
+        "낫았",
+        "낳았"
+      ],
+      "explanation": "'출산하다'의 의미는 '낳다'입니다.",
+      "category": "의미구별",
+      "difficulty": "medium"
+    },
+    {
+      "id": 24,
+      "question": "{blank} 전화할게요.",
+      "options": [
+        "있다가",
+        "이따가"
+      ],
+      "correctAnswer": 1,
+      "highlightWord": [
+        "있다가",
+        "이따가"
+      ],
+      "explanation": "'조금 뒤에'라는 의미의 부사는 '이따가'입니다.",
+      "category": "맞춤법",
+      "difficulty": "medium"
+    },
+    {
+      "id": 25,
+      "question": "집에 {blank} 나갈게요.",
+      "options": [
+        "이따가",
+        "있다가"
+      ],
+      "correctAnswer": 1,
+      "highlightWord": [
+        "이따가",
+        "있다가"
+      ],
+      "explanation": "'어디에 있다가'의 의미는 동사 '있다'에 '-다가'가 붙은 형태입니다.",
+      "category": "맞춤법",
+      "difficulty": "hard"
+    },
+    {
+      "id": 26,
+      "question": "{blank} 이것이 정답입니다.",
+      "options": [
+        "그럼으로",
+        "그러므로"
+      ],
+      "correctAnswer": 1,
+      "highlightWord": [
+        "그럼으로",
+        "그러므로"
+      ],
+      "explanation": "'그러므로'가 표준어입니다.",
+      "category": "맞춤법",
+      "difficulty": "medium"
+    },
+    {
+      "id": 27,
+      "question": "칼{blank} 고기를 자르다.",
+      "options": [
+        "로서",
+        "로써"
+      ],
+      "correctAnswer": 1,
+      "highlightWord": [
+        "로서",
+        "로써"
+      ],
+      "explanation": "'수단이나 도구'를 나타낼 때는 '-로써'를 사용합니다.",
+      "category": "조사",
+      "difficulty": "hard"
+    },
+    {
+      "id": 28,
+      "question": "학생{blank} 할 도리를 다하겠습니다.",
+      "options": [
+        "으로써",
+        "으로서"
+      ],
+      "correctAnswer": 1,
+      "highlightWord": [
+        "으로써",
+        "으로서"
+      ],
+      "explanation": "'자격이나 지위'를 나타내므로 '-으로서'가 맞습니다.",
+      "category": "조사",
+      "difficulty": "hard"
+    },
+    {
+      "id": 29,
+      "question": "편지를 {blank}어요.",
+      "options": [
+        "보냈",
+        "부쳤"
+      ],
+      "correctAnswer": 1,
+      "highlightWord": [
+        "보냈",
+        "부쳤"
+      ],
+      "explanation": "'편지나 물건을 보내다'의 의미는 '부치다'입니다.",
+      "category": "맞춤법",
+      "difficulty": "medium"
+    },
+    {
+      "id": 30,
+      "question": "사과의 {blank}를 세었어요.",
+      "options": [
+        "갯수",
+        "개수"
+      ],
+      "correctAnswer": 1,
+      "highlightWord": [
+        "갯수",
+        "개수"
+      ],
+      "explanation": "'개수'가 표준어입니다.",
+      "category": "맞춤법",
+      "difficulty": "medium"
+    },
+    {
+      "id": 31,
+      "question": "{blank} 와야 해요.",
+      "options": [
+        "반듯이",
+        "반드시"
+      ],
+      "correctAnswer": 1,
+      "highlightWord": [
+        "반듯이",
+        "반드시"
+      ],
+      "explanation": "'꼭, 틀림없이'의 의미는 '반드시'입니다.",
+      "category": "의미구별",
+      "difficulty": "medium"
+    },
+    {
+      "id": 32,
+      "question": "자세를 {blank} 하고 앉으세요.",
+      "options": [
+        "반드시",
+        "반듯이"
+      ],
+      "correctAnswer": 1,
+      "highlightWord": [
+        "반드시",
+        "반듯이"
+      ],
+      "explanation": "'비뚤어지지 않게, 바르게'의 의미는 '반듯이'입니다.",
+      "category": "의미구별",
+      "difficulty": "medium"
+    },
+    {
+      "id": 33,
+      "question": "꽃이 {blank}요.",
+      "options": [
+        "이뻐",
+        "예뻐"
+      ],
+      "correctAnswer": 1,
+      "highlightWord": [
+        "이뻐",
+        "예뻐"
+      ],
+      "explanation": "'예쁘다'가 표준어입니다.",
+      "category": "맞춤법",
+      "difficulty": "easy"
+    },
+    {
+      "id": 34,
+      "question": "{blank}아요, 걱정 마세요.",
+      "options": [
+        "괸찮",
+        "괜찮"
+      ],
+      "correctAnswer": 1,
+      "highlightWord": [
+        "괸찮",
+        "괜찮"
+      ],
+      "explanation": "'괜찮다'가 표준어입니다.",
+      "category": "맞춤법",
+      "difficulty": "easy"
+    },
+    {
+      "id": 35,
+      "question": "{blank} 대고 손가락질이야.",
+      "options": [
+        "어따",
+        "어디다"
+      ],
+      "correctAnswer": 1,
+      "highlightWord": [
+        "어따",
+        "어디다"
+      ],
+      "explanation": "'어디에다'의 줄임말은 '어디다'입니다.",
+      "category": "띄어쓰기",
+      "difficulty": "medium"
+    },
+    {
+      "id": 36,
+      "question": "{blank}게 조언을 하다니.",
+      "options": [
+        "어줍잖",
+        "어쭙잖"
+      ],
+      "correctAnswer": 1,
+      "highlightWord": [
+        "어줍잖",
+        "어쭙잖"
+      ],
+      "explanation": "'어쭙잖다'가 표준어입니다.",
+      "category": "어휘",
+      "difficulty": "easy"
+    },
+    {
+      "id": 37,
+      "question": "발의 {blank}를 빼야 한다.",
+      "options": [
+        "붓기",
+        "부기"
+      ],
+      "correctAnswer": 1,
+      "highlightWord": [
+        "붓기",
+        "부기"
+      ],
+      "explanation": "의학적 '부종'으로 인한 부은 상태는 '부기'가 바른 표현입니다.",
+      "category": "어휘",
+      "difficulty": "easy"
+    },
+    {
+      "id": 38,
+      "question": "{blank}를 언제까지 해야 해?",
+      "options": [
+        "뒤치닥거리",
+        "뒤치다거리"
+      ],
+      "correctAnswer": 1,
+      "highlightWord": [
+        "뒤치닥거리",
+        "뒤치다거리"
+      ],
+      "explanation": "'뒤치다거리'가 표준어입니다.",
+      "category": "어휘",
+      "difficulty": "medium"
+    },
+    {
+      "id": 39,
+      "question": "식사 후 {blank} 부탁해.",
+      "options": [
+        "설겆이",
+        "설거지"
+      ],
+      "correctAnswer": 1,
+      "highlightWord": [
+        "설겆이",
+        "설거지"
+      ],
+      "explanation": "'설거지'가 현대 표준어입니다.",
+      "category": "어휘",
+      "difficulty": "easy"
+    },
+    {
+      "id": 40,
+      "question": "{blank}에 있었던 일이에요.",
+      "options": [
+        "제작년",
+        "재작년"
+      ],
+      "correctAnswer": 1,
+      "highlightWord": [
+        "제작년",
+        "재작년"
+      ],
+      "explanation": "'재작년'이 표준어입니다.",
+      "category": "어휘",
+      "difficulty": "easy"
+    },
+    {
+      "id": 41,
+      "question": "그는 아이를 {blank}했다.",
+      "options": [
+        "닥달",
+        "닦달"
+      ],
+      "correctAnswer": 1,
+      "highlightWord": [
+        "닥달",
+        "닦달"
+      ],
+      "explanation": "'닦달하다'가 표준어입니다.",
+      "category": "어휘",
+      "difficulty": "easy"
+    },
+    {
+      "id": 42,
+      "question": "그 문제는 {blank}다.",
+      "options": [
+        "골치거리",
+        "골칫거리"
+      ],
+      "correctAnswer": 1,
+      "highlightWord": [
+        "골치거리",
+        "골칫거리"
+      ],
+      "explanation": "'골칫거리'가 표준 표기입니다.",
+      "category": "어휘",
+      "difficulty": "easy"
+    },
+    {
+      "id": 43,
+      "question": "그 집안의 전통은 {blank}되었다.",
+      "options": [
+        "되물림",
+        "대물림"
+      ],
+      "correctAnswer": 1,
+      "highlightWord": [
+        "되물림",
+        "대물림"
+      ],
+      "explanation": "'대물림'이 표준 표기입니다.",
+      "category": "어휘",
+      "difficulty": "medium"
+    },
+    {
+      "id": 44,
+      "question": "카드로 {blank}를 했습니다.",
+      "options": [
+        "결제",
+        "결재"
+      ],
+      "correctAnswer": 0,
+      "highlightWord": [
+        "결제",
+        "결재"
+      ],
+      "explanation": "'결제'는 대금을 지불하는 것이고, '결재'는 상사의 승인을 받는 것입니다.",
+      "category": "의미구별",
+      "difficulty": "medium"
+    },
+    {
+      "id": 45,
+      "question": "상사의 {blank}를 받아야 합니다.",
+      "options": [
+        "결재",
+        "결제"
+      ],
+      "correctAnswer": 0,
+      "highlightWord": [
+        "결재",
+        "결제"
+      ],
+      "explanation": "'결재'는 상사의 승인을 받는 것이고, '결제'는 대금을 지불하는 것입니다.",
+      "category": "의미구별",
+      "difficulty": "medium"
+    },
+    {
+      "id": 46,
+      "question": "{blank} 친구를 만났어요.",
+      "options": [
+        "오랜만에",
+        "오랫만에"
+      ],
+      "correctAnswer": 0,
+      "highlightWord": [
+        "오랜만에",
+        "오랫만에"
+      ],
+      "explanation": "'오래간만'의 줄임말이므로 '오랜만에'가 맞습니다.",
+      "category": "맞춤법",
+      "difficulty": "medium"
+    },
+    {
+      "id": 47,
+      "question": "눈에 {blank}는 행동을 했어요.",
+      "options": [
+        "띄",
+        "띠"
+      ],
+      "correctAnswer": 0,
+      "highlightWord": [
+        "띄",
+        "띠"
+      ],
+      "explanation": "'보이다'의 의미는 '띄다(뜨이다)'입니다.",
+      "category": "의미구별",
+      "difficulty": "hard"
+    },
+    {
+      "id": 48,
+      "question": "사용 {blank}을 읽어보세요.",
+      "options": [
+        "매뉴얼",
+        "메뉴얼"
+      ],
+      "correctAnswer": 0,
+      "highlightWord": [
+        "매뉴얼",
+        "메뉴얼"
+      ],
+      "explanation": "외래어 표기법에 따라 '매뉴얼(manual)'이 맞습니다.",
+      "category": "맞춤법",
+      "difficulty": "easy"
+    },
+    {
+      "id": 49,
+      "question": "{blank}를 확인해주세요.",
+      "options": [
+        "메시지",
+        "메세지"
+      ],
+      "correctAnswer": 0,
+      "highlightWord": [
+        "메시지",
+        "메세지"
+      ],
+      "explanation": "외래어 표기법에 따라 '메시지(message)'가 맞습니다.",
+      "category": "맞춤법",
+      "difficulty": "easy"
+    },
+    {
+      "id": 50,
+      "question": "디지털 {blank}를 제작합니다.",
+      "options": [
+        "콘텐츠",
+        "컨텐츠"
+      ],
+      "correctAnswer": 0,
+      "highlightWord": [
+        "콘텐츠",
+        "컨텐츠"
+      ],
+      "explanation": "외래어 표기법에 따라 '콘텐츠(contents)'가 맞습니다.",
+      "category": "맞춤법",
+      "difficulty": "medium"
+    },
+    {
+      "id": 51,
+      "question": "경조사 {blank}을 냈습니다.",
+      "options": [
+        "부조금",
+        "부주금"
+      ],
+      "correctAnswer": 0,
+      "highlightWord": [
+        "부조금",
+        "부주금"
+      ],
+      "explanation": "'부조금(扶助金)'이 맞는 표기입니다.",
+      "category": "맞춤법",
+      "difficulty": "medium"
+    },
+    {
+      "id": 52,
+      "question": "인성 {blank}이 중요합니다.",
+      "options": [
+        "계발",
+        "개발"
+      ],
+      "correctAnswer": 0,
+      "highlightWord": [
+        "계발",
+        "개발"
+      ],
+      "explanation": "'계발'은 인간의 정신이나 능력을 개선하는 것이고, '개발'은 사물이나 기술을 발전시키는 것입니다.",
+      "category": "의미구별",
+      "difficulty": "hard"
+    },
+    {
+      "id": 53,
+      "question": "신기술 {blank}에 성공했습니다.",
+      "options": [
+        "개발",
+        "계발"
+      ],
+      "correctAnswer": 0,
+      "highlightWord": [
+        "개발",
+        "계발"
+      ],
+      "explanation": "'개발'은 사물이나 기술을 발전시키는 것이고, '계발'은 인간의 정신이나 능력을 개선하는 것입니다.",
+      "category": "의미구별",
+      "difficulty": "hard"
+    },
+    {
+      "id": 54,
+      "question": "그럴 {blank} 없었어요.",
+      "options": [
+        "수밖에",
+        "수 밖에"
+      ],
+      "correctAnswer": 0,
+      "highlightWord": [
+        "수밖에",
+        "수 밖에"
+      ],
+      "explanation": "의존명사 '수'와 보조사 '밖에'는 붙여 씁니다.",
+      "category": "띄어쓰기",
+      "difficulty": "medium"
+    },
+    {
+      "id": 55,
+      "question": "{blank}을 떼었어요.",
+      "options": [
+        "눈곱",
+        "눈꼽"
+      ],
+      "correctAnswer": 0,
+      "highlightWord": [
+        "눈곱",
+        "눈꼽"
+      ],
+      "explanation": "'곱'은 기름이나 기름진 것을 의미하므로 '눈곱'이 맞습니다.",
+      "category": "맞춤법",
+      "difficulty": "easy"
+    },
+    {
+      "id": 56,
+      "question": "머리카락 {blank}이 많아요.",
+      "options": [
+        "숱",
+        "숯"
+      ],
+      "correctAnswer": 0,
+      "highlightWord": [
+        "숱",
+        "숯"
+      ],
+      "explanation": "모발의 양은 '숱'이고, 연료는 '숯'입니다.",
+      "category": "의미구별",
+      "difficulty": "easy"
+    },
+    {
+      "id": 57,
+      "question": "고기를 {blank}불에 구웠어요.",
+      "options": [
+        "숯",
+        "숱"
+      ],
+      "correctAnswer": 0,
+      "highlightWord": [
+        "숯",
+        "숱"
+      ],
+      "explanation": "연료는 '숯'이고, 모발의 양은 '숱'입니다.",
+      "category": "의미구별",
+      "difficulty": "easy"
+    },
+    {
+      "id": 58,
+      "question": "공부{blank} 놀기만 해요.",
+      "options": [
+        "는커녕",
+        "는 커녕"
+      ],
+      "correctAnswer": 0,
+      "highlightWord": [
+        "는커녕",
+        "는 커녕"
+      ],
+      "explanation": "'-는커녕'은 조사이므로 붙여 씁니다.",
+      "category": "띄어쓰기",
+      "difficulty": "medium"
+    },
+    {
+      "id": 59,
+      "question": "할 수 있는 {blank}이에요.",
+      "options": [
+        "것뿐",
+        "것 뿐"
+      ],
+      "correctAnswer": 0,
+      "highlightWord": [
+        "것뿐",
+        "것 뿐"
+      ],
+      "explanation": "의존명사 '것'과 보조사 '뿐'은 붙여 씁니다.",
+      "category": "띄어쓰기",
+      "difficulty": "medium"
+    },
+    {
+      "id": 60,
+      "question": "{blank} 사람들이 그렇게 생각해요.",
+      "options": [
+        "대개",
+        "대게"
+      ],
+      "correctAnswer": 0,
+      "highlightWord": [
+        "대개",
+        "대게"
+      ],
+      "explanation": "'대부분'의 의미는 '대개'이고, '대게'는 동물(킹크랩)입니다.",
+      "category": "의미구별",
+      "difficulty": "medium"
+    },
+    {
+      "id": 61,
+      "question": "{blank}를 먹었어요.",
+      "options": [
+        "대게",
+        "대개"
+      ],
+      "correctAnswer": 0,
+      "highlightWord": [
+        "대게",
+        "대개"
+      ],
+      "explanation": "동물(킹크랩)은 '대게'이고, '대개'는 '대부분'의 의미입니다.",
+      "category": "의미구별",
+      "difficulty": "medium"
+    },
+    {
+      "id": 62,
+      "question": "이게 제 {blank}.",
+      "options": [
+        "거예요",
+        "거에요"
+      ],
+      "correctAnswer": 0,
+      "highlightWord": [
+        "거예요",
+        "거에요"
+      ],
+      "explanation": "받침 없는 체언 뒤에는 '-예요'를 사용합니다.",
+      "category": "어미",
+      "difficulty": "easy"
+    },
+    {
+      "id": 63,
+      "question": "상처가 {blank}았어요.",
+      "options": [
+        "곪",
+        "곯"
+      ],
+      "correctAnswer": 0,
+      "highlightWord": [
+        "곪",
+        "곯"
+      ],
+      "explanation": "상처가 염증나는 것은 '곪다'이고, 배고픔은 '곯다'입니다.",
+      "category": "의미구별",
+      "difficulty": "medium"
+    },
+    {
+      "id": 64,
+      "question": "옷을 {blank}었어요.",
+      "options": [
+        "다렸",
+        "달였"
+      ],
+      "correctAnswer": 0,
+      "highlightWord": [
+        "다렸",
+        "달였"
+      ],
+      "explanation": "주름을 펴는 것은 '다리다'입니다.",
+      "category": "맞춤법",
+      "difficulty": "medium"
+    },
+    {
+      "id": 65,
+      "question": "{blank}로 여기 왔어요?",
+      "options": [
+        "웬일",
+        "왠일"
+      ],
+      "correctAnswer": 0,
+      "highlightWord": [
+        "웬일",
+        "왠일"
+      ],
+      "explanation": "'어떠한 일'을 뜻할 때는 관형사 '웬'을 사용합니다.",
+      "category": "맞춤법",
+      "difficulty": "hard"
+    },
+    {
+      "id": 66,
+      "question": "정말 {blank}네요.",
+      "options": [
+        "안쓰럽",
+        "안스럽"
+      ],
+      "correctAnswer": 0,
+      "highlightWord": [
+        "안쓰럽",
+        "안스럽"
+      ],
+      "explanation": "'안쓰럽다'가 표준어입니다.",
+      "category": "어휘",
+      "difficulty": "easy"
+    },
+    {
+      "id": 67,
+      "question": "안 {blank}?",
+      "options": [
+        "되",
+        "돼"
+      ],
+      "correctAnswer": 0,
+      "highlightWord": [
+        "되",
+        "돼"
+      ],
+      "explanation": "'되다'의 어간 뒤에 '-지'가 올 때는 '되지'입니다. '돼'는 '되어'의 줄임말입니다.",
+      "category": "축약형",
+      "difficulty": "medium"
+    },
+    {
+      "id": 68,
+      "question": "{blank} 시험을 마쳤어요.",
+      "options": [
+        "무난히",
+        "무난이"
+      ],
+      "correctAnswer": 0,
+      "highlightWord": [
+        "무난히",
+        "무난이"
+      ],
+      "explanation": "'-하다' 형용사의 부사형은 '-히'를 사용하므로 '무난히'가 맞습니다.",
+      "category": "어미",
+      "difficulty": "medium"
+    },
+    {
+      "id": 69,
+      "question": "{blank} 참으세요.",
+      "options": [
+        "웬만하면",
+        "왠만하면"
+      ],
+      "correctAnswer": 0,
+      "highlightWord": [
+        "웬만하면",
+        "왠만하면"
+      ],
+      "explanation": "'대강, 어지간히'의 의미는 '웬만하면'입니다.",
+      "category": "맞춤법",
+      "difficulty": "hard"
+    },
+    {
+      "id": 70,
+      "question": "자료가 {blank} 발표하겠습니다.",
+      "options": [
+        "있으므로",
+        "있음으로"
+      ],
+      "correctAnswer": 0,
+      "highlightWord": [
+        "있으므로",
+        "있음으로"
+      ],
+      "explanation": "'그러므로'의 의미는 '-으므로'입니다. '-음으로'는 '수단'을 나타냅니다.",
+      "category": "어미",
+      "difficulty": "hard"
+    },
+    {
+      "id": 71,
+      "question": "합격 {blank}이 높아요.",
+      "options": [
+        "비율",
+        "비률"
+      ],
+      "correctAnswer": 0,
+      "highlightWord": [
+        "비율",
+        "비률"
+      ],
+      "explanation": "'비율(比率)'이 맞는 표기입니다.",
+      "category": "맞춤법",
+      "difficulty": "easy"
+    },
+    {
+      "id": 72,
+      "question": "{blank}에서 쉬세요.",
+      "options": [
+        "휴게실",
+        "휴계실"
+      ],
+      "correctAnswer": 0,
+      "highlightWord": [
+        "휴게실",
+        "휴계실"
+      ],
+      "explanation": "'휴게실(休憩室)'이 맞는 표기입니다.",
+      "category": "맞춤법",
+      "difficulty": "medium"
+    },
+    {
+      "id": 73,
+      "question": "선생님께 {blank}겠습니다.",
+      "options": [
+        "여쭙",
+        "여쭈"
+      ],
+      "correctAnswer": 0,
+      "highlightWord": [
+        "여쭙",
+        "여쭈"
+      ],
+      "explanation": "'묻다'의 높임말은 '여쭙다'입니다.",
+      "category": "높임법",
+      "difficulty": "medium"
+    },
+    {
+      "id": 74,
+      "question": "그건 {blank}.",
+      "options": [
+        "아니에요",
+        "아니예요"
+      ],
+      "correctAnswer": 0,
+      "highlightWord": [
+        "아니에요",
+        "아니예요"
+      ],
+      "explanation": "'아니다'에 '-에요'가 붙어 '아니에요'가 됩니다.",
+      "category": "어미",
+      "difficulty": "medium"
+    },
+    {
+      "id": 75,
+      "question": "이제 {blank}어요.",
+      "options": [
+        "됐",
+        "됬"
+      ],
+      "correctAnswer": 0,
+      "highlightWord": [
+        "됐",
+        "됬"
+      ],
+      "explanation": "'되었다'의 줄임말은 '됐다'입니다.",
+      "category": "축약형",
+      "difficulty": "medium"
+    }
+  ]
+}

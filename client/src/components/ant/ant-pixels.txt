@@ -1,0 +1,106 @@
+이 파일은 AntCharacter.vue에 추가할 모든 개미 픽셀 아트 CSS입니다.
+
+라인 1270부터 교체:
+
+/* ===== 애벌레 (Larva) - 픽셀 아트 ===== */
+.ant-larva {
+  width: calc(var(--pixel) * 14);
+  height: calc(var(--pixel) * 9);
+}
+
+.larva-body {
+  width: calc(var(--pixel) * 14);
+  height: calc(var(--pixel) * 7);
+  position: relative;
+  background: transparent;
+  image-rendering: pixelated;
+}
+
+.larva-body::before {
+  content: '';
+  position: absolute;
+  width: var(--pixel);
+  height: var(--pixel);
+  background: #000;
+  box-shadow:
+    /* 애벌레 몸통 - 초록색 */
+    calc(var(--pixel) * 2) calc(var(--pixel) * 1) 0 0 #9ACD32,
+    calc(var(--pixel) * 3) calc(var(--pixel) * 1) 0 0 #9ACD32,
+    calc(var(--pixel) * 4) calc(var(--pixel) * 1) 0 0 #9ACD32,
+    calc(var(--pixel) * 5) calc(var(--pixel) * 1) 0 0 #9ACD32,
+    calc(var(--pixel) * 6) calc(var(--pixel) * 1) 0 0 #9ACD32,
+    calc(var(--pixel) * 7) calc(var(--pixel) * 1) 0 0 #9ACD32,
+    calc(var(--pixel) * 8) calc(var(--pixel) * 1) 0 0 #9ACD32,
+    calc(var(--pixel) * 9) calc(var(--pixel) * 1) 0 0 #9ACD32,
+    calc(var(--pixel) * 10) calc(var(--pixel) * 1) 0 0 #9ACD32,
+    calc(var(--pixel) * 11) calc(var(--pixel) * 1) 0 0 #9ACD32,
+    /* Row 2-6 */
+    calc(var(--pixel) * 1) calc(var(--pixel) * 2) 0 0 #9ACD32,
+    calc(var(--pixel) * 2) calc(var(--pixel) * 2) 0 0 #ADFF2F,
+    calc(var(--pixel) * 3) calc(var(--pixel) * 2) 0 0 #ADFF2F,
+    calc(var(--pixel) * 4) calc(var(--pixel) * 2) 0 0 #000,
+    calc(var(--pixel) * 5) calc(var(--pixel) * 2) 0 0 #000,
+    calc(var(--pixel) * 6) calc(var(--pixel) * 2) 0 0 #ADFF2F,
+    calc(var(--pixel) * 7) calc(var(--pixel) * 2) 0 0 #ADFF2F,
+    calc(var(--pixel) * 8) calc(var(--pixel) * 2) 0 0 #000,
+    calc(var(--pixel) * 9) calc(var(--pixel) * 2) 0 0 #000,
+    calc(var(--pixel) * 10) calc(var(--pixel) * 2) 0 0 #ADFF2F,
+    calc(var(--pixel) * 11) calc(var(--pixel) * 2) 0 0 #ADFF2F,
+    calc(var(--pixel) * 12) calc(var(--pixel) * 2) 0 0 #9ACD32,
+    calc(var(--pixel) * 1) calc(var(--pixel) * 3) 0 0 #9ACD32,
+    calc(var(--pixel) * 2) calc(var(--pixel) * 3) 0 0 #ADFF2F,
+    calc(var(--pixel) * 3) calc(var(--pixel) * 3) 0 0 #000,
+    calc(var(--pixel) * 4) calc(var(--pixel) * 3) 0 0 #FFF,
+    calc(var(--pixel) * 5) calc(var(--pixel) * 3) 0 0 #000,
+    calc(var(--pixel) * 6) calc(var(--pixel) * 3) 0 0 #ADFF2F,
+    calc(var(--pixel) * 7) calc(var(--pixel) * 3) 0 0 #ADFF2F,
+    calc(var(--pixel) * 8) calc(var(--pixel) * 3) 0 0 #000,
+    calc(var(--pixel) * 9) calc(var(--pixel) * 3) 0 0 #FFF,
+    calc(var(--pixel) * 10) calc(var(--pixel) * 3) 0 0 #000,
+    calc(var(--pixel) * 11) calc(var(--pixel) * 3) 0 0 #ADFF2F,
+    calc(var(--pixel) * 12) calc(var(--pixel) * 3) 0 0 #9ACD32,
+    calc(var(--pixel) * 1) calc(var(--pixel) * 4) 0 0 #9ACD32,
+    calc(var(--pixel) * 2) calc(var(--pixel) * 4) 0 0 #ADFF2F,
+    calc(var(--pixel) * 3) calc(var(--pixel) * 4) 0 0 #ADFF2F,
+    calc(var(--pixel) * 4) calc(var(--pixel) * 4) 0 0 #000,
+    calc(var(--pixel) * 5) calc(var(--pixel) * 4) 0 0 #000,
+    calc(var(--pixel) * 6) calc(var(--pixel) * 4) 0 0 #ADFF2F,
+    calc(var(--pixel) * 7) calc(var(--pixel) * 4) 0 0 #ADFF2F,
+    calc(var(--pixel) * 8) calc(var(--pixel) * 4) 0 0 #000,
+    calc(var(--pixel) * 9) calc(var(--pixel) * 4) 0 0 #000,
+    calc(var(--pixel) * 10) calc(var(--pixel) * 4) 0 0 #ADFF2F,
+    calc(var(--pixel) * 11) calc(var(--pixel) * 4) 0 0 #ADFF2F,
+    calc(var(--pixel) * 12) calc(var(--pixel) * 4) 0 0 #9ACD32,
+    calc(var(--pixel) * 1) calc(var(--pixel) * 5) 0 0 #9ACD32,
+    calc(var(--pixel) * 2) calc(var(--pixel) * 5) 0 0 #ADFF2F,
+    calc(var(--pixel) * 3) calc(var(--pixel) * 5) 0 0 #ADFF2F,
+    calc(var(--pixel) * 4) calc(var(--pixel) * 5) 0 0 #ADFF2F,
+    calc(var(--pixel) * 5) calc(var(--pixel) * 5) 0 0 #ADFF2F,
+    calc(var(--pixel) * 6) calc(var(--pixel) * 5) 0 0 #ADFF2F,
+    calc(var(--pixel) * 7) calc(var(--pixel) * 5) 0 0 #ADFF2F,
+    calc(var(--pixel) * 8) calc(var(--pixel) * 5) 0 0 #ADFF2F,
+    calc(var(--pixel) * 9) calc(var(--pixel) * 5) 0 0 #ADFF2F,
+    calc(var(--pixel) * 10) calc(var(--pixel) * 5) 0 0 #ADFF2F,
+    calc(var(--pixel) * 11) calc(var(--pixel) * 5) 0 0 #ADFF2F,
+    calc(var(--pixel) * 12) calc(var(--pixel) * 5) 0 0 #9ACD32,
+    calc(var(--pixel) * 2) calc(var(--pixel) * 6) 0 0 #9ACD32,
+    calc(var(--pixel) * 3) calc(var(--pixel) * 6) 0 0 #9ACD32,
+    calc(var(--pixel) * 4) calc(var(--pixel) * 6) 0 0 #9ACD32,
+    calc(var(--pixel) * 5) calc(var(--pixel) * 6) 0 0 #9ACD32,
+    calc(var(--pixel) * 6) calc(var(--pixel) * 6) 0 0 #9ACD32,
+    calc(var(--pixel) * 7) calc(var(--pixel) * 6) 0 0 #9ACD32,
+    calc(var(--pixel) * 8) calc(var(--pixel) * 6) 0 0 #9ACD32,
+    calc(var(--pixel) * 9) calc(var(--pixel) * 6) 0 0 #9ACD32,
+    calc(var(--pixel) * 10) calc(var(--pixel) * 6) 0 0 #9ACD32,
+    calc(var(--pixel) * 11) calc(var(--pixel) * 6) 0 0 #9ACD32;
+  top: 0;
+  left: 0;
+}
+
+.larva-segment,
+.larva-shine,
+.larva-face,
+.larva-eyes,
+.larva-mouth {
+  display: none;
+}

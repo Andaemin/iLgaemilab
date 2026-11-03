@@ -1,0 +1,408 @@
+{
+  "title": "날씨와 계절",
+  "subtitle": "한국어로 날씨와 계절에 대해 이야기하는 방법을 배워요",
+  "totalSteps": 11,
+  "lessons": [
+    {
+      "stepNumber": 1,
+      "type": "single_expression",
+      "expression": {
+        "korean": "날씨",
+        "romanization": "nalsi",
+        "meaning": "Weather",
+        "explanation": "하늘의 상태나 기후를 의미하는 단어예요.",
+        "whenToUse": "날씨에 대해 이야기할 때",
+        "examples": [
+          {
+            "korean": "오늘 날씨가 좋아요.",
+            "romanization": "oneul nalssiga joayo.",
+            "meaning": "The weather is nice today."
+          },
+          {
+            "korean": "날씨가 어때요?",
+            "romanization": "nalssiga eottaeyo?",
+            "meaning": "How's the weather?"
+          }
+        ],
+        "culturalTip": "한국 사람들은 인사로 날씨 이야기를 자주 해요!",
+        "explanationEn": "It is a word that means the state of the sky or the climate.",
+        "whenToUseEn": "\"When talking about the weather\"",
+        "culturalTipEn": "Koreans often talk about the weather as a way to greet each other!"
+      }
+    },
+    {
+      "stepNumber": 2,
+      "type": "single_expression",
+      "expression": {
+        "korean": "맑아요 / 흐려요",
+        "romanization": "malgayo / heuryeoyo",
+        "meaning": "It's clear / It's cloudy",
+        "explanation": "하늘이 맑은지 흐린지 설명하는 표현이에요.",
+        "whenToUse": "하늘 상태를 말할 때",
+        "examples": [
+          {
+            "korean": "오늘은 하늘이 맑아요.",
+            "romanization": "oneureun haneuri malgayo.",
+            "meaning": "The sky is clear today."
+          },
+          {
+            "korean": "내일은 흐릴 거예요.",
+            "romanization": "naeireun heuril geoyeyo.",
+            "meaning": "It will be cloudy tomorrow."
+          }
+        ],
+        "culturalTip": "한국은 사계절이 뚜렷해서 날씨 변화가 많아요.",
+        "explanationEn": "This is an expression that describes whether the sky is clear or cloudy.",
+        "whenToUseEn": "\"When talking about the state of the sky\"",
+        "culturalTipEn": "Korea has four distinct seasons, so there are many changes in the weather."
+      }
+    },
+    {
+      "stepNumber": 3,
+      "type": "single_expression",
+      "expression": {
+        "korean": "비가 와요 / 눈이 와요",
+        "romanization": "biga wayo / nuni wayo",
+        "meaning": "It's raining / It's snowing",
+        "explanation": "비나 눈이 내릴 때 사용하는 표현이에요.",
+        "whenToUse": "강수 현상을 설명할 때",
+        "examples": [
+          {
+            "korean": "지금 비가 많이 와요.",
+            "romanization": "jigeum biga mani wayo.",
+            "meaning": "It's raining a lot now."
+          },
+          {
+            "korean": "겨울에 눈이 자주 와요.",
+            "romanization": "gyeoure nuni jaju wayo.",
+            "meaning": "It snows often in winter."
+          }
+        ],
+        "culturalTip": "장마철(rainy season)은 6월~7월에 있어요.",
+        "explanationEn": "This is an expression used when it rains or snows.",
+        "whenToUseEn": "\"When explaining precipitation phenomena\"",
+        "culturalTipEn": "The rainy season (장마철) occurs from June to July."
+      }
+    },
+    {
+      "stepNumber": 4,
+      "type": "single_expression",
+      "expression": {
+        "korean": "덥다 / 춥다",
+        "romanization": "deopda / chupda",
+        "meaning": "Hot / Cold",
+        "explanation": "기온이 높거나 낮을 때 사용하는 형용사예요.",
+        "whenToUse": "온도에 대해 말할 때",
+        "examples": [
+          {
+            "korean": "여름에는 정말 더워요.",
+            "romanization": "yeoreumeneun jeongmal deowoyo.",
+            "meaning": "It's really hot in summer."
+          },
+          {
+            "korean": "오늘 날씨가 추워요.",
+            "romanization": "oneul nalssiga chuwoyo.",
+            "meaning": "The weather is cold today."
+          }
+        ],
+        "culturalTip": "한국의 여름은 덥고 습하고, 겨울은 춥고 건조해요.",
+        "explanationEn": "This is an adjective used when the temperature is high or low.",
+        "whenToUseEn": "\"When talking about temperature\"",
+        "culturalTipEn": "Korea's summer is hot and humid, while winter is cold and dry."
+      }
+    },
+    {
+      "stepNumber": 5,
+      "type": "single_expression",
+      "expression": {
+        "korean": "따뜻하다 / 시원하다",
+        "romanization": "ttatteuthada / siwonhada",
+        "meaning": "Warm / Cool",
+        "explanation": "적당히 따뜻하거나 시원할 때 사용하는 표현이에요.",
+        "whenToUse": "쾌적한 온도를 표현할 때",
+        "examples": [
+          {
+            "korean": "봄에는 날씨가 따뜻해요.",
+            "romanization": "bomeneun nalssiga ttatteuthaeyo.",
+            "meaning": "The weather is warm in spring."
+          },
+          {
+            "korean": "가을 날씨가 시원하고 좋아요.",
+            "romanization": "gaeul nalssiga siwonhago joayo.",
+            "meaning": "The autumn weather is cool and nice."
+          }
+        ],
+        "culturalTip": "'시원하다'는 날씨뿐만 아니라 음료나 느낌에도 사용돼요!",
+        "explanationEn": "This expression is used when it's moderately warm or cool.",
+        "whenToUseEn": "When expressing a comfortable temperature",
+        "culturalTipEn": "The word '시원하다' is used not only to describe the weather but also for drinks and feelings!"
+      }
+    },
+    {
+      "stepNumber": 6,
+      "type": "single_expression",
+      "expression": {
+        "korean": "봄, 여름, 가을, 겨울",
+        "romanization": "bom, yeoreum, gaeul, gyeoul",
+        "meaning": "Spring, Summer, Fall, Winter",
+        "explanation": "한국의 네 계절을 나타내는 단어예요.",
+        "whenToUse": "계절에 대해 이야기할 때",
+        "examples": [
+          {
+            "korean": "저는 봄을 제일 좋아해요.",
+            "romanization": "jeoneun bomeul jeil joahaeyo.",
+            "meaning": "I like spring the most."
+          },
+          {
+            "korean": "한국의 가을은 아름다워요.",
+            "romanization": "hangugui gaeur-eun areumdawoyo.",
+            "meaning": "Korea's autumn is beautiful."
+          }
+        ],
+        "culturalTip": "한국은 사계절이 뚜렷하고 각 계절마다 특색이 있어요!",
+        "explanationEn": "This is a word that represents the four seasons of Korea.",
+        "whenToUseEn": "\"When talking about the seasons\"",
+        "culturalTipEn": "Korea has four distinct seasons, and each season has its own unique characteristics!"
+      }
+    },
+    {
+      "stepNumber": 7,
+      "type": "single_expression",
+      "expression": {
+        "korean": "바람이 불어요",
+        "romanization": "barami bureoyo",
+        "meaning": "The wind is blowing / It's windy",
+        "explanation": "바람이 부는 상태를 표현하는 말이에요.",
+        "whenToUse": "바람이 많이 불 때",
+        "examples": [
+          {
+            "korean": "오늘 바람이 많이 불어요.",
+            "romanization": "oneul barami mani bureoyo.",
+            "meaning": "It's very windy today."
+          },
+          {
+            "korean": "봄에는 바람이 자주 불어요.",
+            "romanization": "bomeneun barami jaju bureoyo.",
+            "meaning": "It's often windy in spring."
+          }
+        ],
+        "culturalTip": "한국의 봄에는 황사(yellow dust)가 불어올 때도 있어요.",
+        "explanationEn": "It is a phrase that expresses the state of the wind blowing.",
+        "whenToUseEn": "\"When the wind blows a lot\"",
+        "culturalTipEn": "In spring in Korea, there are times when yellow dust (황사) blows in."
+      }
+    },
+    {
+      "stepNumber": 8,
+      "type": "single_expression",
+      "expression": {
+        "korean": "습하다 / 건조하다",
+        "romanization": "seubhada / geonjohada",
+        "meaning": "Humid / Dry",
+        "explanation": "공기 중의 수분 정도를 표현하는 단어예요.",
+        "whenToUse": "습도에 대해 말할 때",
+        "examples": [
+          {
+            "korean": "여름에는 날씨가 습해요.",
+            "romanization": "yeoreumeneun nalssiga seubhaeyo.",
+            "meaning": "The weather is humid in summer."
+          },
+          {
+            "korean": "겨울에는 공기가 건조해요.",
+            "romanization": "gyeoureneun gonggiga geonjohaeyo.",
+            "meaning": "The air is dry in winter."
+          }
+        ],
+        "culturalTip": "겨울에 건조해서 가습기를 많이 사용해요.",
+        "explanationEn": "This is a word that expresses the level of moisture in the air.",
+        "whenToUseEn": "\"When talking about humidity\"",
+        "culturalTipEn": "In winter, it gets dry, so we use humidifiers a lot."
+      }
+    },
+    {
+      "stepNumber": 9,
+      "type": "single_expression",
+      "expression": {
+        "korean": "___이/가 좋아요",
+        "romanization": "___i/ga joayo",
+        "meaning": "___ is good / I like ___",
+        "explanation": "무언가가 좋거나 선호할 때 사용하는 표현이에요.",
+        "whenToUse": "좋아하는 것을 말할 때",
+        "examples": [
+          {
+            "korean": "봄 날씨가 좋아요.",
+            "romanization": "bom nalssiga joayo.",
+            "meaning": "Spring weather is nice."
+          },
+          {
+            "korean": "시원한 날씨가 좋아요.",
+            "romanization": "siwonhan nalssiga joayo.",
+            "meaning": "I like cool weather."
+          }
+        ],
+        "culturalTip": "'좋아요'는 '좋다(to be good)'와 '좋아하다(to like)' 두 의미로 사용돼요.",
+        "explanationEn": "This is an expression used when something is good or preferred.",
+        "whenToUseEn": "\"When talking about what you like\"",
+        "culturalTipEn": "The word '좋아요' is used with two meanings: it can mean '좋다' (to be good) or '좋아하다' (to like)."
+      }
+    },
+    {
+      "stepNumber": 10,
+      "type": "single_expression",
+      "expression": {
+        "korean": "우산",
+        "romanization": "usan",
+        "meaning": "Umbrella",
+        "explanation": "비를 막기 위한 도구예요.",
+        "whenToUse": "비 올 때 필요한 물건을 말할 때",
+        "examples": [
+          {
+            "korean": "비가 와서 우산을 가져왔어요.",
+            "romanization": "biga waseo usaneul gajyeowasseoyo.",
+            "meaning": "I brought an umbrella because it's raining."
+          },
+          {
+            "korean": "우산 있어요?",
+            "romanization": "usan isseoyo?",
+            "meaning": "Do you have an umbrella?"
+          }
+        ],
+        "culturalTip": "한국에서는 편의점에서 저렴한 우산을 쉽게 살 수 있어요!",
+        "explanationEn": "\"It's a tool to block the rain.\"",
+        "whenToUseEn": "\"When talking about things needed when it rains\"",
+        "culturalTipEn": "In Korea, you can easily buy inexpensive umbrellas at convenience stores!"
+      }
+    },
+    {
+      "stepNumber": 11,
+      "type": "quiz",
+      "quiz": {
+        "title": "복습 퀴즈",
+        "description": "날씨와 계절 표현을 복습해볼까요?",
+        "questions": [
+          {
+            "question": "What does '맑아요'mean?",
+            "questionKo": "'맑아요'는 무슨 뜻인가요?",
+            "options": [
+              "It's cloudy",
+              "It's clear",
+              "It's raining",
+              "It's windy"
+            ],
+            "optionsKo": [
+              "흐려요",
+              "맑아요",
+              "비가 와요",
+              "바람이 불어요"
+            ],
+            "optionsVi": [
+              "Trời nhiều mây",
+              "Trời trong",
+              "Trời mưa",
+              "Trời có gió"
+            ],
+            "correctAnswer": 1,
+            "explanation": "'맑아요'는 하늘이 맑다는 의미예요."
+          },
+          {
+            "question": "How do you say 'It's snowing'?",
+            "questionKo": "'눈이 와요'를 영어로 어떻게 말하나요?",
+            "options": [
+              "비가 와요",
+              "바람이 불어요",
+              "눈이 와요",
+              "흐려요"
+            ],
+            "optionsKo": [
+              "비가 와요",
+              "바람이 불어요",
+              "눈이 와요",
+              "흐려요"
+            ],
+            "optionsVi": [
+              "비가 와요 (mưa)",
+              "바람이 불어요 (có gió)",
+              "눈이 와요 (có tuyết)",
+              "흐려요 (nhiều mây)"
+            ],
+            "correctAnswer": 2,
+            "explanation": "'눈이 와요'는 'It's snowing'을 의미해요."
+          },
+          {
+            "question": "What are the four seasons in order?",
+            "questionKo": "네 계절을 순서대로 말하면?",
+            "options": [
+              "여름, 봄, 가을, 겨울",
+              "봄, 여름, 가을, 겨울",
+              "겨울, 봄, 여름, 가을",
+              "가을, 겨울, 봄, 여름"
+            ],
+            "optionsKo": [
+              "여름, 봄, 가을, 겨울",
+              "봄, 여름, 가을, 겨울",
+              "겨울, 봄, 여름, 가을",
+              "가을, 겨울, 봄, 여름"
+            ],
+            "optionsVi": [
+              "Hè, Xuân, Thu, Đông",
+              "Xuân, Hè, Thu, Đông",
+              "Đông, Xuân, Hè, Thu",
+              "Thu, Đông, Xuân, Hè"
+            ],
+            "correctAnswer": 1,
+            "explanation": "봄(spring), 여름(summer), 가을(fall), 겨울(winter) 순서예요."
+          },
+          {
+            "question": "What does '습하다'mean?",
+            "questionKo": "'습하다'는 무슨 뜻인가요?",
+            "options": [
+              "Dry",
+              "Humid",
+              "Hot",
+              "Cold"
+            ],
+            "optionsKo": [
+              "건조하다",
+              "습하다",
+              "덥다",
+              "춥다"
+            ],
+            "optionsVi": [
+              "Khô",
+              "Ẩm ướt",
+              "Nóng",
+              "Lạnh"
+            ],
+            "correctAnswer": 1,
+            "explanation": "'습하다'는 'humid'를 의미해요."
+          },
+          {
+            "question": "How do you say 'warm' in Korean?",
+            "questionKo": "'따뜻하다'를 영어로 어떻게 말하나요?",
+            "options": [
+              "춥다",
+              "덥다",
+              "따뜻하다",
+              "시원하다"
+            ],
+            "optionsKo": [
+              "춥다",
+              "덥다",
+              "따뜻하다",
+              "시원하다"
+            ],
+            "optionsVi": [
+              "춥다 (lạnh)",
+              "덥다 (nóng)",
+              "따뜻하다 (ấm áp)",
+              "시원하다 (mát mẻ)"
+            ],
+            "correctAnswer": 2,
+            "explanation": "'따뜻하다'는 'warm'을 의미해요."
+          }
+        ]
+      }
+    }
+  ],
+  "subtitleEn": "I'm learning how to talk about the weather and seasons in Korean."
+}

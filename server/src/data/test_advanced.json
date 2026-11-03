@@ -1,0 +1,228 @@
+{
+  "title": "고급 마무리 테스트",
+  "subtitle": "고급 1~5단계에서 배운 내용을 종합적으로 확인해요",
+  "totalQuestions": 20,
+  "passingScore": 14,
+  "questions": [
+    {
+      "id": 1,
+      "question": "How do you ask 'How do I get to Seoul Station?'",
+      "questionKo": "'서울역에 어떻게 가요?'를 어떻게 묻나요?",
+      "options": ["서울역이 어디 있어요?", "서울역에 어떻게 가요?", "서울역이 뭐예요?", "서울역에서 내려요?"],
+      "optionsKo": ["서울역이 어디 있어요?", "서울역에 어떻게 가요?", "서울역이 뭐예요?", "서울역에서 내려요?"],
+      "correctAnswer": 1,
+      "explanation": "'어떻게 가요?'는 'How do I get to?'를 의미해요.",
+      "explanationKo": "'어떻게 가요?'는 'How do I get to?'를 의미해요.",
+      "category": "길 묻기"
+    },
+    {
+      "id": 2,
+      "question": "What does '직진하세요'mean?",
+      "questionKo": "'직진하세요'는 무슨 뜻인가요?",
+      "options": ["Turn left", "Turn right", "Go straight", "Turn around"],
+      "optionsKo": ["왼쪽으로 돌아가세요", "오른쪽으로 돌아가세요", "직진하세요", "뒤로 돌아가세요"],
+      "correctAnswer": 2,
+      "explanation": "'직진하세요'는 'Go straight'를 의미해요.",
+      "explanationKo": "'직진하세요'는 'Go straight'를 의미해요.",
+      "category": "길 묻기"
+    },
+    {
+      "id": 3,
+      "question": "How do you say 'I'm lost'?",
+      "questionKo": "'길을 잃었어요'를 어떻게 말하나요?",
+      "options": ["길이 좋아요", "길을 찾았어요", "길을 잃었어요", "길이 멀어요"],
+      "optionsKo": ["길이 좋아요", "길을 찾았어요", "길을 잃었어요", "길이 멀어요"],
+      "correctAnswer": 2,
+      "explanation": "'길을 잃었어요'는 'I'm lost'를 의미해요.",
+      "explanationKo": "'길을 잃었어요'는 'I'm lost'를 의미해요.",
+      "category": "길 묻기"
+    },
+    {
+      "id": 4,
+      "question": "How do you say 'I work at a company'?",
+      "questionKo": "'회사에서 일해요'를 어떻게 말하나요?",
+      "options": ["회사에 가요", "회사에서 일해요", "회사를 봐요", "회사가 있어요"],
+      "optionsKo": ["회사에 가요", "회사에서 일해요", "회사를 봐요", "회사가 있어요"],
+      "correctAnswer": 1,
+      "explanation": "'회사에서 일해요'는 'I work at a company'를 의미해요.",
+      "explanationKo": "'회사에서 일해요'는 'I work at a company'를 의미해요.",
+      "category": "직장 업무"
+    },
+    {
+      "id": 5,
+      "question": "What does '회의'mean?",
+      "questionKo": "'회의'는 무슨 뜻인가요?",
+      "options": ["Report", "Project", "Meeting", "Office"],
+      "optionsKo": ["보고서", "프로젝트", "회의", "사무실"],
+      "correctAnswer": 2,
+      "explanation": "'회의'는 'meeting'을 의미해요.",
+      "explanationKo": "'회의'는 'meeting'을 의미해요.",
+      "category": "직장 업무"
+    },
+    {
+      "id": 6,
+      "question": "How do you say 'to work overtime'?",
+      "questionKo": "'야근하다'를 어떻게 말하나요?",
+      "options": ["출근하다", "퇴근하다", "야근하다", "휴가하다"],
+      "optionsKo": ["출근하다", "퇴근하다", "야근하다", "휴가하다"],
+      "correctAnswer": 2,
+      "explanation": "'야근하다'는 'to work overtime'을 의미해요.",
+      "explanationKo": "'야근하다'는 'to work overtime'을 의미해요.",
+      "category": "직장 업무"
+    },
+    {
+      "id": 7,
+      "question": "What are Korea's two major holidays?",
+      "questionKo": "한국의 두 큰 명절은 무엇인가요?",
+      "options": ["크리스마스와 추석", "설날과 추석", "설날과 어린이날", "추석과 광복절"],
+      "optionsKo": ["크리스마스와 추석", "설날과 추석", "설날과 어린이날", "추석과 광복절"],
+      "correctAnswer": 1,
+      "explanation": "한국의 큰 명절은 설날(Lunar New Year)과 추석(Chuseok)이에요.",
+      "explanationKo": "한국의 큰 명절은 설날(Lunar New Year)과 추석(Chuseok)이에요.",
+      "category": "문화와 명절"
+    },
+    {
+      "id": 8,
+      "question": "What do people eat on Lunar New Year?",
+      "questionKo": "설날에 사람들이 먹는 음식은 무엇인가요?",
+      "options": ["송편", "떡국", "불고기", "비빔밥"],
+      "optionsKo": ["송편", "떡국", "불고기", "비빔밥"],
+      "correctAnswer": 1,
+      "explanation": "설날에는 떡국(rice cake soup)을 먹어요.",
+      "explanationKo": "설날에는 떡국(rice cake soup)을 먹어요.",
+      "category": "문화와 명절"
+    },
+    {
+      "id": 9,
+      "question": "What does '한복'mean?",
+      "questionKo": "'한복'은 무슨 뜻인가요?",
+      "options": ["Korean food", "Korean traditional clothing", "Korean house", "Korean holiday"],
+      "optionsKo": ["한국 음식", "한국 전통 의상", "한국 집", "한국 휴일"],
+      "correctAnswer": 1,
+      "explanation": "'한복'은 한국의 전통 의상이에요.",
+      "explanationKo": "'한복'은 한국의 전통 의상이에요.",
+      "category": "문화와 명절"
+    },
+    {
+      "id": 10,
+      "question": "How do you say 'Please help me'?",
+      "questionKo": "'도와주세요'를 어떻게 말하나요?",
+      "options": ["감사합니다", "도와주세요", "죄송합니다", "안녕하세요"],
+      "optionsKo": ["감사합니다", "도와주세요", "죄송합니다", "안녕하세요"],
+      "correctAnswer": 1,
+      "explanation": "'도와주세요'는 'Please help me'를 의미해요.",
+      "explanationKo": "'도와주세요'는 'Please help me'를 의미해요.",
+      "category": "문제 상황"
+    },
+    {
+      "id": 11,
+      "question": "What does '고장 났어요'mean?",
+      "questionKo": "'고장 났어요'는 무슨 뜻인가요?",
+      "options": ["It's expensive", "It's new", "It's broken", "It's beautiful"],
+      "optionsKo": ["비싸요", "새거예요", "고장 났어요", "예빠요"],
+      "correctAnswer": 2,
+      "explanation": "'고장 났어요'는 'It's broken'을 의미해요.",
+      "explanationKo": "'고장 났어요'는 'It's broken'을 의미해요.",
+      "category": "문제 상황"
+    },
+    {
+      "id": 12,
+      "question": "How do you ask 'What should I do?'",
+      "questionKo": "'어떻게 해요?'를 어떻게 묻나요?",
+      "options": ["뭐예요?", "어디예요?", "어떻게 해요?", "누구예요?"],
+      "optionsKo": ["뭐예요?", "어디예요?", "어떻게 해요?", "누구예요?"],
+      "correctAnswer": 2,
+      "explanation": "'어떻게 해요?'는 'What should I do?'를 의미해요.",
+      "explanationKo": "'어떻게 해요?'는 'What should I do?'를 의미해요.",
+      "category": "문제 상황"
+    },
+    {
+      "id": 13,
+      "question": "How do you say 'I want to go to Korea'?",
+      "questionKo": "'한국에 가고 싶어요'를 어떻게 말하나요?",
+      "options": ["한국에 가요", "한국에 가고 싶어요", "한국에 갔어요", "한국에 갈 거예요"],
+      "optionsKo": ["한국에 가요", "한국에 가고 싶어요", "한국에 갔어요", "한국에 갈 거예요"],
+      "correctAnswer": 1,
+      "explanation": "'-고 싶어요'는 'I want to'를 의미해요.",
+      "explanationKo": "'-고 싶어요'는 'I want to'를 의미해요.",
+      "category": "생각과 희망"
+    },
+    {
+      "id": 14,
+      "question": "What does '꿈'mean?",
+      "questionKo": "'꿈'은 무슨 뜻인가요?",
+      "options": ["Goal", "Dream", "Plan", "Hope"],
+      "optionsKo": ["목표", "꿈", "계획", "희망"],
+      "correctAnswer": 1,
+      "explanation": "'꿈'은 'dream'을 의미해요.",
+      "explanationKo": "'꿈'은 'dream'을 의미해요.",
+      "category": "생각과 희망"
+    },
+    {
+      "id": 15,
+      "question": "How do you say 'to become a teacher'?",
+      "questionKo": "'선생님이 되다'를 어떻게 말하나요?",
+      "options": ["선생님이 있다", "선생님이 되다", "선생님을 만나다", "선생님을 보다"],
+      "optionsKo": ["선생님이 있다", "선생님이 되다", "선생님을 만나다", "선생님을 보다"],
+      "correctAnswer": 1,
+      "explanation": "'되다'는 'to become'을 의미해요.",
+      "explanationKo": "'되다'는 'to become'을 의미해요.",
+      "category": "생각과 희망"
+    },
+    {
+      "id": 16,
+      "question": "What does '___에서 내리세요'mean?",
+      "questionKo": "'___에서 내리세요'는 무슨 뜻인가요?",
+      "options": ["Get on at ___", "Get off at ___", "Wait at ___", "Stop at ___"],
+      "optionsKo": ["___에서 타세요", "___에서 내리세요", "___에서 기다리세요", "___에서 멈추세요"],
+      "correctAnswer": 1,
+      "explanation": "'내리세요'는 'Get off'를 의미해요.",
+      "explanationKo": "'내리세요'는 'Get off'를 의미해요.",
+      "category": "길 묻기"
+    },
+    {
+      "id": 17,
+      "question": "What does '수고하셨습니다'mean?",
+      "questionKo": "'수고하셨습니다'는 무슨 뜻인가요?",
+      "options": ["Good morning", "Thank you for your hard work", "See you tomorrow", "Have a good day"],
+      "optionsKo": ["좋은 아침", "수고하셨습니다", "내일 봐요", "좋은 하루 보내세요"],
+      "correctAnswer": 1,
+      "explanation": "'수고하셨습니다'는 'Thank you for your hard work'를 의미해요.",
+      "explanationKo": "'수고하셨습니다'는 'Thank you for your hard work'를 의미해요.",
+      "category": "직장 업무"
+    },
+    {
+      "id": 18,
+      "question": "What speech style should you use with elders?",
+      "questionKo": "어른에게 어떤 말투를 사용해야 하나요?",
+      "options": ["반말", "존댓말", "Both are fine", "Neither"],
+      "optionsKo": ["반말", "존댓말", "둘 다 괜찮아요", "둘 다 안 되요"],
+      "correctAnswer": 1,
+      "explanation": "어른에게는 존댓말(formal speech)을 사용해야 해요.",
+      "explanationKo": "어른에게는 존댓말(formal speech)을 사용해야 해요.",
+      "category": "문화와 명절"
+    },
+    {
+      "id": 19,
+      "question": "What does '신고하다'mean?",
+      "questionKo": "'신고하다'는 무슨 뜻인가요?",
+      "options": ["To buy", "To sell", "To report", "To break"],
+      "optionsKo": ["사다", "팔다", "신고하다", "부수다"],
+      "correctAnswer": 2,
+      "explanation": "'신고하다'는 'to report'를 의미해요.",
+      "explanationKo": "'신고하다'는 'to report'를 의미해요.",
+      "category": "문제 상황"
+    },
+    {
+      "id": 20,
+      "question": "What does '노력하다'mean?",
+      "questionKo": "'노력하다'는 무슨 뜻인가요?",
+      "options": ["To give up", "To make an effort", "To succeed", "To fail"],
+      "optionsKo": ["포기하다", "노력하다", "성공하다", "실패하다"],
+      "correctAnswer": 1,
+      "explanation": "'노력하다'는 'to make an effort'를 의미해요.",
+      "explanationKo": "'노력하다'는 'to make an effort'를 의미해요.",
+      "category": "생각과 희망"
+    }
+  ]
+}

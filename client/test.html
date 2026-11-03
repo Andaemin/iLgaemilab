@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vue App Test</title>
+</head>
+<body>
+    <h1>테스트 페이지</h1>
+    <p>이 텍스트가 보인다면 HTML은 정상적으로 로드됩니다.</p>
+
+    <div id="app">
+        <p>Vue 앱이 마운트되면 이 텍스트는 사라집니다.</p>
+    </div>
+
+    <script>
+        console.log('테스트 페이지 로드됨');
+
+        // API 테스트
+        fetch('http://localhost:3031/api/auth/me')
+            .then(res => {
+                console.log('API 응답 상태:', res.status);
+                return res.json();
+            })
+            .then(data => console.log('API 응답 데이터:', data))
+            .catch(err => console.error('API 에러:', err));
+    </script>
+</body>
+</html>

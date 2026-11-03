@@ -1,0 +1,408 @@
+{
+  "title": "자기 생각·희망 표현",
+  "subtitle": "한국어로 자신의 생각과 희망을 표현하는 방법을 배워요",
+  "totalSteps": 11,
+  "lessons": [
+    {
+      "stepNumber": 1,
+      "type": "single_expression",
+      "expression": {
+        "korean": "___고 생각해요",
+        "romanization": "___go saenggakaeyo",
+        "meaning": "I think ___",
+        "explanation": "자신의 의견이나 생각을 표현할 때 사용해요.",
+        "whenToUse": "의견을 말할 때",
+        "examples": [
+          {
+            "korean": "좋은 생각이라고 생각해요.",
+            "romanization": "joeun saenggagirago saenggakaeyo.",
+            "meaning": "I think it's a good idea."
+          },
+          {
+            "korean": "어렵다고 생각해요.",
+            "romanization": "eoryeopdago saenggakaeyo.",
+            "meaning": "I think it's difficult."
+          }
+        ],
+        "culturalTip": "'-라고/다고 생각하다'로 간접적으로 의견을 표현해요.",
+        "explanationEn": "It is used when expressing one's opinions or thoughts.",
+        "whenToUseEn": "\"When expressing an opinion\"",
+        "culturalTipEn": "The phrase '-라고/다고 생각하다' is used to indirectly express an opinion."
+      }
+    },
+    {
+      "stepNumber": 2,
+      "type": "single_expression",
+      "expression": {
+        "korean": "___으면/면 좋겠어요",
+        "romanization": "___eumyeon/myeon jokesseoyo",
+        "meaning": "I hope ___ / I wish ___",
+        "explanation": "바람이나 희망을 표현할 때 사용하는 문법이에요.",
+        "whenToUse": "소망을 말할 때",
+        "examples": [
+          {
+            "korean": "날씨가 좋으면 좋겠어요.",
+            "romanization": "nalssiga joeumyeon jokesseoyo.",
+            "meaning": "I hope the weather is nice."
+          },
+          {
+            "korean": "한국어를 잘하면 좋겠어요.",
+            "romanization": "hangugeoreul jalhamyeon jokesseoyo.",
+            "meaning": "I wish I could speak Korean well."
+          }
+        ],
+        "culturalTip": "이 표현은 공손하게 희망을 표현하는 방법이에요!",
+        "explanationEn": "This is a grammar used to express wishes or hopes.",
+        "whenToUseEn": "\"When Speaking of Hopes\"",
+        "culturalTipEn": "This expression is a way to politely express hope!"
+      }
+    },
+    {
+      "stepNumber": 3,
+      "type": "single_expression",
+      "expression": {
+        "korean": "___고 싶다",
+        "romanization": "___go sipda",
+        "meaning": "I want to ___",
+        "explanation": "하고 싶은 것을 표현하는 가장 직접적인 방법이에요.",
+        "whenToUse": "욕구나 바람을 말할 때",
+        "examples": [
+          {
+            "korean": "한국에 가고 싶어요.",
+            "romanization": "hanguge gago sipeoyo.",
+            "meaning": "I want to go to Korea."
+          },
+          {
+            "korean": "뭐 하고 싶어요?",
+            "romanization": "mwo hago sipeoyo?",
+            "meaning": "What do you want to do?"
+          }
+        ],
+        "culturalTip": "'-고 싶다'는 자신의 희망을 표현할 때만 사용해요!",
+        "explanationEn": "\"It's the most direct way to express what you want to do.\"",
+        "whenToUseEn": "\"When expressing desires or wishes\"",
+        "culturalTipEn": "The phrase '-고 싶다' is only used to express one's own wishes!"
+      }
+    },
+    {
+      "stepNumber": 4,
+      "type": "single_expression",
+      "expression": {
+        "korean": "___을/를 원하다",
+        "romanization": "___eul/reul wonhada",
+        "meaning": "To want ___",
+        "explanation": "원하는 것을 표현하는 동사예요. '고 싶다'보다 강한 느낌이에요.",
+        "whenToUse": "강한 욕구를 표현할 때",
+        "examples": [
+          {
+            "korean": "성공을 원해요.",
+            "romanization": "seonggongeul wonhaeyo.",
+            "meaning": "I want success."
+          },
+          {
+            "korean": "무엇을 원하세요?",
+            "romanization": "mueoseul wonhaseyo?",
+            "meaning": "What do you want?"
+          }
+        ],
+        "culturalTip": "'원하다'는 명사와 함께, '고 싶다'는 동사와 함께 사용해요.",
+        "explanationEn": "This is a verb that expresses what you want. It has a stronger feeling than '고 싶다' (which means 'to want to').",
+        "whenToUseEn": "When expressing strong desires",
+        "culturalTipEn": "The verb '원하다' (to want) is used with nouns, while '고 싶다' (to want to) is used with verbs."
+      }
+    },
+    {
+      "stepNumber": 5,
+      "type": "single_expression",
+      "expression": {
+        "korean": "계획",
+        "romanization": "gyehoek",
+        "meaning": "Plan",
+        "explanation": "앞으로 할 일을 미리 생각해 놓은 것이에요.",
+        "whenToUse": "미래 계획에 대해 말할 때",
+        "examples": [
+          {
+            "korean": "주말 계획이 있어요?",
+            "romanization": "jumal gyehoegi isseoyo?",
+            "meaning": "Do you have plans for the weekend?"
+          },
+          {
+            "korean": "여행 계획을 세우고 있어요.",
+            "romanization": "yeohaeng gyehoegeul seugo isseoyo.",
+            "meaning": "I'm making travel plans."
+          }
+        ],
+        "culturalTip": "'계획을 세우다'는 'to make a plan'을 의미해요.",
+        "explanationEn": "\"It's something I've thought about in advance regarding what I need to do in the future.\"",
+        "whenToUseEn": "\"When talking about future plans\"",
+        "culturalTipEn": "'계획을 세우다' means 'to make a plan.'"
+      }
+    },
+    {
+      "stepNumber": 6,
+      "type": "single_expression",
+      "expression": {
+        "korean": "꿈",
+        "romanization": "kkum",
+        "meaning": "Dream",
+        "explanation": "이루고 싶은 희망이나 목표를 의미해요.",
+        "whenToUse": "꿈이나 목표에 대해 말할 때",
+        "examples": [
+          {
+            "korean": "제 꿈은 선생님이 되는 거예요.",
+            "romanization": "je kkumeun seonsaengnimni doeneun geoyeyo.",
+            "meaning": "My dream is to become a teacher."
+          },
+          {
+            "korean": "꿈이 뭐예요?",
+            "romanization": "kkumi mwoyeyo?",
+            "meaning": "What's your dream?"
+          }
+        ],
+        "culturalTip": "한국 사람들은 어릴 때부터 꿈에 대해 자주 물어봐요!",
+        "explanationEn": "It means a hope or goal that you want to achieve.",
+        "whenToUseEn": "\"When talking about dreams or goals\"",
+        "culturalTipEn": "Koreans often ask about dreams from a young age!"
+      }
+    },
+    {
+      "stepNumber": 7,
+      "type": "single_expression",
+      "expression": {
+        "korean": "___이/가 되다",
+        "romanization": "___i/ga doeda",
+        "meaning": "To become ___",
+        "explanation": "어떤 상태나 신분으로 변하는 것을 의미해요.",
+        "whenToUse": "미래의 모습을 말할 때",
+        "examples": [
+          {
+            "korean": "의사가 되고 싶어요.",
+            "romanization": "uisaga doego sipeoyo.",
+            "meaning": "I want to become a doctor."
+          },
+          {
+            "korean": "나중에 뭐가 되고 싶어요?",
+            "romanization": "najoong-e mwoga doego sipeoyo?",
+            "meaning": "What do you want to become in the future?"
+          }
+        ],
+        "culturalTip": "'되다'는 변화를 나타내는 중요한 동사예요!",
+        "explanationEn": "It means to change into a certain state or status.",
+        "whenToUseEn": "\"When talking about the future\"",
+        "culturalTipEn": "\"'되다' is an important verb that indicates change!\""
+      }
+    },
+    {
+      "stepNumber": 8,
+      "type": "single_expression",
+      "expression": {
+        "korean": "목표",
+        "romanization": "mokpyo",
+        "meaning": "Goal / Objective",
+        "explanation": "이루려고 하는 목적이나 대상이에요.",
+        "whenToUse": "목표에 대해 이야기할 때",
+        "examples": [
+          {
+            "korean": "올해 목표가 뭐예요?",
+            "romanization": "olhae mokpyoga mwoyeyo?",
+            "meaning": "What's your goal this year?"
+          },
+          {
+            "korean": "목표를 이루고 싶어요.",
+            "romanization": "mokpyoreul irugo sipeoyo.",
+            "meaning": "I want to achieve my goal."
+          }
+        ],
+        "culturalTip": "한국에서는 새해에 목표를 세우는 것이 일반적이에요!",
+        "explanationEn": "It refers to the goal or target that one aims to achieve.",
+        "whenToUseEn": "\"When talking about goals\"",
+        "culturalTipEn": "In Korea, it's common to set goals for the New Year!"
+      }
+    },
+    {
+      "stepNumber": 9,
+      "type": "single_expression",
+      "expression": {
+        "korean": "노력하다",
+        "romanization": "noryeokhada",
+        "meaning": "To make an effort / To try hard",
+        "explanation": "목표를 이루기 위해 열심히 애쓰는 것을 의미해요.",
+        "whenToUse": "노력에 대해 말할 때",
+        "examples": [
+          {
+            "korean": "한국어 공부를 열심히 노력하고 있어요.",
+            "romanization": "hangugeo gongbureul yeolsimhi noryeokhago isseoyo.",
+            "meaning": "I'm trying hard to study Korean."
+          },
+          {
+            "korean": "노력하면 할 수 있어요!",
+            "romanization": "noryeokamyeon hal su isseoyo!",
+            "meaning": "If you try hard, you can do it!"
+          }
+        ],
+        "culturalTip": "한국 사회는 노력과 열심히 일하는 것을 중요하게 여겨요!",
+        "explanationEn": "It means working hard to achieve your goals.",
+        "whenToUseEn": "\"When talking about effort\"",
+        "culturalTipEn": "Korean society values hard work and effort highly!"
+      }
+    },
+    {
+      "stepNumber": 10,
+      "type": "single_expression",
+      "expression": {
+        "korean": "성공하다 / 실패하다",
+        "romanization": "seonggonghada / silpaehada",
+        "meaning": "To succeed / To fail",
+        "explanation": "목표를 이루거나 이루지 못하는 것을 의미해요.",
+        "whenToUse": "결과에 대해 말할 때",
+        "examples": [
+          {
+            "korean": "꼭 성공하고 싶어요.",
+            "romanization": "kkok seonggonghago sipeoyo.",
+            "meaning": "I really want to succeed."
+          },
+          {
+            "korean": "실패해도 괜찮아요. 다시 시도하세요!",
+            "romanization": "silpaehaedo gwaenchanayo. dasi sidohaseyo!",
+            "meaning": "It's okay to fail. Try again!"
+          }
+        ],
+        "culturalTip": "한국에서는 실패를 두려워하지 말고 도전하는 것이 중요해요!",
+        "explanationEn": "It means achieving or not achieving a goal.",
+        "whenToUseEn": "\"When talking about results\"",
+        "culturalTipEn": "In Korea, it is important not to fear failure and to embrace challenges!"
+      }
+    },
+    {
+      "stepNumber": 11,
+      "type": "quiz",
+      "quiz": {
+        "title": "복습 퀴즈",
+        "description": "생각과 희망 표현을 복습해볼까요?",
+        "questions": [
+          {
+            "question": "How do you say 'I want to go to Korea'?",
+            "questionKo": "'한국에 가고 싶어요'를 영어로 어떻게 말하나요?",
+            "options": [
+              "한국에 가요",
+              "한국에 가고 싶어요",
+              "한국에 갔어요",
+              "한국에 갈 거예요"
+            ],
+            "optionsKo": [
+              "한국에 가요",
+              "한국에 가고 싶어요",
+              "한국에 갔어요",
+              "한국에 갈 거예요"
+            ],
+            "optionsVi": [
+              "한국에 가요 (đi Hàn Quốc - hiện tại)",
+              "한국에 가고 싶어요 (muốn đi Hàn Quốc)",
+              "한국에 갔어요 (đã đi Hàn Quốc)",
+              "한국에 갈 거예요 (sẽ đi Hàn Quốc)"
+            ],
+            "correctAnswer": 1,
+            "explanation": "'-고 싶어요'는 'I want to'를 의미해요."
+          },
+          {
+            "question": "What does '꿈'mean?",
+            "questionKo": "'꿈'은 무슨 뜻인가요?",
+            "options": [
+              "Goal",
+              "Dream",
+              "Plan",
+              "Hope"
+            ],
+            "optionsKo": [
+              "목표",
+              "꿈",
+              "계획",
+              "희망"
+            ],
+            "optionsVi": [
+              "Mục tiêu",
+              "Giấc mơ",
+              "Kế hoạch",
+              "Hy vọng"
+            ],
+            "correctAnswer": 1,
+            "explanation": "'꿈'은 'dream'을 의미해요."
+          },
+          {
+            "question": "How do you express 'I hope the weather is nice'?",
+            "questionKo": "'날씨가 좋으면 좋겠어요'를 영어로 어떻게 말하나요?",
+            "options": [
+              "날씨가 좋아요",
+              "날씨가 좋았어요",
+              "날씨가 좋으면 좋겠어요",
+              "날씨가 좋고 싶어요"
+            ],
+            "optionsKo": [
+              "날씨가 좋아요",
+              "날씨가 좋았어요",
+              "날씨가 좋으면 좋겠어요",
+              "날씨가 좋고 싶어요"
+            ],
+            "optionsVi": [
+              "날씨가 좋아요 (thời tiết đẹp - hiện tại)",
+              "날씨가 좋았어요 (thời tiết đã đẹp)",
+              "날씨가 좋으면 좋겠어요 (hi vọng thời tiết đẹp)",
+              "날씨가 좋고 싶어요 (muốn thời tiết đẹp)"
+            ],
+            "correctAnswer": 2,
+            "explanation": "'-으면 좋겠어요'는 희망을 표현해요."
+          },
+          {
+            "question": "What does '노력하다'mean?",
+            "questionKo": "'노력하다'는 무슨 뜻인가요?",
+            "options": [
+              "To give up",
+              "To make an effort",
+              "To succeed",
+              "To fail"
+            ],
+            "optionsKo": [
+              "포기하다",
+              "노력하다",
+              "성공하다",
+              "실패하다"
+            ],
+            "optionsVi": [
+              "Bỏ cuộc",
+              "Nỗ lực",
+              "Thành công",
+              "Thất bại"
+            ],
+            "correctAnswer": 1,
+            "explanation": "'노력하다'는 'to make an effort'를 의미해요."
+          },
+          {
+            "question": "How do you say 'to become a teacher'?",
+            "questionKo": "'선생님이 되다'를 영어로 어떻게 말하나요?",
+            "options": [
+              "선생님이 있다",
+              "선생님이 되다",
+              "선생님을 만나다",
+              "선생님을 보다"
+            ],
+            "optionsKo": [
+              "선생님이 있다",
+              "선생님이 되다",
+              "선생님을 만나다",
+              "선생님을 보다"
+            ],
+            "optionsVi": [
+              "선생님이 있다 (có giáo viên)",
+              "선생님이 되다 (trở thành giáo viên)",
+              "선생님을 만나다 (gặp giáo viên)",
+              "선생님을 보다 (nhìn thấy giáo viên)"
+            ],
+            "correctAnswer": 1,
+            "explanation": "'되다'는 'to become'을 의미해요."
+          }
+        ]
+      }
+    }
+  ],
+  "subtitleEn": "I'm learning how to express my thoughts and hopes in Korean."
+}

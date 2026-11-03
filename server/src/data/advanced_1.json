@@ -1,0 +1,408 @@
+{
+  "title": "길 묻기와 안내하기",
+  "subtitle": "한국어로 길을 묻고 안내하는 방법을 배워요",
+  "totalSteps": 11,
+  "lessons": [
+    {
+      "stepNumber": 1,
+      "type": "single_expression",
+      "expression": {
+        "korean": "___이/가 어디 있어요?",
+        "romanization": "___i/ga eodi isseoyo?",
+        "meaning": "Where is ___?",
+        "explanation": "장소를 찾을 때 사용하는 가장 기본적인 질문이에요.",
+        "whenToUse": "길을 물어볼 때, 장소를 찾을 때",
+        "examples": [
+          {
+            "korean": "지하철역이 어디 있어요?",
+            "romanization": "jihacheollyeogi eodi isseoyo?",
+            "meaning": "Where is the subway station?"
+          },
+          {
+            "korean": "화장실이 어디 있어요?",
+            "romanization": "hwajangsiri eodi isseoyo?",
+            "meaning": "Where is the restroom?"
+          }
+        ],
+        "culturalTip": "한국 사람들은 길을 물으면 친절하게 알려줘요!",
+        "explanationEn": "This is the most basic question used when looking for a place.",
+        "whenToUseEn": "\"When asking for directions or looking for a place.\"",
+        "culturalTipEn": "Koreans are kind and will help you if you ask for directions!"
+      }
+    },
+    {
+      "stepNumber": 2,
+      "type": "single_expression",
+      "expression": {
+        "korean": "___에 어떻게 가요?",
+        "romanization": "___e eotteoke gayo?",
+        "meaning": "How do I get to ___?",
+        "explanation": "목적지까지 가는 방법을 물어볼 때 사용해요.",
+        "whenToUse": "길 찾기를 도와달라고 할 때",
+        "examples": [
+          {
+            "korean": "명동에 어떻게 가요?",
+            "romanization": "myeongdonge eotteoke gayo?",
+            "meaning": "How do I get to Myeongdong?"
+          },
+          {
+            "korean": "서울역에 어떻게 가요?",
+            "romanization": "seoullyeoge eotteoke gayo?",
+            "meaning": "How do I get to Seoul Station?"
+          }
+        ],
+        "culturalTip": "한국에서는 지하철이 매우 발달해서 대부분의 장소에 갈 수 있어요.",
+        "explanationEn": "This is used when asking for directions to a destination.",
+        "whenToUseEn": "\"When asking for directions.\"",
+        "culturalTipEn": "In Korea, the subway system is very well developed, allowing you to reach most places."
+      }
+    },
+    {
+      "stepNumber": 3,
+      "type": "single_expression",
+      "expression": {
+        "korean": "직진하세요 / 돌아가세요",
+        "romanization": "jikjinhaseyo / doragaseyo",
+        "meaning": "Go straight / Turn around",
+        "explanation": "길 안내할 때 사용하는 기본 방향 지시예요.",
+        "whenToUse": "길을 안내할 때",
+        "examples": [
+          {
+            "korean": "쭉 직진하세요.",
+            "romanization": "jjuk jikjinhaseyo.",
+            "meaning": "Go straight ahead."
+          },
+          {
+            "korean": "여기서 돌아가세요.",
+            "romanization": "yeogiseo doragaseyo.",
+            "meaning": "Turn around here."
+          }
+        ],
+        "culturalTip": "'쭉'은 '계속', 'all the way'를 의미해요.",
+        "explanationEn": "This is a basic directional indication used when giving directions.",
+        "whenToUseEn": "\"When giving directions\"",
+        "culturalTipEn": "The word '쭉' means 'continuously' or 'all the way.'"
+      }
+    },
+    {
+      "stepNumber": 4,
+      "type": "single_expression",
+      "expression": {
+        "korean": "왼쪽/오른쪽으로 도세요",
+        "romanization": "oenjjok/oreunjjogeuro doseyo",
+        "meaning": "Turn left/right",
+        "explanation": "좌회전이나 우회전을 안내할 때 사용해요.",
+        "whenToUse": "방향을 바꿔야 할 때",
+        "examples": [
+          {
+            "korean": "다음 모퉁이에서 왼쪽으로 도세요.",
+            "romanization": "daeum motuingieseo oenjjogeuro doseyo.",
+            "meaning": "Turn left at the next corner."
+          },
+          {
+            "korean": "신호등에서 오른쪽으로 도세요.",
+            "romanization": "sinhodeongeseo oreunjjogeuro doseyo.",
+            "meaning": "Turn right at the traffic light."
+          }
+        ],
+        "culturalTip": "'돌다'는 turn, '모퉁이'는 corner를 의미해요.",
+        "explanationEn": "It is used to give directions for turning left or right.",
+        "whenToUseEn": "\"When You Need to Change Direction\"",
+        "culturalTipEn": "The word '돌다' means \"to turn,\" and '모퉁이' means \"corner.\""
+      }
+    },
+    {
+      "stepNumber": 5,
+      "type": "single_expression",
+      "expression": {
+        "korean": "___을/를 지나서",
+        "romanization": "___eul/reul jinaseo",
+        "meaning": "Past ___",
+        "explanation": "특정 장소를 지나간 후를 설명할 때 사용해요.",
+        "whenToUse": "랜드마크를 기준으로 설명할 때",
+        "examples": [
+          {
+            "korean": "편의점을 지나서 오른쪽에 있어요.",
+            "romanization": "pyeonuijeomeul jinaseo oreunjjoge isseoyo.",
+            "meaning": "It's on the right past the convenience store."
+          },
+          {
+            "korean": "은행을 지나서 직진하세요.",
+            "romanization": "eunhaengeul jinaseo jikjinhaseyo.",
+            "meaning": "Go straight past the bank."
+          }
+        ],
+        "culturalTip": "한국 사람들은 편의점, 카페 같은 랜드마크로 길을 안내해요!",
+        "explanationEn": "It is used to describe what happens after passing a specific place.",
+        "whenToUseEn": "\"When explaining based on landmarks\"",
+        "culturalTipEn": "Koreans often use landmarks like convenience stores and cafes to give directions!"
+      }
+    },
+    {
+      "stepNumber": 6,
+      "type": "single_expression",
+      "expression": {
+        "korean": "___에서 내리세요",
+        "romanization": "___eseo neriseyo",
+        "meaning": "Get off at ___",
+        "explanation": "대중교통에서 내릴 곳을 알려줄 때 사용해요.",
+        "whenToUse": "지하철, 버스 안내할 때",
+        "examples": [
+          {
+            "korean": "강남역에서 내리세요.",
+            "romanization": "gangnamyeogeseo neriseyo.",
+            "meaning": "Get off at Gangnam Station."
+          },
+          {
+            "korean": "다음 정류장에서 내리세요.",
+            "romanization": "daeum jeongnyujang-eseo neriseyo.",
+            "meaning": "Get off at the next stop."
+          }
+        ],
+        "culturalTip": "한국 지하철은 영어 안내방송도 있어서 외국인도 이용하기 쉬워요!",
+        "explanationEn": "This is used to let someone know where to get off on public transportation.",
+        "whenToUseEn": "When providing directions for the subway and bus.",
+        "culturalTipEn": "The Korean subway has announcements in English, making it easy for foreigners to use!"
+      }
+    },
+    {
+      "stepNumber": 7,
+      "type": "single_expression",
+      "expression": {
+        "korean": "몇 번 출구로 나가요?",
+        "romanization": "myeot beon chulguero nagayo?",
+        "meaning": "Which exit number do I go out?",
+        "explanation": "지하철역의 출구 번호를 물어볼 때 사용해요.",
+        "whenToUse": "지하철역에서 출구를 찾을 때",
+        "examples": [
+          {
+            "korean": "명동역 몇 번 출구로 나가요?",
+            "romanization": "myeongdongyeok myeot beon chulguero nagayo?",
+            "meaning": "Which exit number of Myeongdong Station do I go out?"
+          },
+          {
+            "korean": "3번 출구로 나가세요.",
+            "romanization": "sam beon chulguero nagaseyo.",
+            "meaning": "Go out through exit 3."
+          }
+        ],
+        "culturalTip": "한국 지하철역은 출구가 많아서 출구 번호가 중요해요!",
+        "explanationEn": "This is used when asking for the exit number at a subway station.",
+        "whenToUseEn": "\"When looking for the exit at the subway station\"",
+        "culturalTipEn": "Korean subway stations have many exits, so exit numbers are important!"
+      }
+    },
+    {
+      "stepNumber": 8,
+      "type": "single_expression",
+      "expression": {
+        "korean": "여기서 얼마나 걸려요?",
+        "romanization": "yeogiseo eolmana geollyeoyo?",
+        "meaning": "How long does it take from here?",
+        "explanation": "소요 시간을 물어볼 때 사용하는 표현이에요.",
+        "whenToUse": "거리나 시간을 알고 싶을 때",
+        "examples": [
+          {
+            "korean": "여기서 명동까지 얼마나 걸려요?",
+            "romanization": "yeogiseo myeongdongkkaji eolmana geollyeoyo?",
+            "meaning": "How long does it take from here to Myeongdong?"
+          },
+          {
+            "korean": "걸어서 10분 정도 걸려요.",
+            "romanization": "georeoseo sip bun jeongdo geollyeoyo.",
+            "meaning": "It takes about 10 minutes on foot."
+          }
+        ],
+        "culturalTip": "'걸리다'는 시간이나 거리가 소요된다는 의미예요.",
+        "explanationEn": "This is an expression used when asking about the duration of time.",
+        "whenToUseEn": "\"When you want to know the distance or time.\"",
+        "culturalTipEn": "The verb '걸리다' means that time or distance is required."
+      }
+    },
+    {
+      "stepNumber": 9,
+      "type": "single_expression",
+      "expression": {
+        "korean": "가까워요 / 멀어요",
+        "romanization": "gakkawoyo / meoreoyo",
+        "meaning": "It's close / It's far",
+        "explanation": "거리의 가까움이나 멈을 표현할 때 사용해요.",
+        "whenToUse": "거리를 설명할 때",
+        "examples": [
+          {
+            "korean": "여기서 가까워요?",
+            "romanization": "yeogiseo gakkawoyo?",
+            "meaning": "Is it close from here?"
+          },
+          {
+            "korean": "아니요, 좀 멀어요.",
+            "romanization": "aniyo, jom meoreoyo.",
+            "meaning": "No, it's a bit far."
+          }
+        ],
+        "culturalTip": "한국 사람들은 '가깝다'고 하면 걸어서 10분 이내를 말해요!",
+        "explanationEn": "It is used to express proximity or stopping in the street.",
+        "whenToUseEn": "\"When describing a street\"",
+        "culturalTipEn": "Koreans say \"close\" when referring to a distance that can be walked in about 10 minutes!"
+      }
+    },
+    {
+      "stepNumber": 10,
+      "type": "single_expression",
+      "expression": {
+        "korean": "길을 잃었어요",
+        "romanization": "gireul ireosseoyo",
+        "meaning": "I'm lost",
+        "explanation": "길을 헤맸을 때 도움을 요청하는 표현이에요.",
+        "whenToUse": "길을 잃었을 때",
+        "examples": [
+          {
+            "korean": "죄송합니다, 길을 잃었어요.",
+            "romanization": "joesonghamnida, gireul ireosseoyo.",
+            "meaning": "Excuse me, I'm lost."
+          },
+          {
+            "korean": "도와주세요. 길을 잃었어요.",
+            "romanization": "dowajuseyo. gireul ireosseoyo.",
+            "meaning": "Please help me. I'm lost."
+          }
+        ],
+        "culturalTip": "한국 사람들은 길을 잃은 외국인을 도와주는 것을 좋아해요!",
+        "explanationEn": "This is an expression used to ask for help when you're lost.",
+        "whenToUseEn": "\"When You Get Lost\"",
+        "culturalTipEn": "Koreans enjoy helping foreigners who are lost!"
+      }
+    },
+    {
+      "stepNumber": 11,
+      "type": "quiz",
+      "quiz": {
+        "title": "복습 퀴즈",
+        "description": "길 묻기와 안내하기 표현을 복습해볼까요?",
+        "questions": [
+          {
+            "question": "How do you ask 'How do I get to Seoul Station?'",
+            "questionKo": "'서울역에 어떻게 가요?'를 영어로 어떻게 말하나요?",
+            "options": [
+              "서울역이 어디 있어요?",
+              "서울역에 어떻게 가요?",
+              "서울역이 뭐예요?",
+              "서울역에서 내려요?"
+            ],
+            "optionsKo": [
+              "서울역이 어디 있어요?",
+              "서울역에 어떻게 가요?",
+              "서울역이 뭐예요?",
+              "서울역에서 내려요?"
+            ],
+            "optionsVi": [
+              "서울역이 어디 있어요? (ga Seoul ở đâu?)",
+              "서울역에 어떻게 가요? (làm sao đến ga Seoul?)",
+              "서울역이 뭐예요? (ga Seoul là gì?)",
+              "서울역에서 내려요? (xuống ở ga Seoul?)"
+            ],
+            "correctAnswer": 1,
+            "explanation": "'어떻게 가요?'는 'How do I get to?'를 의미해요."
+          },
+          {
+            "question": "What does '직진하세요'mean?",
+            "questionKo": "'직진하세요'는 무슨 뜻인가요?",
+            "options": [
+              "Turn left",
+              "Turn right",
+              "Go straight",
+              "Turn around"
+            ],
+            "optionsKo": [
+              "왼쪽으로 도세요",
+              "오른쪽으로 도세요",
+              "직진하세요",
+              "돌아가세요"
+            ],
+            "optionsVi": [
+              "Rẽ trái",
+              "Rẽ phải",
+              "Đi thẳng",
+              "Quay lại"
+            ],
+            "correctAnswer": 2,
+            "explanation": "'직진하세요'는 'Go straight'를 의미해요."
+          },
+          {
+            "question": "How do you say 'Turn right'?",
+            "questionKo": "'오른쪽으로 도세요'를 영어로 어떻게 말하나요?",
+            "options": [
+              "왼쪽으로 도세요",
+              "오른쪽으로 도세요",
+              "직진하세요",
+              "돌아가세요"
+            ],
+            "optionsKo": [
+              "왼쪽으로 도세요",
+              "오른쪽으로 도세요",
+              "직진하세요",
+              "돌아가세요"
+            ],
+            "optionsVi": [
+              "왼쪽으로 도세요 (rẽ trái)",
+              "오른쪽으로 도세요 (rẽ phải)",
+              "직진하세요 (đi thẳng)",
+              "돌아가세요 (quay lại)"
+            ],
+            "correctAnswer": 1,
+            "explanation": "'오른쪽으로 도세요'는 'Turn right'를 의미해요."
+          },
+          {
+            "question": "What does '___에서 내리세요'mean?",
+            "questionKo": "'___에서 내리세요'는 무슨 뜻인가요?",
+            "options": [
+              "Get on at ___",
+              "Get off at ___",
+              "Wait at ___",
+              "Stop at ___"
+            ],
+            "optionsKo": [
+              "___에서 타세요",
+              "___에서 내리세요",
+              "___에서 기다리세요",
+              "___에서 멈추세요"
+            ],
+            "optionsVi": [
+              "Lên xe tại ___",
+              "Xuống xe tại ___",
+              "Chờ tại ___",
+              "Dừng lại tại ___"
+            ],
+            "correctAnswer": 1,
+            "explanation": "'내리세요'는 'Get off'를 의미해요."
+          },
+          {
+            "question": "How do you say 'I'm lost'?",
+            "questionKo": "'길을 잃었어요'를 영어로 어떻게 말하나요?",
+            "options": [
+              "길이 좋아요",
+              "길을 찾았어요",
+              "길을 잃었어요",
+              "길이 멀어요"
+            ],
+            "optionsKo": [
+              "길이 좋아요",
+              "길을 찾았어요",
+              "길을 잃었어요",
+              "길이 멀어요"
+            ],
+            "optionsVi": [
+              "길이 좋아요 (đường đẹp)",
+              "길을 찾았어요 (đã tìm thấy đường)",
+              "길을 잃었어요 (bị lạc đường)",
+              "길이 멀어요 (đường xa)"
+            ],
+            "correctAnswer": 2,
+            "explanation": "'길을 잃었어요'는 'I'm lost'를 의미해요."
+          }
+        ]
+      }
+    }
+  ],
+  "subtitleEn": "Let's learn how to ask for directions and give guidance in Korean."
+}

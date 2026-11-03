@@ -1,0 +1,408 @@
+{
+  "title": "기본 인사와 자기소개",
+  "subtitle": "한국에서 처음 만나는 사람과 인사하는 방법을 배워요",
+  "totalSteps": 11,
+  "lessons": [
+    {
+      "stepNumber": 1,
+      "type": "single_expression",
+      "expression": {
+        "korean": "안녕하세요",
+        "romanization": "annyeonghaseyo",
+        "meaning": "Hello (formal greeting)",
+        "explanation": "이것은 한국에서 가장 기본적인 인사말이에요. 아침, 점심, 저녁 언제나 사용할 수 있어요.",
+        "whenToUse": "처음 만나는 사람, 나이가 많은 사람, 선생님, 직장 상사 등 존댓말을 써야 하는 모든 상황",
+        "examples": [
+          {
+            "korean": "안녕하세요? 저는 마이클입니다.",
+            "romanization": "annyeonghaseyo? jeoneun maikeurimnida.",
+            "meaning": "Hello? I am Michael."
+          },
+          {
+            "korean": "안녕하세요, 선생님!",
+            "romanization": "annyeonghaseyo, seonsaengnim!",
+            "meaning": "Hello, teacher!"
+          }
+        ],
+        "culturalTip": "한국에서는 처음 만나는 사람에게 항상 존댓말을 사용해요. 친구가 되면 나중에 반말을 쓸 수 있어요.",
+        "explanationEn": "This is the most basic greeting in Korea. You can use it anytime—morning, noon, or evening.",
+        "whenToUseEn": "In all situations where you should use honorifics, such as when meeting someone for the first time, when speaking to someone older, with teachers, or with workplace superiors.",
+        "culturalTipEn": "In Korea, it is customary to use formal language (존댓말) when meeting someone for the first time. Once you become friends, you can switch to informal language (반말) later on."
+      }
+    },
+    {
+      "stepNumber": 2,
+      "type": "single_expression",
+      "expression": {
+        "korean": "안녕히 가세요",
+        "romanization": "annyeonghi gaseyo",
+        "meaning": "Goodbye (to someone who is leaving)",
+        "explanation": "상대방이 떠날 때 사용하는 작별 인사예요. '안녕히'는 '평안하게', '가세요'는 '가다(go)'의 존댓말이에요.",
+        "whenToUse": "가게에서 손님이 나갈 때, 친구가 먼저 집에 갈 때, 누군가 자리를 떠날 때",
+        "examples": [
+          {
+            "korean": "감사합니다. 안녕히 가세요!",
+            "romanization": "gamsahamnida. annyeonghi gaseyo!",
+            "meaning": "Thank you. Goodbye!"
+          },
+          {
+            "korean": "내일 또 만나요. 안녕히 가세요.",
+            "romanization": "naeil tto mannayo. annyeonghi gaseyo.",
+            "meaning": "See you tomorrow. Goodbye."
+          }
+        ],
+        "culturalTip": "한국어에는 '안녕히 가세요'(상대방이 떠날 때)와 '안녕히 계세요'(내가 떠날 때) 두 가지가 있어요!",
+        "explanationEn": "This is a farewell greeting used when someone is leaving. '안녕히' means 'peacefully,' and '가세요' is the honorific form of the verb '가다,' which means 'to go.'",
+        "whenToUseEn": "\"When a customer leaves the store, when a friend goes home first, when someone leaves their seat.\"",
+        "culturalTipEn": "In Korean, there are two expressions: \"안녕히 가세요\" (used when the other person is leaving) and \"안녕히 계세요\" (used when you are leaving)."
+      }
+    },
+    {
+      "stepNumber": 3,
+      "type": "single_expression",
+      "expression": {
+        "korean": "안녕히 계세요",
+        "romanization": "annyeonghi gyeseyo",
+        "meaning": "Goodbye (when you are leaving)",
+        "explanation": "내가 먼저 떠날 때 사용하는 작별 인사예요. '계세요'는 '있다(stay)'의 존댓말이에요.",
+        "whenToUse": "내가 가게를 나갈 때, 내가 먼저 집에 갈 때, 내가 자리를 떠날 때",
+        "examples": [
+          {
+            "korean": "수고하세요. 안녕히 계세요!",
+            "romanization": "sugohaseyo. annyeonghi gyeseyo!",
+            "meaning": "Good work. Goodbye!"
+          },
+          {
+            "korean": "저는 먼저 가볼게요. 안녕히 계세요.",
+            "romanization": "jeoneun meonjeo gabolgeyo. annyeonghi gyeseyo.",
+            "meaning": "I'll go first. Goodbye."
+          }
+        ],
+        "culturalTip": "식당이나 카페에서 나갈 때 '안녕히 계세요'라고 인사하면 정중해 보여요!",
+        "explanationEn": "This is a farewell expression I use when I leave first. '계세요' is the honorific form of '있다' (to stay).",
+        "whenToUseEn": "\"When I leave the store, when I go home first, when I leave my seat.\"",
+        "culturalTipEn": "When you leave a restaurant or café, saying \"안녕히 계세요\" (annyeonghi gyeseyo) as a farewell makes you seem polite!"
+      }
+    },
+    {
+      "stepNumber": 4,
+      "type": "single_expression",
+      "expression": {
+        "korean": "감사합니다",
+        "romanization": "gamsahamnida",
+        "meaning": "Thank you",
+        "explanation": "고마움을 표현하는 가장 정중한 말이에요. 어떤 상황에서든 사용할 수 있어요.",
+        "whenToUse": "도움을 받았을 때, 선물을 받았을 때, 서비스를 받았을 때",
+        "examples": [
+          {
+            "korean": "도와주셔서 감사합니다.",
+            "romanization": "dowajusyeoseo gamsahamnida.",
+            "meaning": "Thank you for helping me."
+          },
+          {
+            "korean": "정말 감사합니다!",
+            "romanization": "jeongmal gamsahamnida!",
+            "meaning": "Thank you very much!"
+          }
+        ],
+        "culturalTip": "한국 사람들은 작은 도움에도 자주 '감사합니다'라고 말해요. 정중한 문화예요!",
+        "explanationEn": "\"It's the most polite way to express gratitude. You can use it in any situation.\"",
+        "whenToUseEn": "\"When you receive help, when you receive a gift, when you receive a service.\"",
+        "culturalTipEn": "Koreans often say \"thank you\" even for small help. It's a culture of politeness!"
+      }
+    },
+    {
+      "stepNumber": 5,
+      "type": "single_expression",
+      "expression": {
+        "korean": "죄송합니다",
+        "romanization": "joesonghamnida",
+        "meaning": "I am sorry / Excuse me",
+        "explanation": "미안함을 표현하거나 양해를 구할 때 사용하는 정중한 표현이에요.",
+        "whenToUse": "실수했을 때, 늦었을 때, 누군가에게 말을 걸 때, 지나갈 때",
+        "examples": [
+          {
+            "korean": "늦어서 죄송합니다.",
+            "romanization": "neujeoseo joesonghamnida.",
+            "meaning": "I am sorry for being late."
+          },
+          {
+            "korean": "죄송합니다, 길 좀 물어볼게요.",
+            "romanization": "joesonghamnida, gil jom mureobolgeyo.",
+            "meaning": "Excuse me, may I ask for directions?"
+          }
+        ],
+        "culturalTip": "'죄송합니다'는 'excuse me'와 'I am sorry' 두 가지 의미로 모두 사용돼요!",
+        "explanationEn": "This is a polite expression used to apologize or ask for understanding.",
+        "whenToUseEn": "\"When you make a mistake, when you're late, when you talk to someone, when you pass by.\"",
+        "culturalTipEn": "The phrase '죄송합니다' can be used to mean both 'excuse me' and 'I am sorry'!"
+      }
+    },
+    {
+      "stepNumber": 6,
+      "type": "single_expression",
+      "expression": {
+        "korean": "제 이름은 ___입니다",
+        "romanization": "je ireumeun ___imnida",
+        "meaning": "My name is ___",
+        "explanation": "자신의 이름을 소개하는 가장 정중한 표현이에요. '제'는 '나의', '이름'은 'name', '입니다'는 'is'를 의미해요.",
+        "whenToUse": "처음 만나는 사람에게 자기소개할 때",
+        "examples": [
+          {
+            "korean": "제 이름은 사라입니다.",
+            "romanization": "je ireumeun saraimnida.",
+            "meaning": "My name is Sarah."
+          },
+          {
+            "korean": "안녕하세요? 제 이름은 존입니다.",
+            "romanization": "annyeonghaseyo? je ireumeun jonimnida.",
+            "meaning": "Hello? My name is John."
+          }
+        ],
+        "culturalTip": "한국 사람들은 보통 성과 이름을 함께 말해요. 예: '제 이름은 김민수입니다'",
+        "explanationEn": "This is the most polite way to introduce your name. '제' means 'my', '이름' means 'name', and '입니다' means 'is'.",
+        "whenToUseEn": "When introducing yourself to someone for the first time.",
+        "culturalTipEn": "Koreans usually say their full name, which includes both their surname and given name. For example: \"My name is Kim Min-soo.\""
+      }
+    },
+    {
+      "stepNumber": 7,
+      "type": "single_expression",
+      "expression": {
+        "korean": "저는 ___에서 왔습니다",
+        "romanization": "jeoneun ___eseo watseumnida",
+        "meaning": "I am from ___",
+        "explanation": "자신의 출신 국가나 도시를 말할 때 사용해요. '에서'는 'from'을, '왔습니다'는 'came'를 의미해요.",
+        "whenToUse": "자기소개할 때, 어디서 왔는지 물어볼 때",
+        "examples": [
+          {
+            "korean": "저는 미국에서 왔습니다.",
+            "romanization": "jeoneun migugeseo watseumnida.",
+            "meaning": "I am from America."
+          },
+          {
+            "korean": "저는 런던에서 왔습니다.",
+            "romanization": "jeoneun reondoneseo watseumnida.",
+            "meaning": "I am from London."
+          }
+        ],
+        "culturalTip": "국가 이름: 미국(America), 영국(England), 중국(China), 일본(Japan), 프랑스(France)",
+        "explanationEn": "This is used when talking about your country or city of origin. '에서' means 'from,' and '왔습니다' means 'came.'",
+        "whenToUseEn": "\"When introducing yourself, when asking where you are from.\"",
+        "culturalTipEn": "Country names: America, England, China, Japan, France"
+      }
+    },
+    {
+      "stepNumber": 8,
+      "type": "single_expression",
+      "expression": {
+        "korean": "저는 ___입니다",
+        "romanization": "jeoneun ___imnida",
+        "meaning": "I am ___",
+        "explanation": "자신의 직업이나 신분을 소개할 때 사용하는 기본 문장이에요.",
+        "whenToUse": "직업, 신분, 나이 등을 소개할 때",
+        "examples": [
+          {
+            "korean": "저는 학생입니다.",
+            "romanization": "jeoneun haksaengimnida.",
+            "meaning": "I am a student."
+          },
+          {
+            "korean": "저는 회사원입니다.",
+            "romanization": "jeoneun hoesawonimnida.",
+            "meaning": "I am an office worker."
+          }
+        ],
+        "culturalTip": "직업 단어: 학생(student), 회사원(office worker), 선생님(teacher), 의사(doctor)",
+        "explanationEn": "This is a basic sentence used to introduce your job or status.",
+        "whenToUseEn": "\"When introducing your occupation, social status, age, etc.\"",
+        "culturalTipEn": "Vocabulary for Occupations: \n\n- 학생 (haksaeng) - student\n- 회사원 (hoesa-won) - office worker\n- 선생님 (seonsaengnim) - teacher\n- 의사 (uisa) - doctor"
+      }
+    },
+    {
+      "stepNumber": 9,
+      "type": "single_expression",
+      "expression": {
+        "korean": "만나서 반갑습니다",
+        "romanization": "mannaseo bangapseumnida",
+        "meaning": "Nice to meet you",
+        "explanation": "처음 만난 사람에게 반가움을 표현하는 정중한 인사예요.",
+        "whenToUse": "처음 만나는 사람과 인사를 나눈 후",
+        "examples": [
+          {
+            "korean": "안녕하세요? 만나서 반갑습니다!",
+            "romanization": "annyeonghaseyo? mannaseo bangapseumnida!",
+            "meaning": "Hello? Nice to meet you!"
+          },
+          {
+            "korean": "제 이름은 앤디입니다. 만나서 반갑습니다.",
+            "romanization": "je ireumeun aendiimnida. mannaseo bangapseumnida.",
+            "meaning": "My name is Andy. Nice to meet you."
+          }
+        ],
+        "culturalTip": "처음 만날 때 악수하거나 가벼운 고개 숙임(bow)을 같이 하면 좋아요!",
+        "explanationEn": "This is a polite greeting that expresses pleasure when meeting someone for the first time.",
+        "whenToUseEn": "\"After greeting someone you meet for the first time\"",
+        "culturalTipEn": "When you first meet, it's nice to shake hands or do a light bow together!"
+      }
+    },
+    {
+      "stepNumber": 10,
+      "type": "single_expression",
+      "expression": {
+        "korean": "잘 부탁드립니다",
+        "romanization": "jal butakdeurimnida",
+        "meaning": "Please take care of me / I look forward to working with you",
+        "explanation": "앞으로의 관계를 부탁하는 한국 특유의 표현이에요. 영어로는 직역이 어려워요.",
+        "whenToUse": "새로운 팀에 합류했을 때, 새로운 프로젝트를 시작할 때, 처음 만난 후",
+        "examples": [
+          {
+            "korean": "오늘부터 여기서 일하게 됐습니다. 잘 부탁드립니다!",
+            "romanization": "oneulbuteo yeogiseo ilhage dwaetsseumnida. jal butakdeurimnida!",
+            "meaning": "I will be working here from today. Please take care of me!"
+          },
+          {
+            "korean": "처음 뵙겠습니다. 잘 부탁드립니다.",
+            "romanization": "cheoeum boepgetseumnida. jal butakdeurimnida.",
+            "meaning": "How do you do. Please take care of me."
+          }
+        ],
+        "culturalTip": "이 표현은 한국 문화의 겸손함과 협력을 중시하는 마음을 담고 있어요!",
+        "explanationEn": "This is a unique expression in Korean that asks for a future relationship. It's difficult to translate it literally into English.",
+        "whenToUseEn": "\"When you join a new team, when you start a new project, after meeting for the first time.\"",
+        "culturalTipEn": "This expression embodies the values of humility and cooperation that are highly regarded in Korean culture!"
+      }
+    },
+    {
+      "stepNumber": 11,
+      "type": "quiz",
+      "quiz": {
+        "title": "복습 퀴즈",
+        "description": "배운 내용을 확인해볼까요?",
+        "questions": [
+          {
+            "question": "When you first meet someone in a formal situation, what should you say?",
+            "questionKo": "공식적인 상황에서 처음 만나는 사람에게 뭐라고 말해야 할까요?",
+            "options": [
+              "안녕",
+              "안녕하세요",
+              "어서오세요",
+              "반가워"
+            ],
+            "optionsKo": [
+              "안녕",
+              "안녕하세요",
+              "어서오세요",
+              "반가워"
+            ],
+            "optionsVi": [
+              "안녕 (chào thân mật)",
+              "안녕하세요 (xin chào trang trọng)",
+              "어서오세요 (chào mừng)",
+              "반가워 (vui gặp bạn - thân mật)"
+            ],
+            "correctAnswer": 1,
+            "explanation": "'안녕하세요'는 공식적인 상황에서 사용하는 정중한 인사말이에요."
+          },
+          {
+            "question": "You are leaving a store. What should you say to the staff?",
+            "questionKo": "가게를 떠날 때 직원에게 뭐라고 말해야 할까요?",
+            "options": [
+              "안녕히 가세요",
+              "안녕히 계세요",
+              "갑니다",
+              "다음에 만나요"
+            ],
+            "optionsKo": [
+              "안녕히 가세요",
+              "안녕히 계세요",
+              "갑니다",
+              "다음에 만나요"
+            ],
+            "optionsVi": [
+              "안녕히 가세요 (tạm biệt - nói với người đi)",
+              "안녕히 계세요 (tạm biệt - khi tôi đi)",
+              "갑니다 (tôi đi - không lịch sự)",
+              "다음에 만나요 (hẹn gặp lại)"
+            ],
+            "correctAnswer": 1,
+            "explanation": "내가 떠날 때는 '안녕히 계세요'를 사용해요. 상대방이 떠날 때는 '안녕히 가세요'예요."
+          },
+          {
+            "question": "How do you introduce your name formally?",
+            "questionKo": "정중하게 이름을 소개하는 방법은 무엇인가요?",
+            "options": [
+              "나는 ___이야",
+              "내 이름은 ___야",
+              "제 이름은 ___입니다",
+              "저 ___예요"
+            ],
+            "optionsKo": [
+              "나는 ___이야",
+              "내 이름은 ___야",
+              "제 이름은 ___입니다",
+              "저 ___예요"
+            ],
+            "optionsVi": [
+              "나는 ___이야 (tôi là - thân mật)",
+              "내 이름은 ___야 (tên tôi là - thân mật)",
+              "제 이름은 ___입니다 (tên tôi là - trang trọng)",
+              "저 ___예요 (tôi là - lịch sự nhưng không hoàn chỉnh)"
+            ],
+            "correctAnswer": 2,
+            "explanation": "'제 이름은 ___입니다'는 가장 정중한 이름 소개 방법이에요."
+          },
+          {
+            "question": "Someone helped you. What should you say?",
+            "questionKo": "누군가 당신을 도와줬습니다. 뭐라고 말해야 할까요?",
+            "options": [
+              "고마워",
+              "감사합니다",
+              "괜찮아요",
+              "좋아요"
+            ],
+            "optionsKo": [
+              "고마워",
+              "감사합니다",
+              "괜찮아요",
+              "좋아요"
+            ],
+            "optionsVi": [
+              "고마워 (cảm ơn - thân mật)",
+              "감사합니다 (cảm ơn - trang trọng)",
+              "괜찮아요 (không sao)",
+              "좋아요 (tốt/thích)"
+            ],
+            "correctAnswer": 1,
+            "explanation": "'감사합니다'는 정중하게 감사를 표현하는 말이에요."
+          },
+          {
+            "question": "After introducing yourself to a new colleague, what should you say?",
+            "questionKo": "새로운 동료에게 자기소개를 한 후 뭐라고 말해야 할까요?",
+            "options": [
+              "안녕하세요",
+              "감사합니다",
+              "잘 부탁드립니다",
+              "죄송합니다"
+            ],
+            "optionsKo": [
+              "안녕하세요",
+              "감사합니다",
+              "잘 부탁드립니다",
+              "죄송합니다"
+            ],
+            "optionsVi": [
+              "안녕하세요 (xin chào)",
+              "감사합니다 (cảm ơn)",
+              "잘 부탁드립니다 (xin hãy chăm sóc tôi)",
+              "죄송합니다 (xin lỗi)"
+            ],
+            "correctAnswer": 2,
+            "explanation": "'잘 부탁드립니다'는 앞으로의 관계를 부탁하는 한국 특유의 표현이에요."
+          }
+        ]
+      }
+    }
+  ],
+  "subtitleEn": "I'm learning how to greet someone for the first time in Korea."
+}
